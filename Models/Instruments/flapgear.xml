@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+    <path>flapgear.ac</path>
+
+    <animation>
+        <type>material</type>
+        <object-name>FlapGear.face</object-name>
+        <object-name>Flap.needle</object-name>
+        <object-name>Lgear.needle</object-name>
+        <object-name>Rgear.needle</object-name>
+        <object-name>Cgear.needle</object-name>
+        <emission>
+            <red>0.8</red>
+            <green>0.5</green>
+            <blue>0.3</blue>
+            <factor-prop>systems/electrical/outputs/instrument-lights-norm</factor-prop>
+        </emission>
+    </animation>
+
+    <animation>
+        <type>rotate</type>
+        <object-name>Flap.needle</object-name>
+        <property>surface-positions/flap-pos-norm</property>
+        <factor>90</factor>
+        <center>
+            <x-m>0</x-m>
+            <y-m>0</y-m>
+            <z-m>0.025</z-m>
+        </center>
+        <axis>
+            <x>1.0</x>
+            <y>0.0</y>
+            <z>0.0</z>
+        </axis>
+    </animation>
+
+    <animation>
+        <type>rotate</type>
+        <object-name>Lgear.needle</object-name>
+        <property>gear/gear[0]/position-norm</property>
+        <factor>85</factor>
+        <center>
+            <x-m>0.0</x-m>
+            <y-m>-0.02</y-m>
+            <z-m>0</z-m>
+        </center>
+        <axis>
+            <x>-1.0</x>
+            <y>0.0</y>
+            <z>0.0</z>
+        </axis>
+    </animation>
+
+    <animation>
+        <type>rotate</type>
+        <object-name>Rgear.needle</object-name>
+        <property>gear/gear[1]/position-norm</property>
+        <factor>85</factor>
+        <center>
+            <x-m>0.0</x-m>
+            <y-m>0.02</y-m>
+            <z-m>0</z-m>
+        </center>
+        <axis>
+            <x>1.0</x>
+            <y>0.0</y>
+            <z>0.0</z>
+        </axis>
+    </animation>
+
+    <animation>
+        <type>rotate</type>
+        <object-name>Cgear.needle</object-name>
+        <property>gear/gear[2]/position-norm</property>
+        <factor>90</factor>
+        <center>
+            <x-m>0.0</x-m>
+            <y-m>0.001</y-m>
+            <z-m>-0.019</z-m>
+        </center>
+        <axis>
+            <x>-1.0</x>
+            <y>0.0</y>
+            <z>0.0</z>
+        </axis>
+    </animation>
+
+</PropertyList>

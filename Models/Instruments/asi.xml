@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+    <path>asi.ac</path>
+
+    <animation>
+        <type>material</type>
+        <object-name>ASI.face</object-name>
+        <object-name>ASI.needle</object-name>
+        <emission>
+            <red>0.8</red>
+            <green>0.5</green>
+            <blue>0.3</blue>
+            <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
+        </emission>
+    </animation>
+
+    <animation>
+        <type>rotate</type>
+        <object-name>ASI.needle</object-name>
+        <property>/instrumentation/airspeed-indicator/indicated-speed-kt</property>
+        <interpolation>
+            <entry><ind>0.0</ind><dep>0.0</dep></entry>
+            <entry><ind>30.5</ind><dep>0.0</dep></entry>
+            <entry><ind>43.44</ind><dep>20.5</dep></entry>
+            <entry><ind>86.897</ind><dep>82</dep></entry>
+            <entry><ind>130.346</ind><dep>143.8</dep></entry>
+            <entry><ind>173.795</ind><dep>205.5</dep></entry>
+            <entry><ind>260.692</ind><dep>248.2</dep></entry>
+            <entry><ind>347.59</ind><dep>291.5</dep></entry>
+            <entry><ind>434.488</ind><dep>335.0</dep></entry>
+        </interpolation>
+        <axis>
+            <x>-1.0</x>
+            <y>0.0</y>
+            <z>0.0</z>
+        </axis>
+    </animation>
+
+</PropertyList>

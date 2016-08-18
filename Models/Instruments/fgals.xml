@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+    <path>fgals.ac</path>
+
+    <animation>
+        <type>material</type>
+        <object-name>FGals.face</object-name>
+        <object-name>FGals.needle1</object-name>
+        <object-name>FGals.needle2</object-name>
+        <emission>
+            <red>0.8</red>
+            <green>0.5</green>
+            <blue>0.3</blue>
+            <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
+        </emission>
+    </animation>
+
+    <animation>
+        <type>rotate</type>
+        <object-name>FGals.needle1</object-name>
+        <property>consumables/fuel/tank/level-gal_us</property>
+        <interpolation>
+            <entry><ind>0.0</ind><dep>0.0</dep></entry>
+            <entry><ind>40</ind><dep>7.0</dep></entry>
+            <entry><ind>100</ind><dep>21</dep></entry>
+            <entry><ind>150</ind><dep>33</dep></entry>
+            <entry><ind>200</ind><dep>55</dep></entry>
+            <entry><ind>250</ind><dep>94</dep></entry>
+            <entry><ind>264</ind><dep>108</dep></entry>
+            <entry><ind>270</ind><dep>118</dep></entry>
+        </interpolation>
+        <center>
+            <x-m>0</x-m>
+            <y-m>0.032</y-m>
+            <z-m>0.002</z-m>
+        </center>
+        <axis>
+            <x>-1.0</x>
+            <y>0.0</y>
+            <z>0.0</z>
+        </axis>
+    </animation>
+
+    <animation>
+        <type>rotate</type>
+        <object-name>FGals.needle2</object-name>
+        <property>consumables/fuel/tank[1]/level-gal_us</property>
+        <interpolation>
+            <entry><ind>0.0</ind><dep>0.0</dep></entry>
+            <entry><ind>10</ind><dep>10.0</dep></entry>
+            <entry><ind>25</ind><dep>32</dep></entry>
+            <entry><ind>50</ind><dep>66</dep></entry>
+            <entry><ind>75</ind><dep>91</dep></entry>
+            <entry><ind>100</ind><dep>105</dep></entry>
+        </interpolation>
+        <center>
+            <x-m>0</x-m>
+            <y-m>-0.032</y-m>
+            <z-m>0.002</z-m>
+        </center>
+        <axis>
+            <x>1.0</x>
+            <y>0.0</y>
+            <z>0.0</z>
+        </axis>
+    </animation>
+
+</PropertyList>

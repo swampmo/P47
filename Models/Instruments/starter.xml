@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+    <path>starter.ac</path>
+
+    <animation>
+        <type>rotate</type>
+        <object-name>Starter.switch</object-name>
+        <property>controls/engines/engine/starter</property>
+        <factor>-30</factor>
+        <center>
+            <x-m>0.002</x-m>
+            <y-m>0</y-m>
+            <z-m>0</z-m>
+        </center>
+        <axis>
+            <x>0</x>
+            <y>1.0</y>
+            <z>0</z>
+        </axis>
+    </animation>
+
+    <animation>
+        <type>rotate</type>
+        <object-name>Starter.switch</object-name>
+        <property>controls/engines/engine/energizer</property>
+            <factor>30</factor>
+        <axis>
+            <x>0</x>
+            <y>1.0</y>
+            <z>0.0</z>
+        </axis>
+    </animation>
+
+    <animation>
+        <type>pick</type>
+        <object-name>Str.base</object-name>
+        <action>
+            <button>0</button>
+            <binding>
+            <command>nasal</command>
+            <script>controls.startEngine()</script>
+            </binding>
+            <mod-up>
+                <binding>
+                    <command>nasal</command>
+                    <script>controls.startEngine(0)</script>
+                </binding>
+            </mod-up>
+        </action>
+    </animation>
+
+    <animation>
+        <type>pick</type>
+        <object-name>Egr.base</object-name>
+        <action>
+            <button>0</button>
+            <binding>
+                <condition>
+                    <not>
+                        <property>engines/engine/running</property>
+                    </not>
+                </condition>
+                <command>property-assign</command>
+                <property>controls/engines/engine/energizer</property>
+                <value>1</value>
+            </binding>
+            <mod-up>
+                <binding>
+                    <command>property-assign</command>
+                    <property>controls/engines/engine/energizer</property>
+                    <value>0</value>
+                </binding>
+            </mod-up>
+        </action>
+    </animation>
+
+</PropertyList>

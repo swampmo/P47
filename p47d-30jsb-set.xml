@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+    <sim>
+
+        <description>P47D</description>
+        <author>Syd Adams, Swamp (JSBsim FDM)</author>
+        <flight-model>jsb</flight-model>
+        <aero>P47dJSBsim</aero>
+        <fuel-fraction>0.8</fuel-fraction>
+        <startup>
+            <splash-texture>Aircraft/P47/splash.png</splash-texture>
+        </startup>
+
+        <model>
+            <path>Aircraft/P47/Models/P47D-30.xml</path>
+        </model>
+        <sound>
+            <path>Aircraft/P47/Sound/p47.xml</path>
+        </sound>
+        <instrumentation>
+            <path>Aircraft/P47/instrumentation.xml</path>
+        </instrumentation>
+
+        <allow-toggle-cockpit archive="y">true</allow-toggle-cockpit>
+
+        <view>
+            <internal archive="y">true</internal>
+            <config>
+                <!-- x/y/z == right/up/back -->
+                <x-offset-m archive="y">0</x-offset-m>
+                <y-offset-m archive="y">0.905</y-offset-m>
+                <z-offset-m archive="y">-0.003</z-offset-m>
+                <pitch-offset-deg>-8</pitch-offset-deg>
+                <limits>
+                    <enabled type="bool">true</enabled>
+                    <left>
+                        <heading-max-deg type="double">150</heading-max-deg>
+                        <x-offset-max-m type="double">0.13</x-offset-max-m>
+                        <x-offset-threshold-deg type="double">45</x-offset-threshold-deg>
+                    </left>
+                    <right>
+                        <heading-max-deg type="double">150</heading-max-deg>
+                        <x-offset-max-m type="double">0.13</x-offset-max-m>
+                        <x-offset-threshold-deg type="double">45</x-offset-threshold-deg>
+                    </right>
+                </limits>
+            </config>
+        </view>
+
+        <chase-distance-m type="double" archive="y">-20.0</chase-distance-m>
+
+    <menubar>
+        <default>
+            <menu n="10">
+                <label>P-47D</label>
+                <enabled type="bool">true</enabled>
+                <item>
+                    <label>Load 50 cal. Ammo</label>
+                    <binding>
+                        <command>nasal</command>
+                        <script>p47.load_ammo();</script>
+                    </binding>
+            </item>
+            </menu>
+        </default>
+    </menubar>
+
+    <help>
+        <title>P-47 Checklist</title>
+        <line></line> 
+        <line>* = not implemented yet</line>
+        <line></line> 
+        <line> 1:Set fuel tank switch to ' Main ' *</line>
+        <line> 2:Set trim tabs to takeoff position *</line>
+        <line> 3:Flaps up</line>
+        <line> 4:Gear down/locked ( g / G)</line>
+        <line> 5:Oil / Intercooler shutters open *</line>
+        <line> 6:Turbo close ( w / W)</line>
+        <line> 7:Throttle open half inch ( PgUp / PgDn )</line>
+        <line> 8:Prop lever full forward ( N / n )</line>
+        <line> 9:Mixture at idle cutoff( M / m )</line>
+        <line>10:Generator switch on *</line>
+        <line>11:Prop control switch to automatic *</line>
+        <line>12:Mags off ( { / } )</line>
+        <line>13:Battery off</line>
+        <line>14:Cage flight instruments *</line>
+        <line>15:Cowl flaps open *</line>
+        <line>16:Radio off *</line>
+        <line>17:Tail wheel unlock ( l )</line>
+        <line>#############</line>
+        <line>Startup</line>
+        <line>#############</line>
+        <line> 1:Mags on 'BOTH'</line>
+        <line> 2:Battery on</line>
+        <line> 3:Pump primer twice *</line>
+        <line> 4:Hold energizer 15 seconds</line>
+        <line> 5:Engage starter ( s )</line>
+        <line>----------------------------</line> 
+        <line>Notes : lock tailwheel when lined up on runway</line>
+    </help>
+    </sim>
+
+    <controls>
+        <gear>
+            <brake-parking>1</brake-parking>
+        </gear>
+        <engines>
+            <engine n="0">
+                <cowl-flaps-norm>0</cowl-flaps-norm>
+                <selected type="bool">1</selected>
+                <wastegate type="double">1</wastegate>
+                <boost type="bool">1</boost>
+                <mag-switch type="double">-1</mag-switch>
+                <primer type="double">0</primer>
+                <energizer type="double">0</energizer>
+            </engine>
+        </engines>
+        <electric>
+            <battery-switch>0</battery-switch>
+            <engine>
+                <generator>1</generator>
+            </engine>
+        </electric>
+        <lighting>
+            <instrument-lights type="bool">1</instrument-lights>
+        </lighting>
+        <armament>
+            <guns type="bool">0</guns>
+            <ammo type="double">0</ammo><!--350 rounds per gun-->
+        </armament>
+    </controls>
+
+    <engines>
+        <engine>
+            <energizer type="double">0</energizer>
+        </engine>
+    </engines>
+
+<nasal>
+    <p47>
+        <file>Aircraft/P47/Nasal/P47.nas</file>
+        <file>Aircraft/P47/Nasal/Electrical.nas</file>
+    </p47>
+</nasal>
+
+    <input>
+        <keyboard>
+            <key n="119">
+                <name>w</name>
+                <desc>Increase wastegate</desc>
+                <repeatable>true</repeatable>
+                <binding>
+                    <command>nasal</command>
+                    <script>p47.wastegate(1)</script>
+                </binding>
+            </key>
+            <key n="87">
+                <name>W</name>
+                <desc>Decrease wastegate</desc>
+                <repeatable>true</repeatable>
+                <binding>
+                    <command>nasal</command>
+                    <script>p47.wastegate(-1)</script>
+                </binding>
+            </key>
+        </keyboard>
+    </input>
+
+</PropertyList>
