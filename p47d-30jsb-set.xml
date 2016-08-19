@@ -15,6 +15,10 @@
 
         <model>
             <path>Aircraft/P47/Models/P47D-30.xml</path>
+            <livery>
+                <file type="string">default</file>
+            </livery>
+    
         </model>
         <sound>
             <path>Aircraft/P47/Sound/p47.xml</path>
@@ -142,6 +146,7 @@
     <p47>
         <file>Aircraft/P47/Nasal/P47.nas</file>
         <file>Aircraft/P47/Nasal/Electrical.nas</file>
+      <file>Aircraft/P47/Nasal/liveries.nas</file>
     </p47>
 </nasal>
 

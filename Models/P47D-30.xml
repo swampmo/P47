@@ -4,6 +4,24 @@
 
     <path>p47d-30.ac</path>
 
+<!-- Start livery machine -->
+
+<nasal>
+
+  <load>
+
+    var livery_update = aircraft.livery_update.new("Aircraft/MD-88/Models/Liveries");
+
+  </load>
+
+  <unload>
+
+    livery_update.stop();
+
+  </unload>
+
+</nasal>
+
     <animation>
         <type>shader</type>
         <shader>chrome</shader>
