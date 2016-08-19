@@ -45,6 +45,17 @@
         </offsets>
     </model>
 
+<model>
+        <path>Aircraft/P47/Models/Instruments/alt.xml</path>
+        <offsets>
+            <x-m>-0.735</x-m>
+            <y-m>-0.15</y-m>
+            <z-m>0.5</z-m>
+            <pitch-deg>0.0</pitch-deg>
+        </offsets>
+    </model>
+
+
     <model>
         <path>Aircraft/P47/Models/Instruments/mp.xml</path>
         <offsets>
@@ -85,7 +96,7 @@
         </offsets>
     </model>
 
-    <model>
+ <model>
         <path>Aircraft/P47/Models/Instruments/tmp.xml</path>
         <offsets>
             <x-m>-0.735</x-m>
@@ -95,15 +106,15 @@
         </offsets>
     </model>
 
-    <model>
+  <!--  <model>
         <path>Aircraft/P47/Models/Instruments/tmp.xml</path>
         <offsets>
             <x-m>-0.735</x-m>
             <y-m>-0.147</y-m>
-            <z-m>0.506</z-m>
+            <z-m>0.55</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
-    </model>
+    </model> -->
 
     <model>
         <path>Aircraft/P47/Models/Instruments/flapgear.xml</path>

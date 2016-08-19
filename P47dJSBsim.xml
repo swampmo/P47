@@ -87,7 +87,7 @@
    </location>
    <pointmass name="Payload">
     <description> 5365.00 LBS should bring model up to entered max weight </description>
-    <weight unit="LBS"> 2682.50 </weight>
+    <weight unit="LBS"> 0 </weight>
     <location name="POINTMASS" unit="IN">
      <x>   173.28 </x>
      <y>     0.00 </y>
@@ -154,48 +154,46 @@
       <x>   394.21 </x>
       <y>     0.00 </y>
       <z>   10.99 </z>
-    </location>
-    <static_friction>  0.80 </static_friction>
-    <dynamic_friction> 0.50 </dynamic_friction>
-    <rolling_friction> 0.02 </rolling_friction>
-    <spring_coeff  unit="LBS/FT">     17500.00 </spring_coeff>
-    <damping_coeff unit="LBS/FT/SEC"> 8750.00 </damping_coeff>
-    <max_steer unit="DEG"> 5.00 </max_steer>
-    <brake_group> NONE </brake_group>
-    <retractable> 1 </retractable>
+ </location>
+   <static_friction>  0.90 </static_friction>
+   <dynamic_friction> 0.70 </dynamic_friction>
+   <rolling_friction> 0.03 </rolling_friction>
+   <spring_coeff unit="LBS/FT">      10000.00 </spring_coeff>
+   <damping_coeff unit="LBS/FT/SEC"> 10000.00 </damping_coeff>
+   <max_steer unit="DEG"> 50.00 </max_steer>
+   <brake_group>NONE</brake_group>
+   <retractable>1</retractable>
   </contact>
 
   <contact type="BOGEY" name="LEFT_MAIN">
     <location unit="IN">
       <x>   157.68 </x>
       <y>   -73.62 </y>
-      <z>   -46.64 </z>
-    </location>
-    <static_friction>  0.80 </static_friction>
-    <dynamic_friction> 0.50 </dynamic_friction>
-    <rolling_friction> 0.02 </rolling_friction>
-    <spring_coeff  unit="LBS/FT">     17500.00 </spring_coeff>
-    <damping_coeff unit="LBS/FT/SEC"> 8750.00 </damping_coeff>
-    <max_steer unit="DEG">0</max_steer>
-    <brake_group> LEFT </brake_group>
-    <retractable> 1 </retractable>
-  </contact>
+      <z>   -47.64 </z>
+   </location>
+   <static_friction>  0.85 </static_friction>
+   <dynamic_friction> 0.50 </dynamic_friction>
+   <rolling_friction> 0.03 </rolling_friction>
+   <spring_coeff unit="LBS/FT">      18000.00 </spring_coeff>
+   <damping_coeff unit="LBS/FT/SEC"> 12000.00 </damping_coeff>
+   <brake_group>LEFT</brake_group>
+   <retractable>1</retractable>
+ </contact>
 
   <contact type="BOGEY" name="RIGHT_MAIN">
     <location unit="IN">
       <x>   157.68 </x>
       <y>    73.62 </y>
-      <z>   -46.64 </z>
-    </location>
-    <static_friction>  0.80 </static_friction>
-    <dynamic_friction> 0.50 </dynamic_friction>
-    <rolling_friction> 0.02 </rolling_friction>
-    <spring_coeff  unit="LBS/FT">     17500.00 </spring_coeff>
-    <damping_coeff unit="LBS/FT/SEC"> 8750.00 </damping_coeff>
-    <max_steer unit="DEG">0</max_steer>
-    <brake_group> RIGHT </brake_group>
-    <retractable> 1 </retractable>
-  </contact>
+      <z>   -47.64 </z>
+   </location>
+   <static_friction>  0.85 </static_friction>
+   <dynamic_friction> 0.50 </dynamic_friction>
+   <rolling_friction> 0.03 </rolling_friction>
+   <spring_coeff unit="LBS/FT">      18000.00 </spring_coeff>
+   <damping_coeff unit="LBS/FT/SEC"> 12000.00 </damping_coeff>
+   <brake_group>RIGHT</brake_group>
+   <retractable>1</retractable>
+ </contact>
 
   <contact type="STRUCTURE" name="LEFT_WING">
     <location unit="IN">
@@ -226,6 +224,7 @@
  <system file="Conventional Controls.xml"/>
  <system file="Landing Gear.xml"/>
  <system file="Flaps.xml"/>
+<system file="speedbrakes.xml"/>
 
  <flight_control name="FCS: P47dJSBsim">
 
@@ -408,10 +407,19 @@
            <property>aero/qbar-psf</property>
            <property>metrics/Sw-sqft</property>
            <property>fcs/flap-pos-deg</property>
-           <value> 0.0012 </value>
+           <value> 0.0032 </value>
          </product>
     </function>
 
+    <function name="aero/coefficient/CDsb">
+       <description>Drag_due_to_speedbrakes</description>
+         <product>
+           <property>aero/qbar-psf</property>
+           <property>metrics/Sw-sqft</property>
+           <property>fcs/speedbrake-pos-norm</property>
+           <value>0.01</value>
+         </product>
+    </function>
 
   </axis>
 
@@ -462,7 +470,7 @@
            <property>aero/qbar-psf</property>
            <property>metrics/Sw-sqft</property>
            <property>fcs/rudder-pos-rad</property>
-           <value> 0.1407 </value>
+           <value> 0.2407 </value>
        </product>
     </function>
 
