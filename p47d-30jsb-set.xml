@@ -5,7 +5,7 @@
     <sim>
 
         <description>P47D</description>
-        <author>Syd Adams, Swamp (JSBsim FDM)</author>
+        <author>Syd Adams, Cain, Swamp (JSBsim FDM)</author>
         <flight-model>jsb</flight-model>
         <aero>P47dJSBsim</aero>
         <fuel-fraction>0.8</fuel-fraction>
