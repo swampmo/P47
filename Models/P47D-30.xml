@@ -6,21 +6,28 @@
 
 <!-- Start livery machine -->
 
-<nasal>
-
-  <load>
-
-    var livery_update = aircraft.livery_update.new("Aircraft/MD-88/Models/Liveries");
-
-  </load>
-
-  <unload>
-
-    livery_update.stop();
-
-  </unload>
-
-</nasal>
+  <nasal>
+    <load>
+      var livery_update = aircraft.livery_update.new("Aircraft/P47/Models/Liveries", 10);
+      
+      var self = cmdarg();
+      
+      var float_0 = self.getNode("sim/multiplay/generic/float[0]", 1);
+      var float_1 = self.getNode("sim/multiplay/generic/float[1]", 1);
+      
+      var crew_door = self.getNode("sim/model/door-positions/crew/position-norm", 1);
+      var passenger_door = self.getNode("sim/model/door-positions/passenger/position-norm", 1);
+      
+      crew_door.alias(float_0);
+      passenger_door.alias(float_1);
+    </load>
+    
+    <unload>
+      livery_update.stop();
+      crew_door.unalias();
+      passenger_door.unalias();
+    </unload>
+  </nasal>
 
     <animation>
         <type>shader</type>

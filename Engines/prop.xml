@@ -28,7 +28,7 @@
   <ct_factor> 1.00 </ct_factor>
   <minpitch> 12 </minpitch>
   <maxpitch> 45 </maxpitch>
-  <minrpm> 2671.45 </minrpm>
+  <minrpm> 500.45 </minrpm>
   <maxrpm> 3142.88 </maxrpm>
 
  <!-- thrust coefficient as a function of advance ratio and blade angle -->
