@@ -59,7 +59,7 @@
    <vtailarea  unit="FT2">   30.00 </vtailarea>
    <vtailarm  unit="FT" >    21.66 </vtailarm>
    <location name="AERORP" unit="IN">
-     <x>   173.28 </x>
+     <x>   190.28 </x>
      <y>     0.00 </y>
      <z>     0.00 </z>
    </location>
@@ -81,7 +81,7 @@
    <izz unit="SLUG*FT2">  20300.38 </izz>
    <emptywt unit="LBS" >  10000.00 </emptywt>
    <location name="CG" unit="IN">
-     <x>   173.28 </x>
+     <x>   190.28 </x>
      <y>     0.00 </y>
      <z>   -10.83 </z>
    </location>
@@ -89,7 +89,7 @@
     <description> 5365.00 LBS should bring model up to entered max weight </description>
     <weight unit="LBS"> 0 </weight>
     <location name="POINTMASS" unit="IN">
-     <x>   173.28 </x>
+     <x>   190.28 </x>
      <y>     0.00 </y>
      <z>   -10.83 </z>
    </location>
@@ -129,7 +129,7 @@
 
   <tank type="FUEL" number="0">
      <location unit="IN">
-       <x>   173.28 </x>
+       <x>   190.28 </x>
        <y>     0.00 </y>
        <z>   -10.83 </z>
      </location>
@@ -138,7 +138,7 @@
   </tank>
   <tank type="FUEL" number="1">
      <location unit="IN">
-       <x>   173.28 </x>
+       <x>   190.28 </x>
        <y>     0.00 </y>
        <z>   -10.83 </z>
      </location>
@@ -408,7 +408,7 @@
            <property>aero/qbar-psf</property>
            <property>metrics/Sw-sqft</property>
            <property>fcs/flap-pos-deg</property>
-           <value> 0.0082 </value>
+           <value> 0.0062 </value>
          </product>
     </function>
 
