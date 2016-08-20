@@ -26,9 +26,10 @@
     <object-name>face</object-name>
     <emission>
       <!-- <factor-prop>/controls/lighting/instrument-lights</factor-prop> -->
-      <red>   0.50 </red>
-      <green> 0.25 </green>
-      <blue>  0.25 </blue>
+             <red>0.8</red>
+            <green>0.5</green>
+            <blue>0.3</blue>
+            <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
     </emission>
   </animation>
   
@@ -38,9 +39,10 @@
     <object-name>InhgKnob</object-name>
     <emission>
       <!-- <factor-prop>/controls/lighting/instrument-lights</factor-prop> -->
-      <red>   0.2 </red>
-      <green> 0.2 </green>
-      <blue>  0.2 </blue>
+             <red>0.8</red>
+            <green>0.5</green>
+            <blue>0.3</blue>
+            <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
     </emission>
   </animation>
   
