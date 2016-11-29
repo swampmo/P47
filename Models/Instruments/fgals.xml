@@ -24,11 +24,11 @@
             <entry><ind>0.0</ind><dep>0.0</dep></entry>
             <entry><ind>40</ind><dep>7.0</dep></entry>
             <entry><ind>100</ind><dep>21</dep></entry>
-            <entry><ind>150</ind><dep>33</dep></entry>
-            <entry><ind>200</ind><dep>55</dep></entry>
-            <entry><ind>250</ind><dep>94</dep></entry>
-            <entry><ind>264</ind><dep>108</dep></entry>
-            <entry><ind>270</ind><dep>118</dep></entry>
+            <entry><ind>125</ind><dep>33</dep></entry>
+            <entry><ind>150</ind><dep>55</dep></entry>
+            <entry><ind>175</ind><dep>94</dep></entry>
+            <entry><ind>200</ind><dep>108</dep></entry>
+            <entry><ind>227</ind><dep>118</dep></entry>
         </interpolation>
         <center>
             <x-m>0</x-m>

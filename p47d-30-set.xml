@@ -5,9 +5,9 @@
     <sim>
 
         <description>P47D</description>
-        <author>Syd Adams, Cain, Swamp (JSBsim FDM)</author>
-        <flight-model>jsb</flight-model>
-        <aero>P47dJSBsim</aero>
+        <author>Syd Adams</author>
+        <flight-model>yasim</flight-model>
+        <aero>P47d-ysm</aero>
         <fuel-fraction>0.8</fuel-fraction>
         <startup>
             <splash-texture>Aircraft/P47/splash.png</splash-texture>
@@ -15,10 +15,6 @@
 
         <model>
             <path>Aircraft/P47/Models/P47D-30.xml</path>
-            <livery>
-                <file type="string">default</file>
-            </livery>
-    
         </model>
         <sound>
             <path>Aircraft/P47/Sound/p47.xml</path>
@@ -67,32 +63,9 @@
                         <script>p47.load_ammo();</script>
                     </binding>
             </item>
-      <item>
-        <label>Select Livery</label>
-        <binding>
-          <command>nasal</command>
-          <script>aircraft.livery.dialog.toggle()</script>
-        </binding>
-      </item>
             </menu>
         </default>
     </menubar>
-
-  
- <multiplay>
-      <chat_display>1</chat_display>
-      <generic>
-        <!-- ' immat -->
-        <int type="int"       n="0"> 0 </int>
-        <int type="int"       n="1"> 0 </int>
-        <int type="int"       n="2"> 0 </int>
-        <int type="int"       n="3"> 0 </int>
-        <int type="int"       n="4"> 0 </int>
-        <int type="int"       n="5"> 0 </int>
-        <int type="int"       n="6"> 0 </int>
-     </generic>
-    </multiplay>
-
 
     <help>
         <title>P-47 Checklist</title>
@@ -165,7 +138,14 @@
         </engine>
     </engines>
 
-   <input>
+<nasal>
+    <p47>
+        <file>Aircraft/P47/Nasal/P47.nas</file>
+        <file>Aircraft/P47/Nasal/Electrical.nas</file>
+    </p47>
+</nasal>
+
+    <input>
         <keyboard>
             <key n="119">
                 <name>w</name>
@@ -186,8 +166,8 @@
       <property>sim/multiplay/generic/int[6]</property>
      </binding>
     </key>
-
-            <key n="87">
+           
+			<key n="87">
                 <name>W</name>
                 <desc>Decrease wastegate</desc>
                 <repeatable>true</repeatable>
@@ -198,15 +178,5 @@
             </key>
         </keyboard>
     </input>
-
-<nasal>
-    <p47>
-        <file>Aircraft/P47/Nasal/P47.nas</file>
-        <file>Aircraft/P47/Nasal/Electrical.nas</file>
-      <file>Aircraft/P47/Nasal/liveries.nas</file>
-    </p47>
-</nasal>
-
- 
 
 </PropertyList>

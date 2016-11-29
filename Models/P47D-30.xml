@@ -4,30 +4,6 @@
 
     <path>p47d-30.ac</path>
 
-<!-- Start livery machine -->
-
-  <nasal>
-    <load>
-      var livery_update = aircraft.livery_update.new("Aircraft/P47/Models/Liveries", 10);
-      
-      var self = cmdarg();
-      
-      var float_0 = self.getNode("sim/multiplay/generic/float[0]", 1);
-      var float_1 = self.getNode("sim/multiplay/generic/float[1]", 1);
-      
-      var crew_door = self.getNode("sim/model/door-positions/crew/position-norm", 1);
-      var passenger_door = self.getNode("sim/model/door-positions/passenger/position-norm", 1);
-      
-      crew_door.alias(float_0);
-      passenger_door.alias(float_1);
-    </load>
-    
-    <unload>
-      livery_update.stop();
-      crew_door.unalias();
-      passenger_door.unalias();
-    </unload>
-  </nasal>
 
     <animation>
         <type>shader</type>
@@ -37,6 +13,15 @@
         <object-name>glass</object-name>
     </animation>
 <!-- effects-->
+
+  <model>
+    <path>Aircraft/P47/Models/Effects/smoke/smoke2.xml</path>
+    <offsets>
+      <x-m>  7.319 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -0.527 </z-m>
+    </offsets>
+  </model>
 
     <model>
         <path>Aircraft/P47/Models/Effects/gunsmoke.xml</path>
@@ -80,6 +65,15 @@
         </offsets>
     </model>
 
+<model>
+        <path>Aircraft/P47/Models/Instruments/turn.xml</path>
+        <offsets>
+            <x-m>-0.735</x-m>
+            <y-m>-0.25</y-m>
+            <z-m>0.5</z-m>
+            <pitch-deg>0.0</pitch-deg>
+        </offsets>
+    </model>
 
     <model>
         <path>Aircraft/P47/Models/Instruments/mp.xml</path>
@@ -121,7 +115,7 @@
         </offsets>
     </model>
 
- <model>
+<!-- <model>
         <path>Aircraft/P47/Models/Instruments/tmp.xml</path>
         <offsets>
             <x-m>-0.735</x-m>
@@ -129,7 +123,7 @@
             <z-m>0.506</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
-    </model>
+    </model> -->
 
   <!--  <model>
         <path>Aircraft/P47/Models/Instruments/tmp.xml</path>
@@ -636,12 +630,12 @@
         </axis>
     </animation>
 
-    <animation>
+<animation>
         <type>translate</type>
         <object-name>Lshock</object-name>
         <object-name>LLdamper</object-name>
         <object-name>Ltire</object-name>
-        <property>gear/gear[0]/compression-m</property>
+        <property>gear/gear[2]/compression-norm</property>
         <center>
             <x-m>-1.636</x-m>
             <y-m>-2.534</y-m>
@@ -883,13 +877,13 @@
         </axis>
     </animation>
 
-    <animation>
+<animation>
         <type>translate</type>
         <object-name>Rshock</object-name>
         <object-name>RLdamper</object-name>
-        <object-name>Rtire</object-name>
-        <property>gear/gear[1]/compression-m</property>
-        <center>
+        <object-name>Rtire</object-name><property>gear/gear[1]/compression-norm</property>
+   <factor>1</factor>
+<center>
             <x-m>-1.636</x-m>
             <y-m>2.534</y-m>
             <z-m>-0.374</z-m>

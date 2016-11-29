@@ -22,7 +22,7 @@
 <propeller version="1.01" name="prop">
   <ixx> 1.93481 </ixx>
   <diameter unit="IN"> 71.64 </diameter>
-  <numblades> 8 </numblades>
+  <numblades> 4 </numblades>
   <gearratio> 1 </gearratio>
   <cp_factor> 1.00 </cp_factor>
   <ct_factor> 1.00 </ct_factor>
