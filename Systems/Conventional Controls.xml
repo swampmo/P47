@@ -38,8 +38,8 @@
       <input>fcs/aileron-cmd-norm</input>
       <input>fcs/roll-trim-cmd-norm</input>
       <clipto>
-        <min> -1 </min>
-        <max>  1 </max>
+        <min> -2 </min>
+        <max>  2 </max>
       </clipto>
    </summer>
 
@@ -68,8 +68,8 @@
         <max>  0.35 </max>
       </domain>
       <range>
-        <min> -1 </min>
-        <max>  1 </max>
+        <min> -2 </min>
+        <max>  2 </max>
       </range>
       <output>fcs/left-aileron-pos-norm</output>
    </aerosurface_scale>
@@ -81,8 +81,8 @@
         <max>  0.35 </max>
       </domain>
       <range>
-        <min> -1 </min>
-        <max>  1 </max>
+        <min> -2 </min>
+        <max>  2 </max>
       </range>
       <output>fcs/right-aileron-pos-norm</output>
    </aerosurface_scale>

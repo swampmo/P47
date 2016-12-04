@@ -55,7 +55,17 @@
         </offsets>
     </model>
 
-<model>
+    <model>
+        <path>Aircraft/P47/Models/Instruments/compass.xml</path>
+        <offsets>
+            <x-m>-0.735</x-m>
+            <y-m>-0.15</y-m>
+            <z-m>0.610</z-m>
+            <pitch-deg>0.0</pitch-deg>
+        </offsets>
+    </model>
+
+	<model>
         <path>Aircraft/P47/Models/Instruments/alt.xml</path>
         <offsets>
             <x-m>-0.735</x-m>
@@ -65,7 +75,9 @@
         </offsets>
     </model>
 
-<model>
+
+
+	<model>
         <path>Aircraft/P47/Models/Instruments/turn.xml</path>
         <offsets>
             <x-m>-0.735</x-m>
@@ -85,12 +97,32 @@
         </offsets>
     </model>
 
+     <model>
+        <path>Aircraft/P47/Models/Instruments/ai.xml</path>
+        <offsets>
+            <x-m>-0.735</x-m>
+            <y-m>0.147</y-m>
+            <z-m>0.610</z-m>
+            <pitch-deg>0.0</pitch-deg>
+        </offsets>
+    </model>
+
     <model>
         <path>Aircraft/P47/Models/Instruments/rpm.xml</path>
         <offsets>
             <x-m>-0.735</x-m>
             <y-m>0.243</y-m>
             <z-m>0.506</z-m>
+            <pitch-deg>0.0</pitch-deg>
+        </offsets>
+    </model>
+
+    <model>
+        <path>Aircraft/P47/Models/Instruments/cyltemp.xml</path>
+        <offsets>
+            <x-m>-0.735</x-m>
+            <y-m>0.325</y-m>
+            <z-m>0.420</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
@@ -159,8 +191,8 @@
         <path>Aircraft/P47/Models/Instruments/starter.xml</path>
         <offsets>
             <x-m>-0.735</x-m>
-            <y-m>0.260</y-m>
-            <z-m>0.427</z-m>
+            <y-m>0.240</y-m>
+            <z-m>0.400</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>

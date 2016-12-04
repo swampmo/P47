@@ -60,16 +60,16 @@ controls.startEngine = func(v=1 ) {
     setprop("controls/engines/engine/starter",v);
 }
 
-controls.applyBrakes = func(v, which = 0) {
-    var fullBrakeTime = 0.5;
-    if(getprop("gear/gear/wow")){
-        if (which <= 0) { interpolate("/controls/gear/brake-left", v, fullBrakeTime); }
-        if (which >= 0) { interpolate("/controls/gear/brake-right", v, fullBrakeTime); }
-    }else{
-        if(getprop("controls/armament/ammo")<=0) v=0;
-        setprop("controls/armament/guns",v);
-    }
-}
+#controls.applyBrakes = func(v, which = 0) {
+#    var fullBrakeTime = 0.5;
+#    if(getprop("gear/gear/wow")){
+#       if (which <= 0) { interpolate("/controls/gear/brake-left", v, fullBrakeTime); }
+#        if (which >= 0) { interpolate("/controls/gear/brake-right", v, fullBrakeTime); }
+#    }else{
+#        if(getprop("controls/armament/ammo")<=0) v=0;
+#        setprop("controls/armament/guns",v);
+#    }
+#}
 
 wastegate = func(wg) {
 var tmp = getprop("controls/engines/engine/wastegate") or 0;

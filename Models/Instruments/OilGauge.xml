@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>OilGauge.ac</path>
+
+  <animation>
+    <object-name>Bezel</object-name>
+    <object-name>Face</object-name>
+    <object-name>PtrL</object-name>
+    <object-name>PtrR</object-name>
+
+    <object-name>vitre</object-name>
+  </animation>
+
+  <!-- working for Rembrandt -->
+ <!-- <effect>
+    <inherits-from>Aircraft/Skyranger/Models/Effects/Glass/glass</inherits-from>
+    <object-name>vitre</object-name>
+  </effect> -->
+  
+  <animation>
+    <type>material</type>
+    <object-name>Face</object-name>
+    <object-name>PtrL</object-name>
+    <object-name>PtrR</object-name>
+    <emission>
+      <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
+      <red>   0.50 </red>
+      <green> 0.25 </green>
+      <blue>  0.25 </blue>
+    </emission>
+  </animation>
+
+  <animation> 
+    <type>rotate</type>
+    <object-name>PtrL</object-name>
+    <property>engines/engine/oil-temperature-degf</property>
+    <interpolation>
+      <entry><ind> 104 </ind><dep>  0 </dep></entry>
+      <entry><ind> 140 </ind><dep> 16 </dep></entry>
+      <entry><ind> 212 </ind><dep> 58 </dep></entry>
+      <entry><ind> 266 </ind><dep> 89 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m>  0.00 </x-m>
+      <y-m> -0.02 </y-m>
+      <z-m>  0.00 </z-m>  
+    </center>
+    <axis> 
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>         
+ 
+  <animation> 
+    <type>rotate</type>
+    <object-name>PtrR</object-name>
+    <property>engines/engine/oil-pressure-psi</property>
+    <interpolation>
+      <entry><ind>   0 </ind><dep>  0.0 </dep></entry>
+      <entry><ind>  30 </ind><dep> 29.0 </dep></entry>
+      <entry><ind>  90 </ind><dep> 70.0 </dep></entry>
+      <entry><ind> 120 </ind><dep> 84.5 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> 0.00 </x-m>
+      <y-m> 0.02 </y-m>
+      <z-m> 0.00 </z-m>  
+    </center>
+    <axis> 
+      <x> -1 </x>
+      <y>  0 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>         
+ 
+</PropertyList>

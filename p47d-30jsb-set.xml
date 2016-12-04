@@ -199,14 +199,28 @@
         </keyboard>
     </input>
 
+    <key n="101">
+      <name>e</name>
+      <desc>Guns</desc>
+      <binding>
+        <command>nasal</command>
+        <script>guns.fire_MG()</script>
+      </binding>
+      <mod-up>
+        <binding>
+          <command>nasal</command>
+          <script>guns.stop_MG()</script>
+        </binding>
+      </mod-up>
+    </key>
+
 <nasal>
     <p47>
         <file>Aircraft/P47/Nasal/P47.nas</file>
         <file>Aircraft/P47/Nasal/Electrical.nas</file>
-      <file>Aircraft/P47/Nasal/liveries.nas</file>
     </p47>
 </nasal>
 
- 
+
 
 </PropertyList>

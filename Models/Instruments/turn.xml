@@ -1,70 +1,58 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0"?>
 
 <PropertyList>
 
-  <path>turn.ac</path>
+<path>turn.ac</path>
 
-  <animation>
-    <object-name>fond</object-name>
-    <object-name>face</object-name>
-    <object-name>needle</object-name>
-    <object-name>slipball</object-name>
+    <animation>
+        <type>material</type>
+        <object-name>TURN.face</object-name>
+        <object-name>TURN.needle</object-name>
+        <emission>
+            <red>0.8</red>
+            <green>0.5</green>
+            <blue>0.3</blue>
+            <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
+        </emission>
+    </animation>
 
-    <object-name>vitre</object-name>
-  </animation>
+    <animation>
+        <type>rotate</type>
+        <object-name>TURN.needle</object-name>
+        <property>instrumentation/turn-indicator/indicated-turn-rate</property>
+        <factor>20</factor>
+        <axis>
+            <x>-1</x>
+            <y>0</y>
+            <z>0</z>
+        </axis>
+        <center>
+            <x-m>0</x-m>
+            <y-m>0</y-m>
+            <z-m>0</z-m>
+        </center>
+    </animation>
 
-  <!-- working for Rembrandt -->
- <!-- <effect>
-    <inherits-from>Aircraft/Tecnam-P2006T/Models/Effects/Glass/glass</inherits-from>
-    <object-name>vitre</object-name>
-  </effect> -->
-  
-  <animation>
-    <type>material</type>
-    <object-name>face</object-name>
-    <object-name>needle</object-name>
-    <object-name>slipball</object-name>
-    <condition>
-      <property>/systems/electrical/outputs/instrument-lights-norm</property>
-      <property>/controls/electric/battery-switch</property>
-    </condition>
-    <emission>
-      <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
-      <red>   0.8 </red>
-      <green> 0.5 </green>
-      <blue>  0.25 </blue>
-    </emission>
-  </animation>
-
-  <animation>
-    <type>rotate</type>
-    <object-name>needle</object-name>
-    <property>instrumentation/turn-indicator/indicated-turn-rate</property>
-    <factor> 14 </factor>
-    <axis>
-      <x> -1 </x>
-      <y>  0 </y>
-      <z>  0 </z>
-    </axis>
-  </animation>
-
-  <animation>
-    <type>rotate</type>
-    <object-name>slipball</object-name>
-    <property>instrumentation/slip-skid-ball/indicated-slip-skid</property>
-    <factor>   21 </factor>
-    <min-deg> -19 </min-deg>
-    <max-deg>  19 </max-deg>
-    <center>
-      <x-m> 0.000 </x-m>
-      <y-m> 0.000 </y-m>
-      <z-m> 0.036 </z-m>
-    </center>
-    <axis>
-      <x> -1 </x>
-      <y>  0 </y>
-      <z>  0 </z>
-    </axis>
-  </animation>
+    <animation>
+        <type>rotate</type>
+        <object-name>Slip.ball</object-name>
+        <property>instrumentation/slip-skid-ball/indicated-slip-skid</property>
+        <interpolation>
+            <entry><ind>-10.0</ind><dep>-20</dep></entry>
+            <entry><ind>-2.0</ind><dep>-20</dep></entry>
+            <entry><ind>2.0</ind><dep>20</dep></entry>
+            <entry><ind>10.0</ind><dep>20</dep></entry>
+        </interpolation>
+        <axis>
+            <x>-1</x>
+            <y>0</y>
+            <z>0</z>
+        </axis>
+        <center>
+            <x-m>0</x-m>
+            <y-m>0</y-m>
+            <z-m>0.118</z-m>
+        </center>
+    </animation>
 
 </PropertyList>

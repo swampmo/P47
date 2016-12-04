@@ -18,7 +18,7 @@
     <displacement unit="IN3"> 4940 </displacement>
   <maxhp>        2600 </maxhp>
   <cycles>         4.0 </cycles>
-  <idlerpm>      700.0 </idlerpm>
+  <idlerpm>      600.0 </idlerpm>
   <maxrpm>      2800.0 </maxrpm>
   <sparkfaildrop>  0.1 </sparkfaildrop>
   <volumetric-efficiency> 0.85 </volumetric-efficiency>
@@ -27,9 +27,29 @@
   <starter-torque> 2080 </starter-torque>
   <starter-rpm> 1400 </starter-rpm>
  <!-- Defining <bsfc> over-rides the built-in horsepower calculations -->
- <!--<bsfc>           0.45 </bsfc>-->
+  <bsfc>           0.3 </bsfc>
   <stroke unit="IN">  4.375 </stroke>
   <bore unit="IN">    5.125 </bore>
   <cylinders>         55  </cylinders>
   <compression-ratio>  8.0 </compression-ratio>
+  <boostauto>      1 </boostauto>
+  <numboostspeeds>   2 </numboostspeeds>
+  <boostoverride>    0 </boostoverride>
+  <takeoffboost>     0</takeoffboost> 
+
+
+ <!-- Low-speed supercharger; see table above.  The rated boost is on top of
+       sea level ambient pressure. -->
+  <ratedboost1 unit="INHG"> 8.00 </ratedboost1>
+  <ratedpower1> 2600 </ratedpower1>
+  <ratedrpm1>   2800 </ratedrpm1>
+  <ratedaltitude1> 5800 </ratedaltitude1>
+
+  <!-- High-speed supercharger; see table above. -->
+  <ratedboost2 unit="INHG"> 12.00 </ratedboost2>
+  <ratedpower2> 2600 </ratedpower2>
+  <ratedrpm2>   2600 </ratedrpm2>
+  <ratedaltitude2> 15000 </ratedaltitude2>
+
+
 </piston_engine>
