@@ -59,7 +59,7 @@
    <vtailarea  unit="FT2">   30.00 </vtailarea>
    <vtailarm  unit="FT" >    21.66 </vtailarm>
    <location name="AERORP" unit="M">
-     <x>  -1.125 </x>
+     <x>  -1.2 </x>
      <y>     0.00 </y>
      <z>   -.0.08432 </z>
    </location>
@@ -157,7 +157,7 @@
       <z>   -0.96498 </z>
  </location>
    <static_friction>  0.90 </static_friction>
-   <dynamic_friction> 1.5 </dynamic_friction>
+   <dynamic_friction> 0.50 </dynamic_friction>
    <rolling_friction> 0.05 </rolling_friction>
    <spring_coeff unit="LBS/FT">      10000.00 </spring_coeff>
    <damping_coeff unit="LBS/FT/SEC"> 8000.00 </damping_coeff>
@@ -175,7 +175,7 @@
 
    </location>
    <static_friction>  0.90 </static_friction>
-   <dynamic_friction> 0.70 </dynamic_friction>
+   <dynamic_friction> 0.50 </dynamic_friction>
    <rolling_friction> 0.03 </rolling_friction>
    <spring_coeff unit="LBS/FT">      22000.00 </spring_coeff>
    <damping_coeff unit="LBS/FT/SEC"> 12000.00 </damping_coeff>
@@ -191,7 +191,7 @@
 
    </location>
    <static_friction>  0.90 </static_friction>
-   <dynamic_friction> 0.70 </dynamic_friction>
+   <dynamic_friction> 0.50 </dynamic_friction>
    <rolling_friction> 0.03 </rolling_friction>
    <spring_coeff unit="LBS/FT">      22000.00 </spring_coeff>
    <damping_coeff unit="LBS/FT/SEC"> 12000.00 </damping_coeff>
@@ -253,6 +253,7 @@
  <system file="Landing Gear.xml"/>
  <system file="Flaps.xml"/>
  <system file="crash-detect"/>
+ <system file="automixture"/>
 
  <flight_control name="FCS: P47dJSBsim">
 
