@@ -168,7 +168,7 @@
 
    <input>
         <keyboard>
-            <key n="119">
+          <!--  <key n="119">
                 <name>w</name>
                 <desc>Increase wastegate</desc>
                 <repeatable>true</repeatable>
@@ -176,19 +176,23 @@
                     <command>nasal</command>
                     <script>p47.wastegate(1)</script>
                 </binding>
-            </key>
+            </key> -->
 
  
-    <key n="83">
-     <name>Shift-S</name>
+<key n="100">
+     <name>d</name>
      <desc>Toggle smoke</desc>
      <binding>
       <command>property-toggle</command>
       <property>sim/multiplay/generic/int[19]</property>
-     </binding>
+    </binding>
+<binding>
+                    <command>nasal</command>
+                    <script>print("S clicked");</script>
+                </binding>
     </key>
 
-            <key n="87">
+        <!--    <key n="87">
                 <name>W</name>
                 <desc>Decrease wastegate</desc>
                 <repeatable>true</repeatable>
@@ -196,10 +200,10 @@
                     <command>nasal</command>
                     <script>p47.wastegate(-1)</script>
                 </binding>
-            </key>
+            </key> -->
 
 
-    <key n="101">
+   <key n="101">
       <name>e</name>
       <desc>Guns</desc>
       <binding>
@@ -213,13 +217,13 @@
         </binding>
       </mod-up>
     </key>
-   </keyboard>
+   </keyboard> 
    </input>
 
 <nasal>
     <p47>
-        <file>Aircraft/P47/Nasal/P47.nas</file>
-       <file>Aircraft/P47/Nasal/Electrical.nas</file>
+    <file>Aircraft/P47/Nasal/P47.nas</file> 
+    <file>Aircraft/P47/Nasal/Electrical.nas</file>
     </p47>
 </nasal>
 

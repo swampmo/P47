@@ -9,7 +9,7 @@
 
 	<condition>
 		<equals>
-      <property>sim/multiplay/generic/int[19]</property>
+      <property>/sim/multiplay/generic/int[19]</property>
 		<value>1</value>
 		</equals>
     </condition>
@@ -44,8 +44,8 @@
 
     <counter>
       <particles-per-sec>
-        <value>600</value>
-        <spread>2</spread>
+        <value>350</value>
+        <spread>1</spread>
       </particles-per-sec>
     </counter>
 
