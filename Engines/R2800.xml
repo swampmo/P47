@@ -40,7 +40,7 @@
 
  <!-- Low-speed supercharger; see table above.  The rated boost is on top of
        sea level ambient pressure. -->
-  <ratedboost1 unit="INHG"> 8.00 </ratedboost1>
+  <ratedboost1 unit="INHG"> 6.00 </ratedboost1>
   <ratedpower1> 2600 </ratedpower1>
   <ratedrpm1>   2800 </ratedrpm1>
   <ratedaltitude1> 1000 </ratedaltitude1>
@@ -49,7 +49,7 @@
   <ratedboost2 unit="INHG"> 12.00 </ratedboost2>
   <ratedpower2> 2600 </ratedpower2>
   <ratedrpm2>   2800 </ratedrpm2>
-  <ratedaltitude2> 15000 </ratedaltitude2>
+  <ratedaltitude2> 10000 </ratedaltitude2>
 
 
 </piston_engine>

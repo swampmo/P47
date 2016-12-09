@@ -17,9 +17,9 @@
   <model>
     <path>Aircraft/P47/Models/Effects/smoke/smoke2.xml</path>
     <offsets>
-      <x-m>  7.319 </x-m>
-      <y-m>  0.000 </y-m>
-      <z-m> -0.527 </z-m>
+      <x-m>  -2.42878 </x-m>
+      <y-m>  -0.55380 </y-m>
+      <z-m> -0.79711 </z-m>
     </offsets>
   </model>
 

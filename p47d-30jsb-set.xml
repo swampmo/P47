@@ -5,7 +5,7 @@
     <sim>
 
         <description>P47D</description>
-        <author>Syd Adams, Cain, Swamp (JSBsim FDM)</author>
+        <author>Syd Adams, Swamp (JSBsim FDM)</author>
         <flight-model>jsb</flight-model>
         <aero>P47dJSBsim</aero>
         <fuel-fraction>0.8</fuel-fraction>
@@ -90,6 +90,7 @@
         <int type="int"       n="4"> 0 </int>
         <int type="int"       n="5"> 0 </int>
         <int type="int"       n="6"> 0 </int>
+        <int type="int"       n="19"> 0 </int>		
      </generic>
     </multiplay>
 
@@ -183,7 +184,7 @@
      <desc>Toggle smoke</desc>
      <binding>
       <command>property-toggle</command>
-      <property>sim/multiplay/generic/int[6]</property>
+      <property>sim/multiplay/generic/int[19]</property>
      </binding>
     </key>
 
@@ -196,8 +197,7 @@
                     <script>p47.wastegate(-1)</script>
                 </binding>
             </key>
-        </keyboard>
-    </input>
+
 
     <key n="101">
       <name>e</name>
@@ -213,11 +213,13 @@
         </binding>
       </mod-up>
     </key>
+   </keyboard>
+   </input>
 
 <nasal>
     <p47>
         <file>Aircraft/P47/Nasal/P47.nas</file>
-        <file>Aircraft/P47/Nasal/Electrical.nas</file>
+       <file>Aircraft/P47/Nasal/Electrical.nas</file>
     </p47>
 </nasal>
 
