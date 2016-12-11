@@ -29,6 +29,13 @@
 
         <allow-toggle-cockpit archive="y">true</allow-toggle-cockpit>
 
+<!--        <systems>
+             <autopilot>
+                <path>Aircraft/P47/Systems/autopilot.xml</path>
+            </autopilot>
+        </systems> -->
+
+
         <view>
             <internal archive="y">true</internal>
             <config>
