@@ -231,6 +231,7 @@
     <p47>
     <file>Aircraft/P47/Nasal/P47.nas</file> 
     <file>Aircraft/P47/Nasal/Electrical.nas</file>
+    <file>Aircraft/P47/Nasal/damage.nas</file>
     </p47>
 </nasal>
 
