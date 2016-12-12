@@ -9,7 +9,7 @@
 
 	<condition>
 		<equals>
-      <property>/sim/multiplay/generic/int[19]</property>
+      <property>sim/multiplay/generic/int[19]</property>
 		<value>1</value>
 		</equals>
     </condition>
