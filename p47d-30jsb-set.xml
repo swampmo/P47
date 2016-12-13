@@ -247,7 +247,7 @@
         <desc>Fire MG</desc>
         <binding>
             <command>property-toggle</command>
-            <property>controls/armament/guns</property>
+            <property>controls/armament/trigger</property>
         </binding>
         <mod-up>
           <binding>
