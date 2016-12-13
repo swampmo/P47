@@ -67,7 +67,7 @@ controls.startEngine = func(v=1 ) {
 #        if (which >= 0) { interpolate("/controls/gear/brake-right", v, fullBrakeTime); }
 #    }else{
 #        if(getprop("controls/armament/ammo")<=0) v=0;
-#        setprop("controls/armament/guns",v);
+#        setprop("controls/armament/trigger",v);
 #    }
 #}
 
@@ -115,7 +115,7 @@ var update = func {
         var eg=props.globals.getNode("engines/engine/energizer",1);
         var engr=eg.getValue();
         var scnd = getprop("sim/time/delta-sec");
-        if(getprop("controls/armament/guns")){
+        if(getprop("controls/armament/trigger")){
             var rounds=getprop("controls/armament/ammo");
             if(rounds>0){
                 var spent= 80 * scnd;

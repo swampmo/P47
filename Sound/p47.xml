@@ -236,9 +236,9 @@
         <name>guns</name>
         <mode>looped</mode>
         <path>Aircraft/P47/Sound/50cal.wav</path>
-        <property>controls/armament/guns</property>
+        <property>controls/armament/trigger</property>
         <volume>
-            <property>controls/armament/guns</property>
+            <property>controls/armament/trigger</property>
         </volume>
         <position>
             <x>0</x>

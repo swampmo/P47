@@ -15,7 +15,7 @@
         </offsets>
 
         <condition>
-            <property>controls/armament/guns</property>
+            <property>controls/armament/trigger</property>
         </condition>
 
         <attach>world</attach>

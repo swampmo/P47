@@ -173,6 +173,42 @@
         </engine>
     </engines>
 
+ <fdm>
+  <jsbsim>
+   <simulation>
+     <sim-time-sec>0</sim-time-sec>
+   </simulation>
+   <systems>
+      <armament>
+      <station1>
+        <selected type="double">0</selected>
+      </station1>
+      <station2>
+        <selected type="double">0</selected>
+      </station2>
+      <station3>
+        <selected type="double">0</selected>
+      </station3>
+      <station4>
+        <selected type="double">0</selected>
+      </station4>
+      <station5>
+        <selected type="double">0</selected>
+      </station5>
+      <station6>
+        <selected type="double">0</selected>
+      </station6>
+      <station7>
+        <selected type="double">0</selected>
+      </station7>
+      <station8> <!-- centerline -->
+        <selected type="double">0</selected>
+      </station8>
+    </armament> 
+   </systems> 
+  </jsbsim>
+ </fdm>
+
    <input>
         <keyboard>
           <!--  <key n="119">
@@ -193,10 +229,6 @@
       <command>property-toggle</command>
       <property>sim/multiplay/generic/int[19]</property>
     </binding>
-<binding>
-                    <command>nasal</command>
-                    <script>print("S clicked");</script>
-                </binding>
     </key>
 
         <!--    <key n="87">
@@ -210,22 +242,23 @@
             </key> -->
 
 
-   <key n="101">
-      <name>e</name>
-      <desc>Guns</desc>
-      <binding>
-        <command>nasal</command>
-        <script>guns.fire_MG()</script>
-      </binding>
-      <mod-up>
+      <key n="101">
+        <name>e</name>
+        <desc>Fire MG</desc>
         <binding>
-          <command>nasal</command>
-          <script>guns.stop_MG()</script>
+            <command>property-toggle</command>
+            <property>controls/armament/guns</property>
         </binding>
-      </mod-up>
-    </key>
-   </keyboard> 
-   </input>
+        <mod-up>
+          <binding>
+            <command>property-toggle</command>
+            <property>controls/armament/trigger</property>
+          </binding>
+        </mod-up>
+      </key>
+
+		 </keyboard>
+	 </input>
 
 <nasal>
     <p47>
