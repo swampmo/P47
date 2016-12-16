@@ -271,6 +271,9 @@
     <file>Aircraft/P47/Nasal/Electrical.nas</file>
     <file>Aircraft/P47/Nasal/damage.nas</file>
     </p47>
+	<guns>
+		<file>Aircraft/P47/Nasal/payloads.nas</file>
+	</guns>
 </nasal>
 
 

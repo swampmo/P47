@@ -4,7 +4,7 @@
 
   <cannon>
     <model>Aircraft/P47/Models/Effects/guns/tracer.xml</model>
-    <trigger>controls/armament/trigger</trigger>
+    <trigger>controls/armament/gun-trigger</trigger>
     <speed>2755.9</speed>
     <cd>0.193</cd>
     <eda>0.00338158219</eda>
