@@ -356,13 +356,11 @@
           <table>
             <independentVar lookup="row">aero/alpha-rad</independentVar>
             <tableData>
-             -1.57    1.4088
-             -0.28    0.0175
-              0.00    0.0190
-              0.28    0.0210
-              0.40    0.0500
-			  0.60    0.0900
-			  1.57    1.4088
+             -1.57    1.500
+             -0.26    0.026
+              0.00    0.021
+              0.26    0.026
+              1.57    1.500
             </tableData>
           </table>
        </product>
@@ -374,7 +372,7 @@
            <property>aero/qbar-psf</property>
            <property>metrics/Sw-sqft</property>
            <property>aero/cl-squared</property>
-           <value> 0.0014 </value>
+           <value> 0.05 </value>
          </product>
     </function>
 
@@ -386,11 +384,10 @@
           <table>
             <independentVar lookup="row">velocities/mach</independentVar>
             <tableData>
-                0.00    0.0000
-                0.40    0.0075
-                0.75    0.0150
-                1.10    0.0230
-                1.80    0.0150
+                0.00      0.000
+                0.69      0.000
+                1.10      0.023
+                1.80      0.015
             </tableData>
           </table>
         </product>
@@ -404,12 +401,11 @@
           <table>
             <independentVar lookup="row">aero/beta-rad</independentVar>
             <tableData>
-              -1.57    1.2300
-              -0.26    0.0500
-               0.00    0.0000
-               0.26    0.0500
-			   0.50    0.0800
-               1.57    1.2300
+              -1.57    1.230
+              -0.26    0.050
+               0.00    0.000
+               0.26    0.050
+               1.57    1.230
             </tableData>
           </table>
        </product>
@@ -455,7 +451,7 @@
            <property>aero/qbar-psf</property>
            <property>metrics/Sw-sqft</property>
            <property>aero/beta-rad</property>
-           <value> -0.2310 </value>
+           <value> -1 </value>
        </product>
     </function>
     <function name="aero/force/Side_roll_rate">
