@@ -12,7 +12,8 @@
     <weight>0.286600941</weight>
     <life>40</life>
     <repeat>true</repeat>
-    <delay>0.41</delay>
+    <delay>0.8
+</delay>
     <count>-1</count>
     <wind>false</wind>
     <expiry>true</expiry>
@@ -26,7 +27,7 @@
   </cannon>
 
   <submodel>
-    <name>Left up</name>
+    <name>R1</name>
     <model alias="../../cannon/model"/>
     <trigger alias="../../cannon/trigger"/>
     <speed alias="../../cannon/speed"/>
@@ -47,13 +48,13 @@
     <submodel-path alias="../../cannon/submodel-path"/>
     <yaw-offset  alias="../../cannon/yaw-offset"/>
     <pitch-offset alias="../../cannon/pitch-offset"/>
-    <x-offset> 15.839 </x-offset> <!-- -4.82754 m = 15.839 ft -->
-    <y-offset>  0.346 </y-offset> <!-- -0.10555 m =  0.346 ft -->
-    <z-offset> -0.407 </z-offset> <!-- -0.12425 m = -0.407 ft -->
+    <x-offset> -6.662 </x-offset> <!-- -4.82754 m = 15.839 ft -->
+    <y-offset> 10.454 </y-offset> <!-- -0.10555 m =  0.346 ft -->
+    <z-offset> -31.099 </z-offset> <!-- -0.12425 m = -0.407 ft -->
   </submodel>
 
   <submodel>
-    <name>Left down</name>
+    <name>R2</name>
     <model alias="../../cannon/model"/>
     <trigger alias="../../cannon/trigger"/>
     <speed alias="../../cannon/speed"/>
@@ -74,13 +75,13 @@
     <submodel-path alias="../../cannon/submodel-path"/>
     <yaw-offset  alias="../../cannon/yaw-offset"/>
     <pitch-offset alias="../../cannon/pitch-offset"/>
-    <x-offset> 16.580 </x-offset> <!-- -5.05351 m = 16.580 ft -->
-    <y-offset>  0.878 </y-offset> <!-- -0.26771 m =  0.878 ft -->
-    <z-offset> -0.833 </z-offset> <!-- -0.25398 m = -0.833 ft -->
+    <x-offset> -7.010 </x-offset> <!-- -5.05351 m = 16.580 ft -->
+    <y-offset>  10.031 </y-offset> <!-- -0.26771 m =  0.878 ft -->
+    <z-offset> -1.134 </z-offset> <!-- -0.25398 m = -0.833 ft -->
   </submodel>
 
   <submodel>
-    <name>Right down</name>
+    <name>R3</name>
     <model alias="../../cannon/model"/>
     <trigger alias="../../cannon/trigger"/>
     <speed alias="../../cannon/speed"/>
@@ -101,13 +102,13 @@
     <submodel-path alias="../../cannon/submodel-path"/>
     <yaw-offset  alias="../../cannon/yaw-offset"/>
     <pitch-offset alias="../../cannon/pitch-offset"/>
-    <x-offset> 16.580 </x-offset> <!-- -5.05351 m = 16.580 ft -->
-    <y-offset> -0.878 </y-offset> <!--  0.26771 m = -0.878 ft -->
-    <z-offset> -0.833 </z-offset> <!-- -0.25398 m = -0.833 ft -->
+    <x-offset> -7.418 </x-offset> <!-- -5.05351 m = 16.580 ft -->
+    <y-offset> 9.507 </y-offset> <!--  0.26771 m = -0.878 ft -->
+    <z-offset> -31.177 </z-offset> <!-- -0.25398 m = -0.833 ft -->
   </submodel>
 
   <submodel>
-    <name>Right up</name>
+    <name>R4</name>
     <model alias="../../cannon/model"/>
     <trigger alias="../../cannon/trigger"/>
     <speed alias="../../cannon/speed"/>
@@ -128,14 +129,14 @@
     <submodel-path alias="../../cannon/submodel-path"/>
     <yaw-offset  alias="../../cannon/yaw-offset"/>
     <pitch-offset alias="../../cannon/pitch-offset"/>
-    <x-offset> 15.839 </x-offset> <!-- -4.82754 m = 15.839 ft -->
-    <y-offset> -0.346 </y-offset> <!--  0.10555 m = -0.346 ft -->
-    <z-offset> -0.407 </z-offset> <!-- -0.12425 m = -0.407 ft -->
+    <x-offset> -7.791 </x-offset> <!-- -4.82754 m = 15.839 ft -->
+    <y-offset>  9.025 </y-offset> <!--  0.10555 m = -0.346 ft -->
+    <z-offset> -1.218 </z-offset> <!-- -0.12425 m = -0.407 ft -->
   </submodel>
 
   <!-- Canon -->
   <submodel>
-    <name>Canon right gun</name>
+    <name>L1</name>
     <model alias="../../cannon/model"/>
     <trigger alias="../../cannon/trigger"/>
     <speed alias="../../cannon/speed"/>
@@ -156,9 +157,90 @@
     <submodel-path alias="../../cannon/submodel-path"/>
     <yaw-offset  alias="../../cannon/yaw-offset"/>
     <pitch-offset alias="../../cannon/pitch-offset"/>
-    <x-offset> 20.175 </x-offset> <!-- -6.14926 m = 20.175 ft -->
-    <y-offset>  0.000 </y-offset> <!--  0.00000 m =  0.000 ft -->
-    <z-offset> -1.887 </z-offset> <!-- -0.57521 m = -1.887 ft -->
+    <x-offset> -6.662 </x-offset> <!-- -6.14926 m = 20.175 ft -->
+    <y-offset> -10.454 </y-offset> <!--  0.00000 m =  0.000 ft -->
+    <z-offset> -1.099 </z-offset> <!-- -0.57521 m = -1.887 ft -->
+  </submodel>
+
+  <submodel>
+    <name>L2</name>
+    <model alias="../../cannon/model"/>
+    <trigger alias="../../cannon/trigger"/>
+    <speed alias="../../cannon/speed"/>
+    <cd alias="../../cannon/cd"/>
+    <eda alias="../../cannon/eda"/>
+    <fuse-range alias="../../cannon/fuse-range"/>
+    <weight alias="../../cannon/weight"/>
+    <life alias="../../cannon/life"/>
+    <repeat alias="../../cannon/repeat"/>
+    <delay alias="../../cannon/delay"/>
+    <count alias="../../cannon/count"/>
+    <wind alias="../../cannon/wind"/>
+    <expiry alias="../../cannon/expiry"/>
+    <collision alias="../../cannon/collision"/>
+    <collision-report alias="../../cannon/collision-report"/>
+    <impact alias="../../cannon/impact"/>
+    <impact-report alias="../../cannon/impact-report"/>
+    <submodel-path alias="../../cannon/submodel-path"/>
+    <yaw-offset  alias="../../cannon/yaw-offset"/>
+    <pitch-offset alias="../../cannon/pitch-offset"/>
+    <x-offset> -7.010 </x-offset> <!-- -6.14926 m = 20.175 ft -->
+    <y-offset> -10.031 </y-offset> <!--  0.00000 m =  0.000 ft -->
+    <z-offset> -1.134 </z-offset> <!-- -0.57521 m = -1.887 ft -->
+  </submodel>
+
+  <submodel>
+    <name>L3</name>
+    <model alias="../../cannon/model"/>
+    <trigger alias="../../cannon/trigger"/>
+    <speed alias="../../cannon/speed"/>
+    <cd alias="../../cannon/cd"/>
+    <eda alias="../../cannon/eda"/>
+    <fuse-range alias="../../cannon/fuse-range"/>
+    <weight alias="../../cannon/weight"/>
+    <life alias="../../cannon/life"/>
+    <repeat alias="../../cannon/repeat"/>
+    <delay alias="../../cannon/delay"/>
+    <count alias="../../cannon/count"/>
+    <wind alias="../../cannon/wind"/>
+    <expiry alias="../../cannon/expiry"/>
+    <collision alias="../../cannon/collision"/>
+    <collision-report alias="../../cannon/collision-report"/>
+    <impact alias="../../cannon/impact"/>
+    <impact-report alias="../../cannon/impact-report"/>
+    <submodel-path alias="../../cannon/submodel-path"/>
+    <yaw-offset  alias="../../cannon/yaw-offset"/>
+    <pitch-offset alias="../../cannon/pitch-offset"/>
+    <x-offset> -7.418 </x-offset> <!-- -6.14926 m = 20.175 ft -->
+    <y-offset> -9.507 </y-offset> <!--  0.00000 m =  0.000 ft -->
+    <z-offset> -1.177 </z-offset> <!-- -0.57521 m = -1.887 ft -->
+  </submodel>
+
+  <submodel>
+    <name>L4</name>
+    <model alias="../../cannon/model"/>
+    <trigger alias="../../cannon/trigger"/>
+    <speed alias="../../cannon/speed"/>
+    <cd alias="../../cannon/cd"/>
+    <eda alias="../../cannon/eda"/>
+    <fuse-range alias="../../cannon/fuse-range"/>
+    <weight alias="../../cannon/weight"/>
+    <life alias="../../cannon/life"/>
+    <repeat alias="../../cannon/repeat"/>
+    <delay alias="../../cannon/delay"/>
+    <count alias="../../cannon/count"/>
+    <wind alias="../../cannon/wind"/>
+    <expiry alias="../../cannon/expiry"/>
+    <collision alias="../../cannon/collision"/>
+    <collision-report alias="../../cannon/collision-report"/>
+    <impact alias="../../cannon/impact"/>
+    <impact-report alias="../../cannon/impact-report"/>
+    <submodel-path alias="../../cannon/submodel-path"/>
+    <yaw-offset  alias="../../cannon/yaw-offset"/>
+    <pitch-offset alias="../../cannon/pitch-offset"/>
+    <x-offset> -7.791 </x-offset> <!-- -6.14926 m = 20.175 ft -->
+    <y-offset> -9.025 </y-offset> <!--  0.00000 m =  0.000 ft -->
+    <z-offset> -1.218 </z-offset> <!-- -0.57521 m = -1.887 ft -->
   </submodel>
 
 </PropertyList>
