@@ -9,7 +9,13 @@ input = {
       input[name] = props.globals.getNode(input[name], 1);
   }
 
-
+load_ammo = func{
+    if(getprop("gear/gear/wow")){
+        if(getprop("controls/gear/brake-parking")){
+            setprop("controls/armament/ammo",4000);
+        }
+    }
+}
 
 setlistener("/controls/armament/trigger", func{
 	if(getprop("controls/armament/trigger")){
@@ -38,7 +44,13 @@ setlistener("/ai/models/model-impact", func {
 	var closest_distance = 10000;
 	var inside_callsign = "";
 	#print("inside listener");
-    if (ballistic != nil) {
+    if (ballistic != nil) {load_ammo = func{
+    if(getprop("gear/gear/wow")){
+        if(getprop("controls/gear/brake-parking")){
+            setprop("controls/armament/ammo",2800);
+        }
+    }
+}
 		#print("ballistic isn't nil");
 		var typeNode = ballistic.getNode("impact/type");
 		if (typeNode != nil and typeNode.getValue() != "terrain") {
