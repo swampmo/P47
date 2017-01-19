@@ -4,14 +4,14 @@
 
   <submodel>
     <name>bullet splash</name>
-    <model>Aircraft/P47/Models/Effects/guns/explosion.xml</model>
+    <model>Aircraft/UH-1/Models/Effects/guns/flack.xml</model>
     <speed>0</speed>
     <repeat>false</repeat>
     <delay>0</delay>
     <count>1</count>
-    <x-offset>0</x-offset>
-    <y-offset>0</y-offset>
-    <z-offset>0</z-offset>
+    <x-offset> 0 </x-offset>
+    <y-offset> 0 </y-offset>
+    <z-offset> 0 </z-offset>
     <yaw-offset>0</yaw-offset>
     <pitch-offset>0</pitch-offset>
     <eda>100</eda>
@@ -19,7 +19,7 @@
     <buoyancy>32.1</buoyancy>
     <aero-stabilised>false</aero-stabilised>
     <fuse-range>0</fuse-range>
-    <life>0.2</life>
-  </submodel>
+    <life>6</life>
+  </submodel> 
 
 </PropertyList>

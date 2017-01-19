@@ -23,7 +23,16 @@
     </offsets>
   </model>
 
-    <model>
+  <model>
+    <path>Aircraft/P47/Models/Pilot/pilot.xml</path>
+    <offsets>
+      <x-m>  -0.161 </x-m>
+      <y-m>  -0.0 </y-m>
+      <z-m>  0.45313 </z-m>
+    </offsets>
+  </model> 
+
+   <model>
         <path>Aircraft/P47/Models/Effects/gunsmoke.xml</path>
         <name>gunsmoke1</name>
         <offsets>
