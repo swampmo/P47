@@ -9,11 +9,11 @@
          <time>      0 </time>
       </setting>
       <setting>
-         <position> 15 </position>
+         <position> 10 </position>
          <time>      4 </time>
       </setting>
       <setting>
-         <position> 30 </position>
+         <position> 20 </position>
          <time>      3 </time>
       </setting>
     </traverse>
@@ -24,7 +24,7 @@
     <input>fcs/flap-pos-deg</input>
     <domain>
       <min>  0 </min>
-      <max> 30 </max>
+      <max> 20 </max>
     </domain>
     <range>
       <min> 0 </min>
