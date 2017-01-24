@@ -6,9 +6,9 @@
     
     <model>
       <livery>
-        <name type="string">Default</name>
-       <texture-fuselage>paint1.png</texture-fuselage>
-       <texture-cowl>cowl.png</texture-cowl>
+        <name type="string">353rd</name>
+       <texture-fuselage>Liveries/1024x1024/323rd.png</texture-fuselage>
+       <texture-cowl>Liveries/1024x1024/353cowl.png</texture-cowl>
 
         <specular>
           <red>   0.3 </red>

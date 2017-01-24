@@ -6,13 +6,22 @@
     <menu n="10">
       <label>P47D</label>
       <enabled type="bool">true</enabled>
-      <item>
+
+      <item n="1">
+        <label>Load 50 cal. Ammo</label>
+        <binding>
+        <command>nasal</command>
+        <script>p47.load_ammo();</script>
+        </binding>
+      </item>
+      <item n="2">
         <label>Select Livery</label>
         <binding>
           <command>nasal</command>
           <script>aircraft.livery.dialog.toggle()</script>
         </binding>
       </item>
+      
       <!-- 
       <item>
         <label>Immatriculation</label>

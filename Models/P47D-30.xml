@@ -4,6 +4,14 @@
 
     <path>p47d-30.ac</path>
 
+<nasal>
+    <load>
+      var livery_update = aircraft.livery_update.new("Aircraft/P47/Models/Liveries", 10);
+    </load>
+    <unload>
+      livery_update.stop();
+    </unload>
+  </nasal>
 
     <animation>
         <type>shader</type>
@@ -12,6 +20,91 @@
         <object-name>Canopy</object-name>
         <object-name>glass</object-name>
     </animation>
+<!-- effects-->
+      <animation>
+    <type>material</type>
+    
+      <object-name>Antenna</object-name>
+      <object-name>blade1</object-name>
+      <object-name>blade2</object-name>
+      <object-name>blade3</object-name>
+      <object-name>blade4</object-name>
+      <object-name>Canopy.frame.001</object-name>
+      <object-name>Ctire</object-name>
+      <object-name>CurveCircle.005</object-name>
+      <object-name>Duct</object-name>
+      <object-name>elevator</object-name>
+      <object-name>Eng</object-name>
+      <object-name>Fuselage</object-name>
+      <object-name>Fuselage.004</object-name>
+      <object-name>Fuselage.005</object-name>
+      <object-name>Hstab</object-name>
+      <object-name>Laileron</object-name>
+      <object-name>Lflap_1</object-name>
+      <object-name>LGdoorI</object-name>
+      <object-name>LGdoorO</object-name>
+      <object-name>LLdamper</object-name>
+      <object-name>LRdoor</object-name>
+      <object-name>Lshock</object-name>
+      <object-name>Lstrut</object-name>
+      <object-name>Lstrut.base</object-name>
+      <object-name>Ltire</object-name>
+      <object-name>LUdamper</object-name>
+      <object-name>Plane.026</object-name>
+      <object-name>Raileron</object-name>
+      <object-name>Rflap_1</object-name>
+      <object-name>RGdoorI</object-name>
+      <object-name>RGdoorO</object-name>
+      <object-name>RLdamper</object-name>
+      <object-name>RRdoor</object-name>
+      <object-name>Rshock</object-name>
+      <object-name>Rstrut</object-name>
+      <object-name>Rstrut.base</object-name>
+      <object-name>Rtire</object-name>
+      <object-name>RUdamper</object-name>
+      <object-name>rudder</object-name>
+      <object-name>Spinner_1</object-name>
+      <object-name>stn1</object-name>
+      <object-name>Vstab</object-name>
+      <object-name>Whwells</object-name>
+      <object-name>Wings</object-name>
+   
+      <property-base>sim/model/livery</property-base>
+      <texture-prop>texture-fuselage</texture-prop>
+      <texture>paint1.png</texture>
+      <specular>
+          <red-prop>emission/red</red-prop>
+          <green-prop>emission/green</green-prop>
+          <blue-prop>emission/blue</blue-prop>
+      </specular>
+  </animation>
+
+      <animation>
+    <type>material</type>
+      <object-name>Cflap1</object-name> 
+      <object-name>Cflap2</object-name>
+      <object-name>Cflap3</object-name>
+      <object-name>Cflap4</object-name>
+      <object-name>Cflap5</object-name>
+      <object-name>Cflap6</object-name>
+      <object-name>Cflap7</object-name>
+      <object-name>Cflap8</object-name>
+      <object-name>Cflap9</object-name>
+      <object-name>Cflap10</object-name>
+      <object-name>Cflap11</object-name>
+      <object-name>Cflap12</object-name>
+      <object-name>Cowl</object-name>
+
+      <property-base>sim/model/livery</property-base>
+      <texture-prop>texture-cowl</texture-prop>
+      <texture>cowl.png</texture>
+      <specular>
+          <red-prop>emission/red</red-prop>
+          <green-prop>emission/green</green-prop>
+          <blue-prop>emission/blue</blue-prop>
+      </specular>
+  </animation>
+
 <!-- effects-->
 
   <model>

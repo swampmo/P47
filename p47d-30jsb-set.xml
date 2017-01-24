@@ -67,30 +67,8 @@
 
         <chase-distance-m type="double" archive="y">-20.0</chase-distance-m>
 
-    <menubar>
-        <default>
-            <menu n="10">
-                <label>P-47D</label>
-                <enabled type="bool">true</enabled>
-                <item>
-                    <label>Load 50 cal. Ammo</label>
-                    <binding>
-                        <command>nasal</command>
-                        <script>p47.load_ammo();</script>
-                    </binding>
-            </item>
-      <item>
-        <label>Select Livery</label>
-        <binding>
-          <command>nasal</command>
-          <script>aircraft.livery.dialog.toggle()</script>
-        </binding>
-      </item>
-            </menu>
-        </default>
-    </menubar>
+<menubar include="./Dialogs/P47D-menu.xml"/>
 
-  
  <multiplay>
       <chat_display>1</chat_display>
       <generic>
@@ -102,6 +80,8 @@
         <int type="int"       n="4"> 0 </int>
         <int type="int"       n="5"> 0 </int>
         <int type="int"       n="6"> 0 </int>
+        <int type="int"       n="17"> 0 </int>	
+        <int type="int"       n="18"> 0 </int>		
         <int type="int"       n="19"> 0 </int>		
      </generic>
     </multiplay>
@@ -271,6 +251,7 @@
     <file>Aircraft/P47/Nasal/Electrical.nas</file>
     <file>Aircraft/P47/Nasal/damage.nas</file>
     <file>Aircraft/P47/Nasal/blackout.nas</file>
+    <file>Aircraft/P47/Nasal/liveries.nas</file>
     </p47>
 	<guns>
 		<file>Aircraft/P47/Nasal/payloads.nas</file>

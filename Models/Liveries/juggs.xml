@@ -6,9 +6,9 @@
     
     <model>
       <livery>
-        <name type="string">Default</name>
-       <texture-fuselage>paint1.png</texture-fuselage>
-       <texture-cowl>cowl.png</texture-cowl>
+        <name type="string">Juggs</name>
+        <texture-fuselage>Liveries/1024x1024/juggs.png</texture-fuselage>
+	    <texture-cowl>Liveries/1024x1024/cowl.png</texture-cowl>
 
         <specular>
           <red>   0.3 </red>
@@ -16,8 +16,8 @@
           <blue>  0.3 </blue>
         </specular>
       </livery>
-    </model>	
-
+    </model>
+    
   </sim>
   
 </PropertyList>
