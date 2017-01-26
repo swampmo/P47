@@ -59,9 +59,9 @@
    <vtailarea  unit="FT2">   30.00 </vtailarea>
    <vtailarm  unit="FT" >    21.66 </vtailarm>
    <location name="AERORP" unit="M">
-     <x>    -0.75 </x>
-     <y>     0.0 </y>
-     <z>    -0.09493 </z>
+     <x>  -0.9 </x>
+     <y>     0.00 </y>
+     <z>   -.0.08432 </z>
    </location>
    <location name="EYEPOINT" unit="M">
      <x>     0.16743 </x>
@@ -81,7 +81,7 @@
    <izz unit="SLUG*FT2">  20300.38 </izz>
    <emptywt unit="LBS" >  10000.00 </emptywt>
 <location name="CG" unit="M">
-     <x>    -0.75 </x>
+     <x>    -0.825 </x>
      <y>     0.0 </y>
      <z>    -0.09493 </z>
    </location>
@@ -160,8 +160,8 @@
    <dynamic_friction> 0.70 </dynamic_friction>
    <rolling_friction> 0.05 </rolling_friction>
    <spring_coeff unit="LBS/FT">      10000.00 </spring_coeff>
-   <damping_coeff unit="LBS/FT/SEC"> 8000.00 </damping_coeff>
- <damping_coeff_rebound unit="LBS/FT/SEC"> 40000 </damping_coeff_rebound>
+   <damping_coeff unit="LBS/FT/SEC"> 7000.00 </damping_coeff>
+ <damping_coeff_rebound unit="LBS/FT/SEC"> 20000 </damping_coeff_rebound>
    <max_steer unit="DEG"> -30 </max_steer>
    <brake_group>NONE</brake_group>
    <retractable>1</retractable>
@@ -178,8 +178,8 @@
    <dynamic_friction> 0.40 </dynamic_friction>
    <rolling_friction> 0.03 </rolling_friction>
    <spring_coeff unit="LBS/FT">      10000.00 </spring_coeff>
-   <damping_coeff unit="LBS/FT/SEC"> 8000.00 </damping_coeff>
- <damping_coeff_rebound unit="LBS/FT/SEC"> 40000 </damping_coeff_rebound>
+   <damping_coeff unit="LBS/FT/SEC"> 7000.00 </damping_coeff>
+ <damping_coeff_rebound unit="LBS/FT/SEC"> 20000 </damping_coeff_rebound>
    <brake_group>LEFT</brake_group>
    <retractable>1</retractable>
  </contact>
@@ -195,8 +195,8 @@
    <dynamic_friction> 0.40 </dynamic_friction>
    <rolling_friction> 0.03 </rolling_friction>
     <spring_coeff unit="LBS/FT">      10000.00 </spring_coeff>
-   <damping_coeff unit="LBS/FT/SEC"> 8000.00 </damping_coeff>
- <damping_coeff_rebound unit="LBS/FT/SEC"> 40000 </damping_coeff_rebound>
+   <damping_coeff unit="LBS/FT/SEC"> 7000.00 </damping_coeff>
+ <damping_coeff_rebound unit="LBS/FT/SEC"> 20000 </damping_coeff_rebound>
    <brake_group>RIGHT</brake_group>
    <retractable>1</retractable>
  </contact>

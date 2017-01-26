@@ -83,7 +83,7 @@ setprop("controls/engines/engine/wastegate",tmp);
 load_ammo = func{
     if(getprop("gear/gear/wow")){
         if(getprop("controls/gear/brake-parking")){
-            setprop("controls/armament/ammo",2800);
+            setprop("controls/armament/ammo",3500);
         }
     }
 }

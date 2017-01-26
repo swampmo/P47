@@ -22,17 +22,17 @@ var invert = func (acc) {
 #
 # According to NASA (1979), this should be the blackout values for F-16:
 #
-# blackout_onset      =   5;
-# blackout_fast       =   9;
-# blackout_onset_time = 300;
+# blackout_onset      =   3.5;
+# blackout_fast       =   6.0;
+# blackout_onset_time =  300;
 # blackout_fast_time  =  10;
 #
 # That means at 9G it will take 10 seconds to blackout completely.
 # At 5G it will take 300 seconds.
 #
 
-var blackout_onset      =    5;
-var blackout_fast       =    8;
+var blackout_onset      =    3.5;
+var blackout_fast       =    6.0;
 var redout_onset        =   -2;
 var redout_fast         =   -4;
 
@@ -41,8 +41,8 @@ var blackout_fast_time  =   30;
 var redout_onset_time   =   45;
 var redout_fast_time    =  3.5;
 
-var fast_time_recover   =    7;
-var slow_time_recover   =   15;
+var fast_time_recover   =   3.5;
+var slow_time_recover   =   9;
 
 
 
