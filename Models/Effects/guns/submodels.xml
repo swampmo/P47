@@ -11,14 +11,14 @@
     <trigger>controls/armament/gun-trigger</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
-    <delay>1.0</delay>
+    <delay>0.6</delay>
     <count>1000</count>
     <x-offset> -6.662 </x-offset> 
     <y-offset> 10.454 </y-offset> 
-    <z-offset> -31.099 </z-offset> 
+    <z-offset> -1.099 </z-offset> 
     <yaw-offset>0.0</yaw-offset>
     <pitch-offset>0</pitch-offset>
-    <life>20</life>
+    <life>40</life>
     <wind>false</wind>
     <weight>0.1</weight>
     <cd>0.193</cd>
@@ -31,13 +31,13 @@
     <trigger>controls/armament/gun-trigger</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
-    <delay>0.8</delay>
+    <delay>0.6</delay>
     <count>1000</count>
     <x-offset> -6.662 </x-offset> 
     <y-offset> 10.454 </y-offset> 
-    <z-offset> -31.099 </z-offset> 
+    <z-offset> -1.099 </z-offset> 
     <pitch-offset>0</pitch-offset>
-    <life>40.0</life>
+    <life>60.0</life>
     <wind>false</wind>
     <weight>0.1069</weight>
     <cd>0.193</cd>
@@ -57,14 +57,14 @@
     <trigger>controls/armament/gun-trigger</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
-    <delay>1.0</delay>
+    <delay>0.6</delay>
     <count>1000</count>
     <x-offset> -7.010 </x-offset> 
     <y-offset>  10.031 </y-offset> 
     <z-offset> -1.134 </z-offset> 
     <yaw-offset>0.0</yaw-offset>
     <pitch-offset>0</pitch-offset>
-    <life>20</life>
+    <life>40</life>
     <wind>false</wind>
     <weight>0.1</weight>
     <cd>0.193</cd>
@@ -77,13 +77,13 @@
     <trigger>controls/armament/gun-trigger</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
-    <delay>0.8</delay>
+    <delay>0.6</delay>
     <count>1000</count>
     <x-offset> -7.010 </x-offset> 
     <y-offset>  10.031 </y-offset> 
     <z-offset> -1.134 </z-offset> 
     <pitch-offset>0</pitch-offset>
-    <life>40.0</life>
+    <life>60.0</life>
     <wind>false</wind>
     <weight>0.1069</weight>
     <cd>0.193</cd>
@@ -101,14 +101,14 @@
     <trigger>controls/armament/gun-trigger</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
-    <delay>1.0</delay>
+    <delay>0.6</delay>
     <count>1000</count>
     <x-offset> -7.418 </x-offset> 
     <y-offset> 9.507 </y-offset> 
-    <z-offset> -31.177 </z-offset> 
+    <z-offset> -1.177 </z-offset> 
     <yaw-offset>0.0</yaw-offset>
     <pitch-offset>0</pitch-offset>
-    <life>20</life>
+    <life>40</life>
     <wind>false</wind>
     <weight>0.1</weight>
     <cd>0.193</cd>
@@ -121,13 +121,13 @@
     <trigger>controls/armament/gun-trigger</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
-    <delay>0.8</delay>
+    <delay>0.6</delay>
     <count>1000</count>
     <x-offset> -7.418 </x-offset> 
     <y-offset> 9.507 </y-offset> 
-    <z-offset> -31.177 </z-offset> 
+    <z-offset> -1.177 </z-offset> 
     <pitch-offset>0</pitch-offset>
-    <life>40.0</life>
+    <life>60.0</life>
     <wind>false</wind>
     <weight>0.1069</weight>
     <cd>0.193</cd>
@@ -147,14 +147,14 @@
     <trigger>controls/armament/gun-trigger</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
-    <delay>1.0</delay>
+    <delay>0.6</delay>
     <count>1000</count>
     <x-offset> -7.791 </x-offset> 
     <y-offset>  9.025 </y-offset> 
     <z-offset> -1.218 </z-offset> 
     <yaw-offset>0.0</yaw-offset>
     <pitch-offset>0</pitch-offset>
-    <life>20</life>
+    <life>40</life>
     <wind>false</wind>
     <weight>0.1</weight>
     <cd>0.193</cd>
@@ -167,13 +167,13 @@
     <trigger>controls/armament/gun-trigger</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
-    <delay>0.8</delay>
+    <delay>0.6</delay>
     <count>1000</count>
     <x-offset> -7.791 </x-offset> 
     <y-offset>  9.025 </y-offset> 
     <z-offset> -1.218 </z-offset> 
     <pitch-offset>0</pitch-offset>
-    <life>40.0</life>
+    <life>60.0</life>
     <wind>false</wind>
     <weight>0.1069</weight>
     <cd>0.193</cd>
@@ -191,14 +191,14 @@
     <trigger>controls/armament/gun-trigger</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
-    <delay>1.0</delay>
+    <delay>0.6</delay>
     <count>1000</count>
     <x-offset> -6.662 </x-offset> 
     <y-offset> -10.454 </y-offset> 
     <z-offset> -1.099 </z-offset> 
     <yaw-offset>0.0</yaw-offset>
     <pitch-offset>0</pitch-offset>
-    <life>20</life>
+    <life>40</life>
     <wind>false</wind>
     <weight>0.1</weight>
     <cd>0.193</cd>
@@ -211,13 +211,13 @@
     <trigger>controls/armament/gun-trigger</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
-    <delay>0.8</delay>
+    <delay>0.6</delay>
     <count>1000</count>
     <x-offset> -6.662 </x-offset> 
     <y-offset> -10.454 </y-offset> 
     <z-offset> -1.099 </z-offset> 
     <pitch-offset>0</pitch-offset>
-    <life>40.0</life>
+    <life>60.0</life>
     <wind>false</wind>
     <weight>0.1069</weight>
     <cd>0.193</cd>
@@ -237,14 +237,14 @@
     <trigger>controls/armament/gun-trigger</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
-    <delay>1.0</delay>
+    <delay>0.6</delay>
     <count>1000</count>
     <x-offset> -7.010 </x-offset>  
     <y-offset> -10.031 </y-offset>  
     <z-offset> -1.134 </z-offset>  
     <yaw-offset>0.0</yaw-offset>
     <pitch-offset>0</pitch-offset>
-    <life>20</life>
+    <life>40</life>
     <wind>false</wind>
     <weight>0.1</weight>
     <cd>0.193</cd>
@@ -257,13 +257,13 @@
     <trigger>controls/armament/gun-trigger</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
-    <delay>0.8</delay>
+    <delay>0.6</delay>
     <count>1000</count>
     <x-offset> -7.010 </x-offset>  
     <y-offset> -10.031 </y-offset>  
     <z-offset> -1.134 </z-offset>  
     <pitch-offset>0</pitch-offset>
-    <life>40.0</life>
+    <life>60.0</life>
     <wind>false</wind>
     <weight>0.1069</weight>
     <cd>0.193</cd>
@@ -281,14 +281,14 @@
     <trigger>controls/armament/gun-trigger</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
-    <delay>1.0</delay>
+    <delay>0.6</delay>
     <count>1000</count>
     <x-offset> -7.418 </x-offset>  
     <y-offset> -9.507 </y-offset>  
     <z-offset> -1.177 </z-offset> 
     <yaw-offset>0.0</yaw-offset>
     <pitch-offset>0</pitch-offset>
-    <life>20</life>
+    <life>40</life>
     <wind>false</wind>
     <weight>0.1</weight>
     <cd>0.193</cd>
@@ -301,13 +301,13 @@
     <trigger>controls/armament/gun-trigger</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
-    <delay>0.8</delay>
+    <delay>0.6</delay>
     <count>1000</count>
     <x-offset> -7.418 </x-offset>  
     <y-offset> -9.507 </y-offset>  
     <z-offset> -1.177 </z-offset> 
     <pitch-offset>-10</pitch-offset>
-    <life>40.0</life>
+    <life>60.0</life>
     <wind>false</wind>
     <weight>0.1069</weight>
     <cd>0.193</cd>
@@ -327,14 +327,14 @@
     <trigger>controls/armament/gun-trigger</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
-    <delay>1.0</delay>
+    <delay>0.6</delay>
     <count>1000</count>
     <x-offset> -7.791 </x-offset>  
     <y-offset> -9.025 </y-offset>  
     <z-offset> -1.218 </z-offset>  
     <yaw-offset>0.0</yaw-offset>
     <pitch-offset>0</pitch-offset>
-    <life>20</life>
+    <life>40</life>
     <wind>false</wind>
     <weight>0.1</weight>
     <cd>0.193</cd>
@@ -347,13 +347,13 @@
     <trigger>controls/armament/gun-trigger</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
-    <delay>0.8</delay>
+    <delay>0.6</delay>
     <count>1000</count>
     <x-offset> -7.791 </x-offset>  
     <y-offset> -9.025 </y-offset>  
     <z-offset> -1.218 </z-offset>  
     <pitch-offset>0</pitch-offset>
-    <life>40.0</life>
+    <life>60.0</life>
     <wind>false</wind>
     <weight>0.1069</weight>
     <cd>0.193</cd>
