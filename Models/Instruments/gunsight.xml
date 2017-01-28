@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+ <path>mk8gunsight.ac</path>
+
+ <animation>
+  <type>material</type>
+  <object-name>crosshair</object-name>
+  <object-name>lamp</object-name>
+  <emission>
+      <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
+      <red>   0.9 </red>
+      <green> 0.5 </green>
+      <blue>  0.4 </blue>
+  </emission>
+ </animation>
+
+ <animation>
+  <type>select</type>
+  <object-name>crosshair</object-name>
+  <condition>
+   <equals>
+    <property>controls/electric/battery-switch</property>
+    <value>true</value>
+   </equals>
+  </condition>
+ </animation>
+
+<animation>
+  <type>texmultiple</type>
+  <object-name>crosshair</object-name>
+  <transform>
+    <property>sim/current-view/y-offset-m</property>
+    <subtype>textranslate</subtype>
+    <factor>1</factor>
+    <axis>
+     <x>0</x>
+     <y>1</y>
+     <z>0</z>
+   </axis>
+  </transform>
+  <transform>
+    <property>sim/current-view/x-offset-m</property>
+    <subtype>textranslate</subtype>
+    <center>
+     <x>0.50</x>
+     <y>0.50</y>
+   </center>
+    <axis>
+     <x>1</x>
+     <y>0</y>
+     <z>0</z>
+   </axis>
+  </transform>
+ </animation>
+
+
+
+
+<!--
+ <animation>
+	 <type>textranslate</type>
+	 <object-name>crosshair</object-name>
+	 <property>sim/current-view/y-offset-m</property>
+	 <factor>1.0</factor>
+
+	 <axis>
+		 <x>0</x>
+		 <y>1</y>
+		 <z>0</z>
+	 </axis>
+ </animation>
+
+ <animation>
+	 <type>textranslate</type>
+	 <object-name>crosshair</object-name>
+	 <property>sim/current-view/x-offset-m</property>
+	 <factor>1.0</factor>
+
+	 <axis>
+		 <x>1</x>
+		 <y>0</y>
+		 <z>0</z>
+	 </axis>
+ </animation>
+-->
+</PropertyList>

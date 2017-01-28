@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>MagneticCompass.ac</path>
+
+  <animation>
+    <object-name>Case</object-name>
+    <object-name>Ball</object-name>
+    <object-name>Marker</object-name>
+    
+    <object-name>vitre</object-name>
+  </animation>
+
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Aircraft/P47/Models/Effects/Glass/glass</inherits-from>
+    <object-name>vitre</object-name>
+  </effect>
+  
+  <animation>
+    <type>material</type>
+    <object-name>Ball</object-name>
+    <emission>
+       <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
+      <red>   0.8 </red>
+      <green> 0.5 </green>
+      <blue>  0.3 </blue>
+      <red>   0.50 </red>
+      <green> 0.25 </green>
+      <blue>  0.25 </blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>Ball</object-name>
+    <property>instrumentation/magnetic-compass/indicated-heading-deg</property>
+    <center>
+      <x-m> -0.022 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.000 </z-m>
+    </center> 
+    <axis>
+     <x> 0 </x>
+     <y> 0 </y>
+     <z> 1 </z>
+    </axis>
+  </animation>
+
+</PropertyList>

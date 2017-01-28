@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>OilPress.ac</path>
+
+ <animation>
+  <type>material</type>
+  <object-name>PointerTip</object-name>
+  <emission>
+   <red>1.0</red>
+   <green>0.3</green>
+   <blue>0.3</blue>
+   <factor-prop>/controls/lighting/instruments-norm</factor-prop>
+  </emission>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>PointerTip</object-name>
+  <property>/engines/engine/oil-pressure-psi</property>
+  <interpolation>
+   <entry><ind>0</ind><dep>0</dep></entry>
+   <entry><ind>10</ind><dep>0</dep></entry>
+   <entry><ind>40</ind><dep>-56</dep></entry>
+   <entry><ind>80</ind><dep>-113</dep></entry>
+   <entry><ind>200</ind><dep>-280</dep></entry>
+  </interpolation>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+  </center>
+ </animation>
+
+</PropertyList>

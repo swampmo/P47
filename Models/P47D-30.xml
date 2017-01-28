@@ -158,11 +158,11 @@
     </model>
 
     <model>
-        <path>Aircraft/P47/Models/Instruments/compass.xml</path>
+        <path>Aircraft/P47/Models/Instruments/MagneticCompass.xml</path>
         <offsets>
-            <x-m>-0.735</x-m>
-            <y-m>-0.15</y-m>
-            <z-m>0.610</z-m>
+            <x-m>-0.715</x-m>
+            <y-m>-0.0</y-m>
+            <z-m>0.443</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
@@ -170,13 +170,22 @@
 	<model>
         <path>Aircraft/P47/Models/Instruments/alt.xml</path>
         <offsets>
-            <x-m>-0.735</x-m>
+            <x-m>-0.715</x-m>
             <y-m>-0.15</y-m>
             <z-m>0.5</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
 
+	<model>
+        <path>Aircraft/P47/Models/Instruments/gunsight.xml</path>
+        <offsets>
+            <x-m>-0.735</x-m>
+            <y-m>0.0</y-m>
+            <z-m>0.835</z-m>
+            <pitch-deg>0.0</pitch-deg>
+        </offsets>
+    </model>
 
 
 	<model>
@@ -225,6 +234,16 @@
             <x-m>-0.735</x-m>
             <y-m>0.325</y-m>
             <z-m>0.420</z-m>
+            <pitch-deg>0.0</pitch-deg>
+        </offsets>
+    </model>
+
+    <model>
+        <path>Aircraft/P47/Models/Instruments/OilTemp.xml</path>
+        <offsets>
+            <x-m>-0.705</x-m>
+            <y-m>0.320</y-m>
+            <z-m>0.525</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
