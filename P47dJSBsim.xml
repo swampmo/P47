@@ -59,7 +59,7 @@
    <vtailarea  unit="FT2">   30.00 </vtailarea>
    <vtailarm  unit="FT" >    21.66 </vtailarm>
    <location name="AERORP" unit="M">
-     <x>    -0.851 </x>
+     <x>    -0.8 </x>
      <y>     0.00 </y>
      <z>  -0.09493 </z>
    </location>
@@ -77,8 +77,8 @@
 
  <mass_balance>
    <ixx unit="SLUG*FT2">   9468.00 </ixx>
-   <iyy unit="SLUG*FT2">  13113.04 </iyy>
-   <izz unit="SLUG*FT2">  20300.38 </izz>
+   <iyy unit="SLUG*FT2">  17113.04 </iyy>
+   <izz unit="SLUG*FT2">  23300.38 </izz>
    <emptywt unit="LBS" >  10000.00 </emptywt>
 <location name="CG" unit="M">
      <x>    -0.85 </x>
@@ -698,8 +698,8 @@
              <independentVar lookup="column">aero/Re</independentVar>
              <tableData>
                           7829911  8612902
-                 -0.25  -1.0000   0.0000
-                  0.25   1.0000   0.0000
+                 -0.25  -0.5  0.0000
+                  0.25   0.5   0.0000
              </tableData>
            </table>
        </product>
