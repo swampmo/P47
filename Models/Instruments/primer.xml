@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+    <path>primer.ac</path>
+
+    <animation>
+        <type>rotate</type>
+        <object-name>primer.switch</object-name>
+        <property>controls/engines/engine/primer</property>
+        <factor>-60</factor>
+        <center>
+            <x-m>0.002</x-m>
+            <y-m>0</y-m>
+            <z-m>0</z-m>
+        </center>
+        <axis>
+            <x>0</x>
+            <y>1.0</y>
+            <z>0</z>
+        </axis>
+    </animation>
+
+   <animation>
+        <type>pick</type>
+        <object-name>Pmr.base</object-name>
+        <action>
+            <button>0</button>
+            <binding>
+                <command>property-toggle</command>
+                <property>controls/engines/engine/primer</property>
+            </binding>
+        </action>
+    </animation>
+
+
+</PropertyList>
+

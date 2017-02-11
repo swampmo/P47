@@ -309,10 +309,21 @@
     </model>
 
     <model>
+        <path>Aircraft/P47/Models/Instruments/primer.xml</path>
+        <offsets>
+            <x-m>-0.735</x-m>
+            <y-m>0.210</y-m>
+            <z-m>0.400</z-m>
+            <pitch-deg>0.0</pitch-deg>
+        </offsets>
+    </model>
+
+
+    <model>
         <path>Aircraft/P47/Models/Instruments/starter.xml</path>
         <offsets>
             <x-m>-0.735</x-m>
-            <y-m>0.240</y-m>
+            <y-m>0.248</y-m>
             <z-m>0.400</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>

@@ -252,6 +252,7 @@
     <file>Aircraft/P47/Nasal/damage.nas</file>
     <file>Aircraft/P47/Nasal/blackout.nas</file>
     <file>Aircraft/P47/Nasal/liveries.nas</file>
+
     </p47>
 	<guns>
 		<file>Aircraft/P47/Nasal/payloads.nas</file>
