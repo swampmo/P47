@@ -53,7 +53,7 @@
    <wingarea  unit="FT2">   300.00 </wingarea>
    <wingspan  unit="FT" >    40.90 </wingspan>
    <wing_incidence>           1.00 </wing_incidence>
-   <chord     unit="FT" >     7.28 </chord>
+   <chord     unit="FT" >    9.166 </chord>
    <htailarea unit="FT2">    51.00 </htailarea>
    <htailarm  unit="FT" >    21.66 </htailarm>
    <vtailarea  unit="FT2">   30.00 </vtailarea>
@@ -158,7 +158,7 @@
  </location>
    <static_friction>  0.90 </static_friction>
    <dynamic_friction> 0.50 </dynamic_friction>
-   <rolling_friction> 0.05 </rolling_friction>
+   <rolling_friction> 0.02 </rolling_friction>
    <spring_coeff unit="LBS/FT">      10000.00 </spring_coeff>
    <damping_coeff unit="LBS/FT/SEC"> 7000.00 </damping_coeff>
  <damping_coeff_rebound unit="LBS/FT/SEC"> 10000 </damping_coeff_rebound>
@@ -382,7 +382,7 @@
              -0.26    0.026
               0.00    0.021
               0.26    0.026
-              1.57    1.500
+              1.57    0.500
             </tableData>
           </table>
        </product>
@@ -394,7 +394,7 @@
            <property>aero/qbar-psf</property>
            <property>metrics/Sw-sqft</property>
            <property>aero/cl-squared</property>
-           <value> 0.05 </value>
+           <value> 0.03 </value>
          </product>
     </function>
 
@@ -408,7 +408,7 @@
             <tableData>
                 0.00      0.000
                 0.69      0.000
-                1.10      0.023
+                1.10      0.010
                 1.80      0.015
             </tableData>
           </table>
@@ -449,7 +449,7 @@
            <property>aero/qbar-psf</property>
            <property>metrics/Sw-sqft</property>
            <property>gear/gear-pos-norm</property>
-           <value> 0.0300 </value>
+           <value> 0.0200 </value>
          </product>
     </function>
 
