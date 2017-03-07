@@ -57,7 +57,7 @@
     <trigger>controls/armament/gun-trigger</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
-    <delay>0.6</delay>
+    <delay>0.62</delay>
     <count>1000</count>
     <x-offset> -7.010 </x-offset> 
     <y-offset>  10.031 </y-offset> 
@@ -101,7 +101,7 @@
     <trigger>controls/armament/gun-trigger</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
-    <delay>0.6</delay>
+    <delay>0.64</delay>
     <count>1000</count>
     <x-offset> -7.418 </x-offset> 
     <y-offset> 9.507 </y-offset> 
@@ -147,7 +147,7 @@
     <trigger>controls/armament/gun-trigger</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
-    <delay>0.6</delay>
+    <delay>0.66</delay>
     <count>1000</count>
     <x-offset> -7.791 </x-offset> 
     <y-offset>  9.025 </y-offset> 
@@ -237,7 +237,7 @@
     <trigger>controls/armament/gun-trigger</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
-    <delay>0.6</delay>
+    <delay>0.62</delay>
     <count>1000</count>
     <x-offset> -7.010 </x-offset>  
     <y-offset> -10.031 </y-offset>  
@@ -281,7 +281,7 @@
     <trigger>controls/armament/gun-trigger</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
-    <delay>0.6</delay>
+    <delay>0.64</delay>
     <count>1000</count>
     <x-offset> -7.418 </x-offset>  
     <y-offset> -9.507 </y-offset>  
@@ -327,7 +327,7 @@
     <trigger>controls/armament/gun-trigger</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
-    <delay>0.6</delay>
+    <delay>0.66</delay>
     <count>1000</count>
     <x-offset> -7.791 </x-offset>  
     <y-offset> -9.025 </y-offset>  

@@ -108,13 +108,53 @@
 <!-- effects-->
 
   <model>
+    <path>Aircraft/P47/Models/Effects/fire/smoke.xml</path>
+        <name>rightenginesmoke</name>
+    <offsets>
+      <x-m>  -2.82782 </x-m>
+      <y-m>  0.9185 </y-m>
+      <z-m> -0.22003 </z-m>
+    </offsets>
+  </model> 
+
+  <model>
+    <path>Aircraft/P47/Models/Effects/fire/smoke.xml</path>
+        <name>leftenginesmoke</name>
+    <offsets>
+      <x-m>  -2.82782 </x-m>
+      <y-m>  -0.69233 </y-m>
+      <z-m> -0.21613 </z-m>
+    </offsets>
+  </model> 
+
+  <model>
+    <path>Aircraft/P47/Models/Effects/fire/fire.xml</path>
+        <name>rightenginefire</name>
+    <offsets>
+      <x-m>  -2.82782 </x-m>
+      <y-m>  0.9185 </y-m>
+      <z-m> -0.22003 </z-m>
+    </offsets>
+  </model> 
+
+  <model>
+    <path>Aircraft/P47/Models/Effects/fire/fire.xml</path>
+        <name>leftenginefire</name>
+    <offsets>
+      <x-m>  -2.82782 </x-m>
+      <y-m>  -0.69233 </y-m>
+      <z-m> -0.21613 </z-m>
+    </offsets>
+  </model> 
+
+  <model>
     <path>Aircraft/P47/Models/Effects/smoke/smoke2.xml</path>
     <offsets>
       <x-m>  -2.42878 </x-m>
       <y-m>  -0.55380 </y-m>
       <z-m> -0.79711 </z-m>
     </offsets>
-  </model>
+  </model> 
 
   <model>
     <path>Aircraft/P47/Models/Pilot/pilot.xml</path>
@@ -126,6 +166,86 @@
   </model> 
 
    <model>
+        <path>Aircraft/P47/Models/Effects/gunflame.xml</path>
+        <name>gunflame1</name>
+        <offsets>
+            <x-m>-2.374</x-m>
+            <y-m>-2.741 </y-m>
+            <z-m>-0.368</z-m>
+        </offsets>
+    </model>
+
+    <model>
+        <path>Aircraft/P47/Models/Effects/gunflame.xml</path>
+        <name>gunflame2</name>
+        <offsets>
+            <x-m>-2.261</x-m>
+            <y-m>-2.888 </y-m>
+            <z-m>-0.355</z-m>
+        </offsets>
+    </model>
+
+    <model>
+        <path>Aircraft/P47/Models/Effects/gunflame.xml</path>
+        <name>gunflame3</name>
+        <offsets>
+            <x-m>-2.136</x-m>
+            <y-m>-3.047</y-m>
+            <z-m>-0.341</z-m>
+        </offsets>
+    </model>
+
+    <model>
+        <path>Aircraft/P47/Models/Effects/gunflame.xml</path>
+        <name>gunflame4</name>
+        <offsets>
+            <x-m>-2.030</x-m>
+            <y-m>-3.176</y-m>
+            <z-m>-0.331</z-m>
+        </offsets>
+    </model>
+
+    <model>
+        <path>Aircraft/P47/Models/Effects/gunflame.xml</path>
+        <name>gunflame5</name>
+        <offsets>
+            <x-m>-2.374</x-m>
+            <y-m>2.736</y-m>
+            <z-m>-0.358</z-m>
+        </offsets>
+    </model>
+
+    <model>
+        <path>Aircraft/P47/Models/Effects/gunflame.xml</path>
+        <name>gunflame6</name>
+        <offsets>
+            <x-m>-2.261</x-m>
+            <y-m>2.883</y-m>
+            <z-m>-0.346</z-m>
+        </offsets>
+    </model>
+
+    <model>
+        <path>Aircraft/P47/Models/Effects/gunflame.xml</path>
+        <name>gunflame7</name>
+        <offsets>
+            <x-m>-2.136</x-m>
+            <y-m>3.066</y-m>
+            <z-m>-0.340</z-m>
+        </offsets>
+    </model>
+
+    <model>
+        <path>Aircraft/P47/Models/Effects/gunflame.xml</path>
+        <name>gunflame8</name>
+        <offsets>
+            <x-m>-2.030</x-m>
+            <y-m>3.186</y-m>
+            <z-m>-0.335</z-m>
+        </offsets>
+    </model>
+
+  <model>
         <path>Aircraft/P47/Models/Effects/gunsmoke.xml</path>
         <name>gunsmoke1</name>
         <offsets>
@@ -133,9 +253,9 @@
             <y-m>-2.9 </y-m>
             <z-m>-0.338</z-m>
         </offsets>
-    </model>
+    </model> 
 
-    <model>
+   <model>
         <path>Aircraft/P47/Models/Effects/gunsmoke.xml</path>
         <name>gunsmoke2</name>
         <offsets>
@@ -143,7 +263,7 @@
             <y-m>2.9 </y-m>
             <z-m>-0.338</z-m>
         </offsets>
-    </model>
+    </model> 
 
 <!-- Instruments-->
 
