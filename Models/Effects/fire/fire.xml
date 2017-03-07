@@ -6,7 +6,7 @@
 		<texture>fire.png</texture>
  <condition>
  <equals>
-  <property>sim/failure-manager/engines/engine/serviceable</property>
+  <property>sim/multiplay/generic/int[0]</property>
   <value>0</value>
  </equals>
 </condition>

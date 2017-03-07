@@ -125,7 +125,8 @@
         <int type="int"       n="17"> 0 </int>	
         <int type="int"       n="18"> 0 </int>		
         <int type="int"       n="19"> 0 </int>		
-        <property>sim/failure-manager/engines/engine/serviceable</property>
+        <int n="0" alias="/sim/failure-manager/engines/engine/serviceable"/>
+
      </generic>
     </multiplay>
 

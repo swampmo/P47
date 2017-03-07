@@ -6,7 +6,7 @@
 		<texture>smoke.png</texture>
  <condition>
  <equals>
-  <property>sim/failure-manager/engines/engine/serviceable</property>
+  <property>sim/multiplay/generic/int[0]</property>
   <value>0</value>
  </equals>
 </condition>
@@ -19,13 +19,13 @@
       <type>point</type>
     </placer>
     <shooter>
-      <theta-min-deg>65</theta-min-deg>
+      <theta-min-deg>35</theta-min-deg>
       <theta-max-deg>35</theta-max-deg>
       <phi-min-deg>-15</phi-min-deg>
       <phi-max-deg> 15</phi-max-deg>
       <speed-mps>
         <value>300</value>
-        <spread>10</spread>
+        <spread>5</spread>
       </speed-mps>
       <rotation-speed>
         <x-min-deg-sec>0</x-min-deg-sec>

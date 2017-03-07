@@ -211,7 +211,7 @@
    <dynamic_friction> 1 </dynamic_friction>
    <spring_coeff unit="LBS/FT">      10000.00 </spring_coeff>
    <damping_coeff unit="LBS/FT/SEC"> 8000.00 </damping_coeff>
- <damping_coeff_rebound unit="LBS/FT/SEC"> 40000 </damping_coeff_rebound>
+ <damping_coeff_rebound unit="LBS/FT/SEC"> 4000 </damping_coeff_rebound>
   </contact>
 
   <contact type="STRUCTURE" name="RIGHT_WING">
@@ -224,7 +224,7 @@
    <dynamic_friction> 1 </dynamic_friction>
    <spring_coeff unit="LBS/FT">      10000.00 </spring_coeff>
    <damping_coeff unit="LBS/FT/SEC"> 8000.00 </damping_coeff>
- <damping_coeff_rebound unit="LBS/FT/SEC"> 40000 </damping_coeff_rebound>
+ <damping_coeff_rebound unit="LBS/FT/SEC"> 4000 </damping_coeff_rebound>
   </contact> 
 
   <contact type="STRUCTURE" name="NOSE">
@@ -237,7 +237,7 @@
     <dynamic_friction> 0.50 </dynamic_friction>
    <spring_coeff unit="LBS/FT">      8000.00 </spring_coeff>
    <damping_coeff unit="LBS/FT/SEC"> 8000.00 </damping_coeff>
- <damping_coeff_rebound unit="LBS/FT/SEC"> 40000 </damping_coeff_rebound>
+ <damping_coeff_rebound unit="LBS/FT/SEC"> 4000 </damping_coeff_rebound>
  </contact>
 
   <contact type="STRUCTURE" name="TAIL">
@@ -250,7 +250,7 @@
     <dynamic_friction> 0.50 </dynamic_friction>
    <spring_coeff unit="LBS/FT">      8000.00 </spring_coeff>
    <damping_coeff unit="LBS/FT/SEC"> 8000.00 </damping_coeff>
- <damping_coeff_rebound unit="LBS/FT/SEC"> 40000 </damping_coeff_rebound>
+ <damping_coeff_rebound unit="LBS/FT/SEC"> 4000 </damping_coeff_rebound>
  </contact>
 
  </ground_reactions>
