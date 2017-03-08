@@ -129,6 +129,7 @@
         <file>Aircraft/P47/Nasal/P47.nas</file>
         <file>Aircraft/P47/Nasal/Electrical.nas</file>
         <file>Aircraft/P47/Nasal/liveries.nas</file>
+       <file>Aircraft/P47/Nasal/crash.nas</file>
     </p47>
 </nasal>
 

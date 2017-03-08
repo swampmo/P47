@@ -19,21 +19,21 @@
       <type>point</type>
     </placer>
     <shooter>
-      <theta-min-deg>35</theta-min-deg>
-      <theta-max-deg>35</theta-max-deg>
-      <phi-min-deg>-15</phi-min-deg>
-      <phi-max-deg> 15</phi-max-deg>
+      <theta-min-deg>65</theta-min-deg>
+      <theta-max-deg>100</theta-max-deg>
+      <phi-min-deg>0</phi-min-deg>
+      <phi-max-deg>0</phi-max-deg>
       <speed-mps>
         <value>300</value>
-        <spread>5</spread>
+        <spread>3</spread>
       </speed-mps>
       <rotation-speed>
-        <x-min-deg-sec>0</x-min-deg-sec>
+        <x-min-deg-sec>50</x-min-deg-sec>
         <y-min-deg-sec>0</y-min-deg-sec>
-        <z-min-deg-sec>-180</z-min-deg-sec>
-        <x-max-deg-sec>0</x-max-deg-sec>
+        <z-min-deg-sec>0</z-min-deg-sec>
+        <x-max-deg-sec>180</x-max-deg-sec>
         <y-max-deg-sec>0</y-max-deg-sec>
-        <z-max-deg-sec>180</z-max-deg-sec>
+        <z-max-deg-sec>0</z-max-deg-sec>
       </rotation-speed>
     </shooter>
     <counter>
