@@ -451,8 +451,8 @@
                      0.0     60.0
               -0.18  0.000   0.000
                0.00  0.004   0.044
-               0.30  0.041   0.144
-               0.61  0.000   0.000
+               0.30  0.031   0.060
+               0.61  0.040   0.050
             </tableData>
           </table>
       </product>
@@ -520,7 +520,7 @@
            <property>aero/qbar-psf</property>
            <property>metrics/Sw-sqft</property>
            <property>fcs/elevator-pos-rad</property>
-           <value> 0.3503 </value>
+           <value> 0.1803 </value>
        </product>
     </function>
 
@@ -550,7 +550,7 @@
              -1.57    1.500
              -0.26    0.026
               0.00    0.021
-              0.26    0.026
+              0.26    0.036
               1.57    0.500
             </tableData>
           </table>
