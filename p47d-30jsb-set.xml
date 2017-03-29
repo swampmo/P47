@@ -204,9 +204,14 @@
 
  <fdm>
   <jsbsim>
-   <simulation>
+    <structural>
+      <wings>
+        <serviceable type="bool">true</serviceable>
+      </wings>
+    </structural>   
+    <simulation>
      <sim-time-sec>0</sim-time-sec>
-   </simulation>
+    </simulation>
    <systems>
       <armament>
       <station1>
@@ -296,6 +301,8 @@
     <file>Aircraft/P47/Nasal/damage.nas</file>
     <file>Aircraft/P47/Nasal/blackout.nas</file>
     <file>Aircraft/P47/Nasal/liveries.nas</file>
+    <file>Aircraft/P47/Nasal/crash-and-stress.nas</file>
+
 
     </p47>
 	<guns>

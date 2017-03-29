@@ -427,7 +427,7 @@
 <system file="Conventional Controls.xml"/> 
 <system file="Landing Gear.xml"/> 
  <system file="Flaps.xml"/>
- <system file="crash-detect"/>
+<!-- <system file="crash-detect"/> -->
  <system file="automixture"/>
 
  <flight_control name="FCS: P47dJSBsim">
@@ -461,6 +461,7 @@
     <function name="aero/force/Lift_alpha">
       <description>Lift due to alpha</description>
       <product>
+          <property>structural/wings/serviceable</property> 
           <property>aero/qbar-psf</property>
           <property>metrics/Sw-sqft</property>
           <table>
