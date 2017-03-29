@@ -16,14 +16,14 @@ var invert = func (acc) {
 	return g_inv;
 }
 
-
+#Customized for WWII era g-suits
 #
 # Customize the values according to the quality of the G-suit the pilot is wearing. The times are in seconds.
 #
 # According to NASA (1979), this should be the blackout values for F-16:
 #
-# blackout_onset      =   3.5;
-# blackout_fast       =   6.0;
+# blackout_onset      =   5;
+# blackout_fast       =   9;
 # blackout_onset_time =  300;
 # blackout_fast_time  =  10;
 #
@@ -37,7 +37,7 @@ var redout_onset        =   -2;
 var redout_fast         =   -4;
 
 var blackout_onset_time =  300;
-var blackout_fast_time  =   30;
+var blackout_fast_time  =   10;
 var redout_onset_time   =   45;
 var redout_fast_time    =  3.5;
 

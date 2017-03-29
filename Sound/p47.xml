@@ -63,9 +63,9 @@
     </crank>
 
     <engine>
-        <name>idle</name>
+        <name>idleinside</name>
         <mode>looped</mode>
-        <path>Aircraft/P47/Sound/idle.wav</path>
+        <path>Aircraft/P47/Sound/idleinside.wav</path>
         <condition>
             <greater-than>
                 <property>engines/engine/rpm</property>
@@ -90,11 +90,73 @@
     </engine>
 
     <engine>
+        <name>idle</name>
+        <mode>looped</mode>
+        <path>Aircraft/P47/Sound/idle.wav</path>
+        <condition>
+            <greater-than>
+                <property>engines/engine/rpm</property>
+                <value>10</value>
+            </greater-than>
+        <not-equals>
+            <property>sim/current-view/internal</property>
+                <value>1</value>
+        </not-equals>
+        </condition>
+        <volume>
+            <property>sim/sound/idle</property>
+        </volume>
+        <pitch>
+            <property>engines/engine/rpm</property>
+            <offset>0</offset>
+            <factor>0.000666</factor>
+        </pitch>
+        <position>
+            <x>3.5</x>
+            <y>0</y>
+            <z>0</z>
+        </position>
+        <reference-dist>20.0</reference-dist>
+        <max-dist>200.0</max-dist>
+    </engine>
+
+    <engine>
+        <name>engine1_runninginside</name>
+        <mode>looped</mode>
+        <path>Aircraft/P47/Sound/doublewaspinside.wav</path>
+        <condition>
+            <property>engines/engine[0]/running</property>
+        </condition>
+        <volume>
+            <property>engines/engine[0]/mp-inhg</property>
+            <factor>0.026</factor>
+            <offset>0.2</offset>
+        </volume>
+        <pitch>
+            <property>engines/engine[0]/mp-inhg</property>
+            <offset>0.2</offset>
+            <factor>0.033</factor>
+            <min>0.10</min>
+            <max>1.2</max>
+        </pitch>
+        <position>
+            <x>-3.10</x>
+            <y>8.35</y>
+            <z>-0.3</z>
+        </position>
+    </engine>
+
+
+    <engine>
         <name>engine1_running</name>
         <mode>looped</mode>
         <path>Aircraft/P47/Sound/doublewasp.wav</path>
         <condition>
             <property>engines/engine[0]/running</property>
+        <not-equals>
+            <property>sim/current-view/internal</property>
+                <value>1</value>
+            </not-equals>
         </condition>
         <volume>
             <property>engines/engine[0]/mp-inhg</property>
@@ -316,7 +378,7 @@
 
         <aircraft-explode>
             <name>aircraft-explode</name>
-            <path>Aircraft/P47/Sounds/aircraft-explode.wav</path>
+            <path>Aircraft/P47/Sound/aircraft-explode.wav</path>
             <mode>once</mode>
             <condition>
                 <equals>
@@ -337,7 +399,7 @@
 
         <aircraft-detach>
             <name>aircraft-detach</name>
-            <path>Aircraft/P47/Sounds/aircraft-wings-detach.wav</path>
+            <path>Aircraft/P47/Sound/aircraft-wings-detach.wav</path>
             <mode>once</mode>
             <condition>
                 <equals>
@@ -357,7 +419,7 @@
 
         <aircraft-crash>
             <name>aircraft-impact</name>
-            <path>Aircraft/P47/Sounds/aircraft-crash.wav</path>
+            <path>Aircraft/P47/Sound/aircraft-crash.wav</path>
             <mode>once</mode>
             <condition>
                 <equals>
@@ -377,7 +439,7 @@
 
         <aircraft-water-crash>
             <name>aircraft-water-crash</name>
-            <path>Aircraft/P47/Sounds/aircraft-water-crash.wav</path>
+            <path>Aircraft/P47/Sound/aircraft-water-crash.wav</path>
             <mode>once</mode>
             <condition>
                 <equals>
@@ -397,7 +459,7 @@
 
         <aircraft-crack>
             <name>aircraft-crack</name>
-            <path>Aircraft/P47/Sounds/aircraft-crack.wav</path>
+            <path>Aircraft/P47/Sound/aircraft-crack.wav</path>
             <mode>once</mode>
             <condition>
                 <property>sim/current-view/internal</property>
@@ -419,7 +481,7 @@
 
         <aircraft-creaking>
             <name>aircraft-creaking</name>
-            <path>Aircraft/P47/Sounds/aircraft-creaking.wav</path>
+            <path>Aircraft/P47/Sound/aircraft-creaking.wav</path>
             <mode>looped</mode>
             <condition>
                 <property>sim/current-view/internal</property>

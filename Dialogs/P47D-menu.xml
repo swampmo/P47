@@ -7,6 +7,14 @@
       <label>P47D</label>
       <enabled type="bool">true</enabled>
 
+        <item>
+           <label>Repair</label>
+             <binding>
+               <command>nasal</command>
+                  <script>p47.repair();</script>
+             </binding>
+        </item>
+
       <item n="1">
         <label>Load 50 cal. Ammo</label>
         <binding>
