@@ -1,7 +1,7 @@
 Attributes:
 
 This model and many systems were already made by Syd Adams, I have converted the FDM to JSBsim, added gauges and made it combat capable without bombable using OPRF code.
-Much thanks to Pinto and to Nikolai Verner Christensen for help with making this a working combat model and also helping with FDM and UV mapping. Thanks to 5H1N0B1 for help to make a working livery system. This has been my first major project although it may seem small to some developers but it is a contiuing process. Thanks to Enrico Castaldi for making liveries. 
+Much thanks to Pinto and to Nikolai Verner Christensen for help with making this a working combat model and also helping with FDM and UV mapping. Thanks to 5H1N0B1 for help to make a working livery system. This has been my first major project although it may seem small to some developers but it is a contiuing process. Thanks to Enrico Castaldi for making liveries. Swamp with help from Nikolai Verner Christensen and Richard Harrison (JSBsim FDM)  
 
 To do:
 FDM
