@@ -59,7 +59,7 @@
    <vtailarea  unit="FT2">   30.00 </vtailarea>
    <vtailarm  unit="FT" >    21.66 </vtailarm>
    <location name="AERORP" unit="M">
-     <x>    -0.8 </x>
+     <x>    -1.275 </x>
      <y>     0.00 </y>
      <z>  -0.09493 </z>
    </location>
@@ -81,7 +81,7 @@
    <izz unit="SLUG*FT2">  23300.38 </izz>
    <emptywt unit="LBS" >  10000.00 </emptywt>
 <location name="CG" unit="M">
-     <x>    -0.85 </x>
+     <x>    -1.385 </x>
      <y>     0.0 </y>
      <z>    -0.09493 </z>
    </location>
@@ -147,6 +147,8 @@
   </tank>
 
  </propulsion>
+
+ <system file="jsb-misc"/>
 
  <ground_reactions>
 
@@ -381,7 +383,7 @@
       <spring_coeff unit="LBS/FT"> 1000 </spring_coeff>
       <damping_coeff unit="LBS/FT/SEC"> 2000 </damping_coeff>
       <damping_coeff_rebound unit="LBS/FT/SEC"> 400 </damping_coeff_rebound>
- </contact>
+ </contact>https://cdn.shopify.com/s/files/1/0972/7116/products/3-musketeers-bar.png?v=1459346190
 
   <contact type="STRUCTURE" name="INTAKE">
     <location unit="M">
@@ -458,40 +460,27 @@
       </product>
     </function> 
 
-    <function name="aero/force/Lift_alpha">
+<function name="aero/force/Lift_alpha">
       <description>Lift due to alpha</description>
       <product>
           <property>structural/wings/serviceable</property> 
           <property>aero/qbar-psf</property>
           <property>metrics/Sw-sqft</property>
+          <property>aero/lift-factor</property>
           <table>
-            <independentVar lookup="row">aero/alpha-rad</independentVar>
+            <independentVar lookup="row">aero/alpha-deg</independentVar>
             <tableData>
-              -0.314    -0.2
-              -0.279    -0.3
-              -0.244    -0.3
-              -0.209    -0.4
-              -0.175    -0.38
-              -0.140    -0.37
-              -0.105    -0.35
-              -0.070    -0.3
-              -0.035    -0.1
-               0.000     0.2
-               0.035     0.4
-               0.070     0.6
-               0.105     0.8
-               0.140     1.5
-               0.175     1.7
-               0.209     1.8
-               0.244     1.75
-               0.279     1.8
-               0.314     1.85
-               0.349     1.8
-               0.436     0.8
+              -11.46 -0.5650
+               0.00  0.4046
+               16.04  1.4230
+                22.91  1.2000
+               34.38 0.7000
+              
             </tableData>
           </table>
       </product>
     </function>
+
 
     <function name="aero/force/Lift_pitch_rate">
         <description>Lift due to pitch rate</description>
@@ -545,6 +534,7 @@
        <product>
           <property>aero/qbar-psf</property>
           <property>metrics/Sw-sqft</property>
+          <property>aero/drag-factor</property>
           <table>
             <independentVar lookup="row">aero/alpha-rad</independentVar>
             <tableData>

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+
+<system name="misc p47d stuff">
+
+    <property value="1">aero/drag-factor</property>
+    <property value="1">aero/lift-factor</property>
+
+    <channel execrate="1" name="Speed info for flight testing">
+
+        <fcs_function name="velocities/TAS-mph">
+            <function>
+                <product>
+                    <property>velocities/vtrue-kts</property>
+                    <value>1.150783</value>
+                </product>
+            </function>
+        </fcs_function>
+
+        <fcs_function name="velocities/IAS-mph">
+            <function>
+                <product>
+                    <property>/instrumentation/airspeed-indicator/indicated-speed-kt</property>
+                    <value>1.150783</value>
+                </product>
+            </function>
+        </fcs_function>
+
+    </channel>
+
+    <!-- Swamp notes:
+
+        insert in P47dJSBsim.xml just under </propulsion>:
+
+        <system file="jsb-misc"/>
+
+        insert in drag due to alpha (drag_basic), just under <property>metrics/Sw-sqft</property>
+
+        <property>aero/drag-factor</property>
+
+        insert in lift due to alpha, just under <property>metrics/Sw-sqft</property>
+
+        <property>aero/lift-factor</property>
+
+        Now when entering FG, go into property browser and find these 3 properties and shift-click once on each of them:
+
+        fdm/jsbsim/aero/drag-factor
+        fdm/jsbsim/aero/lift-factor
+        fdm/jsbsim/velocities/IAS-mph
+        fdm/jsbsim/velocities/TAS-mph
+
+        Notice how they now show up on screen, do some flight-testing, and adjust fdm/jsbsim/aero/drag-factor till you get desired results.
+        Then close FG, and edit value="1" at top of this file to what drag-factor you found.
+    -->
+</system>
