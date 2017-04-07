@@ -2,7 +2,7 @@
 
 <system name="misc p47d stuff">
 
-    <property value="1">aero/drag-factor</property>
+    <property value="0.5">aero/drag-factor</property>
     <property value="1">aero/lift-factor</property>
 
     <channel execrate="1" name="Speed info for flight testing">

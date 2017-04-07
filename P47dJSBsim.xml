@@ -510,7 +510,7 @@
            <property>aero/qbar-psf</property>
            <property>metrics/Sw-sqft</property>
            <property>fcs/elevator-pos-rad</property>
-           <value> 0.1803 </value>
+           <value> 0.2103 </value>
        </product>
     </function>
 
@@ -554,7 +554,7 @@
            <property>aero/qbar-psf</property>
            <property>metrics/Sw-sqft</property>
            <property>aero/cl-squared</property>
-           <value> 0.03 </value>
+           <value> 0.06 </value>
          </product>
     </function>
 
@@ -567,9 +567,9 @@
             <independentVar lookup="row">velocities/mach</independentVar>
             <tableData>
                 0.00      0.000
-                0.69      0.000
-                1.10      0.010
-                1.80      0.015
+                0.69      0.025
+                1.10      0.045
+                1.80      0.080
             </tableData>
           </table>
         </product>
