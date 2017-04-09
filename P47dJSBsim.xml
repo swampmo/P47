@@ -160,7 +160,7 @@
  </location>
    <static_friction>  0.90 </static_friction>
    <dynamic_friction> 0.50 </dynamic_friction>
-   <rolling_friction> 0.02 </rolling_friction>
+   <rolling_friction> 0.05 </rolling_friction>
    <spring_coeff unit="LBS/FT">      10000.00 </spring_coeff>
    <damping_coeff unit="LBS/FT/SEC"> 7000.00 </damping_coeff>
  <damping_coeff_rebound unit="LBS/FT/SEC"> 10000 </damping_coeff_rebound>
@@ -177,7 +177,7 @@
 
    </location>
    <static_friction>  0.90 </static_friction>
-   <dynamic_friction> 0.50 </dynamic_friction>
+   <dynamic_friction> 0.20 </dynamic_friction>
    <rolling_friction> 0.01 </rolling_friction>
    <spring_coeff unit="LBS/FT">      20000.00 </spring_coeff>
    <damping_coeff unit="LBS/FT/SEC"> 7000.00 </damping_coeff>
@@ -194,7 +194,7 @@
 
    </location>
    <static_friction>  0.90 </static_friction>
-   <dynamic_friction> 0.50 </dynamic_friction>
+   <dynamic_friction> 0.20 </dynamic_friction>
    <rolling_friction> 0.01 </rolling_friction>
     <spring_coeff unit="LBS/FT">      20000.00 </spring_coeff>
    <damping_coeff unit="LBS/FT/SEC"> 7000.00 </damping_coeff>
@@ -471,10 +471,12 @@
             <independentVar lookup="row">aero/alpha-deg</independentVar>
             <tableData>
               -11.46 -0.5650
-               0.00  0.2000
+               0.00   0.2000
+                7.50  0.7500
+               11.00  1.1500
                16.04  1.4230
                 22.91  1.2000
-               34.38 0.7000
+               34.38  0.7000
               
             </tableData>
           </table>
@@ -500,7 +502,7 @@
            <property>metrics/Sw-sqft</property>
            <property>aero/alphadot-rad_sec</property>
            <property>aero/ci2vel</property>
-           <value> 2.20 </value>
+           <value> 2.30 </value>
         </product>
       </function>
 
@@ -510,7 +512,7 @@
            <property>aero/qbar-psf</property>
            <property>metrics/Sw-sqft</property>
            <property>fcs/elevator-pos-rad</property>
-           <value> 0.2103 </value>
+           <value> 0.4503 </value>
        </product>
     </function>
 
@@ -520,7 +522,7 @@
            <property>aero/qbar-psf</property>
            <property>metrics/Sw-sqft</property>
            <property>fcs/flap-pos-deg</property>
-           <value> 0.020 </value>
+           <value> 0.025 </value>
        </product>
     </function>
 
@@ -681,7 +683,7 @@
 
   <axis name="PITCH">
 
-    <function name="aero/moment/Pitch_propwash">
+   <function name="aero/moment/Pitch_propwash">
       <description>Pitch moment due to propeller induced velocity</description>
       <product>
           <property>propulsion/engine[0]/thrust-coefficient</property>
@@ -691,11 +693,26 @@
           <table>
             <independentVar lookup="row">aero/alpha-rad</independentVar>
             <independentVar lookup="column">fcs/flap-pos-deg</independentVar>
-            <tableData>
+            <independentVar lookup="table">fcs/elevator-pos-rad</independentVar>
+            <tableData breakPoint="-0.35">
+                     0.0     60.0
+              -0.01  0.000   0.000
+               0.00  0.047  -0.043
+               0.30 -0.062  -0.296
+               0.40  0.000   0.000
+            </tableData>
+            <tableData breakPoint="0.0">
                      0.0     60.0
               -0.01  0.000   0.000
                0.00 -0.027  -0.073
                0.30 -0.122  -0.326
+               0.40  0.000   0.000
+            </tableData>
+            <tableData breakPoint="0.35">
+                     0.0     60.0
+              -0.01  0.000   0.000
+               0.00 -0.087  -0.103
+               0.30 -0.182  -0.356
                0.40  0.000   0.000
             </tableData>
           </table>

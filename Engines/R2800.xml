@@ -20,9 +20,9 @@
   <maxhp>        2000 </maxhp>
   <cycles>         4.0 </cycles>
   <idlerpm>      400.0 </idlerpm>
-  <maxrpm>      2600.0 </maxrpm>
+  <maxrpm>      2700.0 </maxrpm>
   <sparkfaildrop>  0.9 </sparkfaildrop>
-  <volumetric-efficiency> 0.48 </volumetric-efficiency>
+  <volumetric-efficiency> 0.67 </volumetric-efficiency>
   <man-press-lag> 0.1 </man-press-lag>
   <static-friction  unit="HP"> 19 </static-friction>
   <starter-torque> 2080 </starter-torque>
@@ -37,21 +37,21 @@
   <boostauto>      1 </boostauto>
   <numboostspeeds>   2 </numboostspeeds>
   <boostoverride>    0 </boostoverride>
-  <takeoffboost>     1</takeoffboost> 
+  <takeoffboost>     0</takeoffboost> 
 
 
  <!-- Low-speed supercharger; see table above.  The rated boost is on top of
        sea level ambient pressure. -->
-  <ratedboost1 unit="INHG"> 12.36 </ratedboost1>
+  <ratedboost1 unit="INHG"> 20.36 </ratedboost1>
   <ratedpower1> 2000 </ratedpower1>
   <ratedrpm1>   2700 </ratedrpm1>
-  <ratedaltitude1> 2000 </ratedaltitude1>
+  <ratedaltitude1> 10 </ratedaltitude1>
 
   <!-- High-speed supercharger; see table above. -->
   <ratedboost2 unit="INHG"> 26.46 </ratedboost2>
   <ratedpower2> 2000 </ratedpower2>
   <ratedrpm2>   2700 </ratedrpm2>
-  <ratedaltitude2> 15000 </ratedaltitude2>
+  <ratedaltitude2> 10000 </ratedaltitude2>
 
 
 </piston_engine>
