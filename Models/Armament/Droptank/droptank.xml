@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<PropertyList>
+
+  <path>Aircraft/P47/Models/Armament/Droptank/p47_belly_wide_drop_tank.ac</path>
+
+	<animation>
+		<type>select</type>
+		<nopreview/>
+		<object-name>Cylinder</object-name>
+		<condition>   
+			<equals>
+				<property>controls/armament/station</property>
+				<value>external tank</value>
+			</equals>
+		</condition>
+	</animation>
+ </PropertyList>
+
