@@ -111,7 +111,8 @@
     </orient>
     <feed> 0 </feed>
     <feed> 1 </feed>
-
+    <feed> 2 </feed>
+    
     <thruster file="prop">
      <sense> 1 </sense>
      <location unit="M">
@@ -144,6 +145,16 @@
      </location>
      <capacity unit="LBS"> 749</capacity>
      <contents unit="LBS"> 500 </contents>
+  </tank>
+
+  <tank type="FUEL" number="2">
+     <location unit="M">
+     <x>  -0.78804 </x>
+     <y>   -0.00024 </y>
+     <z>   -1.18097 </z>
+     </location>
+     <capacity unit="LBS"> 1300</capacity>
+     <contents unit="LBS"> 1300 </contents>
   </tank>
 
  </propulsion>

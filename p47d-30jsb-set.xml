@@ -166,6 +166,14 @@
     </help>
     </sim>
 
+<consumables>
+  <fuel>
+    <tank n="2">
+      <selected type="bool">false</selected>
+    </tank>
+  </fuel>
+</consumables>
+
     <controls>
         <gear>
             <brake-parking>1</brake-parking>

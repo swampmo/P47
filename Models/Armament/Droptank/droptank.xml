@@ -10,8 +10,8 @@
 		<object-name>Cylinder</object-name>
 		<condition>   
 			<equals>
-				<property>controls/armament/station</property>
-				<value>external tank</value>
+				<property>consumables/fuel/tank[2]/selected</property>
+				<value>1</value>
 			</equals>
 		</condition>
 	</animation>
