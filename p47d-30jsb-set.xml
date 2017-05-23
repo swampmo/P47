@@ -136,23 +136,9 @@
         <line></line> 
         <line>* = not implemented yet</line>
         <line></line> 
-        <line> 1:Set fuel tank switch to ' Main ' *</line>
-        <line> 2:Set trim tabs to takeoff position *</line>
-        <line> 3:Flaps up</line>
-        <line> 4:Gear down/locked ( g / G)</line>
-        <line> 5:Oil / Intercooler shutters open *</line>
-        <line> 6:Turbo close ( w / W)</line>
         <line> 7:Throttle open half inch ( PgUp / PgDn )</line>
         <line> 8:Prop lever full forward ( N / n )</line>
-        <line> 9:Mixture at idle cutoff( M / m )</line>
-        <line>10:Generator switch on *</line>
-        <line>11:Prop control switch to automatic *</line>
         <line>12:Mags off ( { / } )</line>
-        <line>13:Battery off</line>
-        <line>14:Cage flight instruments *</line>
-        <line>15:Cowl flaps open *</line>
-        <line>16:Radio off *</line>
-        <line>17:Tail wheel unlock ( l )</line>
         <line>#############</line>
         <line>Startup</line>
         <line>#############</line>

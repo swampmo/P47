@@ -106,12 +106,12 @@
   </animation>
 
   <model>
-    <path>>Aircraft/P47/Models/Armament/Droptank/droptank.xml</path>
+    <path>Aircraft/P47/Models/Armament/Droptank/droptank.xml</path>
         <name>centerdroptank</name>
     <offsets>
-      <x-m>  -0.78804 </x-m>
+      <x-m> -0.1 </x-m>
       <y-m> -0.00024 </y-m>
-      <z-m> -1.18097 </z-m>
+      <z-m> 0.1 </z-m>
     </offsets>
   </model> 
 
