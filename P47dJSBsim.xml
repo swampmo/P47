@@ -153,8 +153,8 @@
      <y>   -0.00024 </y>
      <z>   -1.18097 </z>
      </location>
-     <capacity unit="LBS"> 1300</capacity>
-     <contents unit="LBS"> 1300 </contents>
+     <capacity unit="LBS"> 1498</capacity>
+     <contents unit="LBS"> 0 </contents>
   </tank>
 
  </propulsion>

@@ -136,9 +136,8 @@
         <line></line> 
         <line>* = not implemented yet</line>
         <line></line> 
-        <line> 7:Throttle open half inch ( PgUp / PgDn )</line>
-        <line> 8:Prop lever full forward ( N / n )</line>
-        <line>12:Mags off ( { / } )</line>
+        <line> 1:Throttle open half inch ( PgUp / PgDn )</line>
+        <line> 2:Prop lever full forward ( N / n )</line>
         <line>#############</line>
         <line>Startup</line>
         <line>#############</line>
@@ -148,17 +147,27 @@
         <line> 4:Hold energizer 15 seconds</line>
         <line> 5:Engage starter ( s )</line>
         <line>----------------------------</line> 
-        <line>Notes : lock tailwheel when lined up on runway</line>
     </help>
     </sim>
 
+ 
+
 <consumables>
-  <fuel>
-    <tank n="2">
-      <selected type="bool">false</selected>
-    </tank>
-  </fuel>
-</consumables>
+        <fuel>
+            <tank n="0">
+                <name>Fuselage Main Tank</name>
+      <selected type="bool">true</selected>
+            </tank>
+            <tank n="1">
+                <name>Fuselage Auxilary Tank</name>
+            </tank>
+      <selected type="bool">true</selected>
+            <tank n="2">
+                <name>Drop Tank</name>
+      <selected type="bool">true</selected>
+            </tank>
+        </fuel>
+    </consumables>
 
     <controls>
         <gear>
