@@ -25,8 +25,8 @@
   <volumetric-efficiency> 0.63 </volumetric-efficiency>
   <man-press-lag> 0.1 </man-press-lag>
   <static-friction  unit="HP"> 19 </static-friction>
-  <starter-torque> 785 </starter-torque>
-  <starter-rpm> 450 </starter-rpm>
+  <starter-torque> 750 </starter-torque>
+  <starter-rpm> 435 </starter-rpm>
  <!-- Defining <bsfc> over-rides the built-in horsepower calculations -->
   <bsfc>           0.27 </bsfc>
   <stroke unit="IN">  6 </stroke>
