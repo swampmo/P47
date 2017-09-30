@@ -96,6 +96,8 @@
         <max-dist>100.0</max-dist>
     </energizer>
 
+<!-- 
+
     <crank>
         <name>cough1inside</name>
         <path>Aircraft/P47/Sound/startupinside.wav</path>
@@ -134,8 +136,9 @@
         </position>
         <reference-dist>20.0</reference-dist>
         <max-dist>50.0</max-dist>
-    </crank>
+    </crank>  -->
 
+<!-- 
     <engine>
         <name>idleinside</name>
         <mode>looped</mode>
@@ -192,7 +195,7 @@
         </position>
         <reference-dist>20.0</reference-dist>
         <max-dist>200.0</max-dist>
-    </engine>
+    </engine>  -->
 
     <engine>
         <name>engine1_runninginside</name>
@@ -204,11 +207,11 @@
         <volume>
             <property>engines/engine[0]/mp-inhg</property>
             <factor>0.026</factor>
-            <offset>0.2</offset>
+            <offset>0.3</offset>
         </volume>
         <pitch>
             <property>engines/engine[0]/mp-inhg</property>
-            <offset>0.2</offset>
+            <offset>0.0</offset>
             <factor>0.033</factor>
             <min>0.10</min>
             <max>1.2</max>
@@ -239,7 +242,7 @@
         </volume>
         <pitch>
             <property>engines/engine[0]/mp-inhg</property>
-            <offset>0.2</offset>
+            <offset>0.0</offset>
             <factor>0.033</factor>
             <min>0.10</min>
             <max>1.2</max>

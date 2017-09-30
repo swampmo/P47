@@ -122,6 +122,7 @@
         <int type="int"       n="4"> 0 </int>
         <int type="int"       n="5"> 0 </int>
         <int type="int"       n="6"> 0 </int>
+        <int type="int"       n="16"> 0 </int>
         <int type="int"       n="17"> 0 </int>	
         <int type="int"       n="18"> 0 </int>		
         <int type="int"       n="19"> 0 </int>		
@@ -259,7 +260,7 @@
             </key> -->
 
  
-<key n="100">
+    <key n="100">
      <name>d</name>
      <desc>Toggle smoke</desc>
      <binding>
@@ -267,6 +268,7 @@
       <property>sim/multiplay/generic/int[19]</property>
     </binding>
     </key>
+
 
         <!--    <key n="87">
                 <name>W</name>

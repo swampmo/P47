@@ -167,6 +167,36 @@
   </model> 
 
   <model>
+    <path>Aircraft/P47/Models/Effects/enginesmoke/smoke.xml</path>
+    <name>left</name>
+    <offsets>
+      <x-m>  -2.31292 </x-m>
+      <y-m>  0.485 </y-m>
+      <z-m> -0.89425 </z-m>
+    </offsets>
+  </model> 
+
+  <model>
+    <path>Aircraft/P47/Models/Effects/enginesmoke/smoke.xml</path>
+    <name>turbo</name>
+    <offsets>
+      <x-m>  3.11774 </x-m>
+      <y-m> -0.00024 </y-m>
+      <z-m> -0.68394 </z-m>
+    </offsets>
+  </model> 
+
+  <model>
+    <path>Aircraft/P47/Models/Effects/enginesmoke/smoke.xml</path>
+    <name>right</name>
+    <offsets>
+      <x-m>  -2.31292 </x-m>
+      <y-m>  -0.485 </y-m>
+      <z-m> -0.89425 </z-m>
+    </offsets>
+  </model> 
+
+  <model>
     <path>Aircraft/P47/Models/Pilot/pilot.xml</path>
     <offsets>
       <x-m>  -0.161 </x-m>
