@@ -307,7 +307,7 @@
     <file>Aircraft/P47/Nasal/blackout.nas</file>
     <file>Aircraft/P47/Nasal/liveries.nas</file>
     <file>Aircraft/P47/Nasal/crash-and-stress.nas</file>
-
+    <file>Aircraft/P47/Nasal/terrain.nas</file>
 
     </p47>
 	<guns>
@@ -318,3 +318,4 @@
 
 
 </PropertyList>
+

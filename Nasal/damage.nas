@@ -21,6 +21,7 @@ var cannon_types = {
     " GAU-8/A hit":           0.10, # 30mm
     " BK27 cannon hit":       0.07, # 27mm
     " GSh-30 hit":            0.10, # 30mm
+    " GSh-23 hit":            0.065,# 23mm
     " 7.62 hit":              0.005,# 7.62mm
     " 50 BMG hit":            0.015,# 12.7mm
 };
@@ -76,6 +77,7 @@ var warhead_lbs = {
     "R-27T1":               85.98,
     "FAB-500":             564.00,
     "Exocet":              364.00,
+    "HVAR":                  7.50,#P51
 };
 
 var fireMsgs = {
@@ -111,6 +113,7 @@ var incoming_listener = func {
     var last_vector = split(":", last);
     var author = last_vector[0];
     var callsign = getprop("sim/multiplay/callsign");
+    callsign = size(callsign) < 8 ? callsign : left(callsign,7);
     if (size(last_vector) > 1 and author != callsign) {
       # not myself
       #print("not me");
@@ -229,6 +232,11 @@ var incoming_listener = func {
           } 
         } elsif (cannon_types[last_vector[1]] != nil) {
           if (size(last_vector) > 2 and last_vector[2] == " "~callsign) {
+            if (size(last_vector) < 4) {
+              # msg is either missing number of hits, or has no trailing dots from spam filter.
+              print('"'~last~'"   is not a legal hit message, tell the shooter to upgrade his OPRF plane :)');
+              return;
+            }
             var last3 = split(" ", last_vector[3]);
             if(size(last3) > 2 and size(last3[2]) > 2 and last3[2] == "hits" ) {
               var probability = cannon_types[last_vector[1]];
