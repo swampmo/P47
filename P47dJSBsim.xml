@@ -752,7 +752,7 @@
           <table>
             <independentVar lookup="row">velocities/mach</independentVar>
             <tableData>
-              0.0    -1.1058
+              0.0    -1.0058
               2.0    -0.3315
             </tableData>
           </table>
