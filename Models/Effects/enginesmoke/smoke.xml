@@ -56,8 +56,8 @@
 
     <counter>
       <particles-per-sec>
-        <value>10</value>
-        <spread>1</spread>
+        <value>30</value>
+        <spread>0.5</spread>
       </particles-per-sec>
     </counter>
 
@@ -81,7 +81,7 @@
           <alpha><value>0</value></alpha>
         </color>
         <size>
-          <value>2.0</value>
+          <value>1.0</value>
         </size>
       </end>
       <life-sec>
