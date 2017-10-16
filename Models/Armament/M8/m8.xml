@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>m8_rocket_tube.ac</path>
+
+  <animation>
+    <!-- Objects -->
+    <object-name>band1</object-name>
+    <object-name>band2</object-name>
+    <object-name>band3</object-name>
+    <object-name>band4</object-name>
+    <object-name>band5</object-name>
+    <object-name>band6</object-name>
+    <object-name>igniters</object-name>
+    <object-name>rocket1</object-name>
+    <object-name>rocket2</object-name>
+    <object-name>rocket3</object-name>
+    <object-name>tubes</object-name>
+  </animation>
+ 
+</PropertyList>

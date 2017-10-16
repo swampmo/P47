@@ -106,6 +106,26 @@
   </animation>
 
   <model>
+    <path>Aircraft/P47/Models/Armament/M8/m8.xml</path>
+        <name>M8Left</name>
+    <offsets>
+      <x-m> -2.15 </x-m>
+      <y-m> -3.0968 </y-m>
+      <z-m> -0.79867 </z-m>
+    </offsets>
+  </model> 
+
+  <model>
+    <path>Aircraft/P47/Models/Armament/M8/m8.xml</path>
+        <name>M8Right</name>
+    <offsets>
+      <x-m> -2.15 </x-m>
+      <y-m>  2.75 </y-m>
+      <z-m> -0.79867 </z-m>
+    </offsets>
+  </model> 
+
+  <model>
     <path>Aircraft/P47/Models/Armament/Droptank/droptank.xml</path>
         <name>centerdroptank</name>
     <offsets>
