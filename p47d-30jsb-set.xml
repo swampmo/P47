@@ -193,7 +193,10 @@
         </electric>
         <lighting>
             <instrument-lights type="bool">1</instrument-lights>
-        </lighting>
+        </lighting> 
+        <trigger-cannon alias="/controls/armament/trigger"/>
+        <trigger-rocket type="bool">false</trigger-rocket>
+        <trigger type="bool">false</trigger>
         <armament>
             <guns type="bool">0</guns>
             <ammo type="double">0</ammo><!--350 rounds per gun-->
@@ -280,14 +283,15 @@
                 </binding>
             </key> -->
 
-          <key n="49">
+        <key n="49">
             <name>CTRL-1</name>
             <mod-ctrl>
                 <desc>Select cannon</desc>
                 <binding>
                     <command>nasal</command>
                     <script>props.globals.getNode("controls/armament/trigger-cannon",1).alias("controls/armament/trigger");
-                            props.globals.getNode("controls/armament/trigger-rocket",1).unalias();</script>
+                            props.globals.getNode("controls/armament/trigger-rocket",1).unalias();
+                            props.globals.getNode("controls/armament/trigger-rocket",1).setBoolValue(0)</script>
                 </binding>
             </mod-ctrl>
         </key>
@@ -298,7 +302,8 @@
                 <binding>
                     <command>nasal</command>
                     <script>props.globals.getNode("controls/armament/trigger-rocket",1).alias("controls/armament/trigger");
-                            props.globals.getNode("controls/armament/trigger-cannon",1).unalias();</script>
+                            props.globals.getNode("controls/armament/trigger-cannon",1).unalias();
+                            props.globals.getNode("controls/armament/trigger-cannon",1).setBoolValue(0);</script>
                 </binding>
             </mod-ctrl>
         </key>

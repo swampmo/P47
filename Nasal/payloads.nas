@@ -20,7 +20,7 @@ load_ammo = func{
             setprop("ai/submodels/submodel[5]/count",4000);
             setprop("ai/submodels/submodel[6]/count",4000);
             setprop("ai/submodels/submodel[7]/count",4000);
-            setprop("ai/submodels/submodel[1]/count",6);
+            setprop("ai/submodels/submodel[8]/count",6);
         }
     }
 }

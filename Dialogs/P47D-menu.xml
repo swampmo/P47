@@ -16,13 +16,14 @@
         </item>
 
       <item n="1">
-        <label>Load 50 cal. Ammo</label>
+        <label>Load Ammo</label>
         <binding>
         <command>nasal</command>
-        <script>p47.load_ammo();</script>
+        <script>guns.load_ammo();</script>
         </binding>
       </item>
-      <item n="2">
+ 
+     <item n="2">
         <label>Select Livery</label>
         <binding>
           <command>nasal</command>
