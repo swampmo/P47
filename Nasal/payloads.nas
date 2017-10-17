@@ -12,26 +12,18 @@ input = {
 load_ammo = func{
     if(getprop("gear/gear/wow")){
         if(getprop("controls/gear/brake-parking")){
-            setprop("controls/armament/ammo",4000);
+            setprop("ai/submodels/submodel[0]/count",4000);
+            setprop("ai/submodels/submodel[1]/count",4000);
+            setprop("ai/submodels/submodel[2]/count",4000);
+            setprop("ai/submodels/submodel[3]/count",4000);
+            setprop("ai/submodels/submodel[4]/count",4000);
+            setprop("ai/submodels/submodel[5]/count",4000);
+            setprop("ai/submodels/submodel[6]/count",4000);
+            setprop("ai/submodels/submodel[7]/count",4000);
+            setprop("ai/submodels/submodel[1]/count",6);
         }
     }
 }
-
-setlistener("/controls/armament/trigger", func{
-	if(getprop("controls/armament/trigger")){
-		var scnd = getprop("sim/time/delta-sec");
-		var rounds=getprop("controls/armament/ammo");
-		if(rounds>0){
-			setprop("controls/armament/gun-trigger",1);
-			var spent= 80 * scnd;
-			rounds = rounds-spent;
-			if(rounds<0)rounds=0;
-		}
-		setprop("controls/armament/ammo",rounds);
-	} else {
-		setprop("controls/armament/gun-trigger",0);
-	}
-});
 
 var hit_count = 0;
 var hit_callsign = "";
@@ -47,7 +39,7 @@ setlistener("/ai/models/model-impact", func {
     if (ballistic != nil) {load_ammo = func{
     if(getprop("gear/gear/wow")){
         if(getprop("controls/gear/brake-parking")){
-            setprop("controls/armament/ammo",2800);
+            setprop("controls/armament/ammo",4000);
         }
     }
 }

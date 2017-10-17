@@ -8,11 +8,11 @@
   <submodel>
     <name>R1-tracer</name>
     <model>Aircraft/P47/Models/Effects/guns/tracer.xml</model>
-    <trigger>controls/armament/gun-trigger</trigger>
+    <trigger>controls/armament/trigger-cannon</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
     <delay>0.6</delay>
-    <count>1000</count>
+    <count>0</count>
     <x-offset> -6.662 </x-offset> 
     <y-offset> 10.454 </y-offset> 
     <z-offset> -1.099 </z-offset> 
@@ -28,11 +28,11 @@
   <submodel>
     <name>R1-bullet</name>
     <model>Models/Geometry/null.ac</model>
-    <trigger>controls/armament/gun-trigger</trigger>
+    <trigger>controls/armament/trigger-cannon</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
     <delay>0.6</delay>
-    <count>1000</count>
+    <count>0</count>
     <x-offset> -6.662 </x-offset> 
     <y-offset> 10.454 </y-offset> 
     <z-offset> -1.099 </z-offset> 
@@ -54,11 +54,11 @@
   <submodel>
     <name>R2-tracer</name>
     <model>Aircraft/P47/Models/Effects/guns/tracer.xml</model>
-    <trigger>controls/armament/gun-trigger</trigger>
+    <trigger>controls/armament/trigger-cannon</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
     <delay>0.62</delay>
-    <count>1000</count>
+    <count>0</count>
     <x-offset> -7.010 </x-offset> 
     <y-offset>  10.031 </y-offset> 
     <z-offset> -1.134 </z-offset> 
@@ -74,11 +74,11 @@
   <submodel>
     <name>R2-bullet</name>
     <model>Models/Geometry/null.ac</model>
-    <trigger>controls/armament/gun-trigger</trigger>
+    <trigger>controls/armament/trigger-cannon</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
     <delay>0.6</delay>
-    <count>1000</count>
+    <count>0</count>
     <x-offset> -7.010 </x-offset> 
     <y-offset>  10.031 </y-offset> 
     <z-offset> -1.134 </z-offset> 
@@ -98,11 +98,11 @@
   <submodel>
     <name>R3-tracer</name>
     <model>Aircraft/P47/Models/Effects/guns/tracer.xml</model>
-    <trigger>controls/armament/gun-trigger</trigger>
+    <trigger>controls/armament/trigger-cannon</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
     <delay>0.64</delay>
-    <count>1000</count>
+    <count>0</count>
     <x-offset> -7.418 </x-offset> 
     <y-offset> 9.507 </y-offset> 
     <z-offset> -1.177 </z-offset> 
@@ -118,11 +118,11 @@
   <submodel>
     <name>R3-bullet</name>
     <model>Models/Geometry/null.ac</model>
-    <trigger>controls/armament/gun-trigger</trigger>
+    <trigger>controls/armament/trigger-cannon</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
     <delay>0.6</delay>
-    <count>1000</count>
+    <count>0</count>
     <x-offset> -7.418 </x-offset> 
     <y-offset> 9.507 </y-offset> 
     <z-offset> -1.177 </z-offset> 
@@ -144,11 +144,11 @@
   <submodel>
     <name>R4-tracer</name>
     <model>Aircraft/P47/Models/Effects/guns/tracer.xml</model>
-    <trigger>controls/armament/gun-trigger</trigger>
+    <trigger>controls/armament/trigger-cannon</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
     <delay>0.66</delay>
-    <count>1000</count>
+    <count>0</count>
     <x-offset> -7.791 </x-offset> 
     <y-offset>  9.025 </y-offset> 
     <z-offset> -1.218 </z-offset> 
@@ -164,11 +164,11 @@
   <submodel>
     <name>R4-bullet</name>
     <model>Models/Geometry/null.ac</model>
-    <trigger>controls/armament/gun-trigger</trigger>
+    <trigger>controls/armament/trigger-cannon</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
     <delay>0.6</delay>
-    <count>1000</count>
+    <count>0</count>
     <x-offset> -7.791 </x-offset> 
     <y-offset>  9.025 </y-offset> 
     <z-offset> -1.218 </z-offset> 
@@ -188,11 +188,11 @@
    <submodel>
     <name>L5-tracer</name>
     <model>Aircraft/P47/Models/Effects/guns/tracer.xml</model>
-    <trigger>controls/armament/gun-trigger</trigger>
+    <trigger>controls/armament/trigger-cannon</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
     <delay>0.6</delay>
-    <count>1000</count>
+    <count>0</count>
     <x-offset> -6.662 </x-offset> 
     <y-offset> -10.454 </y-offset> 
     <z-offset> -1.099 </z-offset> 
@@ -208,11 +208,11 @@
   <submodel>
     <name>L5-bullet</name>
     <model>Models/Geometry/null.ac</model>
-    <trigger>controls/armament/gun-trigger</trigger>
+    <trigger>controls/armament/trigger-cannon</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
     <delay>0.6</delay>
-    <count>1000</count>
+    <count>0</count>
     <x-offset> -6.662 </x-offset> 
     <y-offset> -10.454 </y-offset> 
     <z-offset> -1.099 </z-offset> 
@@ -234,11 +234,11 @@
   <submodel>
     <name>L6-tracer</name>
     <model>Aircraft/P47/Models/Effects/guns/tracer.xml</model>
-    <trigger>controls/armament/gun-trigger</trigger>
+    <trigger>controls/armament/trigger-cannon</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
     <delay>0.62</delay>
-    <count>1000</count>
+    <count>0</count>
     <x-offset> -7.010 </x-offset>  
     <y-offset> -10.031 </y-offset>  
     <z-offset> -1.134 </z-offset>  
@@ -254,11 +254,11 @@
   <submodel>
     <name>L6-bullet</name>
     <model>Models/Geometry/null.ac</model>
-    <trigger>controls/armament/gun-trigger</trigger>
+    <trigger>controls/armament/trigger-cannon</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
     <delay>0.6</delay>
-    <count>1000</count>
+    <count>0</count>
     <x-offset> -7.010 </x-offset>  
     <y-offset> -10.031 </y-offset>  
     <z-offset> -1.134 </z-offset>  
@@ -278,11 +278,11 @@
   <submodel>
     <name>L7-tracer</name>
     <model>Aircraft/P47/Models/Effects/guns/tracer.xml</model>
-    <trigger>controls/armament/gun-trigger</trigger>
+    <trigger>controls/armament/trigger-cannon</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
     <delay>0.64</delay>
-    <count>1000</count>
+    <count>0</count>
     <x-offset> -7.418 </x-offset>  
     <y-offset> -9.507 </y-offset>  
     <z-offset> -1.177 </z-offset> 
@@ -298,11 +298,11 @@
   <submodel>
     <name>L7-bullet</name>
     <model>Models/Geometry/null.ac</model>
-    <trigger>controls/armament/gun-trigger</trigger>
+    <trigger>controls/armament/trigger-cannon</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
     <delay>0.6</delay>
-    <count>1000</count>
+    <count>0</count>
     <x-offset> -7.418 </x-offset>  
     <y-offset> -9.507 </y-offset>  
     <z-offset> -1.177 </z-offset> 
@@ -324,11 +324,11 @@
   <submodel>
     <name>L8-tracer</name>
     <model>Aircraft/P47/Models/Effects/guns/tracer.xml</model>
-    <trigger>controls/armament/gun-trigger</trigger>
+    <trigger>controls/armament/trigger-cannon</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
     <delay>0.66</delay>
-    <count>1000</count>
+    <count>0</count>
     <x-offset> -7.791 </x-offset>  
     <y-offset> -9.025 </y-offset>  
     <z-offset> -1.218 </z-offset>  
@@ -344,11 +344,11 @@
   <submodel>
     <name>L8-bullet</name>
     <model>Models/Geometry/null.ac</model>
-    <trigger>controls/armament/gun-trigger</trigger>
+    <trigger>controls/armament/trigger-cannon</trigger>
     <speed>2978.0</speed>
     <repeat>true</repeat>
     <delay>0.6</delay>
-    <count>1000</count>
+    <count>0</count>
     <x-offset> -7.791 </x-offset>  
     <y-offset> -9.025 </y-offset>  
     <z-offset> -1.218 </z-offset>  

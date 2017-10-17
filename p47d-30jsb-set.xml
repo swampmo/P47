@@ -280,6 +280,29 @@
                 </binding>
             </key> -->
 
+          <key n="49">
+            <name>CTRL-1</name>
+            <mod-ctrl>
+                <desc>Select cannon</desc>
+                <binding>
+                    <command>nasal</command>
+                    <script>props.globals.getNode("controls/armament/trigger-cannon",1).alias("controls/armament/trigger");
+                            props.globals.getNode("controls/armament/trigger-rocket",1).unalias();</script>
+                </binding>
+            </mod-ctrl>
+        </key>
+        <key n="50">
+            <name>CTRL-2</name>
+            <mod-ctrl>
+                <desc>Select rockets</desc>
+                <binding>
+                    <command>nasal</command>
+                    <script>props.globals.getNode("controls/armament/trigger-rocket",1).alias("controls/armament/trigger");
+                            props.globals.getNode("controls/armament/trigger-cannon",1).unalias();</script>
+                </binding>
+            </mod-ctrl>
+        </key>
+
 
       <key n="101">
         <name>e</name>
