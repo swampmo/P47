@@ -375,9 +375,9 @@
         <name>guns</name>
         <mode>looped</mode>
         <path>Aircraft/P47/Sound/50cal.wav</path>
-        <property>controls/armament/gun-trigger</property>
+        <property>controls/armament/trigger-cannon</property>
         <volume>
-            <property>controls/armament/gun-trigger</property>
+            <property>controls/armament/trigger-cannon</property>
         </volume>
         <position>
             <x>0</x>
