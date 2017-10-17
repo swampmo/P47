@@ -12,15 +12,20 @@ input = {
 load_ammo = func{
     if(getprop("gear/gear/wow")){
         if(getprop("controls/gear/brake-parking")){
-            setprop("ai/submodels/submodel[0]/count",4000);
-            setprop("ai/submodels/submodel[1]/count",4000);
-            setprop("ai/submodels/submodel[2]/count",4000);
-            setprop("ai/submodels/submodel[3]/count",4000);
-            setprop("ai/submodels/submodel[4]/count",4000);
-            setprop("ai/submodels/submodel[5]/count",4000);
-            setprop("ai/submodels/submodel[6]/count",4000);
-            setprop("ai/submodels/submodel[7]/count",4000);
-            setprop("ai/submodels/submodel[8]/count",6);
+            setprop("ai/submodels/submodel[0]/count",425);
+            setprop("ai/submodels/submodel[1]/count",425);
+            setprop("ai/submodels/submodel[2]/count",425);
+            setprop("ai/submodels/submodel[3]/count",425);
+            setprop("ai/submodels/submodel[4]/count",425);
+            setprop("ai/submodels/submodel[5]/count",425);
+            setprop("ai/submodels/submodel[6]/count",425);
+            setprop("ai/submodels/submodel[7]/count",425);
+            setprop("ai/submodels/submodel[8]/count",1);
+            setprop("ai/submodels/submodel[8]/count",1);
+            setprop("ai/submodels/submodel[8]/count",1);
+            setprop("ai/submodels/submodel[8]/count",1);
+            setprop("ai/submodels/submodel[8]/count",1);
+            setprop("ai/submodels/submodel[8]/count",1);
         }
     }
 }
@@ -39,7 +44,7 @@ setlistener("/ai/models/model-impact", func {
     if (ballistic != nil) {load_ammo = func{
     if(getprop("gear/gear/wow")){
         if(getprop("controls/gear/brake-parking")){
-            setprop("controls/armament/ammo",4000);
+            setprop("controls/armament/ammo",3400);
         }
     }
 }
