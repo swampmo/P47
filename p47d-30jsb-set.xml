@@ -194,11 +194,12 @@
         <lighting>
             <instrument-lights type="bool">1</instrument-lights>
         </lighting> 
+
+        <armament>
         <trigger-cannon alias="/controls/armament/trigger"/>
         <trigger-rocket type="bool">false</trigger-rocket>
-        <trigger type="bool">false</trigger>
-        <armament>
-            <guns type="bool">0</guns>
+        <trigger type="bool">false</trigger> 
+           <guns type="bool">0</guns>
             <ammo type="double">0</ammo><!--350 rounds per gun-->
         </armament>
     </controls>

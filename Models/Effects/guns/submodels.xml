@@ -4,7 +4,7 @@
 
   
   
-  <!-- gun 1, codes -->
+ 
   <submodel>
     <name>R1-tracer</name>
     <model>Aircraft/P47/Models/Effects/guns/tracer.xml</model>
