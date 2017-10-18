@@ -296,8 +296,8 @@
                 </binding>
             </mod-ctrl>
         </key>
-        <key n="114">
-            <name>CTRL-r</name>
+        <key n="102">
+            <name>CTRL-f</name>
             <mod-ctrl>
                 <desc>Select rockets</desc>
                 <binding>
