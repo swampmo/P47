@@ -284,7 +284,7 @@
                 </binding>
             </key> -->
 
-        <key n="103">
+        <key n="7">
             <name>CTRL-g</name>
             <mod-ctrl>
                 <desc>Select cannon</desc>
@@ -296,9 +296,9 @@
                 </binding>
             </mod-ctrl>
         </key>
-        <key n="102">
+
+        <key n="6">
             <name>CTRL-f</name>
-            <mod-ctrl>
                 <desc>Select rockets</desc>
                 <binding>
                     <command>nasal</command>
@@ -306,7 +306,6 @@
                             props.globals.getNode("controls/armament/trigger-cannon",1).unalias();
                             props.globals.getNode("controls/armament/trigger-cannon",1).setBoolValue(0);</script>
                 </binding>
-            </mod-ctrl>
         </key>
 
 
