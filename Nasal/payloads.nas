@@ -20,12 +20,12 @@ load_ammo = func{
             setprop("ai/submodels/submodel[5]/count",425);
             setprop("ai/submodels/submodel[6]/count",425);
             setprop("ai/submodels/submodel[7]/count",425);
+            setprop("ai/submodels/submodel[8]/count",1);
             setprop("ai/submodels/submodel[9]/count",1);
             setprop("ai/submodels/submodel[10]/count",1);
             setprop("ai/submodels/submodel[11]/count",1);
             setprop("ai/submodels/submodel[12]/count",1);
             setprop("ai/submodels/submodel[13]/count",1);
-            setprop("ai/submodels/submodel[14]/count",1);
         }
     }
 }
@@ -46,7 +46,6 @@ setlistener("/ai/models/model-impact", func {
 #            setprop("controls/armament/ammo",3400);
 #        }
 #    }
-#}
 		#print("ballistic isn't nil");
 		var typeNode = ballistic.getNode("impact/type");
 		if (typeNode != nil and typeNode.getValue() != "terrain") {
@@ -86,7 +85,6 @@ setlistener("/ai/models/model-impact", func {
 				}
 			}
 		}
-	}
 });
 
 var hitmessage = func() {
