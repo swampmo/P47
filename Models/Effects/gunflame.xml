@@ -8,7 +8,7 @@
   <type>select</type>
   <object-name>Flame</object-name>
  <condition>
-  <property>controls/armament/trigger</property>
+  <property>controls/armament/trigger-cannon</property>
  </condition>
  </animation>
 

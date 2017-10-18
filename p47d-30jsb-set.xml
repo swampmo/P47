@@ -28,7 +28,7 @@
         </instrumentation>
 
        <submodels> 
-      	<serviceable type="bool">true</serviceable>
+      	     <serviceable type="bool">true</serviceable>
       		<path>Aircraft/P47/Models/Effects/guns/submodels.xml</path>
        </submodels>
 
