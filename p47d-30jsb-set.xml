@@ -284,8 +284,8 @@
                 </binding>
             </key> -->
 
-        <key n="49">
-            <name>CTRL-1</name>
+        <key n="103">
+            <name>CTRL-g</name>
             <mod-ctrl>
                 <desc>Select cannon</desc>
                 <binding>
@@ -296,8 +296,8 @@
                 </binding>
             </mod-ctrl>
         </key>
-        <key n="50">
-            <name>CTRL-2</name>
+        <key n="114">
+            <name>CTRL-r</name>
             <mod-ctrl>
                 <desc>Select rockets</desc>
                 <binding>
