@@ -30,7 +30,6 @@
        <submodels> 
       	<serviceable type="bool">true</serviceable>
       		<path>Aircraft/P47/Models/Effects/guns/submodels.xml</path>
-      		<path>Aircraft/P47/Models/Armament/M8/rocket-submodels.xml</path>
        </submodels>
 
         <allow-toggle-cockpit archive="y">true</allow-toggle-cockpit>
