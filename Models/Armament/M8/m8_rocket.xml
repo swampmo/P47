@@ -10,7 +10,7 @@
   </animation>
  
    <submodel>
-    <name>rocket splash</name>
+    <name>M8</name>
     <model>Aircraft/P47/Models/Effects/guns/flack.xml</model>
     <speed>0</speed>
     <repeat>false</repeat>
