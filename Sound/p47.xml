@@ -386,7 +386,28 @@
         </position>
         <reference-dist>20.0</reference-dist>
         <max-dist>50.0</max-dist>
-    </guns>
+</guns>
+
+    <rockets>
+	    <name>rockets</name>
+	    <mode>once</mode>
+	    <!-- placeholder, should change it to a more realistic sound. :) -->
+	    <path>Aircraft/P47/Sound/startup.wav</path>
+	    <condition>
+		    <property>controls/armament/rocket-sound-on</property>
+	    </condition>
+	    <volume>
+		    <offset>1</offset>
+	    </volume>
+	    <position>
+		    <x>0</x>
+		    <y>0</y>
+		    <z>-1</z>
+	    </position>
+	    <reference-dist>20.0</reference-dist>
+	    <max-dist>50.0</max-dist>
+    </rockets>
+
 
     <wind>
         <name>wind</name>
