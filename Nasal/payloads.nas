@@ -99,8 +99,7 @@ setlistener("/ai/models/model-impact", func {
         var distance = impactPos.distance_to(selectionPos);
         # change the below value to the max hit message distance in meters
         if (distance < 10) {
-defeatSpamFilter(sprintf("M8 exploded: %01.1f", distance) ~ " meters from: " ~ mp.getNode("callsign").getValue());
-;
+          defeatSpamFilter(sprintf( typeOrd~" exploded: %01.1f", distance) ~ " meters from: " ~ mp.getNode("callsign").getValue());
         }
       }
     }
