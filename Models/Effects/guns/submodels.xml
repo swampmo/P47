@@ -213,7 +213,7 @@
         <trigger>controls/armament/trigger-rocket</trigger>
         <speed> 880 </speed>
         <repeat>true</repeat>
-        <delay> 0.08 </delay>
+        <delay> 0.1 </delay>
         <count>0</count>
         <x-offset> -0.81401 </x-offset>
         <y-offset> 3.18718 </y-offset>
@@ -238,7 +238,7 @@
         <trigger>controls/armament/trigger-rocket</trigger>
         <speed> 880 </speed>
         <repeat>true</repeat>
-        <delay> 0.8 </delay>
+        <delay> 0.1 </delay>
         <count>0</count>
         <x-offset> -0.81401 </x-offset>
         <y-offset> 2.18718 </y-offset>
@@ -288,7 +288,7 @@
         <trigger>controls/armament/trigger-rocket</trigger>
         <speed> 880 </speed>
         <repeat>true</repeat>
-        <delay> 0.8 </delay>
+        <delay> 0.1 </delay>
         <count>0</count>
         <x-offset> -0.81401 </x-offset>
         <y-offset> -1.18718 </y-offset>
@@ -313,7 +313,7 @@
         <trigger>controls/armament/trigger-rocket</trigger>
         <speed> 880 </speed>
         <repeat>true</repeat>
-        <delay> 0.8 </delay>
+        <delay> 0.1 </delay>
         <count>0</count>
         <x-offset> -0.81401 </x-offset>
         <y-offset> -2.18718 </y-offset>
@@ -338,7 +338,7 @@
         <trigger>controls/armament/trigger-rocket</trigger>
         <speed> 880 </speed>
         <repeat>true</repeat>
-        <delay> 0.8 </delay>
+        <delay> 0.1 </delay>
         <count>0</count>
         <x-offset> -0.81401 </x-offset>
         <y-offset> -3.18718 </y-offset>

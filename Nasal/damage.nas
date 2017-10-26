@@ -78,6 +78,7 @@ var warhead_lbs = {
     "FAB-500":             564.00,
     "Exocet":              364.00,
     "HVAR":                  7.50,#P51
+    "M8":                    4.50,#P47
 };
 
 var fireMsgs = {

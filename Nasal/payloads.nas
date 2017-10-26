@@ -46,7 +46,9 @@ setlistener("/ai/models/model-impact", func {
     var typeOrd = ballistic.getNode("name").getValue();
     var lat = ballistic.getNode("impact/latitude-deg").getValue();
     var lon = ballistic.getNode("impact/longitude-deg").getValue();
-    var impactPos = geo.Coord.new().set_latlon(lat, lon);
+    var elv = ballistic.getNode("impact/elevation-m").getValue();
+    var impactPos = geo.Coord.new().set_latlon(lat, lon,elv);
+    #printf("type %s name %s", typeNode.getValue(), typeOrd);
     if ((typeOrd == "R1-tracer" or
         typeOrd == "R2-tracer" or
         typeOrd == "R3-tracer" or
@@ -63,7 +65,7 @@ setlistener("/ai/models/model-impact", func {
         var mlon = mp.getNode("position/longitude-deg").getValue();
         var malt = mp.getNode("position/altitude-ft").getValue() * FT2M;
         var selectionPos = geo.Coord.new().set_latlon(mlat, mlon, malt);
-        var distance = impactPos.distance_to(selectionPos);
+        var distance = impactPos.direct_distance_to(selectionPos);
         #print("distance = " ~ distance);
         if (distance < closest_distance) {
           closest_distance = distance;
@@ -91,15 +93,17 @@ setlistener("/ai/models/model-impact", func {
               typeOrd == "Rocket4" or
               typeOrd == "Rocket5" or
               typeOrd == "Rocket6" )  {
+      #print("rocket hit");
       foreach(var mp; props.globals.getNode("/ai/models").getChildren("multiplayer")){
         var mlat = mp.getNode("position/latitude-deg").getValue();
         var mlon = mp.getNode("position/longitude-deg").getValue();
         var malt = mp.getNode("position/altitude-ft").getValue() * FT2M;
         var selectionPos = geo.Coord.new().set_latlon(mlat, mlon, malt);
-        var distance = impactPos.distance_to(selectionPos);
+        var distance = impactPos.direct_distance_to(selectionPos);
+        #print("distance = " ~ distance);
         # change the below value to the max hit message distance in meters
-        if (distance < 10) {
-          defeatSpamFilter(sprintf( typeOrd~" exploded: %01.1f", distance) ~ " meters from: " ~ mp.getNode("callsign").getValue());
+        if (distance < 35) {
+        defeatSpamFilter(sprintf("M8 exploded: %01.1f", distance) ~ " meters from: " ~ mp.getNode("callsign").getValue());
         }
       }
     }

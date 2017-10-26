@@ -482,7 +482,7 @@
             <independentVar lookup="row">aero/alpha-deg</independentVar>
             <tableData>
               -11.46 -0.5650
-               0.00   0.2000
+               0.00   0.2200
                 7.50  0.7500
                11.00  1.1500
                16.04  1.4230
@@ -502,7 +502,7 @@
           <property>metrics/Sw-sqft</property>
           <property>velocities/q-aero-rad_sec</property>
           <property>aero/ci2vel</property>
-          <value> 4.5 </value>
+          <value> 4.0 </value>
         </product>
       </function>
 
@@ -767,7 +767,7 @@
            <property>metrics/cbarw-ft</property>
            <property>aero/ci2vel</property>
            <property>velocities/q-aero-rad_sec</property>
-           <value> -12.7143 </value>
+           <value> -14.7143 </value>
        </product>
     </function>
 
@@ -818,7 +818,7 @@
            <property>metrics/bw-ft</property>
            <property>aero/bi2vel</property>
            <property>velocities/p-aero-rad_sec</property>
-           <value> -0.7087 </value>
+           <value> -0.6087 </value>
        </product>
     </function>
 
