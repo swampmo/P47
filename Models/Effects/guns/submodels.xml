@@ -229,7 +229,7 @@
         <collision-report>sim/ai/aircraft/collision/bullet</collision-report>
         <impact>true</impact>
         <impact-report>sim/ai/aircraft/impact/bullet</impact-report>
-        <submodel-path>Aircraft/P47/Models/Effects/guns/bullet-submodel.xml</submodel-path>
+        <submodel-path>Aircraft/P47/Models/Armament/M8/Rocket-Submodel.xml</submodel-path>
     </submodel>
 
     <submodel>
@@ -254,7 +254,7 @@
         <collision-report>sim/ai/aircraft/collision/bullet</collision-report>
         <impact>true</impact>
         <impact-report>sim/ai/aircraft/impact/bullet</impact-report>
-        <submodel-path>Aircraft/P47/Models/Effects/guns/bullet-submodel.xml</submodel-path>
+        <submodel-path>Aircraft/P47/Models/Armament/M8/Rocket-Submodel.xml</submodel-path>
     </submodel>
   
     <submodel>
@@ -279,7 +279,7 @@
         <collision-report>sim/ai/aircraft/collision/bullet</collision-report>
         <impact>true</impact>
         <impact-report>sim/ai/aircraft/impact/bullet</impact-report>
-        <submodel-path>Aircraft/P47/Models/Effects/guns/bullet-submodel.xml</submodel-path>
+        <submodel-path>Aircraft/P47/Models/Armament/M8/Rocket-Submodel.xml</submodel-path>
     </submodel>
   
     <submodel>
@@ -304,7 +304,7 @@
         <collision-report>sim/ai/aircraft/collision/bullet</collision-report>
         <impact>true</impact>
         <impact-report>sim/ai/aircraft/impact/bullet</impact-report>
-        <submodel-path>Aircraft/P47/Models/Effects/guns/bullet-submodel.xml</submodel-path>
+        <submodel-path>Aircraft/P47/Models/Armament/M8/Rocket-Submodel.xml</submodel-path>
     </submodel>
     
     <submodel>
@@ -329,7 +329,7 @@
         <collision-report>sim/ai/aircraft/collision/bullet</collision-report>
         <impact>true</impact>
         <impact-report>sim/ai/aircraft/impact/bullet</impact-report>
-        <submodel-path>Aircraft/P47/Models/Effects/guns/bullet-submodel.xml</submodel-path>
+        <submodel-path>Aircraft/P47/Models/Armament/M8/Rocket-Submodel.xml</submodel-path>
     </submodel>
   
     <submodel>
@@ -354,7 +354,7 @@
         <collision-report>sim/ai/aircraft/collision/bullet</collision-report>
         <impact>true</impact>
         <impact-report>sim/ai/aircraft/impact/bullet</impact-report>
-        <submodel-path>Aircraft/P47/Models/Effects/guns/bullet-submodel.xml</submodel-path>
+        <submodel-path>Aircraft/P47/Models/Armament/M8/Rocket-Submodel.xml</submodel-path>
     </submodel>
 
 </PropertyList>
