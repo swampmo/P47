@@ -10,6 +10,23 @@
   </animation>
   
   <animation>
+  <type>texrotate</type>
+  <object-name>puff-black2</object-name>
+  <property>sim/time/elapsed-sec</property>
+  <factor>25</factor>
+  <offset-deg>0</offset-deg>
+  <center>
+    <x>1</x>
+    <y>0.0</y>
+  </center>
+  <axis>
+    <x>1</x>
+    <y>1</y>
+    <z>1</z>
+  </axis>
+</animation>
+  
+  <animation>
     <type>material</type>
     <object-name>puff-black2</object-name>
     <emission>
@@ -30,11 +47,11 @@
     <x-min>0</x-min>
     <y-min>0</y-min>
     <z-min>0</z-min>
-    <x-max>2</x-max>
-    <y-max>2</y-max>
-    <z-max>2</z-max>
-    <x-factor>4</x-factor>
-    <y-factor>4</y-factor>
+    <x-max>0</x-max>
+    <y-max>0</y-max>
+    <z-max>0</z-max>
+    <x-factor>2</x-factor>
+    <y-factor>2</y-factor>
   </animation>
 
   <animation>
@@ -43,18 +60,19 @@
     <property>sim/time/elapsed-sec</property>
     <factor>0.01</factor>
     <min>0</min>
-    <max>1</max>
+    <max>2</max>
   </animation>
 
   <animation>
     <type>dist-scale</type>
     <object-name>sphere</object-name>
     <interpolation>
-      <entry><ind>    0 </ind><dep> 1 </dep></entry>
-      <entry><ind> 3000 </ind><dep> 4 </dep></entry>
+      <entry><ind>    0 </ind><dep> 0.1 </dep></entry>
+      <entry><ind> 0 </ind><dep> 0.2 </dep></entry>
     </interpolation>
   </animation>
 
+  
   <animation>
     <type>material</type>
     <object-name>sphere</object-name>
@@ -78,12 +96,12 @@
     <x-min>0</x-min>
     <y-min>0</y-min>
     <z-min>0</z-min>
-    <x-max>3</x-max>
-    <y-max>3</y-max>
-    <z-max>3</z-max>
-    <x-factor>1</x-factor>
-    <y-factor>1</y-factor>
-    <z-factor>1</z-factor>
+    <x-max>0</x-max>
+    <y-max>0</y-max>
+    <z-max>0</z-max>
+    <x-factor>2</x-factor>
+    <y-factor>4</y-factor>
+    <z-factor>2</z-factor>
   </animation>
 
   <animation>
@@ -107,7 +125,7 @@
 
   <!-- Fire -->
   <model>
-    <path>Aircraft/P47/Models/Effects/Armament/explosion.xml</path>
+    <path>Aircraft/P47/Models/Armament/M8/explosion.xml</path>
     <offsets>
       <x-m> 2 </x-m>
       <y-m> 0 </y-m>

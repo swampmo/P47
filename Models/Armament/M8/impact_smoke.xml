@@ -1,11 +1,7 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-
-<PropertyList>
-
   <particlesystem>
 
-  <name>explosion</name>
-  <texture>Puff.png</texture>
+  <name>smoke</name>
+  <texture>impact-smoke.png</texture>
   <emissive>true</emissive>
   <lighting>false</lighting>
   <offsets>
@@ -25,7 +21,7 @@
     <phi-max-deg>     0 </phi-max-deg>
     <speed>
       <value>  25 </value>
-      <spread> 50 </spread>
+      <spread> 100 </spread>
     </speed>
     <rotation-speed>
       <x-min-deg-sec> 0 </x-min-deg-sec>
@@ -63,16 +59,16 @@
         <blue><value>  0 </value></blue>
         <alpha><value> 0 </value></alpha>
       </color>
-      <size><value> 4 </value></size>
+      <size><value> 1 </value></size>
     </end>
 
     <life-sec>
       <value>4</value>
     </life-sec>
 
-    <mass-kg>3</mass-kg>
+    <mass-kg>1.3</mass-kg>
 
-    <radius-m>0.03</radius-m>
+    <radius-m>0.05</radius-m>
   </particle>
 
   <program>
@@ -82,5 +78,3 @@
   </program>
 
   </particlesystem>
-
-</PropertyList>

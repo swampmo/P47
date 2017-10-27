@@ -4,7 +4,7 @@
 
   <submodel>
     <name>Impact</name>
-    <model>Aircraft/Cessna-L19/Models/Effects/Rocket/Impact.xml</model>
+    <model>Aircraft/P47/Models/Armament/M8/Impact.xml</model>
     <speed>0</speed>
     <repeat>false</repeat>
     <delay>0</delay>
@@ -16,8 +16,8 @@
     <pitch-offset>0</pitch-offset>
     <eda>10</eda>
     <wind>false</wind>
-    <buoyancy>32</buoyancy>
-    <life>50</life>
+    <buoyancy>1</buoyancy>
+    <life>60</life>
   </submodel> 
 
 </PropertyList>

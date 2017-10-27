@@ -10,7 +10,7 @@
   </animation>
  
  <model>
-    <path>Aircraft/P47/Models/Effects/Armament/smoke.xml</path>
+    <path>Aircraft/P47/Models/Armament/M8/smoke.xml</path>
     <offsets>
       <x-m>  0 </x-m>
       <y-m>  0 </y-m>
