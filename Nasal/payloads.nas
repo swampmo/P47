@@ -9,6 +9,22 @@ input = {
       input[name] = props.globals.getNode(input[name], 1);
   }
 
+
+var RocketSoundOff = func ()
+{
+	settimer( func { setprop("controls/armament/rocket-sound-on", 0);}, 10);
+} _setlistener("controls/armament/rocket-sound-on", RocketSoundOff);
+
+var setArmamentSound = func ()
+{
+	if(getprop("controls/armament/rocket-selected") == 1)
+	{
+	setprop("controls/armament/rocket-sound-on", 1);
+	}
+
+} _setlistener("controls/armament/trigger", setArmamentSound);
+
+
 load_ammo = func{
     if(getprop("gear/gear/wow")){
         if(getprop("controls/gear/brake-parking")){

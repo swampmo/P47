@@ -482,7 +482,7 @@
             <independentVar lookup="row">aero/alpha-deg</independentVar>
             <tableData>
               -11.46 -0.5650
-               0.00   0.2200
+               0.00   0.3300
                 7.50  0.7500
                11.00  1.1500
                16.04  1.4230
