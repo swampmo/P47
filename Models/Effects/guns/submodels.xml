@@ -215,9 +215,9 @@
         <repeat>true</repeat>
         <delay> 0.1 </delay>
         <count>0</count>
-        <x-offset> -0.81401 </x-offset>
-        <y-offset> 3.18718 </y-offset>
-        <z-offset> 0.08184 </z-offset>
+        <x-offset> -2.26743 </x-offset>
+        <y-offset> 2.75288 </y-offset>
+        <z-offset> -0.39413 </z-offset>
         <yaw-offset> 0 </yaw-offset>
         <pitch-offset> 0 </pitch-offset>
         <wind>true</wind>
@@ -240,9 +240,9 @@
         <repeat>true</repeat>
         <delay> 0.1 </delay>
         <count>0</count>
-        <x-offset> -0.81401 </x-offset>
-        <y-offset> 2.18718 </y-offset>
-        <z-offset> 0.08184 </z-offset>
+        <x-offset> -2.26743 </x-offset>
+        <y-offset> 2.75288 </y-offset>
+        <z-offset> -0.39413 </z-offset>
         <yaw-offset> 0 </yaw-offset>
         <pitch-offset> 0 </pitch-offset>
         <wind>true</wind>
@@ -265,9 +265,9 @@
         <repeat>true</repeat>
         <delay> 0.8 </delay>
         <count>0</count>
-        <x-offset> -0.81401 </x-offset>
-        <y-offset> 1.18718 </y-offset>
-        <z-offset> 0.08184 </z-offset>
+        <x-offset> -2.26743 </x-offset>
+        <y-offset> 2.75288 </y-offset>
+        <z-offset> -0.39413 </z-offset>
         <yaw-offset> 0 </yaw-offset>
         <pitch-offset> 0 </pitch-offset>
         <wind>true</wind>
@@ -290,9 +290,9 @@
         <repeat>true</repeat>
         <delay> 0.1 </delay>
         <count>0</count>
-        <x-offset> -0.81401 </x-offset>
-        <y-offset> -1.18718 </y-offset>
-        <z-offset> 0.08184 </z-offset>
+        <x-offset> -2.37338 </x-offset>
+        <y-offset>  -2.75288 </y-offset>
+        <z-offset> -0.39413 </z-offset>
         <yaw-offset> 0 </yaw-offset>
         <pitch-offset> 0 </pitch-offset>
         <wind>true</wind>
@@ -315,9 +315,9 @@
         <repeat>true</repeat>
         <delay> 0.1 </delay>
         <count>0</count>
-        <x-offset> -0.81401 </x-offset>
-        <y-offset> -2.18718 </y-offset>
-        <z-offset> 0.08184 </z-offset>
+        <x-offset> -2.37338 </x-offset>
+        <y-offset>  -2.75288 </y-offset>
+        <z-offset> -0.39413 </z-offset>
         <yaw-offset> 0 </yaw-offset>
         <pitch-offset> 0 </pitch-offset>
         <wind>true</wind>
@@ -340,9 +340,9 @@
         <repeat>true</repeat>
         <delay> 0.1 </delay>
         <count>0</count>
-        <x-offset> -0.81401 </x-offset>
-        <y-offset> -3.18718 </y-offset>
-        <z-offset> 0.08184 </z-offset>
+        <x-offset> -2.37338 </x-offset>
+        <y-offset>  -2.75288 </y-offset>
+        <z-offset> -0.39413 </z-offset>
         <yaw-offset> 0 </yaw-offset>
         <pitch-offset> 0 </pitch-offset>
         <wind>true</wind>

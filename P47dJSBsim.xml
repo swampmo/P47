@@ -482,7 +482,7 @@
             <independentVar lookup="row">aero/alpha-deg</independentVar>
             <tableData>
               -11.46 -0.5650
-               0.00   0.3300
+               0.00   0.3150
                 7.50  0.7500
                11.00  1.1500
                16.04  1.4230
@@ -502,7 +502,7 @@
           <property>metrics/Sw-sqft</property>
           <property>velocities/q-aero-rad_sec</property>
           <property>aero/ci2vel</property>
-          <value> 4.0 </value>
+          <value> 3.8 </value>
         </product>
       </function>
 
