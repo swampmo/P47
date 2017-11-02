@@ -12,17 +12,15 @@ input = {
 
 var RocketSoundOff = func ()
 {
-	settimer( func { setprop("controls/armament/rocket-sound-on", 0);}, 10);
-} _setlistener("controls/armament/rocket-sound-on", RocketSoundOff);
+    settimer( func { setprop("controls/armament/rocket-sound-on", 0);}, 10);
+}
+setlistener("controls/armament/rocket-sound-on", RocketSoundOff);
 
 var setArmamentSound = func ()
 {
-	if(getprop("controls/armament/rocket-selected") == 1)
-	{
-	setprop("controls/armament/rocket-sound-on", 1);
-	}
-
-} _setlistener("controls/armament/trigger", setArmamentSound);
+    setprop("controls/armament/rocket-sound-on", 1);
+}
+setlistener("controls/armament/trigger-rocket", setArmamentSound);
 
 
 load_ammo = func{

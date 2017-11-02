@@ -21,7 +21,7 @@
     <phi-max-deg>     0 </phi-max-deg>
     <speed>
       <value>  25 </value>
-      <spread> 100 </spread>
+      <spread> 150 </spread>
     </speed>
     <rotation-speed>
       <x-min-deg-sec> 0 </x-min-deg-sec>
@@ -59,11 +59,11 @@
         <blue><value>  0 </value></blue>
         <alpha><value> 0 </value></alpha>
       </color>
-      <size><value> 1 </value></size>
+      <size><value> 2 </value></size>
     </end>
 
     <life-sec>
-      <value>4</value>
+      <value>12</value>
     </life-sec>
 
     <mass-kg>1.3</mass-kg>

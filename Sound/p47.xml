@@ -391,18 +391,21 @@
     <rockets>
 	    <name>rockets</name>
 	    <mode>once</mode>
-	    <!-- placeholder, should change it to a more realistic sound. :) -->
-	    <path>Aircraft/P47/Sound/Rocket.wav</path>
+		    <path>Aircraft/P47/Sound/Rocket.wav</path>
 	    <condition>
 		    <property>controls/armament/rocket-sound-on</property>
+        <greater-than>
+           <property>ai/submodels/submodel[13]/count</property>
+              <value>0</value>
+         </greater-than>
 	    </condition>
 	    <volume>
 		    <offset>1</offset>
 	    </volume>
 	    <position>
-		    <x>0</x>
-		    <y>0</y>
-		    <z>-1</z>
+		    <x>1</x>
+		    <y>1</y>
+		    <z>1</z>
 	    </position>
 	    <reference-dist>20.0</reference-dist>
 	    <max-dist>50.0</max-dist>
