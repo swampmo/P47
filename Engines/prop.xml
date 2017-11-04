@@ -26,8 +26,8 @@
   <gearratio> 1 </gearratio>
   <cp_factor> 1.00 </cp_factor>
   <ct_factor> 1.00 </ct_factor>
-  <minpitch> 12 </minpitch>
-  <maxpitch> 45 </maxpitch>
+  <minpitch> 20.2 </minpitch>
+  <maxpitch> 55.2 </maxpitch>
   <minrpm> 500.45 </minrpm>
   <maxrpm> 2800.88 </maxrpm>
 

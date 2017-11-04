@@ -9,7 +9,6 @@ input = {
       input[name] = props.globals.getNode(input[name], 1);
   }
 
-
 var RocketSoundOff = func ()
 {
     settimer( func { setprop("controls/armament/rocket-sound-on", 0);}, 10);
@@ -21,7 +20,6 @@ var setArmamentSound = func ()
     setprop("controls/armament/rocket-sound-on", 1);
 }
 setlistener("controls/armament/trigger-rocket", setArmamentSound);
-
 
 load_ammo = func{
     if(getprop("gear/gear/wow")){
