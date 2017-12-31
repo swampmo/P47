@@ -137,16 +137,33 @@
         <line></line> 
         <line>* = not implemented yet</line>
         <line></line> 
-        <line> 1:Throttle open half inch ( PgUp / PgDn )</line>
+        <line> 1:Throttle open 1/3 ( PgUp / PgDn )</line>
         <line> 2:Prop lever full forward ( N / n )</line>
         <line>#############</line>
         <line>Startup</line>
         <line>#############</line>
-        <line> 1:Mags on 'BOTH'</line>
+        <line> 1:Mags on 'BOTH' ( } )</line>
         <line> 2:Battery on</line>
         <line> 3:Pump primer twice *</line>
         <line> 4:Hold energizer 15 seconds</line>
-        <line> 5:Engage starter ( s )</line>
+        <line> 5:Engage starter ( s ) or flip switch up to start position</line>
+        <line>#############</line>
+        <line>Takeoff</line>
+        <line>Flaps up</line>
+        <line>Ease on throttle</line>
+        <line>Manifold pressure 52 inHg </line>        
+        <line>Rotate 110 mph</line> 
+        <line>Reduce Manifold pressure to 35 inHg for normal non combat climb</line>
+        <line>#############</line> 
+        <line> ( d ) for smoke</line>
+        <line> To load ammo you must be on the ground with parking brake on</line>       
+        <line>#############</line>
+        <line>Landing</line>
+        <line>Peel off hard base to bleed of speed</line>
+        <line>Flaps 2 nothes below 195 mph</line>
+        <line>Aproach speed 150 mph</line>
+        <line>Touch down speed between 115-120 mph</line>
+        <line>#############</line> 
         <line>----------------------------</line> 
     </help>
     </sim>
@@ -323,6 +340,23 @@
           </binding>
         </mod-up>
       </key>
+
+    <key n="108">
+     <name>l</name>
+     <desc>engage tail wheel steering</desc>
+     <binding>
+      <command>property-assign</command>
+      <property>fdm/jsbsim/systems/TWS/engaged</property>
+      <value>1</value> 
+     </binding>
+     <mod-up>
+       <binding>
+        <command>property-assign</command>
+        <property>fdm/jsbsim/systems/TWS/engaged</property>
+        <value>0</value> 
+       </binding>
+     </mod-up>
+    </key>
 
 		 </keyboard>
 	 </input>

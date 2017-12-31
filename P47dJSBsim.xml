@@ -172,9 +172,9 @@
    <static_friction>  0.90 </static_friction>
    <dynamic_friction> 0.50 </dynamic_friction>
    <rolling_friction> 0.05 </rolling_friction>
-   <spring_coeff unit="LBS/FT">      10000.00 </spring_coeff>
-   <damping_coeff unit="LBS/FT/SEC"> 7000.00 </damping_coeff>
- <damping_coeff_rebound unit="LBS/FT/SEC"> 10000 </damping_coeff_rebound>
+   <spring_coeff unit="LBS/FT"> 16200 </spring_coeff>
+   <damping_coeff unit="LBS/FT/SEC"> 4000 </damping_coeff>
+   <damping_coeff_rebound unit="LBS/FT/SEC">2500</damping_coeff_rebound>
    <max_steer unit="DEG"> -30 </max_steer>
    <brake_group>NONE</brake_group>
    <retractable>1</retractable>
@@ -481,13 +481,13 @@
           <table>
             <independentVar lookup="row">aero/alpha-deg</independentVar>
             <tableData>
-              -11.46 -0.5650
-               0.00   0.3350
+              -11.00 -0.5500
+               0.00   0.2350
                 7.50  0.6500
-               11.00  1.1500
-               16.04  1.4230
-                22.91  1.2000
-               34.38  0.7000
+               11.00  0.9000
+               14.00  0.7500
+                22.91 0.6000
+               34.38  0.5000
               
             </tableData>
           </table>
