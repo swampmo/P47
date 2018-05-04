@@ -13,7 +13,7 @@
 -->
 
 <piston_engine name="R2800">
-  <minmp unit="INHG">         6.8 </minmp>
+  <minmp unit="INHG">         7.5 </minmp>
   <maxmp unit="INHG">         45.5 </maxmp>
     <displacement unit="IN3"> 3442 </displacement>
  <cylinder-head-mass unit="LBS"> 25.0 </cylinder-head-mass>
