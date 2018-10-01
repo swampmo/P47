@@ -156,6 +156,8 @@ var incoming_listener = func {
       if (find(" at " ~ callsign ~ ". Release ", last_vector[1]) != -1) {
         # a m2000 is firing at us
         m2000 = TRUE;
+      } elsif (find(" Maddog released", last_vector[1]) != -1) {
+        m2000 = TRUE;
       }
       if (contains(fireMsgs, last_vector[1]) or m2000 == TRUE) {
         # air2air being fired
@@ -207,12 +209,13 @@ var incoming_listener = func {
                 } else {
                   playIncomingSound("");
                 }
+                setLaunch(author);
                 return;
               }
             }
           }
         }
-      } elsif (1==1) { # mirage: getprop("/controls/armament/mp-messaging")
+      } elsif (getprop("payload/armament/msg")) { # mirage: getprop("/controls/armament/mp-messaging")
         # latest version of failure manager and taking damage enabled
         #print("damage enabled");
         var last1 = split(" ", last_vector[1]);
@@ -330,6 +333,15 @@ var stopIncomingSound = func (clock) {
   setprop("sound/incoming"~clock, 0);
 }
 
+var setLaunch = func (e) {
+  setprop("sound/rwr-launch", e);
+  settimer(func {stopLaunch();},7);
+}
+
+var stopLaunch = func () {
+  setprop("sound/rwr-launch", "");
+}
+
 var callsign_struct = {};
 var getCallsign = func (callsign) {
   var node = callsign_struct[callsign];
@@ -379,4 +391,4 @@ var re_init = func {
   }
 }
 
-setlistener("/sim/signals/reinit", re_init, 0, 0);
+#setlistener("/sim/signals/reinit", re_init, 0, 0);
