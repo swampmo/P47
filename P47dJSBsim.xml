@@ -29,15 +29,12 @@
      incidence:    1.00 degrees
      dihedral:     4.00 degrees
      sweep:        3.00 degrees
-
     no. engines:   1
     engine type:   Piston Engine
     engine layout: forward fuselage
-
     gear type:     taildragger
     steering type: steering
     retractable?:  yes
-
   Outputs:
     wing loading:  58.33 lb/sq-ft
     payload:       5365.00 lbs
@@ -153,8 +150,8 @@
      <y>   -0.00024 </y>
      <z>   -1.18097 </z>
      </location>
-     <capacity unit="LBS"> 1498</capacity>
-     <contents unit="LBS"> 0 </contents>
+     <capacity unit="LBS"> 1300</capacity>
+     <contents unit="LBS"> 1300 </contents>
   </tank>
 
  </propulsion>
@@ -172,9 +169,9 @@
    <static_friction>  0.90 </static_friction>
    <dynamic_friction> 0.50 </dynamic_friction>
    <rolling_friction> 0.05 </rolling_friction>
-   <spring_coeff unit="LBS/FT"> 16200 </spring_coeff>
-   <damping_coeff unit="LBS/FT/SEC"> 4000 </damping_coeff>
-   <damping_coeff_rebound unit="LBS/FT/SEC">2500</damping_coeff_rebound>
+   <spring_coeff unit="LBS/FT">      10000.00 </spring_coeff>
+   <damping_coeff unit="LBS/FT/SEC"> 7000.00 </damping_coeff>
+ <damping_coeff_rebound unit="LBS/FT/SEC"> 10000 </damping_coeff_rebound>
    <max_steer unit="DEG"> -30 </max_steer>
    <brake_group>NONE</brake_group>
    <retractable>1</retractable>
@@ -300,7 +297,7 @@
     </location>
     <static_friction>  8 </static_friction>
     <dynamic_friction> 7 </dynamic_friction>
-      <spring_coeff unit="LBS/FT"> 10000 </spring_coeff>
+      <spring_coeff unit="LBS/FT"> 1000 </spring_coeff>
       <damping_coeff unit="LBS/FT/SEC"> 2000 </damping_coeff>
       <damping_coeff_rebound unit="LBS/FT/SEC"> 400 </damping_coeff_rebound>
  </contact> 
@@ -313,7 +310,7 @@
     </location>
     <static_friction>  8 </static_friction>
     <dynamic_friction> 7 </dynamic_friction>
-      <spring_coeff unit="LBS/FT"> 10000 </spring_coeff>
+      <spring_coeff unit="LBS/FT"> 1000 </spring_coeff>
       <damping_coeff unit="LBS/FT/SEC"> 2000 </damping_coeff>
       <damping_coeff_rebound unit="LBS/FT/SEC"> 400 </damping_coeff_rebound>
  </contact>
@@ -326,7 +323,7 @@
     </location>
     <static_friction>  5 </static_friction>
     <dynamic_friction> 4 </dynamic_friction>
-      <spring_coeff unit="LBS/FT"> 10000 </spring_coeff>
+      <spring_coeff unit="LBS/FT"> 1000 </spring_coeff>
       <damping_coeff unit="LBS/FT/SEC"> 2000 </damping_coeff>
       <damping_coeff_rebound unit="LBS/FT/SEC"> 400 </damping_coeff_rebound>
  </contact>
@@ -339,7 +336,7 @@
     </location>
     <static_friction>  5 </static_friction>
     <dynamic_friction> 4 </dynamic_friction>
-      <spring_coeff unit="LBS/FT"> 10000 </spring_coeff>
+      <spring_coeff unit="LBS/FT"> 1000 </spring_coeff>
       <damping_coeff unit="LBS/FT/SEC"> 2000 </damping_coeff>
       <damping_coeff_rebound unit="LBS/FT/SEC"> 400 </damping_coeff_rebound>
  </contact>
@@ -352,7 +349,7 @@
     </location>
     <static_friction>  5 </static_friction>
     <dynamic_friction> 4 </dynamic_friction>
-      <spring_coeff unit="LBS/FT"> 10000 </spring_coeff>
+      <spring_coeff unit="LBS/FT"> 1000 </spring_coeff>
       <damping_coeff unit="LBS/FT/SEC"> 2000 </damping_coeff>
       <damping_coeff_rebound unit="LBS/FT/SEC"> 400 </damping_coeff_rebound>
  </contact>
@@ -365,7 +362,7 @@
     </location>
     <static_friction>  5 </static_friction>
     <dynamic_friction> 4 </dynamic_friction>
-      <spring_coeff unit="LBS/FT"> 10000 </spring_coeff>
+      <spring_coeff unit="LBS/FT"> 1000 </spring_coeff>
       <damping_coeff unit="LBS/FT/SEC"> 2000 </damping_coeff>
       <damping_coeff_rebound unit="LBS/FT/SEC"> 400 </damping_coeff_rebound>
  </contact>
@@ -378,7 +375,7 @@
     </location>
     <static_friction>  5 </static_friction>
     <dynamic_friction> 4 </dynamic_friction>
-      <spring_coeff unit="LBS/FT"> 10000 </spring_coeff>
+      <spring_coeff unit="LBS/FT"> 1000 </spring_coeff>
       <damping_coeff unit="LBS/FT/SEC"> 2000 </damping_coeff>
       <damping_coeff_rebound unit="LBS/FT/SEC"> 400 </damping_coeff_rebound>
  </contact>
@@ -391,10 +388,10 @@
     </location>
     <static_friction>  8 </static_friction>
     <dynamic_friction> 7 </dynamic_friction>
-      <spring_coeff unit="LBS/FT"> 10000 </spring_coeff>
+      <spring_coeff unit="LBS/FT"> 1000 </spring_coeff>
       <damping_coeff unit="LBS/FT/SEC"> 2000 </damping_coeff>
       <damping_coeff_rebound unit="LBS/FT/SEC"> 400 </damping_coeff_rebound>
- </contact>
+ </contact>https://cdn.shopify.com/s/files/1/0972/7116/products/3-musketeers-bar.png?v=1459346190
 
   <contact type="STRUCTURE" name="INTAKE">
     <location unit="M">
@@ -404,7 +401,7 @@
     </location>
     <static_friction>  8 </static_friction>
     <dynamic_friction> 7 </dynamic_friction>
-      <spring_coeff unit="LBS/FT"> 10000 </spring_coeff>
+      <spring_coeff unit="LBS/FT"> 1000 </spring_coeff>
       <damping_coeff unit="LBS/FT/SEC"> 2000 </damping_coeff>
       <damping_coeff_rebound unit="LBS/FT/SEC"> 400 </damping_coeff_rebound>
  </contact>
@@ -417,7 +414,7 @@
     </location>
     <static_friction>  5 </static_friction>
     <dynamic_friction> 4 </dynamic_friction>
-      <spring_coeff unit="LBS/FT"> 10000 </spring_coeff>
+      <spring_coeff unit="LBS/FT"> 1000 </spring_coeff>
       <damping_coeff unit="LBS/FT/SEC"> 2000 </damping_coeff>
       <damping_coeff_rebound unit="LBS/FT/SEC"> 400 </damping_coeff_rebound>
  </contact>
@@ -430,7 +427,7 @@
     </location>
     <static_friction>  5 </static_friction>
     <dynamic_friction> 4 </dynamic_friction>
-      <spring_coeff unit="LBS/FT"> 10000 </spring_coeff>
+      <spring_coeff unit="LBS/FT"> 1000 </spring_coeff>
       <damping_coeff unit="LBS/FT/SEC"> 2000 </damping_coeff>
       <damping_coeff_rebound unit="LBS/FT/SEC"> 400 </damping_coeff_rebound>
  </contact>
@@ -463,9 +460,9 @@
             <tableData>
                      0.0     60.0
               -0.18  0.000   0.000
-               0.00  0.014   0.044
-               0.30  0.005   0.060
-               0.61  0.002   0.050
+               0.00  0.004   0.044
+               0.30  0.031   0.060
+               0.61  0.040   0.050
             </tableData>
           </table>
       </product>
@@ -482,7 +479,7 @@
             <independentVar lookup="row">aero/alpha-deg</independentVar>
             <tableData>
               -11.46 -0.5650
-               0.00   0.2100
+               0.00   0.2000
                 7.50  0.7500
                11.00  1.1500
                16.04  1.4230
@@ -523,7 +520,7 @@
            <property>aero/qbar-psf</property>
            <property>metrics/Sw-sqft</property>
            <property>fcs/elevator-pos-rad</property>
-           <value> 0.4603 </value>
+           <value> 0.4503 </value>
        </product>
     </function>
 
