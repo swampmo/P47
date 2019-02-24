@@ -95,7 +95,7 @@
 
  <propulsion>
 
-   <engine file="R2800">
+   <engine file="R-2800-59">
     <location unit="M">
       <x>    -3.54626 </x>
       <y>     -0.00181 </y>
@@ -110,7 +110,7 @@
     <feed> 1 </feed>
     <feed> 2 </feed>
     
-    <thruster file="prop">
+    <thruster file="Curtiss 836-14C2-18R1">
      <sense> 1 </sense>
      <location unit="M">
        <x>    -4.35417 </x>
