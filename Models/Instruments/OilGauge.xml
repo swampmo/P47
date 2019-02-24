@@ -18,21 +18,20 @@
     <inherits-from>Aircraft/Skyranger/Models/Effects/Glass/glass</inherits-from>
     <object-name>vitre</object-name>
   </effect> -->
-  
-  <animation>
-    <type>material</type>
-    <object-name>Face</object-name>
-    <object-name>PtrL</object-name>
-    <object-name>PtrR</object-name>
-    <emission>
-      <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
-      <red>   0.50 </red>
-      <green> 0.25 </green>
-      <blue>  0.25 </blue>
-    </emission>
-  </animation>
 
-  <animation> 
+  <animation>
+  <type>material</type>
+  <object-name>PointerTip</object-name>
+  <object-name>Face</object-name>
+     <emission>
+      <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
+      <red>   0.8 </red>
+      <green> 0.5 </green>
+      <blue>  0.3 </blue>
+    </emission>
+ </animation>
+
+  <animation>
     <type>rotate</type>
     <object-name>PtrL</object-name>
     <property>engines/engine/oil-temperature-degf</property>
@@ -45,16 +44,16 @@
     <center>
       <x-m>  0.00 </x-m>
       <y-m> -0.02 </y-m>
-      <z-m>  0.00 </z-m>  
+      <z-m>  0.00 </z-m>
     </center>
-    <axis> 
+    <axis>
       <x> 1 </x>
       <y> 0 </y>
       <z> 0 </z>
     </axis>
-  </animation>         
- 
-  <animation> 
+  </animation>
+
+  <animation>
     <type>rotate</type>
     <object-name>PtrR</object-name>
     <property>engines/engine/oil-pressure-psi</property>
@@ -67,13 +66,13 @@
     <center>
       <x-m> 0.00 </x-m>
       <y-m> 0.02 </y-m>
-      <z-m> 0.00 </z-m>  
+      <z-m> 0.00 </z-m>
     </center>
-    <axis> 
+    <axis>
       <x> -1 </x>
       <y>  0 </y>
       <z>  0 </z>
     </axis>
-  </animation>         
- 
+  </animation>
+
 </PropertyList>

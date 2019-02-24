@@ -4,16 +4,14 @@
 
  <path>OilTemp.ac</path>
 
-
-
- <animation>
+   <animation>
   <type>material</type>
   <object-name>PointerTip</object-name>
+  <object-name>Face</object-name>
      <emission>
-      <!-- <factor-prop>controls/lighting/luminosite-lights</factor-prop> -->
       <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
       <red>   0.8 </red>
-      <green> 0.5 </green>
+      <green> 0.6 </green>
       <blue>  0.3 </blue>
     </emission>
  </animation>

@@ -23,7 +23,7 @@
 <!-- effects-->
       <animation>
     <type>material</type>
-    
+
       <object-name>Antenna</object-name>
       <object-name>blade1</object-name>
       <object-name>blade2</object-name>
@@ -68,7 +68,7 @@
       <object-name>Vstab</object-name>
       <object-name>Whwells</object-name>
       <object-name>Wings</object-name>
-   
+
       <property-base>sim/model/livery</property-base>
       <texture-prop>texture-fuselage</texture-prop>
       <texture>paint1.png</texture>
@@ -81,7 +81,7 @@
 
       <animation>
     <type>material</type>
-      <object-name>Cflap1</object-name> 
+      <object-name>Cflap1</object-name>
       <object-name>Cflap2</object-name>
       <object-name>Cflap3</object-name>
       <object-name>Cflap4</object-name>
@@ -113,7 +113,7 @@
       <y-m> -3.0968 </y-m>
       <z-m> -0.79867 </z-m>
     </offsets>
-  </model> 
+  </model>
 
   <model>
     <path>Aircraft/P47/Models/Armament/M8/m8.xml</path>
@@ -123,7 +123,7 @@
       <y-m>  2.75 </y-m>
       <z-m> -0.79867 </z-m>
     </offsets>
-  </model> 
+  </model>
 
   <model>
     <path>Aircraft/P47/Models/Armament/Droptank/droptank.xml</path>
@@ -133,7 +133,7 @@
       <y-m> -0.00024 </y-m>
       <z-m> 0.1 </z-m>
     </offsets>
-  </model> 
+  </model>
 
 <!-- effects-->
 
@@ -145,7 +145,7 @@
       <y-m>  0.9185 </y-m>
       <z-m> -0.22003 </z-m>
     </offsets>
-  </model> 
+  </model>
 
   <model>
     <path>Aircraft/P47/Models/Effects/fire/smoke.xml</path>
@@ -155,7 +155,7 @@
       <y-m>  -0.69233 </y-m>
       <z-m> -0.21613 </z-m>
     </offsets>
-  </model> 
+  </model>
 
   <model>
     <path>Aircraft/P47/Models/Effects/fire/fire.xml</path>
@@ -165,7 +165,7 @@
       <y-m>  0.9185 </y-m>
       <z-m> -0.22003 </z-m>
     </offsets>
-  </model> 
+  </model>
 
   <model>
     <path>Aircraft/P47/Models/Effects/fire/fire.xml</path>
@@ -175,7 +175,7 @@
       <y-m>  -0.69233 </y-m>
       <z-m> -0.21613 </z-m>
     </offsets>
-  </model> 
+  </model>
 
   <model>
     <path>Aircraft/P47/Models/Effects/smoke/smoke2.xml</path>
@@ -184,7 +184,7 @@
       <y-m>  -0.55380 </y-m>
       <z-m> -0.79711 </z-m>
     </offsets>
-  </model> 
+  </model>
 
   <model>
     <path>Aircraft/P47/Models/Effects/enginesmoke/smoke.xml</path>
@@ -194,7 +194,7 @@
       <y-m>  0.485 </y-m>
       <z-m> -0.89425 </z-m>
     </offsets>
-  </model> 
+  </model>
 
   <model>
     <path>Aircraft/P47/Models/Effects/enginesmoke/smoke.xml</path>
@@ -204,7 +204,7 @@
       <y-m> -0.00024 </y-m>
       <z-m> -0.68394 </z-m>
     </offsets>
-  </model> 
+  </model>
 
   <model>
     <path>Aircraft/P47/Models/Effects/enginesmoke/smoke.xml</path>
@@ -214,7 +214,7 @@
       <y-m>  -0.485 </y-m>
       <z-m> -0.89425 </z-m>
     </offsets>
-  </model> 
+  </model>
 
   <model>
     <path>Aircraft/P47/Models/Pilot/pilot.xml</path>
@@ -223,7 +223,7 @@
       <y-m>  -0.0 </y-m>
       <z-m>  0.45313 </z-m>
     </offsets>
-  </model> 
+  </model>
 
    <model>
         <path>Aircraft/P47/Models/Effects/gunflame.xml</path>
@@ -313,7 +313,7 @@
             <y-m>-2.9 </y-m>
             <z-m>-0.338</z-m>
         </offsets>
-    </model> 
+    </model>
 
    <model>
         <path>Aircraft/P47/Models/Effects/gunsmoke.xml</path>
@@ -323,7 +323,7 @@
             <y-m>2.9 </y-m>
             <z-m>-0.338</z-m>
         </offsets>
-    </model> 
+    </model>
 
 <!-- Instruments-->
 
@@ -350,7 +350,7 @@
 	<model>
         <path>Aircraft/P47/Models/Instruments/alt.xml</path>
         <offsets>
-            <x-m>-0.715</x-m>
+            <x-m>-0.735</x-m>
             <y-m>-0.15</y-m>
             <z-m>0.5</z-m>
             <pitch-deg>0.0</pitch-deg>
@@ -421,7 +421,7 @@
     <model>
         <path>Aircraft/P47/Models/Instruments/OilTemp.xml</path>
         <offsets>
-            <x-m>-0.697</x-m>
+            <x-m>-0.690</x-m>
             <y-m>0.320</y-m>
             <z-m>0.525</z-m>
             <pitch-deg>0.0</pitch-deg>
@@ -448,17 +448,17 @@
         </offsets>
     </model>
 
-<!-- <model>
+ <!--model>
         <path>Aircraft/P47/Models/Instruments/tmp.xml</path>
         <offsets>
             <x-m>-0.735</x-m>
-            <y-m>-0.240</y-m>
+            <y-m>-0.245</y-m>
             <z-m>0.506</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
-    </model> -->
+    </model-->
 
-  <!--  <model>
+ <!-- <model>
         <path>Aircraft/P47/Models/Instruments/tmp.xml</path>
         <offsets>
             <x-m>-0.735</x-m>
@@ -466,7 +466,7 @@
             <z-m>0.55</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
-    </model> -->
+    </model-->
 
     <model>
         <path>Aircraft/P47/Models/Instruments/flapgear.xml</path>
