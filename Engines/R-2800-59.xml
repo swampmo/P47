@@ -49,6 +49,6 @@
   <ratedboost2 unit="INHG"> 26.46 </ratedboost2>
   <ratedpower2> 2000 </ratedpower2>
   <ratedrpm2>   2700 </ratedrpm2>
-  <ratedaltitude2> 10000 </ratedaltitude2>
+  <ratedaltitude2> 15000 </ratedaltitude2>
 
 </piston_engine>
