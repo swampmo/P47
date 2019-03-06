@@ -8,7 +8,7 @@
     <!-- Objects -->
     <object-name>rocket</object-name>
   </animation>
- 
+
  <model>
     <path>Aircraft/P47/Models/Armament/M8/smoke.xml</path>
     <offsets>
@@ -17,5 +17,5 @@
       <z-m>  0 </z-m>
     </offsets>
   </model>
- 
+
 </PropertyList>
