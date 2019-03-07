@@ -15,7 +15,7 @@
   <maxmp unit="INHG">         45.5 </maxmp>
     <displacement unit="IN3"> 3442 </displacement>
  <cylinder-head-mass unit="LBS"> 25.0 </cylinder-head-mass>
-  <maxhp>        2000 </maxhp>
+  <maxhp>        2500 </maxhp>
   <cycles>         4.0 </cycles>
   <idlerpm>      400.0 </idlerpm>
   <maxrpm>      2700.0 </maxrpm>
@@ -31,7 +31,7 @@
   <bore unit="IN">    5.75 </bore>
   <cylinders>         18  </cylinders>
   <compression-ratio>  6.0 </compression-ratio>
-  <cooling-factor> 3 </cooling-factor>
+  <cooling-factor> 1 </cooling-factor>
   <boostauto>      1 </boostauto>
   <numboostspeeds>   2 </numboostspeeds>
   <boostoverride>    0 </boostoverride>
