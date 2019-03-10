@@ -26,10 +26,10 @@
   <gearratio> 1 </gearratio>
   <cp_factor> 1.00 </cp_factor>
   <ct_factor> 1.00 </ct_factor>
-  <minpitch> 20.2 </minpitch>
-  <maxpitch> 55.2 </maxpitch>
+  <minpitch> 12 </minpitch>
+  <maxpitch> 45 </maxpitch>
   <minrpm> 500.45 </minrpm>
-  <maxrpm> 2700.88 </maxrpm>
+  <maxrpm> 2800.88 </maxrpm>
 
  <!-- thrust coefficient as a function of advance ratio and blade angle -->
   <table name="C_THRUST" type="internal">
