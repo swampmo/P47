@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+  
+  <sim>
+    
+    <model>
+      <livery>
+        <name type="string">FG</name>
+        <texture-fuselage>Liveries/2048x2048/fg.png</texture-fuselage>
+	    <texture-cowl>Liveries/2048x2048/fg_cowl.png</texture-cowl>
+
+        <specular>
+          <red>   0.3 </red>
+          <green> 0.3 </green>
+          <blue>  0.3 </blue>
+        </specular>
+      </livery>
+    </model>
+    
+  </sim>
+  
+</PropertyList>
