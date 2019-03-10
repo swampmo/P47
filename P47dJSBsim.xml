@@ -97,12 +97,12 @@
  </mass_balance>
 
 <system file="jsb-misc"/>
-<system file="Conventional Controls.xml"/> 
-<system file="Landing Gear.xml"/> 
-<system file="Flaps.xml"/>
+<system file="conventionalcontrols"/> 
+<system file="landinggear"/> 
+<system file="flaps"/>
 <system file="automixture"/>
-<ground_reactions file="Systems/Ground Reactions.xml"/> 
-<propulsion file="Systems/Propulsion.xml"/> 
+<ground_reactions file="Systems/groundreactions"/> 
+<propulsion file="Systems/propulsion"/> 
 
  <flight_control name="FCS: P47dJSBsim">
 

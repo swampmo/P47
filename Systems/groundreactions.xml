@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<system name="Ground Reactions">
+
  <ground_reactions>
 
   <contact type="BOGEY" name="TAIL">
@@ -276,4 +275,3 @@
 
  </ground_reactions>
  
- </system>
