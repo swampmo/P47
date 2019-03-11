@@ -447,6 +447,15 @@
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
+      <!-- THROTTLE -->
+  <!--model>
+    <path>Aircraft/P47/Models/Instruments/throttle.xml</path>
+    <offsets>
+      <x-m> -0.82422 </x-m>
+      <y-m> -0.33428 </y-m>
+      <z-m>  0.23743 </z-m>
+    </offsets>
+  </model>
 
  <!--model>
         <path>Aircraft/P47/Models/Instruments/tmp.xml</path>
