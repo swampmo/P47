@@ -23,7 +23,7 @@
   <compression-ratio>     6.75  </compression-ratio>  
   <bsfc>                  0.4   </bsfc>
   <volumetric-efficiency> 0.87 </volumetric-efficiency>  
-  <cooling-factor> 0.36 </cooling-factor>
+  <cooling-factor> 0.45 </cooling-factor>
   <idlerpm>             550 </idlerpm>
   <maxrpm>             2800 </maxrpm>
   <maxthrottle>           1.0 </maxthrottle>
@@ -33,14 +33,14 @@
   <boostoverride>         0   </boostoverride>
 
   <ratedboost1>       8.15 </ratedboost1> <!-- 46.5 inHg -->
-  <ratedpower1>    1900    </ratedpower1>
+  <ratedpower1>    2335    </ratedpower1>
   <ratedrpm1>      2600    </ratedrpm1>
-  <ratedaltitude1> 4900    </ratedaltitude1>
+  <ratedaltitude1> 15000    </ratedaltitude1>
 
   <ratedboost2>        7.41 </ratedboost2> <!-- 45 inHg -->
-  <ratedpower2>     1600    </ratedpower2>
+  <ratedpower2>     1520    </ratedpower2>
   <ratedrpm2>       2600    </ratedrpm2>
-  <ratedaltitude2> 16200    </ratedaltitude2>
+  <ratedaltitude2> 30000    </ratedaltitude2>
 
   <takeoffboost>  10.85   </takeoffboost>   <!-- 52.0 inHg -->
 </piston_engine>
