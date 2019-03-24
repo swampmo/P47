@@ -23,13 +23,13 @@
   <ixx> 80.0 </ixx>
   <diameter unit="IN">156.0 </diameter>
   <numblades> 4 </numblades>
-  <gearratio>1.87 </gearratio>
+  <gearratio>1.98 </gearratio>
   <minpitch> 20 </minpitch>
   <maxpitch> 55 </maxpitch>
   <minrpm>   1000 </minrpm>
   <maxrpm>   2800 </maxrpm>
-  <p_factor> 8.0 </p_factor>
-  <ct_factor>1.1  </ct_factor>
+  <p_factor> 7.0 </p_factor>
+  <ct_factor>1.3  </ct_factor>
 
   <table name="C_THRUST" type="internal">
       <tableData>

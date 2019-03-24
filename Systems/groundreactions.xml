@@ -3,14 +3,14 @@
 
   <contact type="BOGEY" name="TAIL">
     <location unit="M">
-	  <x>   4.31797 </x>
+	  <x>   4.39544 </x>
       <y>     -0.00 </y>
-      <z>   -0.96498 </z>
+      <z> -0.94937 </z>
  </location>
    <static_friction>  0.90 </static_friction>
    <dynamic_friction> 0.50 </dynamic_friction>
    <rolling_friction> 0.05 </rolling_friction>
-   <spring_coeff unit="LBS/FT">      10000.00 </spring_coeff>
+   <spring_coeff unit="LBS/FT">      18000.00 </spring_coeff>
    <damping_coeff unit="LBS/FT/SEC"> 7000.00 </damping_coeff>
  <damping_coeff_rebound unit="LBS/FT/SEC"> 10000 </damping_coeff_rebound>
    <max_steer unit="DEG"> -30 </max_steer>

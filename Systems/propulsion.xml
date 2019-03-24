@@ -17,7 +17,7 @@
     <feed> 1 </feed>
     <feed> 2 </feed>
 
-    <thruster file="Curtiss 836-14C2-18R1">
+    <thruster file="prop">
      <sense> 1 </sense>
      <location unit="M">
        <x>    -4.35417 </x>
@@ -34,18 +34,18 @@
 
   <tank type="FUEL" number="0">
      <location unit="M">
-     <x>  -0.78804 </x>
+     <x>   2.183 </x>
      <y>     0.00 </y>
-     <z>   -1.09836 </z>
+     <z>   -0.127 </z>
      </location>
      <capacity unit="LBS"> 1498 </capacity>
      <contents unit="LBS"> 800 </contents>
   </tank>
   <tank type="FUEL" number="1">
      <location unit="M">
-     <x>  -0.88 </x>
+     <x>   2.183 </x>
      <y>     0.00 </y>
-     <z>   -0.95272 </z>
+     <z>   -0.127 </z>
      </location>
      <capacity unit="LBS"> 749</capacity>
      <contents unit="LBS"> 500 </contents>
@@ -53,9 +53,9 @@
 
   <tank type="FUEL" number="2">
      <location unit="M">
-     <x>  -0.78804 </x>
-     <y>   -0.00024 </y>
-     <z>   -1.18097 </z>
+     <x>   2.183 </x>
+     <y>     0.00 </y>
+     <z>   -0.127 </z>
      </location>
      <capacity unit="LBS"> 1498</capacity>
      <contents unit="LBS"> 0 </contents>
