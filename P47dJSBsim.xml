@@ -80,9 +80,9 @@
  </metrics>
 
  <mass_balance>
-   <ixx unit="SLUG*FT2">   9468.00 </ixx>
-   <iyy unit="SLUG*FT2">  17113.04 </iyy>
-   <izz unit="SLUG*FT2">  23300.38 </izz>
+   <ixx unit="SLUG*FT2">   9420.66 </ixx>
+   <iyy unit="SLUG*FT2">  13047.48 </iyy>
+   <izz unit="SLUG*FT2">  20198.88 </izz>
    <emptywt unit="LBS" >   9950.00 </emptywt>
    <location name="CG" unit="M">
      <x>   2.183 </x>
@@ -92,10 +92,10 @@
    <pointmass name="Payload">
     <description> 5415.00 LBS should bring model up to entered max weight </description>
     <weight unit="LBS"> 180 </weight>
-    <location name="POINTMASS" unit="IN">
-     <x>   241.20 </x>
+    <location name="POINTMASS" unit="M">
+     <x>   2.183 </x>
      <y>     0.00 </y>
-     <z>   -10.83 </z>
+     <z>   -0.127 </z>
    </location>
   </pointmass>
  </mass_balance>
