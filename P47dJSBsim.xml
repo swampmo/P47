@@ -546,7 +546,7 @@
 
   <axis name="YAW">
 
-    <!-- Stall initiator -->
+<!-- Stall initiator -->
     <function name="aero/moment/Yaw_alpha">
        <description>Yaw moment due to alpha</description>
        <product>
@@ -560,8 +560,8 @@
              <independentVar lookup="column">aero/Re</independentVar>
              <tableData>
                          24453908 26899298
-                 -0.3491  -1.0000   0.0000
-                  0.3491   1.0000   0.0000
+                 -0.3491  -0.1000   0.0000
+                  0.3491   0.1000   0.0000
              </tableData>
            </table>
        </product>
