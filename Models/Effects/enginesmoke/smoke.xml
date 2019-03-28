@@ -2,7 +2,7 @@
 
 <PropertyList>
 
- 
+
   <particlesystem>
 
     <name>smoke</name>
@@ -28,11 +28,11 @@
 
     <emissive>false</emissive>
     <lighting>false</lighting>
-    <align>billboard</align>	
-    <attach>world</attach>		
+    <align>billboard</align>
+    <attach>world</attach>
 
     <placer>
-      <type>point</type>		
+      <type>point</type>
     </placer>
 
     <shooter>
@@ -56,7 +56,7 @@
 
     <counter>
       <particles-per-sec>
-        <value>30</value>
+        <value>50</value>
         <spread>0.5</spread>
       </particles-per-sec>
     </counter>
@@ -85,18 +85,18 @@
         </size>
       </end>
       <life-sec>
-        <value>1</value>
+        <value>10</value>
       </life-sec>
       <mass-kg>0.05</mass-kg>
-      <radius-m>0.1</radius-m>
+      <radius-m>0.5</radius-m>
     </particle>
-    
+
     <program>
       <fluid>air</fluid>         <!-- air / water -->
       <gravity>false</gravity>
       <wind>true</wind>
     </program>
-    
+
   </particlesystem>
 
 </PropertyList>

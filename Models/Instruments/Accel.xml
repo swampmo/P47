@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PropertyList>
+
+    <path>Accel.ac</path>
+
+    <animation>
+        <type>material</type>
+        <object-name>face</object-name>
+        <object-name>frame</object-name>
+        <object-name>visses</object-name>
+        <object-name>vitre</object-name>
+        <emission>
+            <red>0.8</red>
+            <green>0.5</green>
+            <blue>0.3</blue>
+            <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
+        </emission>
+    </animation>
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Aircraft/P47/Models/Effects/Glass/glass</inherits-from>
+    <object-name>vitre</object-name>
+  </effect>
+
+  <effect>
+    <inherits-from>Effects/model-transparent</inherits-from>
+    <object-name>vitre</object-name>
+  </effect>
+
+    <!-- animation>
+        <type>rotate</type>
+        <object-name>Accel.needle</object-name>
+        <property>engines/engine/acceleration</property>
+        <interpolation>
+            <entry><ind>0.0</ind><dep>0.0</dep></entry>
+            <entry><ind>15</ind><dep>20</dep></entry>
+            <entry><ind>75</ind><dep>320</dep></entry>
+        </interpolation>
+        <axis>
+            <x>-1.0</x>
+            <y>0.0</y>
+            <z>0.0</z>
+        </axis>
+    </animation -->
+
+</PropertyList>

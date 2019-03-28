@@ -14,12 +14,11 @@
     <object-name>barre1</object-name>
     <object-name>barre2</object-name>
     <object-name>skypointer</object-name>
-
     <object-name>vitre</object-name>
   </animation>
 
-  
-  
+
+
   <animation>
     <type>material</type>
     <object-name>ball</object-name>
@@ -59,7 +58,7 @@
       <y> 0 </y>
       <z> 0 </z>
     </axis>
-  </animation>  
+  </animation>
 
   <animation>
     <type>rotate</type>
@@ -76,7 +75,7 @@
       <y> 1 </y>
       <z> 0 </z>
     </axis>
-  </animation>  
+  </animation>
 
   <animation>
     <type>rotate</type>

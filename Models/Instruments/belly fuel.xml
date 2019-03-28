@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>belly fuel.ac</path>
+
+  <animation>
+    <object-name>cover</object-name>
+    <object-name>lever</object-name>
+        <object-name>fuel gauge</object-name>
+    <object-name>Bolts</object-name>
+  </animation>
+
+</PropertyList>
