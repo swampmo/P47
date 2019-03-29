@@ -23,12 +23,12 @@
   <maxrpm>      2800 </maxrpm>
   <sparkfaildrop>         0.2 </sparkfaildrop>
   <volumetric-efficiency> 1 </volumetric-efficiency>
-  <man-press-lag> 1 </man-press-lag>
-  <air-intake-impedance-factor> 0 </air-intake-impedance-factor>
-  <ram-air-factor> 0 </ram-air-factor>
+  <man-press-lag> 0.4 </man-press-lag>
+  <air-intake-impedance-factor> 1 </air-intake-impedance-factor>
+  <ram-air-factor> 0.8 </ram-air-factor>
   <static-friction  unit="HP"> 12.675 </static-friction>
-  <starter-torque> 2800 </starter-torque>
-  <starter-rpm> 1400 </starter-rpm>
+  <starter-torque> 1400 </starter-torque>
+  <starter-rpm> 800 </starter-rpm>
  <!-- Defining <bsfc> over-rides the built-in horsepower calculations -->
  <bsfc>           0.45 </bsfc>
   <stroke unit="IN">  6 </stroke>
@@ -38,22 +38,22 @@
   <cooling-factor> 0.95 </cooling-factor>
   <oil-pressure-relief-valve-psi> 100 </oil-pressure-relief-valve-psi>
   <design-oil-temp-degK> 325. </design-oil-temp-degK>
-  <oil-pressure-rpm-max> 0.25 </oil-pressure-rpm-max>
+  <oil-pressure-rpm-max> 2100 </oil-pressure-rpm-max>
   <oil-viscosity-index> 0.25 </oil-viscosity-index>
   <maxthrottle>           1.0 </maxthrottle>
-  <minthrottle>           0.1 </minthrottle>
+  <minthrottle>           0.0 </minthrottle>
   <boostauto>      1 </boostauto>
   <numboostspeeds>   2 </numboostspeeds>
   <boostoverride>    0 </boostoverride>
   <takeoffboost>  10.85   </takeoffboost>
 
 
-  <ratedboost1>       8.15 </ratedboost1> <!-- 46.5 inHg -->
+  <ratedboost1>       10.15 </ratedboost1> <!-- 46.5 inHg -->
   <ratedpower1>    1900    </ratedpower1>
   <ratedrpm1>      2600    </ratedrpm1>
   <ratedaltitude1> 4900    </ratedaltitude1>
 
-  <ratedboost2>        7.41 </ratedboost2> <!-- 45 inHg -->
+  <ratedboost2>        13.41 </ratedboost2> <!-- 45 inHg -->
   <ratedpower2>     1600    </ratedpower2>
   <ratedrpm2>       2600    </ratedrpm2>
   <ratedaltitude2> 16200    </ratedaltitude2>

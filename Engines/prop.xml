@@ -23,9 +23,9 @@
   <ixx> 80.0 </ixx>
   <diameter unit="IN">156.0 </diameter>
   <numblades> 4 </numblades>
-  <gearratio>1.98 </gearratio>
+  <gearratio>2.0 </gearratio>
   <minpitch> 20 </minpitch>
-  <maxpitch> 55 </maxpitch>
+  <maxpitch> 50 </maxpitch>
   <minrpm>   1000 </minrpm>
   <maxrpm>   2800 </maxrpm>
   <p_factor> 7.0 </p_factor>
