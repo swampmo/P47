@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+
+ <propulsion>
+
+   <engine file="R-2800-59">
+    <location unit="M">
+      <x>    -3.54626 </x>
+      <y>     -0.00181 </y>
+      <z>     -0.20398 </z>
+    </location>
+    <orient unit="DEG">
+      <pitch>     0.00 </pitch>
+       <roll>     0.00 </roll>
+        <yaw>     0.00 </yaw>
+    </orient>
+    <feed> 0 </feed>
+    <feed> 1 </feed>
+    <feed> 2 </feed>
+
+    <thruster file="Curtiss 836-14C2-18R1">
+     <sense> 1 </sense>
+     <location unit="M">
+       <x>    -4.35417 </x>
+       <y>     0.00 </y>
+       <z>     -0.04832 </z>
+     </location>
+     <orient unit="DEG">
+       <pitch>     0.00 </pitch>
+        <roll>     0.00 </roll>
+         <yaw>     0.00 </yaw>
+     </orient>
+    </thruster>
+  </engine>
+
+  <tank type="FUEL" number="0">
+     <location unit="M">
+     <x>   2.183 </x>
+     <y>     0.00 </y>
+     <z>   -0.127 </z>
+     </location>
+     <capacity unit="LBS"> 1498 </capacity>
+     <contents unit="LBS"> 800 </contents>
+  </tank>
+  <tank type="FUEL" number="1">
+     <location unit="M">
+     <x>   2.183 </x>
+     <y>     0.00 </y>
+     <z>   -0.127 </z>
+     </location>
+     <capacity unit="LBS"> 749</capacity>
+     <contents unit="LBS"> 500 </contents>
+  </tank>
+
+  <tank type="FUEL" number="2">
+     <location unit="M">
+     <x>   2.183 </x>
+     <y>     0.00 </y>
+     <z>   -0.127 </z>
+     </location>
+     <capacity unit="LBS"> 1498</capacity>
+     <contents unit="LBS"> 0 </contents>
+  </tank>
+
+ </propulsion>
+ 
