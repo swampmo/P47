@@ -26,8 +26,8 @@
   <gearratio> 1.75 </gearratio>
   <cp_factor> 1.5 </cp_factor>
   <ct_factor> 4 </ct_factor> <!-- set to match the number of blades -->
-  <minpitch> 20 </minpitch>
   <maxpitch> 40 </maxpitch>
+  <minpitch> 20 </minpitch>
   <minrpm>500</minrpm> <!-- 1800 to 3000 engine RPM -->
   <maxrpm>2700</maxrpm>
 

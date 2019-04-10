@@ -42,10 +42,9 @@
   <oil-viscosity-index> 0.25 </oil-viscosity-index>
   <maxthrottle>           1.0 </maxthrottle>
   <minthrottle>           0.0 </minthrottle>
-  <boostauto>      1 </boostauto>
+ <boostmanual> 0 </boostmanual>
   <numboostspeeds>   2 </numboostspeeds>
-  <boostoverride>    0 </boostoverride>
-  <takeoffboost>  12.75  </takeoffboost>
+ <!-- <takeoffboost>  12.75  </takeoffboost> -->
 
 
   <ratedboost1>       16.5 </ratedboost1> 

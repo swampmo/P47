@@ -71,14 +71,14 @@ controls.startEngine = func(v=1 ) {
 #    }
 #}
 
-wastegate = func(wg) {
-var tmp = getprop("controls/engines/engine/wastegate") or 0;
-var amnt = 0.02 * wg;
-tmp=tmp + amnt;
-if(tmp>1.00) tmp=1.00;
-if(tmp< 0.00) tmp=0.00;
-setprop("controls/engines/engine/wastegate",tmp);
-}
+#wastegate = func(wg) {
+#var tmp = getprop("controls/engines/engine/wastegate") or 0;
+#var amnt = 0.02 * wg;
+#tmp=tmp + amnt;
+#if(tmp>1.00) tmp=1.00;
+#if(tmp< 0.00) tmp=0.00;
+#setprop("controls/engines/engine/wastegate",tmp);
+#}
 
 load_ammo = func{
     if(getprop("gear/gear/wow")){

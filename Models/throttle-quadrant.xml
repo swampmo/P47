@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>Throttle-Quadrant.ac</path>
+  <animation>
+
+    <!-- Objects -->
+    <object-name>Bolts</object-name>
+    <object-name>boost.counterweight</object-name>
+    <object-name>boost.lever</object-name>
+    <object-name>boost.rod</object-name>
+    <object-name>center.pivot</object-name>
+    <object-name>guides</object-name>
+    <object-name>mxtre.counterweight</object-name>
+    <object-name>mxtre.lever</object-name>
+    <object-name>mxtre.rod</object-name>
+    <object-name>prop.control.counterweight</object-name>
+    <object-name>prop.lever</object-name>
+    <object-name>prop.rod</object-name>
+    <object-name>tensioner</object-name>
+    <object-name>throttle.counterweight</object-name>
+    <object-name>throttle.housing</object-name>
+    <object-name>throttle.lever.001</object-name>
+    <object-name>throttle.mount</object-name>
+    <object-name>throttle.rod</object-name>
+    <object-name>washers</object-name>
+    <object-name>water.inj.wheel</object-name>
+    <object-name>water.sol</object-name>
+
+  </animation>
+  
+  <!-- Throttle lever -->
+  <animation>
+    <type>rotate</type>
+    <object-name>throttle.lever.001</object-name>
+    <object-name>water.sol</object-name>
+    <object-name>water.inj.wheel</object-name>
+    <property>controls/engines/engine[0]/throttle</property>
+    <factor>-60</factor>
+    <axis>
+      <x>0.0</x>
+      <y>1.0</y>
+      <z>0.0</z>
+    </axis>
+    <center>
+     <x-m>-0.492</x-m>
+     <y-m>-0.317</y-m>
+     <z-m>0.359</z-m>
+   </center>
+  </animation>
+  
+
+  
+  <!-- Mixture Lever -->
+  <animation>
+    <type>rotate</type>
+    <object-name>mxtre.lever</object-name>
+    <property>controls/engines/engine[0]/mixture</property>
+    <factor>-60</factor>
+    <axis>
+      <x>0.0</x>
+      <y>1.0</y>
+      <z>0.0</z>
+    </axis>
+    <center>
+     <x-m>-0.493</x-m>
+     <y-m>-0.297</y-m>
+     <z-m>0.358</z-m>
+   </center>
+  </animation>
+  
+  <!-- Propeller Lever -->
+
+ <animation>
+	<type>rotate</type>
+	<object-name>prop.lever</object-name>
+	<property>controls/engines/engine[0]/propeller-pitch</property>
+         <factor>-60</factor>
+	<axis>
+		<x>0.0</x>
+		<y>1.0</y>
+		<z>0.0</z>
+	</axis>
+	<center>
+		<x-m>-0.490</x-m>
+		<y-m>-0.315</y-m>
+		<z-m>0.359</z-m>
+	</center>
+  </animation>
+
+   <!--   Boost Lever   -->
+
+  <animation>
+	<type>rotate</type>
+	<object-name>boost.lever</object-name>
+	<property>controls/engines/engine[0]/boost</property>
+         <factor>-60</factor>
+	<axis>
+		<x>0.0</x>
+		<y>1.0</y>
+		<z>0.0</z>
+	</axis>
+	<center>
+		<x-m>-0.492</x-m>
+		<y-m>-0.349</y-m>
+		<z-m>0.358</z-m>
+	</center>
+ </animation>
+  
+            <!-- MMB Adjustment  -->
+  <animation>
+    <type>pick</type>
+    <visible>true</visible>
+    <object-name>throttle.lever.001</object-name>
+    <action>
+      <button>3</button>
+      <binding>
+        <command>property-adjust</command>
+        <property>controls/engines/engine[0]/throttle</property>
+        <step>0.1</step>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
+    <type>pick</type>
+    <visible>true</visible>
+    <object-name>throttle.lever.001</object-name>
+    <action>
+      <button>4</button>
+      <binding>
+        <command>property-adjust</command>
+        <property>controls/engines/engine[0]/throttle</property>
+        <step>-0.1</step>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
+    <type>pick</type>
+    <visible>true</visible>
+    <object-name>mxtre.lever</object-name>
+    <action>
+      <button>3</button>
+      <binding>
+        <command>property-adjust</command>
+        <property>controls/engines/engine[0]/mixture</property>
+        <step>0.1</step>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
+    <type>pick</type>
+    <visible>true</visible>
+    <object-name>mxtre.lever</object-name>
+    <action>
+      <button>4</button>
+      <binding>
+        <command>property-adjust</command>
+        <property>controls/engines/engine[0]/mixture</property>
+        <step>-0.1</step>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
+    <type>pick</type>
+    <visible>true</visible>
+    <object-name>prop.lever</object-name>
+    <action>
+      <button>3</button>
+      <binding>
+        <command>property-adjust</command>
+        <property>controls/engines/engine[0]/propeller-pitch</property>
+        <step>0.1</step>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
+    <type>pick</type>
+    <visible>true</visible>
+    <object-name>prop.lever</object-name>
+  <action>
+  <name>Prop finer</name>
+    <button>3</button>
+    <repeatable>false</repeatable>
+    <binding>
+              <command>property-adjust</command>
+              <property>/controls/engines/engine[0]/propeller-pitch</property>
+              <step>0.02</step>
+              <min>0</min>
+              <max>1</max>
+              <wrap>0</wrap>
+    </binding>
+  </action>
+  <action>
+  <name>Prop coarser</name>
+    <button>4</button>
+    <repeatable>false</repeatable>
+    <binding>
+              <command>property-adjust</command>
+              <property>/controls/engines/engine[0]/propeller-pitch</property>
+              <step>-0.02</step>
+              <min>0</min>
+              <max>1</max>
+              <wrap>0</wrap>
+    </binding>
+  </action>
+  </animation>
+
+  <animation>
+    <type>pick</type>
+    <visible>true</visible>
+    <object-name>boost.lever</object-name>
+    <action>
+      <button>3</button>
+      <binding>
+        <command>property-adjust</command>
+        <property>controls/engines/engine[0]/boost</property>
+        <step>0.1</step>
+      </binding>
+    </action>
+  </animation>
+  
+  
+</PropertyList>
