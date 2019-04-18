@@ -6,7 +6,7 @@
     <animation>
         <type>rotate</type>
         <object-name>primer.switch</object-name>
-        <property>controls/engines/engine/primer</property>
+        <property>controls/engines/engine/cowl-flaps-norm</property>
         <factor>-60</factor>
         <center>
             <x-m>0.002</x-m>
@@ -27,7 +27,7 @@
             <button>0</button>
             <binding>
                 <command>property-toggle</command>
-                <property>controls/engines/engine/primer</property>
+                <property>controls/engines/engine/cowl-flaps-norm</property>
             </binding>
         </action>
     </animation>
