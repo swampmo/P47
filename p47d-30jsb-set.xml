@@ -5,7 +5,7 @@
     <sim>
 
         <description>P47D Thunderbolt</description>
-        <author>Syd Adams, Swamp, Nikolai V. Chr., pinto, 5H1N0B1, Spectre (liveries), NC-687 (New 3D)</author>
+        <author>Syd Adams, Swamp, Nikolai V. Chr., pinto, 5H1N0B1, Spectre (liveries)</author>
         <flight-model>jsb</flight-model>
         <aero>P47dJSBsim</aero>
         <fuel-fraction>0.8</fuel-fraction>

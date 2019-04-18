@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <PropertyList>
 
  <path>mk8gunsight.ac</path>
@@ -35,7 +35,7 @@
     <factor>1</factor>
     <axis>
      <x>0</x>
-     <y>1</y>
+     <y>-0.000</y>
      <z>0</z>
    </axis>
   </transform>

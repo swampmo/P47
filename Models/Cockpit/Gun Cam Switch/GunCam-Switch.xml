@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>GunCam-Switch.ac</path>
+
+  <animation>
+    <object-name>backing plate</object-name>
+    <object-name>cover</object-name>
+    <object-name>SwitchNut</object-name>
+    <object-name>Switch</object-name>
+    <object-name>Visses</object-name>
+    <!-- object-name></object-name -->
+  </animation>
+
+</PropertyList>

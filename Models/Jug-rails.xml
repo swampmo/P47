@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>Jug rails.ac</path>
+
+  <animation>
+    <object-name>Cylinder</object-name>
+  </animation>
+
+</PropertyList>
+

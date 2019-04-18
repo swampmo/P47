@@ -202,7 +202,7 @@
            <property>aero/qbar-psf</property>
            <property>metrics/Sw-sqft</property>
            <property>fcs/flap-pos-deg</property>
-           <value> 0.0092 </value>
+           <value> 0.0094 </value>
        </product>
     </function>
 
@@ -312,7 +312,7 @@
            <property>aero/qbar-psf</property>
            <property>metrics/Sw-sqft</property>
            <property>fcs/flap-pos-deg</property>
-           <value> 0.0012 </value>
+           <value> 0.0022 </value>
          </product>
     </function>
 
@@ -561,8 +561,8 @@
              <independentVar lookup="column">aero/Re</independentVar>
              <tableData>
                          24453908 26899298
-                 -0.3491  -0.1000   0.0000
-                  0.3491   0.1000   0.0000
+                 -0.3491  -0.0500   0.0000
+                  0.3491   0.0500   0.0000
              </tableData>
            </table>
        </product>
@@ -575,7 +575,7 @@
            <property>metrics/Sw-sqft</property>
            <property>metrics/bw-ft</property>
            <property>aero/beta-rad</property>
-           <value> 0.0360 </value>
+           <value> 0.0560 </value>
        </product>
     </function>
 
@@ -607,7 +607,7 @@
            <property>metrics/bw-ft</property>
            <property>aero/bi2vel</property>
            <property>velocities/r-aero-rad_sec</property>
-           <value> -0.0181 </value>
+           <value> -0.0581 </value>
        </product>
     </function>
 
@@ -618,7 +618,7 @@
            <property>metrics/Sw-sqft</property>
            <property>metrics/bw-ft</property>
            <property>fcs/rudder-pos-rad</property>
-           <value> -0.0223 </value>
+           <value> -0.0323 </value>
        </product>
     </function>
 
@@ -629,7 +629,7 @@
            <property>metrics/Sw-sqft</property>
            <property>metrics/bw-ft</property>
            <property>fcs/left-aileron-pos-rad</property>
-           <value> -0.0030 </value>
+           <value> -0.0060 </value>
        </product>
     </function>
 

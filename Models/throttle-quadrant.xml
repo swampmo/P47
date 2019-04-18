@@ -2,7 +2,7 @@
 
 <PropertyList>
 
-  <path>Throttle-Quadrant.ac</path>
+  <path>Throttle Quadrant.ac</path>
   <animation>
 
     <!-- Objects -->
@@ -50,8 +50,6 @@
    </center>
   </animation>
   
-
-  
   <!-- Mixture Lever -->
   <animation>
     <type>rotate</type>
@@ -94,7 +92,7 @@
   <animation>
 	<type>rotate</type>
 	<object-name>boost.lever</object-name>
-	<property>controls/engines/engine[0]/boost</property>
+	<property>controls/engines/engine[0]/wastegate</property>
          <factor>-60</factor>
 	<axis>
 		<x>0.0</x>
@@ -183,32 +181,14 @@
     <type>pick</type>
     <visible>true</visible>
     <object-name>prop.lever</object-name>
-  <action>
-  <name>Prop finer</name>
-    <button>3</button>
-    <repeatable>false</repeatable>
-    <binding>
-              <command>property-adjust</command>
-              <property>/controls/engines/engine[0]/propeller-pitch</property>
-              <step>0.02</step>
-              <min>0</min>
-              <max>1</max>
-              <wrap>0</wrap>
-    </binding>
-  </action>
-  <action>
-  <name>Prop coarser</name>
-    <button>4</button>
-    <repeatable>false</repeatable>
-    <binding>
-              <command>property-adjust</command>
-              <property>/controls/engines/engine[0]/propeller-pitch</property>
-              <step>-0.02</step>
-              <min>0</min>
-              <max>1</max>
-              <wrap>0</wrap>
-    </binding>
-  </action>
+    <action>
+      <button>4</button>
+      <binding>
+        <command>property-adjust</command>
+        <property>controls/engines/engine[0]/propeller-pitch</property>
+        <step>-0.1</step>
+      </binding>
+    </action>
   </animation>
 
   <animation>
@@ -225,5 +205,18 @@
     </action>
   </animation>
   
+  <animation>
+    <type>pick</type>
+    <visible>true</visible>
+    <object-name>boost.lever</object-name>
+    <action>
+      <button>4</button>
+      <binding>
+        <command>property-adjust</command>
+        <property>controls/engines/engine[0]/boost</property>
+        <step>-0.1</step>
+      </binding>
+    </action>
+  </animation>
   
 </PropertyList>
