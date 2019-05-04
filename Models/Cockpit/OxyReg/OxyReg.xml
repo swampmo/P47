@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>OxyReg.ac</path>
+
+  <animation>
+    <object-name>OxyBody</object-name>
+    <object-name>Tap</object-name>
+  </animation>
+
+</PropertyList>

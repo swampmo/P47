@@ -354,15 +354,15 @@
     </model -->
 
 <!--##################################################################### COCKPIT-INSTRUMENTS ######################################################################-->
-    <!--model>
-        <path>Aircraft/P47/Models/Cockpit/Cockpit.xml</path>
+    <model>
+        <path>Aircraft/P47/Models/Cockpit//BeamRadio/BeamRadio.xml</path>
         <offsets>
-            <x-m>0</x-m>
-            <y-m>0.</y-m>
-            <z-m>0</z-m>
+            <x-m>-0.500</x-m>
+            <y-m>-0.070</y-m>
+            <z-m>0.110</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
-    </model-->
+    </model>
 
     <model>
         <path>Aircraft/P47/Models/Cockpit/Flaps/Flaps.xml</path>
@@ -373,6 +373,7 @@
             <pitch-deg>0</pitch-deg>
         </offsets>
     </model>
+
         <model>
         <path>Aircraft/P47/Models/Cockpit/FlapWarning.xml</path>
         <offsets>
@@ -392,6 +393,7 @@
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
+
     <model>
         <path>Aircraft/P47/Models/Cockpit/FuseBox/FuseBox.xml</path>
         <offsets>
@@ -421,6 +423,7 @@
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
+
         <model>
         <path>Aircraft/P47/Models/Cockpit/Map-Case/Map-Case.xml</path>
         <offsets>
@@ -431,15 +434,36 @@
         </offsets>
     </model>
 
+            <model>
+        <path>Aircraft/P47/Models/Cockpit/OxyReg/OxyReg.xml</path>
+        <offsets>
+            <x-m>-0.620</x-m>
+            <y-m>0.300</y-m>
+            <z-m>0.570</z-m>
+            <pitch-deg>10.0</pitch-deg>
+        </offsets>
+    </model>
+
+            <model>
+        <path>Aircraft/P47/Models/Cockpit/Radio/Radio.xml</path>
+        <offsets>
+            <x-m>-0.418</x-m>
+            <y-m>-0.085</y-m>
+            <z-m>0.095</z-m>
+            <pitch-deg>0.0</pitch-deg>
+        </offsets>
+    </model>
+
     <model>
         <path>Aircraft/P47/Models/Cockpit/Recog Lights Primer/Recog-Lights-Primer.xml</path>
         <offsets>
             <x-m>-0.320</x-m>
-            <y-m>-0.045</y-m>
-            <z-m>0.060</z-m>
+            <y-m>-0.035</y-m>
+            <z-m>0.085</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
+
     <model>
         <path>Aircraft/P47/Models/Cockpit/SCR-522/SCR-522.xml</path>
         <offsets>
