@@ -30,9 +30,9 @@
     <object-name>needle</object-name>
     <emission>
       <factor-prop>systems/electrical/outputs/instrument-lights</factor-prop>
-      <red>   0.08 </red>
-      <green> 0.05 </green>
-      <blue>  0.03 </blue>
+            <red>0.60</red>
+            <green>0</green>
+            <blue>0</blue>
     </emission>
   </animation>
 
@@ -41,8 +41,8 @@
     <object-name>needle</object-name>
     <property>systems/electrical/amps</property>
     <interpolation>
-      <entry><ind>  0 </ind><dep>  0 </dep></entry>
-      <entry><ind> 60 </ind><dep> 90 </dep></entry>
+      <entry><ind>0</ind><dep>-60</dep></entry>
+      <entry><ind>0</ind><dep>60 </dep></entry>
     </interpolation>
     <center>
       <x-m>  0.00000 </x-m>

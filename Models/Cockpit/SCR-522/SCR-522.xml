@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>SCR-522.ac</path>
+
+  <animation>
+    <object-name>Bolts</object-name>
+    <object-name>On-Off</object-name>
+    <object-name>button.A</object-name>
+    <object-name>button.B</object-name>
+    <object-name>button.C</object-name>
+    <object-name>button.D</object-name>
+    <object-name>housing</object-name>
+    <object-name>main</object-name>
+ </animation>
+
+
+  <animation>
+  <type>material</type>
+    <object-name>On-Off</object-name>
+    <object-name>button.A</object-name>
+    <object-name>button.B</object-name>
+    <object-name>button.C</object-name>
+    <object-name>button.D</object-name>
+    <object-name>main</object-name>
+
+    <emission>
+      <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
+            <red>0.60</red>
+            <green>0</green>
+            <blue>0</blue>
+    </emission>
+  </animation>
+</PropertyList>

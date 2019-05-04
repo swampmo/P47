@@ -32,10 +32,10 @@
   <cylinders>         18  </cylinders>
   <compression-ratio>  6.0 </compression-ratio>
   <cooling-factor> 1 </cooling-factor>
-  <boostauto>      1 </boostauto>
-  <numboostspeeds>   2 </numboostspeeds>
-  <boostoverride>    0 </boostoverride>
-  <takeoffboost>     0</takeoffboost> 
+  <boostauto>0</boostauto>
+  <numboostspeeds>2</numboostspeeds>
+  <boostoverride>0</boostoverride>
+  <takeoffboost>1</takeoffboost> 
 
 
  <!-- Low-speed supercharger; see table above.  The rated boost is on top of

@@ -441,7 +441,7 @@
 <system file="Landing Gear.xml"/> 
  <system file="Flaps.xml"/>
 <!-- <system file="crash-detect"/> -->
- <system file="automixture"/>
+ <!-- system file="automixture"/ -->
 
  <flight_control name="FCS: P47dJSBsim">
 

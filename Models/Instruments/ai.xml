@@ -5,41 +5,53 @@
   <path>ai.ac</path>
 
   <animation>
-    <object-name>fond</object-name>
-    <object-name>visses</object-name>
+    <object-name>Adj.Knob</object-name>
+    <object-name>FineTune</object-name>
+    <object-name>Horizon</object-name>
+    <object-name>L30</object-name>
+    <object-name>L60</object-name>
+    <object-name>L90</object-name>
+    <object-name>R30</object-name>
+    <object-name>R60</object-name>
+    <object-name>R90</object-name>
+    <object-name>TDC</object-name>
     <object-name>ball</object-name>
-    <object-name>faceturn</object-name>
-    <object-name>ballturn</object-name>
-    <object-name>barre</object-name>
-    <object-name>barre1</object-name>
-    <object-name>barre2</object-name>
+    <object-name>frame</object-name>
     <object-name>skypointer</object-name>
     <object-name>vitre</object-name>
-  </animation>
+ </animation>
+
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Aircraft/P47/Models/Effects/Glass/glass</inherits-from>
+    <object-name>vitre</object-name>
+  </effect>
+
+  <effect>
+    <inherits-from>Effects/model-transparent</inherits-from>
+    <object-name>vitre</object-name>
+  </effect>
 
 
 
   <animation>
-    <type>material</type>
+  <type>material</type>
+    <object-name>Horizon</object-name>
+    <object-name>L30</object-name>
+    <object-name>L60</object-name>
+    <object-name>L90</object-name>
+    <object-name>R30</object-name>
+    <object-name>R60</object-name>
+    <object-name>R90</object-name>
+    <object-name>TDC</object-name>
     <object-name>ball</object-name>
-    <object-name>faceturn</object-name>
-    <object-name>ballturn</object-name>
-    <object-name>barre</object-name>
-    <object-name>barre1</object-name>
-    <object-name>barre2</object-name>
     <object-name>skypointer</object-name>
-    <!--
-    <condition>
-      <property>controls/lighting/instrument-lights</property>
-      <property>/controls/electric/battery-switch</property>
-    </condition>
-    -->
+
     <emission>
-      <!-- <factor-prop>controls/lighting/luminosite-lights</factor-prop> -->
       <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
-      <red>   0.8 </red>
-      <green> 0.5 </green>
-      <blue>  0.3 </blue>
+            <red>0.60</red>
+            <green>0</green>
+            <blue>0</blue>
     </emission>
   </animation>
 
@@ -86,26 +98,6 @@
       <x-m> 0.019 </x-m>
       <y-m> 0.000 </y-m>
       <z-m> 0.000 </z-m>
-    </center>
-    <axis>
-      <x> 1 </x>
-      <y> 0 </y>
-      <z> 0 </z>
-    </axis>
-  </animation>
-
-  <animation>
-    <type>rotate</type>
-    <object-name>ballturn</object-name>
-    <property>/instrumentation/slip-skid-ball/indicated-slip-skid</property>
-    <interpolation>
-      <entry><ind> -1.1 </ind><dep> -22 </dep></entry>
-      <entry><ind>  1.1 </ind><dep>  22 </dep></entry>
-    </interpolation>
-    <center>
-      <x-m> 0.001 </x-m>
-      <y-m> 0.000 </y-m>
-      <z-m> 0.006 </z-m>
     </center>
     <axis>
       <x> 1 </x>

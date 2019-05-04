@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>flap.lever.ac</path>
+
+  <animation>
+            <!-- Objects -->
+    <object-name>flap.lever</object-name>
+    <object-name>guide</object-name>
+  </animation>
+
+            <!-- FLAPS -->
+  <animation>
+    <type>rotate</type>
+    <object-name>flap.lever</object-name>
+    <property>controls/flight/flaps</property>
+    <factor>0</factor>
+    <axis>
+      <x>0.0</x>
+      <y>1.0</y>
+      <z>0.0</z>
+    </axis>
+    <center>
+      <x-m> -0.24662 </x-m>
+      <y-m> -0.40855 </y-m>
+      <z-m> 0.23629 </z-m>
+   </center>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>flap.lever</object-name>
+    <property>controls/flight/flaps</property>
+    <factor>0</factor>
+    <axis>
+      <x>0.0</x>
+      <y>1.0</y>
+      <z>0.0</z>
+    </axis>
+    <center>
+      <x-m> -0.24662 </x-m>
+      <y-m> -0.40855 </y-m>
+      <z-m> 0.23629 </z-m>
+   </center>
+  </animation>
+
+            <!-- MMB Adjustment  -->
+  <animation>
+    <type>pick</type>
+    <visible>true</visible>
+    <object-name>flap.lever</object-name>
+    <action>
+      <button>3</button>
+      <binding>
+        <command>property-adjust</command>
+        <property>controls/flight/flaps-cmd-norm</property>
+        <step>1</step>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
+    <type>pick</type>
+    <visible>true</visible>
+    <object-name>flap.lever</object-name>
+    <action>
+      <button>4</button>
+      <binding>
+        <command>property-adjust</command>
+        <property>controls/flight/flaps-pos-norm</property>
+        <step>-1</step>
+      </binding>
+    </action>
+  </animation>

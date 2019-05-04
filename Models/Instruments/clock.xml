@@ -11,7 +11,6 @@
     <object-name>heures</object-name>
     <object-name>minutes</object-name>
     <object-name>secondes</object-name>
-
     <object-name>vitre</object-name>
   </animation>
 
@@ -34,9 +33,9 @@
     <object-name>secondes</object-name>
     <emission>
       <factor-prop>systems/electrical/outputs/instrument-lights</factor-prop>
-      <red>   0.8 </red>
-      <green> 0.5 </green>
-      <blue>  0.3 </blue>
+            <red>0.60</red>
+            <green>0</green>
+            <blue>0</blue>
     </emission>
   </animation>
 

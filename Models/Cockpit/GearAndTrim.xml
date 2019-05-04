@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>GearAndTrim.ac</path>
+    <animation>
+    <object-name>AileronTrim</object-name>
+    <object-name>Bolts</object-name>
+    <object-name>DustCovers</object-name>
+    <object-name>LdgGearLever</object-name>
+    <object-name>LeverKnob</object-name>
+    <object-name>RudderTrim</object-name>
+    <object-name>Tensioner</object-name>
+    <object-name>TrimMount</object-name>
+    <object-name>trimWheel</object-name>
+  </animation>
+
+  <type>material</type>
+  <animation>
+    <object-name>AileronTrim</object-name>
+    <object-name>DustCovers</object-name>
+    <object-name>LdgGearLever</object-name>
+    <object-name>LeverKnob</object-name>
+    <object-name>RudderTrim</object-name>
+    <object-name>Tensioner</object-name>
+    <object-name>TrimMount</object-name>
+    <object-name>trimWheel</object-name>
+  </animation>
+
+<!-- ################################################  AileronTrim ########################################## -->
+  <animation>
+    <type>rotate</type>
+    <object-name>AileronTrim</object-name>
+    <property>controls/flight/aileron-trim</property>
+    <factor>-60</factor>
+    <axis>
+      <x>0.0</x>
+      <y>0.0</y>
+      <z>1.0</z>
+    </axis>
+    <center>
+     <x-m>-0.48470</x-m>
+     <y-m>-0.29685</y-m>
+     <z-m>0.36206</z-m>
+   </center>
+  </animation>
+  
+<!-- ################################################ LdgGearLever ###################################### -->
+  <animation>
+    <type>rotate</type>
+    <object-name>LdgGearLever</object-name>
+    <object-name>LeverKnob</object-name>
+    <property>controls/gear/gear-down</property>
+    <factor>-30</factor>
+    <axis>
+      <x>1.0</x>
+      <y>0.0</y>
+      <z>0.0</z>
+    </axis>
+    <center>
+     <x-m>-0.36225</x-m>
+     <y-m>-0.41329</y-m>
+     <z-m>0.24001</z-m>
+   </center>
+  </animation>
+  
+<!-- ################################################### RudderTrim #######################################-->
+
+ <animation>
+	<type>rotate</type>
+	<object-name>RudderTrim</object-name>
+	<property>controls/flight/rudder-trim</property>
+         <factor>0</factor>
+	<axis>
+		<x>0.0</x>
+		<y>.0</y>
+		<z>1.0</z>
+	</axis>
+	<center>
+		<x-m>-0.490</x-m>
+		<y-m>-0.315</y-m>
+		<z-m>0.359</z-m>
+	</center>
+  </animation>
+
+<!-- ################################################## TrimWheel #############################################  -->
+
+  <animation>
+	<type>rotate</type>
+	<object-name>TrimWheel</object-name>
+	<property>controls/flight/elevator-trim</property>
+         <factor>0</factor>
+	<axis>
+		<x>0.0</x>
+		<y>1.0</y>
+		<z>0.0</z>
+	</axis>
+	<center>
+		<x-m>-0.492</x-m>
+		<y-m>-0.349</y-m>
+		<z-m>0.358</z-m>
+	</center>
+ </animation>
+  
+<!--#################################################" MMB Adjustment ############################################" -->
+  <animation>
+    <type>pick</type>
+    <visible>true</visible>
+    <object-name>AileronTrim</object-name>
+    <action>
+      <button>3</button>
+      <binding>
+        <command>property-adjust</command>
+        <property>controls/engines/engine[0]/throttle</property>
+        <step>0.1</step>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
+    <type>pick</type>
+    <visible>true</visible>
+    <object-name>Ailerontrim</object-name>
+    <action>
+      <button>4</button>
+      <binding>
+        <command>property-adjust</command>
+        <property>controls/engines/engine[0]/throttle</property>
+        <step>-0.1</step>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
+    <type>pick</type>
+    <visible>true</visible>
+    <object-name>LeverKnob</object-name>
+    <action>
+      <button>3</button>
+      <binding>
+        <command>property-adjust</command>
+        <property>controls/engines/engine[0]/mixture</property>
+        <step>0.1</step>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
+    <type>pick</type>
+    <visible>true</visible>
+    <object-name>LeverKnob</object-name>
+    <action>
+      <button>4</button>
+      <binding>
+        <command>property-adjust</command>
+        <property>controls/engines/engine[0]/mixture</property>
+        <step>-0.1</step>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
+    <type>pick</type>
+    <visible>true</visible>
+    <object-name>RudderTrim</object-name>
+    <action>
+      <button>3</button>
+      <binding>
+        <command>property-adjust</command>
+        <property>controls/engines/engine[0]/propeller-pitch</property>
+        <step>0.1</step>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
+    <type>pick</type>
+    <visible>true</visible>
+    <object-name>RudderTrim</object-name>
+    <action>
+      <button>4</button>
+      <binding>
+        <command>property-adjust</command>
+        <property>controls/engines/engine[0]/propeller-pitch</property>
+        <step>-0.1</step>
+      </binding>
+    </action>
+  </animation>
+
+  <animation>
+    <type>pick</type>
+    <visible>true</visible>
+    <object-name>TrimWheel</object-name>
+    <action>
+      <button>3</button>
+      <binding>
+        <command>property-adjust</command>
+        <property>controls/engines/engine[0]/wastegate</property>
+        <step>0.1</step>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
+    <type>pick</type>
+    <visible>true</visible>
+    <object-name>TrimWheel</object-name>
+    <action>
+      <button>4</button>
+      <binding>
+        <command>property-adjust</command>
+        <property>controls/engines/engine[0]/wastegate</property>
+        <step>-0.1</step>
+      </binding>
+    </action>
+  </animation>
+  
+</PropertyList>

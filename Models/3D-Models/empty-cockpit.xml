@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>empty-cockpit.ac</path>
+
+  <animation>
+    <object-name>Cockpit</object-name>
+  </animation>
+
+</PropertyList>

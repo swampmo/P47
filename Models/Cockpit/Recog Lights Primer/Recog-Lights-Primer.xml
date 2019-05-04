@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>Recog-Lights-Primer.ac</path>
+
+  <animation>
+    <object-name>KI.LT</object-name>
+    <object-name>KS.holder</object-name>
+    <object-name>amber.light</object-name>
+    <object-name>amber.switch</object-name>
+    <object-name>black.lamp</object-name>
+    <object-name>cowl.flaps</object-name>
+    <object-name>face</object-name>
+    <object-name>glass</object-name>
+    <object-name>green.switch</object-name>
+    <object-name>keying.switch</object-name>
+    <object-name>primer.handle</object-name>
+    <object-name>primer.panel</object-name>
+    <object-name>red.switch</object-name>
+    <object-name>switch.nut.amber</object-name>
+    <object-name>switch.nut.green</object-name>
+    <object-name>switch.nut.red</object-name>
+    <object-name>throttle.housing</object-name>
+    <object-name>throttle.lever.001</object-name>
+    <object-name>throttle.mount</object-name>
+    <object-name>throttle.rod</object-name>
+    <object-name>water.inj.wheel</object-name>
+   <object-name>water.sol</object-name>
+
+  </animation>
+</PropertyList>

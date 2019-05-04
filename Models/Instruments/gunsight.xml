@@ -32,7 +32,7 @@
   <transform>
     <property>sim/current-view/y-offset-m</property>
     <subtype>textranslate</subtype>
-    <factor>1</factor>
+    <factor>-0.025</factor>
     <axis>
      <x>0</x>
      <y>1</y>
