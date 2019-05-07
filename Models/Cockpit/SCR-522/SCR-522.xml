@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>SCR-522.ac</path>
+
+  <animation>
+    <object-name>Bolts</object-name>
+    <object-name>On-Off</object-name>
+    <object-name>button.A</object-name>
+    <object-name>button.B</object-name>
+    <object-name>button.C</object-name>
+    <object-name>button.D</object-name>
+    <object-name>housing</object-name>
+    <object-name>T.REM</object-name>
+ </animation>
+
+
+  <animation>
+  <type>material</type>
+    <object-name>On-Off</object-name>
+    <object-name>button.A</object-name>
+    <object-name>button.B</object-name>
+    <object-name>button.C</object-name>
+    <object-name>button.D</object-name>
+    <object-name>T.REM</object-name>
+
+    <emission>
+      <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
+            <red>0.60</red>
+            <green>0</green>
+            <blue>0</blue>
+    </emission>
+  </animation>
+
+    <animation>
+    <type>rotate</type>
+    <object-name>T.REM</object-name>
+    <property>instrumentation/comm</property>
+    <factor>20</factor>
+    <axis>
+      <x>1.0</x>
+      <y>0.0</y>
+      <z>0.0</z>
+    </axis>
+    <center>
+     <x-m>-0.49873</x-m>
+     <y-m>0.47791</y-m>
+     <z-m>0.19111</z-m>
+   </center>
+  </animation>
+
+    <animation>
+        <type>pick</type>
+        <object-name>T.REM</object-name>
+        <action>
+            <button>0</button>
+            <binding>
+                <command>property-toggle</command>
+                <property>instrumentation/comm</property>
+            </binding>
+            <binding>
+                <command>property-assign</command>
+                <property>instrumentation/comm</property>
+            </binding>
+            <binding>
+                <command>property-toggle</command>
+                <property>sim/sound/click</property>
+            </binding>
+        </action>
+    </animation>
+</PropertyList>

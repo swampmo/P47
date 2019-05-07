@@ -33,19 +33,19 @@
     <object-name>needle3</object-name>
     <emission>
       <factor-prop>systems/electrical/outputs/instrument-lights</factor-prop>
-      <red>   0.50 </red>
-      <green> 0.25 </green>
-      <blue>  0.25 </blue>
+            <red>0.60</red>
+            <green>0</green>
+            <blue>0</blue>
     </emission>
   </animation>
 
   <animation>
     <type>rotate</type>
     <object-name>needle1</object-name>
-    <property>environment/temperature-deg-c</property>
+    <property>engines/engine/temperature-deg-c</property>
     <interpolation>
       <!--entry><ind> -50 </ind><dep> -27 </dep></entry-->
-      <entry><ind>   0 </ind><dep>   0 </dep></entry>
+      <entry><ind>   0 </ind><dep>   12 </dep></entry>
       <entry><ind>  50 </ind><dep>  33 </dep></entry>
       <entry><ind> 100 </ind><dep>  65 </dep></entry>
     </interpolation>
@@ -66,7 +66,7 @@
     <object-name>needle2</object-name>
       <property>engines/engine/oil-temp-c</property>
   <interpolation>
-   <entry><ind>0</ind><dep>0</dep></entry>
+   <entry><ind>0</ind><dep>10</dep></entry>
    <entry><ind>100</ind><dep>20</dep></entry>
    <entry><ind>180</ind><dep>50</dep></entry>
    <entry><ind>210</ind><dep>100</dep></entry>

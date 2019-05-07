@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+    <animation>
+        <type>material</type>
+        <object-name>flash</object-name>
+        <object-name>beacon</object-name>
+        <object-name>light</object-name>
+        <object-name>vitre</object-name>
+        <emission>
+            <red>0.8</red>
+            <green>0.5</green>
+            <blue>0.3</blue>
+            <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
+        </emission>
+    </animation>
+   <model>
+    <path>Aircraft/P47/Models/Lights/flash.xml</path>
+<animation>
+  <type>flash</type>
+  <object-name>Light</object-name>
+  <!--center>
+      <x-m> -1.59510 </x-m>
+      <y-m> -6.100 </y-m>
+      <z-m>-0.100 </z-m>
+  </center-->
+  <axis>
+   <x>-1</x>
+   <y>-1</y>
+   <z>1</z>
+  </axis>
+  <power>4</power>
+  <factor>1</factor>
+  <offset>22</offset>
+  <two-sides type="bool">false</two-sides>
+  <min>0.01</min>
+  <max>1</max>
+</animation>
+   </model>
+
+  <model>
+    <path>Aircraft/P47/Models/Lights/beacon.xml</path>
+    <offsets>
+      <x-m>5.500</x-m>
+      <y-m>0.000</y-m>
+      <z-m>-0.260</z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/P47/Models/Lights/beacon.xml</path>
+    <offsets>
+      <x-m>0.600</x-m>
+      <y-m>0.000</y-m>
+      <z-m>-1.010</z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/P47/Models/Lights/RedLight.xml</path>
+    <offsets>
+      <x-m>-1.590 </x-m>
+      <y-m>-6.100 </y-m>
+      <z-m>-0.100 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/P47/Models/Lights/StrobeWhite.xml</path>
+    <offsets>
+      <x-m> -1.58510 </x-m>
+      <y-m> -6.110 </y-m>
+      <z-m>-0.100 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/P47/Models/Lights/GreenLight.xml</path>
+    <offsets>
+      <x-m>-1.590</x-m>
+      <y-m>6.100 </y-m>
+      <z-m>-0.100 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/P47/Models/Lights/StrobeWhite.xml</path>
+    <offsets>
+      <x-m> -1.58510 </x-m>
+      <y-m>6.110 </y-m>
+      <z-m>-0.100 </z-m>
+    </offsets>
+  </model>
+</PropertyList>

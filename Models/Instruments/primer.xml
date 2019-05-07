@@ -3,10 +3,29 @@
 
     <path>primer.ac</path>
 
+  <animation>
+    <object-name>Egr.base</object-name>
+    <object-name>Nut</object-name>
+    <object-name>Pmr.base</object-name>
+    <object-name>primer.switch</object-name>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>Egr.base</object-name>
+    <object-name>Pmr.base</object-name>
+    <emission>
+      <factor-prop>systems/electrical/outputs/instrument-lights</factor-prop>
+            <red>0.60</red>
+            <green>0</green>
+            <blue>0</blue>
+    </emission>
+  </animation>
+
     <animation>
         <type>rotate</type>
         <object-name>primer.switch</object-name>
-        <property>controls/engines/engine/cowl-flaps-norm</property>
+        <property>controls/engines/engine/primer</property>
         <factor>-60</factor>
         <center>
             <x-m>0.002</x-m>
@@ -27,7 +46,7 @@
             <button>0</button>
             <binding>
                 <command>property-toggle</command>
-                <property>controls/engines/engine/cowl-flaps-norm</property>
+                <property>controls/engines/engine/primer</property>
             </binding>
         </action>
     </animation>

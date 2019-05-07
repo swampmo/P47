@@ -9,9 +9,9 @@
         <object-name>MP.needle1</object-name>
         <object-name>MP.needle2</object-name>
         <emission>
-            <red>0.8</red>
-            <green>0.5</green>
-            <blue>0.3</blue>
+            <red>0.60</red>
+            <green>0</green>
+            <blue>0</blue>
             <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
         </emission>
     </animation>

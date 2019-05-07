@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>suction.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>face</object-name>
+    <object-name>frame</object-name>
+    <object-name>needle</object-name>
+    <object-name>vitre</object-name>
+
+    <!-- Objets transparents -->
+    <object-name>vitre</object-name>
+  </animation>
+
+  <!-- working for Rembrandt -->
+
+
+  <animation>
+    <type>material</type>
+    <object-name>face</object-name>
+    <object-name>needle</object-name>
+    <emission>
+      <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
+      <red>0.60</red>
+      <green>0</green>
+      <blue>0</blue>
+    </emission>
+  </animation>
+
+  <animation>
+	<type>rotate</type>
+	<object-name>needle</object-name>
+	<property>/systems/vacuum/suction-inhg</property>
+	<interpolation>
+		<entry><ind> 0 </ind><dep> -18 </dep></entry>
+		<entry><ind> 0.1 </ind><dep> 30 </dep></entry>
+		<entry><ind> 3 </ind><dep> 35 </dep></entry>
+		<entry><ind> 4 </ind><dep> 59 </dep></entry>
+		<entry><ind> 5 </ind><dep> 83 </dep></entry>
+		<entry><ind> 6 </ind><dep> 109 </dep></entry>
+		<entry><ind> 99 </ind><dep> 115 </dep></entry>
+	</interpolation>
+	  <center>
+   <x-m>0.00182</x-m>
+   <y-m>-0.00004</y-m>
+   <z-m>-0.00007</z-m>
+  </center>
+	<axis>
+		<x>-1</x>
+		<y>0</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+</PropertyList>

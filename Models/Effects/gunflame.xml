@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>Flame.ac</path>
+
+<animation>
+  <type>select</type>
+  <object-name>Flame</object-name>
+ <condition>
+  <property>controls/armament/trigger-cannon</property>
+ </condition>
+ </animation>
+
+<animation>
+  <type>texrotate</type>
+  <object-name>Flame</object-name>
+  <property>sim/time/elapsed-sec</property>
+  <factor>25000</factor>
+  <offset-deg>0</offset-deg>
+  <center>
+    <x>0.5</x>
+    <y>0.5</y>
+  </center>
+  <axis>
+    <x>0</x>
+    <y>0</y>
+    <z>1</z>
+  </axis>
+</animation>
+
+ <animation>
+  <type>billboard</type>
+  <object-name>Flame</object-name>
+  <spherical>true</spherical>
+ </animation>
+
+ <animation>
+  <type>material</type>
+  <object-name>Flame</object-name>
+  <emission>
+   <red>  1</red>
+   <green>1</green>
+   <blue> 1</blue>
+  </emission>
+ </animation>
+
+</PropertyList>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>Selector-Switch-Auto -Constant-Speed_Circuitbreaker.ac</path>
+
+ <type>material</type>
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>AutoPropSwitch</object-name>
+    <object-name>AutoPropControl</object-name>
+    <object-name>Bolts</object-name>
+    <object-name>DiveBrake</object-name>
+    <object-name>DiveBrakeCover</object-name>
+    <object-name>Glass</object-name>
+    <object-name>RedLamp</object-name>
+    <object-name>ReSetButton</object-name>
+    <object-name>ReSetButtonFrame</object-name>
+    <object-name>SwitchNutDiveBrake</object-name>
+    <object-name>SwitchNutPropControl</object-name>
+  </animation>
+
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Aircraft/P47/Models/Effects/Glass/glass</inherits-from>
+    <object-name>Glass</object-name>
+  </effect>
+
+  <effect>
+    <inherits-from>Effects/model-transparent</inherits-from>
+    <object-name>Glass</object-name>
+  </effect>
+
+  <animation>
+    <type>material</type>
+    <object-name>AutoPropSwitch</object-name>
+    <object-name>DiveBrake</object-name>
+    <object-name>DiveBrakeCover</object-name>
+    <object-name>ReSetButton</object-name>
+    <object-name>SwitchNutDiveBrake</object-name>
+    <object-name>SwitchNutPropControl</object-name>
+
+    <emission>
+      <factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
+      <red>   0.60 </red>
+      <green> 0 </green>
+      <blue>  0 </blue>
+    </emission>
+  </animation>
+    <animation>
+        <type>pick</type>
+        <object-name>Batt.nut</object-name>
+        <action>
+            <button>0</button>
+            <binding>
+                <command>property-toggle</command>
+                <property>controls/electric/battery-switch</property>
+            </binding>
+            <binding>
+                <command>property-assign</command>
+                <property>controls/electric/engine/generator</property>
+                <property>controls/electric/battery-switch</property>
+            </binding>
+            <binding>
+                <command>property-toggle</command>
+                <property>sim/sound/click</property>
+            </binding>
+        </action>
+    </animation>
+
+</PropertyList>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>Flaps.ac</path>
+
+  <animation>
+    <object-name>FlapLever</object-name>
+    <object-name>Guide</object-name>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>FlapLever</object-name>
+    <property>controls/flight/flaps</property>
+    <factor>90</factor>
+    <axis>
+      <x>0.0</x>
+      <y>1.0</y>
+      <z>0.0</z>
+    </axis>
+    <center>
+     <x-m>-0.23588</x-m>
+     <y-m>-0.46946</y-m>
+     <z-m>0.39705</z-m>
+   </center>
+  </animation>
+
+  <animation>
+    <type>pick</type>
+    <visible>true</visible>
+    <object-name>FlapLever</object-name>
+    <action>
+      <button>0</button>
+      <binding>
+        <command>property-adjust</command>
+        <property>controls/flight/flaps</property>
+        <step>-0.4</step>
+      </binding>
+    </action>
+  </animation>
+
+  <animation>
+    <type>pick</type>
+    <visible>true</visible>
+    <object-name>FlapLever</object-name>
+    <action>
+      <button>1</button>
+      <binding>
+        <command>property-adjust</command>
+        <property>controls/flight/flaps</property>
+        <step>0.4</step>
+      </binding>
+    </action>
+  </animation>
+
+</PropertyList>

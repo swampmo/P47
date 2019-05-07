@@ -8,11 +8,10 @@
     <object-name>fond</object-name>
     <object-name>InhgKnob</object-name>
     <object-name>face</object-name>
-    <object-name>inhg</object-name>
+    <object-name>InHg</object-name>
     <object-name>needle100</object-name>
     <object-name>needle1000</object-name>
-    <object-name>needle10000</object-name>
-    
+    <object-name>needle10000</object-name>   
     <object-name>vitre</object-name>
   </animation>
     
@@ -22,26 +21,14 @@
     <object-name>needle100</object-name>
     <object-name>needle1000</object-name>
     <object-name>needle10000</object-name>
-    <object-name>inhg</object-name>
+    <object-name>InHg</object-name>
     <object-name>face</object-name>
-    <emission>
-      <!-- <factor-prop>/controls/lighting/instrument-lights</factor-prop> -->
-             <red>0.8</red>
-            <green>0.5</green>
-            <blue>0.3</blue>
-            <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
-    </emission>
-  </animation>
-  
-  <animation>
-    <type>material</type>
-    <object-name>fond</object-name>
     <object-name>InhgKnob</object-name>
     <emission>
       <!-- <factor-prop>/controls/lighting/instrument-lights</factor-prop> -->
-             <red>0.8</red>
-            <green>0.5</green>
-            <blue>0.3</blue>
+             <red>0.60</red>
+            <green>0</green>
+            <blue>0</blue>
             <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
     </emission>
   </animation>

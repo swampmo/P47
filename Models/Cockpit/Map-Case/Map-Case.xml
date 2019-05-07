@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>Map-Case.ac</path>
+
+  <animation>
+    <object-name>Case</object-name>
+        <object-name>Name</object-name>
+            <object-name>Stud</object-name>
+  </animation>
+
+</PropertyList>

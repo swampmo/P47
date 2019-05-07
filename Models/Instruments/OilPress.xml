@@ -8,9 +8,9 @@
   <type>material</type>
   <object-name>PointerTip</object-name>
   <emission>
-   <red>1.0</red>
-   <green>0.3</green>
-   <blue>0.3</blue>
+            <red>0.60</red>
+            <green>0</green>
+            <blue>0</blue>
    <factor-prop>/controls/lighting/instruments-norm</factor-prop>
   </emission>
  </animation>
