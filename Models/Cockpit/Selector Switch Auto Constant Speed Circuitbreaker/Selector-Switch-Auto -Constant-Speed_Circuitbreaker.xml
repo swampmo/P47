@@ -7,7 +7,7 @@
  <type>material</type>
   <animation>
     <!-- Objets opaques -->
-    <object-name>AutoPropSwitch</object-name>
+    <object-name>AutoProp Switch</object-name>
     <object-name>AutoPropControl</object-name>
     <object-name>Bolts</object-name>
     <object-name>DiveBrake</object-name>
@@ -33,7 +33,8 @@
 
   <animation>
     <type>material</type>
-    <object-name>AutoPropSwitch</object-name>
+    <object-name>AutoPropControl</object-name>
+    <object-name>AutoProp Switch</object-name>
     <object-name>DiveBrake</object-name>
     <object-name>DiveBrakeCover</object-name>
     <object-name>ReSetButton</object-name>
@@ -42,9 +43,9 @@
 
     <emission>
       <factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
-      <red>   0.60 </red>
-      <green> 0 </green>
-      <blue>  0 </blue>
+      <red>10</red>
+      <green>0</green>
+      <blue>8</blue>
     </emission>
   </animation>
     <animation>

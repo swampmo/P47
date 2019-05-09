@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>TailWheelLock.ac</path>
+
+  <animation>
+    <object-name>TailWheelLock</object-name>
+        <object-name>Housing</object-name>
+  </animation>
+
+    <animation>
+    <type>rotate</type>
+    <object-name>TailWheelLock</object-name>
+    <property>controls/gear/tailwheel-lock</property>
+    <factor>-60</factor>
+    <axis>
+      <x>0.0</x>
+      <y>1.0</y>
+      <z>0.0</z>
+    </axis>
+    <center>
+     <x-m>-0.36237</x-m>
+     <y-m>-0.41300</y-m>
+     <z-m>0.24259</z-m>
+   </center>
+  </animation>
+
+      <animation>
+        <type>pick</type>
+        <object-name>TailWheelLock</object-name>
+        <action>
+            <button>0</button>
+            <binding>
+                <command>property-toggle</command>
+                <property>controls/gear/tailwheel-lock</property>
+            </binding>
+            <binding>
+                <command>property-assign</command>
+                <property>controls/gear/tailwheel</property>
+            </binding>
+            <binding>
+                <command>property-toggle</command>
+                <property>sim/sound/click</property>
+            </binding>
+        </action>
+    </animation>
+
+</PropertyList>

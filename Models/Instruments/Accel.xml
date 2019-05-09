@@ -10,9 +10,9 @@
         <object-name>G.needle2</object-name>
         <object-name>G.needle3</object-name>
         <emission>
-            <red>0.60</red>
+            <red>10</red>
             <green>0</green>
-            <blue>0</blue>
+            <blue>9</blue>
             <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
         </emission>
     </animation>
@@ -51,7 +51,7 @@
    <y>0</y>
    <z>0</z>
   </axis>
- </animation> 
+ </animation>
 
 
 </PropertyList>

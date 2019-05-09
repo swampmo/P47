@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <PropertyList>
-  
+
   <path>alt.ac</path>
-  
+
   <animation>
     <object-name>fond</object-name>
     <object-name>InhgKnob</object-name>
@@ -11,10 +11,10 @@
     <object-name>InHg</object-name>
     <object-name>needle100</object-name>
     <object-name>needle1000</object-name>
-    <object-name>needle10000</object-name>   
+    <object-name>needle10000</object-name>
     <object-name>vitre</object-name>
   </animation>
-    
+
   <animation>
     <type>material</type>
     <object-name>ALTface</object-name>
@@ -26,13 +26,13 @@
     <object-name>InhgKnob</object-name>
     <emission>
       <!-- <factor-prop>/controls/lighting/instrument-lights</factor-prop> -->
-             <red>0.60</red>
+             <red>10</red>
             <green>0</green>
-            <blue>0</blue>
+            <blue>8</blue>
             <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
     </emission>
   </animation>
-  
+
   <animation>
     <type>rotate</type>
     <object-name>needle100</object-name>
@@ -44,7 +44,7 @@
       <z>  0 </z>
     </axis>
   </animation>
-  
+
   <animation>
     <type>rotate</type>
     <object-name>needle1000</object-name>
@@ -56,7 +56,7 @@
       <z>  0 </z>
     </axis>
   </animation>
-  
+
   <animation>
     <type>rotate</type>
     <object-name>needle10000</object-name>
@@ -68,7 +68,7 @@
       <z>  0 </z>
     </axis>
   </animation>
-  
+
   <animation>
     <type>rotate</type>
     <object-name>inhg</object-name>
@@ -83,7 +83,7 @@
       <z>  0 </z>
     </axis>
   </animation>
-  
+
   <animation>
     <type>pick</type>
     <object-name>InhgKnob</object-name>
@@ -101,7 +101,7 @@
       </binding>
     </action>
   </animation>
-  
+
   <animation>
     <type>pick</type>
     <object-name>InhgKnob</object-name>
@@ -119,7 +119,7 @@
       </binding>
     </action>
   </animation>
-  
+
   <animation>
     <type>pick</type>
     <object-name>InhgKnob</object-name>
@@ -135,7 +135,7 @@
       </binding>
     </action>
   </animation>
-  
+
   <animation>
     <type>pick</type>
     <object-name>InhgKnob</object-name>
@@ -151,5 +151,5 @@
       </binding>
     </action>
   </animation>
-  
+
 </PropertyList>

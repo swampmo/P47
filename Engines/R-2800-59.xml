@@ -13,49 +13,42 @@
 -->
 
 <piston_engine name="R-2800-59">
-  <minmp unit="INHG">         6.8 </minmp>
-  <maxmp unit="INHG">         28.0 </maxmp>
+  <minmp unit="INHG">          6.0 </minmp>
+  <maxmp unit="INHG">         55.5 </maxmp>
     <displacement unit="IN3"> 2800 </displacement>
-  <cylinder-head-mass unit="LBS"> 125 </cylinder-head-mass>
-   <maxhp>        2300 </maxhp>
+  <maxhp>        2535 </maxhp>
   <cycles>         4.0 </cycles>
   <idlerpm>      400.0 </idlerpm>
   <maxrpm>      2700.0 </maxrpm>
-  <sparkfaildrop>  0.1 </sparkfaildrop>
-  <volumetric-efficiency> 0.55 </volumetric-efficiency>
-  <man-press-lag> 0.4 </man-press-lag>
-  <air-intake-impedance-factor> 1 </air-intake-impedance-factor>
-  <ram-air-factor> 0.4 </ram-air-factor>
-  <static-friction  unit="HP"> 11.5 </static-friction>
-  <starter-torque> 2080 </starter-torque>
-  <starter-rpm> 2000 </starter-rpm>
+  <sparkfaildrop>  0.5 </sparkfaildrop>
+  <volumetric-efficiency> 0.65 </volumetric-efficiency>
+  <man-press-lag> 0.1 </man-press-lag>
+  <static-friction  unit="HP"> 12.675 </static-friction>
+  <starter-torque> 2800 </starter-torque>
+  <starter-rpm> 1400 </starter-rpm>
  <!-- Defining <bsfc> over-rides the built-in horsepower calculations -->
- <bsfc>           0.44 </bsfc>
+ <bsfc>           0.27 </bsfc>
   <stroke unit="IN">  6 </stroke>
   <bore unit="IN">    5.8 </bore>
   <cylinders>         18  </cylinders>
   <compression-ratio>  6.75 </compression-ratio>
-  <cooling-factor> 0.95 </cooling-factor>
-  <oil-pressure-relief-valve-psi> 100 </oil-pressure-relief-valve-psi>
-  <design-oil-temp-degK> 325. </design-oil-temp-degK>
-  <oil-pressure-rpm-max> 2100 </oil-pressure-rpm-max>
-  <oil-viscosity-index> 0.25 </oil-viscosity-index>
-  <maxthrottle>           1.0 </maxthrottle>
-  <minthrottle>           0.0 </minthrottle>
- <boostmanual> 0 </boostmanual>
-  <numboostspeeds>   2 </numboostspeeds>
- <!-- <takeoffboost>  12.75  </takeoffboost> -->
+  <boostauto>0</boostauto>
+  <numboostspeeds>2</numboostspeeds>
+  <boostoverride>0</boostoverride>
+  <takeoffboost>1</takeoffboost> 
 
 
-  <ratedboost1>       16.5 </ratedboost1> 
-  <ratedpower1>    2500    </ratedpower1>
-  <ratedrpm1>      2600    </ratedrpm1>
-  <ratedaltitude1> 15000    </ratedaltitude1>
+ <!-- Low-speed supercharger; see table above.  The rated boost is on top of
+       sea level ambient pressure. -->
+  <ratedboost1 unit="INHG"> 20.36 </ratedboost1>
+  <ratedpower1> 2000 </ratedpower1>
+  <ratedrpm1>   2700 </ratedrpm1>
+  <ratedaltitude1> 0 </ratedaltitude1>
 
-  <ratedboost2>       20.5  </ratedboost2> 
-  <ratedpower2>     1900    </ratedpower2>
-  <ratedrpm2>       2600    </ratedrpm2>
-  <ratedaltitude2> 33000    </ratedaltitude2>
-
+  <!-- High-speed supercharger; see table above. -->
+  <ratedboost2 unit="INHG"> 26.46 </ratedboost2>
+  <ratedpower2> 2000 </ratedpower2>
+  <ratedrpm2>   2700 </ratedrpm2>
+  <ratedaltitude2> 15000 </ratedaltitude2>
 
 </piston_engine>
