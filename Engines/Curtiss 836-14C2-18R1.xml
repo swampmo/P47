@@ -5,7 +5,7 @@
     See: http://wiki.flightgear.org/JSBSim_Thrusters#FGPropeller
 
     Inputs:
-           horsepower: 2300
+           horsepower: 2535
        max engine rpm: 2700
    prop diameter (ft): 13
       prop chord (ft): 0.968814
@@ -14,22 +14,22 @@
     Outputs:
          max prop rpm: 1443.31
            gear ratio: 1.8707
-                  Cp0: 0.102929
-                  Ct0: 0.239825
-  static thrust (lbs): 9425.3
+                  Cp0: 0.113446
+                  Ct0: 0.264329
+  static thrust (lbs): 10388.3
 -->
 
 <propeller version="1.01" name="prop">
   <ixx> 175.773 </ixx>
   <diameter unit="IN"> 156 </diameter>
   <numblades> 4 </numblades>
-  <gearratio> 1.75 </gearratio>
-  <cp_factor> 1.5 </cp_factor>
+  <gearratio> 1 </gearratio>
+  <cp_factor> 1.00 </cp_factor>
   <ct_factor> 4 </ct_factor> <!-- set to match the number of blades -->
-  <maxpitch> 40 </maxpitch>
-  <minpitch> 20 </minpitch>
-  <minrpm>500</minrpm> <!-- 1800 to 3000 engine RPM -->
-  <maxrpm>2700</maxrpm>
+  <minpitch> 20.2 </minpitch>
+  <maxpitch> 55.2 </maxpitch>
+  <minrpm> 1000 </minrpm>
+  <maxrpm> 2700 </maxrpm>
 
  <!-- thrust coefficient as a function of advance ratio and blade angle -->
   <table name="C_THRUST" type="internal">

@@ -33,29 +33,40 @@
     <object-name>needle3</object-name>
     <emission>
       <factor-prop>systems/electrical/outputs/instrument-lights</factor-prop>
-      <red>   0.50 </red>
-      <green> 0.25 </green>
-      <blue>  0.25 </blue>
+            <red>10</red>
+            <green>0</green>
+            <blue>8</blue>
     </emission>
   </animation>
 
   <animation>
     <type>rotate</type>
     <object-name>needle1</object-name>
-    <property>environment/temperature-deg-c</property>
-    <interpolation>
-      <!--entry><ind> -50 </ind><dep> -27 </dep></entry-->
+    <!--property>engines/engine/oil-temp-deg-c</property-->
+        <property>environment/temperature-degc</property>
+    <!--interpolation>
+      <entry><ind> -50 </ind><dep> -27 </dep></entry>
       <entry><ind>   0 </ind><dep>   0 </dep></entry>
       <entry><ind>  50 </ind><dep>  33 </dep></entry>
       <entry><ind> 100 </ind><dep>  65 </dep></entry>
+    </interpolation-->
+    <interpolation>
+      <!--entry><ind>-50 </ind><dep> 0 </dep></entry-->
+      <entry><ind> 0 </ind><dep> 0</dep></entry>
+      <entry><ind> 10 </ind><dep>5 </dep></entry>
+      <entry><ind> 20 </ind><dep>15 </dep></entry>
+      <entry><ind> 30 </ind><dep>25 </dep></entry>
+      <entry><ind> 40 </ind><dep>35 </dep></entry>
+      <entry><ind> 50 </ind><dep>45 </dep></entry>
+      <entry><ind> 60 </ind><dep>55 </dep></entry>
     </interpolation>
     <center>
-      <x-m> 0.00000 </x-m>
-      <y-m> 0.00000 </y-m>
-      <z-m> 0.00273 </z-m>
+      <x-m> 0.00693 </x-m>
+      <y-m> 0.00065 </y-m>
+      <z-m> 0.00240 </z-m>
     </center>
     <axis>
-      <x> 1 </x>
+      <x> -1 </x>
       <y> 0 </y>
       <z> 0 </z>
     </axis>
@@ -64,23 +75,27 @@
   <animation>
     <type>rotate</type>
     <object-name>needle2</object-name>
-      <property>engines/engine/oil-temp-c</property>
+      <property>engines/engine/oil-pressure-psi</property>
   <interpolation>
    <entry><ind>0</ind><dep>0</dep></entry>
-   <entry><ind>100</ind><dep>20</dep></entry>
-   <entry><ind>180</ind><dep>50</dep></entry>
-   <entry><ind>210</ind><dep>100</dep></entry>
-   <entry><ind>250</ind><dep>111</dep></entry>
-   <entry><ind>400</ind><dep>140</dep></entry>
-   <entry><ind>590</ind><dep>160</dep></entry>
+   <entry><ind>10</ind><dep>5</dep></entry>
+   <entry><ind>20</ind><dep>15</dep></entry>
+   <entry><ind>30</ind><dep>25</dep></entry>
+   <entry><ind>40</ind><dep>35</dep></entry>
+   <entry><ind>50</ind><dep>45</dep></entry>
+   <entry><ind>60</ind><dep>55</dep></entry>
+   <entry><ind>70</ind><dep>65</dep></entry>
+   <entry><ind>80</ind><dep>75</dep></entry>
+   <entry><ind>90</ind><dep>85</dep></entry>
+   <entry><ind>100</ind><dep>95</dep></entry>
   </interpolation>
     <center>
-      <x-m>  0.00000 </x-m>
-      <y-m> -0.00707 </y-m>
-      <z-m> -0.01228 </z-m>
+      <x-m>  0.00752 </x-m>
+      <y-m> -0.00631 </y-m>
+      <z-m> -0.01400 </z-m>
     </center>
     <axis>
-      <x> 1 </x>
+      <x> -1 </x>
       <y> 0 </y>
       <z> 0 </z>
     </axis>
@@ -89,18 +104,18 @@
   <animation>
     <type>rotate</type>
     <object-name>needle3</object-name>
-    <property>engines/engine/cyl-temp-c</property>
+    <property>engines/engine/fuel-flow-gph</property>
     <interpolation>
       <entry><ind>  0 </ind><dep>   0 </dep></entry>
       <entry><ind> 35 </ind><dep> 180 </dep></entry>
     </interpolation>
     <center>
-      <x-m>  0.00000 </x-m>
-      <y-m>  0.00707 </y-m>
-      <z-m> -0.01228 </z-m>
+      <x-m>  0.00743 </x-m>
+      <y-m>  0.00777 </y-m>
+      <z-m> -0.01390 </z-m>
     </center>
     <axis>
-      <x> -1 </x>
+      <x> 1 </x>
       <y>  0 </y>
       <z>  0 </z>
     </axis>

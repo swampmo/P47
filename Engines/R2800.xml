@@ -5,42 +5,51 @@
   Author:   AeromatiC++ v 3.3.0
   See: http://wiki.flightgear.org/JSBSim_Engines#FGPiston
   Inputs:
-    name:           R2800-59
+    name:           R2800
     type:           Piston Engine
-    power:          2500 hp
-  Originally made by Dave Culp. Modified by Steve Brown for the P47$-30 with permision
+    power:          2600 hp
 -->
 
-<piston_engine name="R-2800-59">
-  <displacement unit="IN3"> 2800 </displacement>
-  <cylinder-head-mass unit="LBS"> 70 </cylinder-head-mass>
-  <maxmp unit="INHG">    56.0   </maxmp>	
-  <maxhp>              2500     </maxhp>
-  <cycles>                4     </cycles>
-  <bore unit="IN">        5.75  </bore>
-  <stroke unit="IN">      6.00  </stroke>
-  <cylinders>            18     </cylinders>
-  <compression-ratio>     6.75  </compression-ratio>  
-  <bsfc>                  0.4   </bsfc>
-  <volumetric-efficiency> 0.87 </volumetric-efficiency>  
-  <cooling-factor> 0.45 </cooling-factor>
-  <idlerpm>             550 </idlerpm>
-  <maxrpm>             2800 </maxrpm>
-  <maxthrottle>           1.0 </maxthrottle>
-  <minthrottle>           0.1 </minthrottle>
-  <sparkfaildrop>         0.2 </sparkfaildrop>
-  <numboostspeeds>        2   </numboostspeeds>
-  <boostoverride>         0   </boostoverride>
+<piston_engine name="R2800">
+  <minmp unit="INHG">         6.8 </minmp>
+  <maxmp unit="INHG">         45.5 </maxmp>
+    <displacement unit="IN3"> 3442 </displacement>
+ <cylinder-head-mass unit="LBS"> 25.0 </cylinder-head-mass>
+  <maxhp>        2500 </maxhp>
+  <cycles>         4.0 </cycles>
+  <idlerpm>      400.0 </idlerpm>
+  <maxrpm>      2700.0 </maxrpm>
+  <sparkfaildrop>  0.9 </sparkfaildrop>
+  <volumetric-efficiency> 0.63 </volumetric-efficiency>
+  <man-press-lag> 0.1 </man-press-lag>
+  <static-friction  unit="HP"> 19 </static-friction>
+  <starter-torque> 2080 </starter-torque>
+  <starter-rpm> 1000 </starter-rpm>
+ <!-- Defining <bsfc> over-rides the built-in horsepower calculations -->
+  <bsfc>           0.27 </bsfc>
+  <stroke unit="IN">  6 </stroke>
+  <bore unit="IN">    5.75 </bore>
+  <cylinders>         18  </cylinders>
+  <compression-ratio>  6.0 </compression-ratio>
+  <cooling-factor> 1 </cooling-factor>
+  <boostauto>0</boostauto>
+  <numboostspeeds>2</numboostspeeds>
+  <boostoverride>0</boostoverride>
+  <takeoffboost>1</takeoffboost> 
 
-  <ratedboost1>       8.15 </ratedboost1> <!-- 46.5 inHg -->
-  <ratedpower1>    2335    </ratedpower1>
-  <ratedrpm1>      2600    </ratedrpm1>
-  <ratedaltitude1> 15000    </ratedaltitude1>
 
-  <ratedboost2>        7.41 </ratedboost2> <!-- 45 inHg -->
-  <ratedpower2>     1520    </ratedpower2>
-  <ratedrpm2>       2600    </ratedrpm2>
-  <ratedaltitude2> 30000    </ratedaltitude2>
+ <!-- Low-speed supercharger; see table above.  The rated boost is on top of
+       sea level ambient pressure. -->
+  <ratedboost1 unit="INHG"> 20.36 </ratedboost1>
+  <ratedpower1> 2000 </ratedpower1>
+  <ratedrpm1>   2700 </ratedrpm1>
+  <ratedaltitude1> 10 </ratedaltitude1>
 
-  <takeoffboost>  10.85   </takeoffboost>   <!-- 52.0 inHg -->
+  <!-- High-speed supercharger; see table above. -->
+  <ratedboost2 unit="INHG"> 26.46 </ratedboost2>
+  <ratedpower2> 2000 </ratedpower2>
+  <ratedrpm2>   2700 </ratedrpm2>
+  <ratedaltitude2> 10000 </ratedaltitude2>
+
+
 </piston_engine>

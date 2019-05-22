@@ -3,16 +3,33 @@
 <PropertyList>
 
 <path>turn.ac</path>
+  <animation>
+    <object-name>Frame</object-name>
+    <object-name>Lens</object-name>
+    <object-name>SlipBall</object-name>
+    <object-name>TurnFace</object-name>
+    <object-name>TurnNeedle</object-name>
+  </animation>
+    <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Aircraft/P47/Models/Effects/Glass/glass</inherits-from>
+    <object-name>Lens</object-name>
+  </effect>
+
+  <effect>
+    <inherits-from>Effects/model-transparent</inherits-from>
+    <object-name>Lens</object-name>
+  </effect>
 
     <animation>
         <type>material</type>
-        <object-name>TURN.face</object-name>
-        <object-name>TURN.needle</object-name>
+        <object-name>TurnFace</object-name>
+        <object-name>TurnNeedle</object-name>
         <emission>
-            <red>0.8</red>
-            <green>0.5</green>
-            <blue>0.3</blue>
-            <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
+            <red>10</red>
+            <green>0</green>
+            <blue>8</blue>
+            <factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
         </emission>
     </animation>
 

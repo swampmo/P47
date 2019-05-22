@@ -10,9 +10,9 @@
   <object-name>Face</object-name>
      <emission>
       <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
-      <red>   0.8 </red>
-      <green> 0.6 </green>
-      <blue>  0.3 </blue>
+            <red>10</red>
+            <green>0</green>
+            <blue>8</blue>
     </emission>
  </animation>
 
@@ -28,9 +28,9 @@
       <entry><ind> 140 </ind><dep> 48 </dep></entry>
       <entry><ind> 150 </ind><dep> 60 </dep></entry>
       <entry><ind> 160 </ind><dep> 70 </dep></entry>
-      <entry><ind> 170 </ind><dep> 85 </dep></entry> 
-      <entry><ind> 180 </ind><dep> 95 </dep></entry> 
-      <entry><ind> 190 </ind><dep> 105 </dep></entry> 
+      <entry><ind> 170 </ind><dep> 85 </dep></entry>
+      <entry><ind> 180 </ind><dep> 95 </dep></entry>
+      <entry><ind> 190 </ind><dep> 105 </dep></entry>
       <entry><ind> 200 </ind><dep> 125 </dep></entry>
       <entry><ind> 210 </ind><dep> 145 </dep></entry>
       <entry><ind> 220 </ind><dep> 155 </dep></entry>

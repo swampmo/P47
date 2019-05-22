@@ -2,7 +2,7 @@
 
 <system name="automixture">
 
-  <channel name="R2800">
+  <channel name="R3350">
 
    <pure_gain>
      <input>atmosphere/delta</input>

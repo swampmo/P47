@@ -6,13 +6,13 @@
     <animation>
         <type>material</type>
         <object-name>face</object-name>
-        <object-name>frame</object-name>
-        <object-name>visses</object-name>
-        <object-name>vitre</object-name>
+        <object-name>G.needle1</object-name>
+        <object-name>G.needle2</object-name>
+        <object-name>G.needle3</object-name>
         <emission>
-            <red>0.8</red>
-            <green>0.5</green>
-            <blue>0.3</blue>
+            <red>10</red>
+            <green>0</green>
+            <blue>9</blue>
             <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
         </emission>
     </animation>
@@ -27,20 +27,31 @@
     <object-name>vitre</object-name>
   </effect>
 
-    <!-- animation>
+    <animation>
         <type>rotate</type>
-        <object-name>Accel.needle</object-name>
-        <property>engines/engine/acceleration</property>
-        <interpolation>
-            <entry><ind>0.0</ind><dep>0.0</dep></entry>
-            <entry><ind>15</ind><dep>20</dep></entry>
-            <entry><ind>75</ind><dep>320</dep></entry>
-        </interpolation>
-        <axis>
-            <x>-1.0</x>
-            <y>0.0</y>
-            <z>0.0</z>
-        </axis>
-    </animation -->
+        <object-name>G.needle1</object-name>
+        <object-name>G.needle2</object-name>
+        <object-name>G.needle3</object-name>
+  <property>accelerations/pilot-gdamped</property>
+  <factor>1</factor>
+ <interpolation>
+  <entry><ind>-4</ind><dep>-202.5</dep></entry>
+  <entry><ind>-3</ind><dep>-180</dep></entry>
+  <entry><ind>1</ind><dep>-90</dep></entry>
+  <entry><ind>5</ind><dep>0</dep></entry>
+  <entry><ind>8</ind><dep>67.5</dep></entry>
+ </interpolation>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+  </center>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
 
 </PropertyList>

@@ -1,0 +1,65 @@
+AC3Db
+MATERIAL "lit" rgb 1.000 0.979 0.979  amb 0.000 0.000 0.000  emis 1.000 1.000 1.000  spec 0.000 0.000 0.000  shi 49 trans 0.000
+OBJECT world
+name "Blender_exporter_v2.26__flash.ac"
+kids 1
+OBJECT poly
+name "flash"
+data 5
+flash
+crease 30.0
+texture "lights.png"
+texrep 1 1
+numvert 8
+0 0.6 0.6
+0 -0.6 0.6
+0 -0.6 -0.6
+0 0.6 -0.6
+0.001 0.6 0.6
+0.001 -0.6 0.6
+0.001 -0.6 -0.6
+0.001 0.6 -0.6
+numsurf 6
+SURF 0X10
+mat 0
+refs 4
+0 0.53 0.97
+3 0.97 0.97
+2 0.97 0.53
+1 0.53 0.53
+SURF 0X10
+mat 0
+refs 4
+4 0.53 0.97
+5 0.53 0.53
+6 0.97 0.53
+7 0.97 0.97
+SURF 0X10
+mat 0
+refs 4
+3 0.97 0.97
+0 0.53 0.97
+4 0.53 0.97
+7 0.97 0.97
+SURF 0X10
+mat 0
+refs 4
+1 0.53 0.53
+2 0.97 0.53
+6 0.97 0.53
+5 0.53 0.53
+SURF 0X10
+mat 0
+refs 4
+2 0.97 0.53
+3 0.97 0.97
+7 0.97 0.97
+6 0.97 0.53
+SURF 0X10
+mat 0
+refs 4
+0 0.53 0.97
+1 0.53 0.53
+5 0.53 0.53
+4 0.53 0.97
+kids 0

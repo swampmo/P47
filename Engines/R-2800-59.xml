@@ -13,11 +13,10 @@
 -->
 
 <piston_engine name="R-2800-59">
-  <minmp unit="INHG">         6.8 </minmp>
-  <maxmp unit="INHG">         28.0 </maxmp>
+  <minmp unit="INHG">          6.0 </minmp>
+  <maxmp unit="INHG">         55.5 </maxmp>
     <displacement unit="IN3"> 2800 </displacement>
-  <cylinder-head-mass unit="LBS"> 125 </cylinder-head-mass>
-   <maxhp>        2300 </maxhp>
+  <maxhp>        2535 </maxhp>
   <cycles>         4.0 </cycles>
   <idlerpm>      400.0 </idlerpm>
   <maxrpm>      2700.0 </maxrpm>
@@ -30,7 +29,7 @@
   <starter-torque> 2080 </starter-torque>
   <starter-rpm> 2000 </starter-rpm>
  <!-- Defining <bsfc> over-rides the built-in horsepower calculations -->
- <bsfc>           0.44 </bsfc>
+ <bsfc>           0.27 </bsfc>
   <stroke unit="IN">  6 </stroke>
   <bore unit="IN">    5.8 </bore>
   <cylinders>         18  </cylinders>
@@ -47,12 +46,12 @@
  <!-- <takeoffboost>  12.75  </takeoffboost> -->
 
 
-  <ratedboost1>       16.5 </ratedboost1> 
+  <ratedboost1>       16.5 </ratedboost1>
   <ratedpower1>    2500    </ratedpower1>
   <ratedrpm1>      2600    </ratedrpm1>
   <ratedaltitude1> 18000    </ratedaltitude1>
 
-  <ratedboost2>       20.5  </ratedboost2> 
+  <ratedboost2>       20.5  </ratedboost2>
   <ratedpower2>     1900    </ratedpower2>
   <ratedrpm2>       2600    </ratedrpm2>
   <ratedaltitude2> 33000    </ratedaltitude2>
