@@ -26,7 +26,7 @@
   <man-press-lag> 0.4 </man-press-lag>
   <air-intake-impedance-factor> 1 </air-intake-impedance-factor>
   <ram-air-factor> 0.4 </ram-air-factor>
-  <static-friction  unit="HP"> 11.5 </static-friction>
+  <static-friction  unit="HP"> 18 </static-friction>
   <starter-torque> 2080 </starter-torque>
   <starter-rpm> 2000 </starter-rpm>
  <!-- Defining <bsfc> over-rides the built-in horsepower calculations -->
@@ -50,7 +50,7 @@
   <ratedboost1>       16.5 </ratedboost1> 
   <ratedpower1>    2500    </ratedpower1>
   <ratedrpm1>      2600    </ratedrpm1>
-  <ratedaltitude1> 15000    </ratedaltitude1>
+  <ratedaltitude1> 18000    </ratedaltitude1>
 
   <ratedboost2>       20.5  </ratedboost2> 
   <ratedpower2>     1900    </ratedpower2>
