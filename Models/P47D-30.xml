@@ -50,7 +50,8 @@
       <object-name>Lstrut.base</object-name>
       <object-name>Ltire</object-name>
       <object-name>LUdamper</object-name>
-      <object-name>Plane.026</object-name>
+    <!-- 
+  <object-name>Plane.026</object-name>  -->
       <object-name>Raileron</object-name>
       <object-name>Rflap_1</object-name>
       <object-name>RGdoorI</object-name>
@@ -316,7 +317,7 @@
         </offsets>
     </model>
 
-       <model>
+    <model>
         <path>Aircraft/P47/Models/ENG.xml</path>
         <offsets>
             <x-m>0.100</x-m>
@@ -328,11 +329,21 @@
        <model>
         <path>Aircraft/P47/Models/Jug rails.xml</path>
         <offsets>
-            <x-m>-0.390</x-m>
+            <x-m>-0.345</x-m>
             <y-m>-0.000 </y-m>
-            <z-m>-0.030</z-m>
+            <z-m>-0.000</z-m>
         </offsets>
     </model>
+
+      <model>
+        <path>Aircraft/P47/Models/Spinner.xml</path>
+        <offsets>
+            <x-m>0.040</x-m>
+            <y-m>0.000 </y-m>
+            <z-m>-0.020</z-m>
+        </offsets>
+    </model>
+
 
      <!-- model>
         <path>Aircraft/P47/Models/Lights/NavLights.xml</path>
@@ -343,14 +354,6 @@
         </offsets>
     </model -->
 
-       <model>
-        <path>Aircraft/P47/Models/Spinner.xml</path>
-        <offsets>
-            <x-m>0.040</x-m>
-            <y-m>-0.000 </y-m>
-            <z-m>-0.020</z-m>
-        </offsets>
-    </model>
 
 <!--##################################################################### COCKPIT-INSTRUMENTS ######################################################################-->
     <model>

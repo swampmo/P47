@@ -4,11 +4,11 @@ OBJECT world
 name "Blender_exporter_v2.26__ENG.ac"
 kids 1
 OBJECT poly
-name "Eng."
+name "Eng"
 data 10
 Sphere.008
 crease 40.0
-texture "Pratt&Whitney.jpg"
+texture "Pratt&Whitney.png"
 texrep 1 1
 numvert 90
 -3.78539 0.45777 0.38506

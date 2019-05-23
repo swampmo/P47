@@ -35,7 +35,7 @@
 
     <animation>
         <type>rotate</type>
-        <object-name>TURN.needle</object-name>
+        <object-name>TurnNeedle</object-name>
         <property>instrumentation/turn-indicator/indicated-turn-rate</property>
         <factor>20</factor>
         <axis>
@@ -52,7 +52,7 @@
 
     <animation>
         <type>rotate</type>
-        <object-name>Slip.ball</object-name>
+        <object-name>SlipBall</object-name>
         <property>instrumentation/slip-skid-ball/indicated-slip-skid</property>
         <interpolation>
             <entry><ind>-10.0</ind><dep>-20</dep></entry>

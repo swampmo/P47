@@ -4,7 +4,7 @@ OBJECT world
 name "Blender_exporter_v2.26__Jug rails.ac"
 kids 1
 OBJECT poly
-name "Cylinder.002"
+name "Cylinder"
 data 13
 Cylinder.1240
 crease 40.0

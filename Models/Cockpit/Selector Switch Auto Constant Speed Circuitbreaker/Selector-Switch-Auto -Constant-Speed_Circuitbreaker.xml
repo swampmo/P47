@@ -50,7 +50,7 @@
   </animation>
     <animation>
         <type>pick</type>
-        <object-name>Batt.nut</object-name>
+        <object-name>SwitchNutPropControl</object-name>
         <action>
             <button>0</button>
             <binding>
