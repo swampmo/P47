@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<system name="Conventional Controls">
+<system name="conventionalcontrols">
   <channel name="Pitch">
    <summer name="Pitch Trim Sum">
       <input>fcs/elevator-cmd-norm</input>

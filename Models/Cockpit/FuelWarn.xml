@@ -5,12 +5,12 @@
   <path>FuelWarn.ac</path>
 
   <animation>
-    <object-name>Plane</object-name>
+    <object-name>FuelWarn</object-name>
   </animation>
 
   <animation>
     <type>material</type>
-    <object-name>Plane</object-name>
+    <object-name>FuelWarn</object-name>
     <emission>
       <factor-prop>systems/electrical/outputs/instrument-lights</factor-prop>
             <red>10</red>

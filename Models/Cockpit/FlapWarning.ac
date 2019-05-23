@@ -4,7 +4,7 @@ OBJECT world
 name "Blender_exporter_v2.26__FlapWarning.ac"
 kids 1
 OBJECT poly
-name "Plane"
+name "Panel"
 data 5
 Plane
 crease 40.0

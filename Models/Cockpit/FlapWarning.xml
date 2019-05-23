@@ -5,7 +5,7 @@
   <path>FlapWarning.ac</path>
 
   <animation>
-    <object-name>Plane</object-name>
+    <object-name>Panel</object-name>
   </animation>
 
 </PropertyList>
