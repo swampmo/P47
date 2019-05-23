@@ -341,8 +341,7 @@
           </binding>
         </mod-up>
       </key>
-
-    <key n="108">
+<!--  <key n="108">
      <name>l</name>
      <desc>engage tail wheel steering</desc>
      <binding>
@@ -357,7 +356,7 @@
         <value>0</value>
        </binding>
      </mod-up>
-    </key>
+    </key> -->
 
 		 </keyboard>
 	 </input>
