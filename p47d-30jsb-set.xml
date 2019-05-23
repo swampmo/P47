@@ -5,7 +5,7 @@
     <sim>
 
         <description>P47D Thunderbolt</description>
-        <author>Syd Adams, Swamp, Nikolai V. Chr., pinto, 5H1N0B1, Spectre (liveries)</author>
+        <author>Syd Adams, Swamp, Nikolai V. Chr., 5H1N0B1, Spectre, pinto, NC-687 3D (liveries)</author>
         <flight-model>jsb</flight-model>
         <aero>P47dJSBsim</aero>
         <fuel-fraction>0.8</fuel-fraction>
@@ -23,9 +23,10 @@
         <sound>
             <path>Aircraft/P47/Sound/p47.xml</path>
         </sound>
-        <instrumentation>
+     <!-- 
+   <instrumentation>
             <path>Aircraft/P47/instrumentation.xml</path>
-        </instrumentation>
+        </instrumentation>  -->
 
        <submodels>
       	     <serviceable type="bool">true</serviceable>
