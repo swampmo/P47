@@ -23,11 +23,11 @@
         <sound>
             <path>Aircraft/P47/Sound/p47.xml</path>
         </sound>
-     <!-- 
+     
    <instrumentation>
-            <path>Aircraft/P47/instrumentation.xml</path>
-        </instrumentation>  -->
-
+            <path>Aircraft/P47/Systems/instrumentation.xml</path>
+        </instrumentation>  
+        
        <submodels>
       	     <serviceable type="bool">true</serviceable>
       		<path>Aircraft/P47/Models/Effects/guns/submodels.xml</path>
@@ -376,9 +376,11 @@
 	<guns>
 		<file>Aircraft/P47/Nasal/payloads.nas</file>
 	</guns>
+
+<SCR_522C>
+      <file>Aircraft/Instruments-3d/SCR-522C/Nasal/SCR-522C.nas</file>
+   </SCR_522C>
 </nasal>
-
-
 
 </PropertyList>
 
