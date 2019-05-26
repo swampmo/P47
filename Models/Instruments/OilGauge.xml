@@ -24,7 +24,7 @@
   <object-name>PointerTip</object-name>
   <object-name>Face</object-name>
      <emission>
-      <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
+      <factor-prop>/controls/lighting/cabin-norm</factor-prop>
       <red>   0.8 </red>
       <green> 0.5 </green>
       <blue>  0.3 </blue>

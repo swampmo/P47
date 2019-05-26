@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PropertyList>
+
+    <path>Turbo.ac</path>
+
+    <animation>
+        <type>material</type>
+        <object-name>TurboRPM</object-name>
+         <object-name>RPM.needle</object-name>
+
+        <emission>
+            <red>10</red>
+            <green>0</green>
+            <blue>8</blue>
+            <factor-prop>/controls/lighting/cabin-norm</factor-prop>
+        </emission>
+    </animation>
+        <animation>
+        <type>rotate</type>
+        <object-name>RPM.needle</object-name>
+        <property>engines/engine/rpm</property>
+        <interpolation>
+            <entry><ind>0.0</ind><dep>0</dep></entry>
+            <entry><ind>200</ind><dep>10</dep></entry>
+            <entry><ind>800</ind><dep>80</dep></entry>
+            <entry><ind>1500</ind><dep>100</dep></entry>
+            <entry><ind>3500</ind><dep>200</dep></entry>
+        </interpolation>
+        <axis>
+            <x>-1.0</x>
+            <y>0.0</y>
+            <z>0.0</z>
+        </axis>
+    </animation>
+
+</PropertyList>

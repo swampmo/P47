@@ -5,6 +5,7 @@
   <path>warninglight.ac</path>
 
   <animation>
+    <object-name></object-name>
     <object-name>backing-plate</object-name>
     <object-name>body</object-name>
     <object-name>lamp</object-name>
@@ -14,23 +15,25 @@
  <!-- working for Rembrandt -->
   <effect>
     <inherits-from>Aircraft/P47/Models/Effects/Glass/glass</inherits-from>
-    <object-name>lamp</object-name>
+    <object-name></object-name>
   </effect>
 
   <effect>
     <inherits-from>Effects/model-transparent</inherits-from>
+    <object-name></object-name>
     <object-name>light</object-name>
   </effect>
 
-  <animation>
+  <!--animation>
     <type>material</type>
+    <object-name></object-name>
     <object-name>light</object-name>
     <emission>
-      <factor-prop>systems/electrical/outputs/instrument-lights</factor-prop>
+      <factor-prop>/controls/lighting/cabin-norm</factor-prop>
       <red>10</red>
       <green>0</green>
       <blue>8</blue>
     </emission>
-  </animation>
+  </animation-->
 
 </PropertyList>

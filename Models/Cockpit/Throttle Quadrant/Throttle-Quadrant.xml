@@ -22,7 +22,7 @@
     <object-name>tensioner</object-name>
     <object-name>throttle.counterweight</object-name>
     <object-name>throttle.housing</object-name>
-    <object-name>throttle.lever.001</object-name>
+    <object-name>throttle.lever</object-name>
     <object-name>throttle.mount</object-name>
     <object-name>throttle.rod</object-name>
     <object-name>water.inj.wheel</object-name>
@@ -34,7 +34,7 @@
     <object-name>water.inj.wheel</object-name>
     <object-name>water.sol</object-name>
     <emission>
-      <factor-prop>systems/electrical/outputs/instrument-lights</factor-prop>
+      <factor-prop>/controls/lighting/cabin-norm</factor-prop>
             <red>10</red>
             <green>0</green>
             <blue>8</blue>
@@ -44,7 +44,7 @@
   <!-- ##############################################################Throttles ###################################################################-->
   <animation>
     <type>rotate</type>
-    <object-name>throttle.lever.001</object-name>
+    <object-name>throttle.lever</object-name>
     <object-name>water.inj.wheel</object-name>
     <object-name>water.sol</object-name>
     <property>controls/engines/engine/throttle</property>
@@ -106,7 +106,7 @@
     <type>rotate</type>
     <object-name>boost.lever</object-name>
     <property>controls/engines/engine/wastegate</property>
-    <factor>-60 </factor>
+    <factor>-10 </factor>
     <axis>
       <x> 0 </x>
       <y> 1 </y>
@@ -114,9 +114,9 @@
     </axis>
 
       <center>
-	<x-m>-0.49247</x-m>
-	<y-m>-0.34906</y-m>
-	<z-m>0.35825</z-m>
+	<x-m>-0.48587</x-m>
+	<y-m>-0.34311</y-m>
+	<z-m>0.36020</z-m>
      </center>
   </animation>
 <!-- ######################################################## Water-Injection ####################################################################### -->
@@ -126,15 +126,15 @@
     <property>controls/engines/engine/water-injection</property>
     <factor>-60</factor>
     <axis>
-      <x> 0.5 </x>
-      <y> -1 </y>
+      <x> 0 </x>
+      <y> 1 </y>
       <z> 0 </z>
     </axis>
 
       <center>
-	<x-m>-0.39995</x-m>
-	<y-m>-0.30465</y-m>
-	<z-m>0.49687</z-m>
+	<x-m>-0.40032</x-m>
+	<y-m>-0.31556</y-m>
+	<z-m>0.48815</z-m>
      </center>
   </animation>
 
@@ -142,7 +142,7 @@
   <animation>
     <type>pick</type>
     <visible>true</visible>
-    <object-name>throttle.lever.001</object-name>
+    <object-name>throttle.lever</object-name>
     <action>
       <button>0</button>
       <binding>
@@ -156,7 +156,7 @@
   <animation>
     <type>pick</type>
     <visible>true</visible>
-    <object-name>throttle.lever.001</object-name>
+    <object-name>throttle.lever</object-name>
     <action>
       <button>1</button>
       <binding>
@@ -224,6 +224,43 @@
       </binding>
     </action>
   </animation>
+
+  <!--animation>
+        <type>knob</type>
+        <object-name>boost.lever</object-name>
+        <value>controls/engines/engine/wastegate</value>
+    <axis>
+      <x> -1 </x>
+      <y> 0 </y>
+      <z> 0</z>
+    </axis>
+
+      <center>
+	<x-m>-0.49247</x-m>
+	<y-m>-0.34906</y-m>
+	<z-m>0.35825</z-m>
+     </center>
+        <increase>
+            <binding>
+                <command>property-adjust</command>
+                <property>controls/engines/engine/wastegate</property>
+                <step>-0.1</step>
+                <min>0</min>
+                <max>1</max>
+                <wrap>false</wrap>
+            </binding>
+        </increase>
+       <decrease>
+            <binding>
+                <command>property-adjust</command>
+                <property>controls/engines/engine/wastegate</property>
+                <step>-0.1</step>
+                <min>0</min>
+                <max>1</max>
+                <wrap>false</wrap>
+            </binding>
+        </decrease>
+    </animation-->
 
   <animation>
     <type>pick</type>
@@ -256,7 +293,8 @@
     <animation>
     <type>pick</type>
     <visible>true</visible>
-    <object-name>water.inj.wheel</object-name>
+    <!--object-name>water.inj.wheel</object-name-->
+        <object-name>water.sol</object-name>
     <action>
       <button>0</button>
       <binding>
@@ -270,7 +308,8 @@
   <animation>
     <type>pick</type>
     <visible>true</visible>
-    <object-name>water.inj.wheel</object-name>
+    <!--object-name>water.inj.wheel</object-name-->
+        <object-name>water.sol</object-name>
     <action>
       <button>1</button>
       <binding>

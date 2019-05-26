@@ -4,7 +4,6 @@
 
   <path>Selector-Switch-Auto -Constant-Speed_Circuitbreaker.ac</path>
 
- <type>material</type>
   <animation>
     <!-- Objets opaques -->
     <object-name>AutoProp Switch</object-name>
@@ -33,7 +32,6 @@
 
   <animation>
     <type>material</type>
-    <object-name>AutoPropControl</object-name>
     <object-name>AutoProp Switch</object-name>
     <object-name>DiveBrake</object-name>
     <object-name>DiveBrakeCover</object-name>
@@ -42,15 +40,15 @@
     <object-name>SwitchNutPropControl</object-name>
 
     <emission>
-      <factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
+      <factor-prop>/controls/lighting/cabin-norm</factor-prop>
       <red>10</red>
       <green>0</green>
       <blue>8</blue>
     </emission>
   </animation>
-    <animation>
+    <!--animation>
         <type>pick</type>
-        <object-name>SwitchNutPropControl</object-name>
+        <object-name>Batt.nut</object-name>
         <action>
             <button>0</button>
             <binding>
@@ -67,6 +65,6 @@
                 <property>sim/sound/click</property>
             </binding>
         </action>
-    </animation>
+    </animation-->
 
 </PropertyList>

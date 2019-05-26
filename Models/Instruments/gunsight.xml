@@ -8,7 +8,7 @@
   <object-name>crosshair</object-name>
   <object-name>lamp</object-name>
   <emission>
-      <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
+      <factor-prop>/controls/armament/master-arm</factor-prop>
       <red>   0.9 </red>
       <green> 0.5 </green>
       <blue>  0.4 </blue>
@@ -35,7 +35,7 @@
     <factor>-0.025</factor>
     <axis>
      <x>0</x>
-     <y>1</y>
+     <y>-0.000</y>
      <z>0</z>
    </axis>
   </transform>

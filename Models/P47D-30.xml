@@ -29,15 +29,15 @@
       <object-name>blade2</object-name>
       <object-name>blade3</object-name>
       <object-name>blade4</object-name>
-      <object-name>Canopy.frame.001</object-name>
+      <object-name>Canopy.frame.1</object-name>
+      <object-name>Canopy.frame.2</object-name>
+      <object-name>Canopy</object-name>
       <object-name>Ctire</object-name>
-      <object-name>CurveCircle.005</object-name>
-      <object-name>Duct</object-name>
+      <object-name>AirDuct</object-name>
       <object-name>elevator</object-name>
-      <object-name>Eng</object-name>
       <object-name>Fuselage</object-name>
-      <object-name>Fuselage.004</object-name>
-      <object-name>Fuselage.005</object-name>
+      <object-name>Fuselage.1</object-name>
+      <object-name>Fuselage.2</object-name>
       <object-name>Hstab</object-name>
       <object-name>Laileron</object-name>
       <object-name>Lflap_1</object-name>
@@ -50,8 +50,6 @@
       <object-name>Lstrut.base</object-name>
       <object-name>Ltire</object-name>
       <object-name>LUdamper</object-name>
-    <!-- 
-  <object-name>Plane.026</object-name>  -->
       <object-name>Raileron</object-name>
       <object-name>Rflap_1</object-name>
       <object-name>RGdoorI</object-name>
@@ -135,7 +133,7 @@
     </offsets>
   </model>
 
-<!--############################################################################## effects ##########################################################-->
+############################################################################## effects ##########################################################
 
   <model>
     <path>Aircraft/P47/Models/Effects/fire/smoke.xml</path>
@@ -221,7 +219,7 @@
         <path>Aircraft/P47/Models/Effects/gunflame.xml</path>
         <name>gunflame1</name>
         <offsets>
-            <x-m>-2.374</x-m>
+            <x-m>-2.650</x-m>
             <y-m>-2.741 </y-m>
             <z-m>-0.368</z-m>
         </offsets>
@@ -231,7 +229,7 @@
         <path>Aircraft/P47/Models/Effects/gunflame.xml</path>
         <name>gunflame2</name>
         <offsets>
-            <x-m>-2.261</x-m>
+            <x-m>-2.481</x-m>
             <y-m>-2.888 </y-m>
             <z-m>-0.355</z-m>
         </offsets>
@@ -241,7 +239,7 @@
         <path>Aircraft/P47/Models/Effects/gunflame.xml</path>
         <name>gunflame3</name>
         <offsets>
-            <x-m>-2.136</x-m>
+            <x-m>-2.356</x-m>
             <y-m>-3.047</y-m>
             <z-m>-0.341</z-m>
         </offsets>
@@ -251,7 +249,7 @@
         <path>Aircraft/P47/Models/Effects/gunflame.xml</path>
         <name>gunflame4</name>
         <offsets>
-            <x-m>-2.030</x-m>
+            <x-m>-2.150</x-m>
             <y-m>-3.176</y-m>
             <z-m>-0.331</z-m>
         </offsets>
@@ -261,7 +259,7 @@
         <path>Aircraft/P47/Models/Effects/gunflame.xml</path>
         <name>gunflame5</name>
         <offsets>
-            <x-m>-2.374</x-m>
+            <x-m>-2.650</x-m>
             <y-m>2.736</y-m>
             <z-m>-0.358</z-m>
         </offsets>
@@ -271,7 +269,7 @@
         <path>Aircraft/P47/Models/Effects/gunflame.xml</path>
         <name>gunflame6</name>
         <offsets>
-            <x-m>-2.261</x-m>
+            <x-m>-2.481</x-m>
             <y-m>2.883</y-m>
             <z-m>-0.346</z-m>
         </offsets>
@@ -281,7 +279,7 @@
         <path>Aircraft/P47/Models/Effects/gunflame.xml</path>
         <name>gunflame7</name>
         <offsets>
-            <x-m>-2.136</x-m>
+            <x-m>-2.356</x-m>
             <y-m>3.066</y-m>
             <z-m>-0.340</z-m>
         </offsets>
@@ -291,7 +289,7 @@
         <path>Aircraft/P47/Models/Effects/gunflame.xml</path>
         <name>gunflame8</name>
         <offsets>
-            <x-m>-2.030</x-m>
+            <x-m>-2.150</x-m>
             <y-m>3.186</y-m>
             <z-m>-0.335</z-m>
         </offsets>
@@ -317,7 +315,7 @@
         </offsets>
     </model>
 
-    <model>
+       <model>
         <path>Aircraft/P47/Models/ENG.xml</path>
         <offsets>
             <x-m>0.100</x-m>
@@ -339,39 +337,103 @@
         <path>Aircraft/P47/Models/Spinner.xml</path>
         <offsets>
             <x-m>0.040</x-m>
-            <y-m>0.000 </y-m>
-            <z-m>-0.020</z-m>
+            <y-m>-0.005 </y-m>
+            <z-m>-0.030</z-m>
         </offsets>
     </model>
 
 
-     <!-- model>
-        <path>Aircraft/P47/Models/Lights/NavLights.xml</path>
-        <!offsets>
-            <x-m>-0.070</x-m>
-            <y-m>-0.000 </y-m>
-            <z-m>-0.000</z-m>
+########################################################################################################## COCKPIT ############################################################################################
+
+
+     <model>
+        <path>Aircraft/P47/Models/Cockpit/LHPanel.xml</path>
+        <offsets>
+            <x-m>0.050</x-m>
+            <y-m>-0.075 </y-m>
+            <z-m>0.030</z-m>
         </offsets>
-    </model -->
+    </model>
+
+             <model>
+        <path>Aircraft/P47/Models/Cockpit/FrontPanel.xml</path>
+        <offsets>
+            <x-m>0.000</x-m>
+            <y-m>-0.010 </y-m>
+            <z-m>-0.020</z-m>
+        </offsets>
+    </model>
+              <model>
+        <path>Aircraft/P47/Models/Cockpit/LHRear.xml</path>
+        <offsets>
+            <x-m>0.075</x-m>
+            <y-m>-0.040 </y-m>
+            <z-m>0.010</z-m>
+        </offsets>
+    </model>
+
+      <model>
+        <path>Aircraft/P47/Models/Cockpit/RHPanel.xml</path>
+        <offsets>
+            <x-m>0.145</x-m>
+            <y-m>0.065 </y-m>
+            <z-m>-0.010</z-m>
+        </offsets>
+    </model>
+          <model>
+        <path>Aircraft/P47/Models/Cockpit/RHRear.xml</path>
+        <offsets>
+            <x-m>0.155</x-m>
+            <y-m>-0.060 </y-m>
+            <z-m>0.095</z-m>
+        </offsets>
+    </model>
+         <model>
+        <path>Aircraft/P47/Models/Cockpit/Shutters.xml</path>
+        <offsets>
+            <x-m>0.200</x-m>
+            <y-m>0.040</y-m>
+            <z-m>0.045</z-m>
+        </offsets>
+    </model>
+
+     <model>
+        <path>Aircraft/P47/Models/Cockpit/FlightStick/P47Stick.xml</path>
+        <offsets>
+            <x-m>-3.450</x-m>
+            <y-m>0.050 </y-m>
+            <z-m>0.360</z-m>
+        </offsets>
+    </model>
 
 
-<!--##################################################################### COCKPIT-INSTRUMENTS ######################################################################-->
+################################################################################################### COCKPIT-INSTRUMENTS ###################################################################################################
+
+      <model>
+        <path>Aircraft/P47/Models/Cockpit/A-14A-OxReg/A-14A.xml</path>
+        <offsets>
+            <x-m>-1.045</x-m>
+            <y-m>0.475</y-m>
+            <z-m>0.525</z-m>
+            <pitch-deg>10.0</pitch-deg>
+        </offsets>
+    </model>
+
     <model>
         <path>Aircraft/P47/Models/Cockpit//BeamRadio/BeamRadio.xml</path>
         <offsets>
-            <x-m>-0.650</x-m>
+            <x-m>-0.450</x-m>
             <y-m>-0.040</y-m>
             <z-m>0.085</z-m>
-            <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
 
     <model>
         <path>Aircraft/P47/Models/Cockpit/Flaps/Flaps.xml</path>
         <offsets>
-            <x-m>-0.335</x-m>
-            <y-m>0.065</y-m>
-            <z-m>-0.020</z-m>
+            <x-m>-0.090</x-m>
+            <y-m>-0.095</y-m>
+            <z-m>-0.010</z-m>
             <pitch-deg>0</pitch-deg>
         </offsets>
     </model>
@@ -379,9 +441,18 @@
         <model>
         <path>Aircraft/P47/Models/Cockpit/FlapWarning.xml</path>
         <offsets>
-            <x-m>-1.047</x-m>
+            <x-m>-0.781</x-m>
             <y-m>-0.038</y-m>
             <z-m>0.523</z-m>
+       </offsets>
+    </model>
+
+        <model>
+        <path>Aircraft/P47/Models/Cockpit/FuelSelector/FuelSelector.xml</path>
+        <offsets>
+            <x-m>-0.100</x-m>
+            <y-m>-0.005</y-m>
+            <z-m>0.050</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
@@ -389,7 +460,7 @@
     <model>
         <path>Aircraft/P47/Models/Cockpit/FuelWarn.xml</path>
         <offsets>
-            <x-m>-1.052</x-m>
+            <x-m>-0.782</x-m>
             <y-m>0.060</y-m>
             <z-m>0.365</z-m>
             <pitch-deg>0.0</pitch-deg>
@@ -399,7 +470,7 @@
     <model>
         <path>Aircraft/P47/Models/Cockpit/FuseBox/FuseBox.xml</path>
         <offsets>
-            <x-m>-0.070</x-m>
+            <x-m>0.180</x-m>
             <y-m>-0.045</y-m>
             <z-m>0.010</z-m>
             <pitch-deg>0</pitch-deg>
@@ -409,9 +480,28 @@
     <model>
         <path>Aircraft/P47/Models/Cockpit/GearAndTrim/GearAndTrim.xml</path>
         <offsets>
-            <x-m>-0.350</x-m>
-            <y-m>-0.005</y-m>
+            <x-m>-0.100</x-m>
+            <y-m>-0.065</y-m>
             <z-m>0.100</z-m>
+            <pitch-deg>0.0</pitch-deg>
+        </offsets>
+    </model>
+            <model>
+        <path>Aircraft/P47/Models/Cockpit/Gun Cam Switch/GunCam-Switch.xml</path>
+        <offsets>
+            <x-m>0.065</x-m>
+            <y-m>-0.067</y-m>
+            <z-m>-0.100</z-m>
+            <pitch-deg>0.0</pitch-deg>
+        </offsets>
+    </model>
+
+        <model>
+        <path>Aircraft/P47/Models/Cockpit/GyroCompass/GyroCompass.xml</path>
+        <offsets>
+            <x-m>-0.783</x-m>
+            <y-m>-0.125</y-m>
+            <z-m>0.580</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
@@ -419,17 +509,16 @@
     <model>
         <path>Aircraft/P47/Models/Cockpit/InstrumentPanel/instrument-panel.xml</path>
         <offsets>
-            <x-m>-0.315</x-m>
+            <x-m>-0.045</x-m>
             <y-m>-0.</y-m>
             <z-m>-0.028</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
-
             <model>
         <path>Aircraft/P47/Models/Cockpit/LHRudderCable.xml</path>
         <offsets>
-            <x-m>-0.600</x-m>
+            <x-m>-0.350</x-m>
             <y-m>-0.350</y-m>
             <z-m>0.090</z-m>
             <pitch-deg>0.0</pitch-deg>
@@ -439,49 +528,56 @@
         <model>
         <path>Aircraft/P47/Models/Cockpit/Map-Case/Map-Case.xml</path>
         <offsets>
-            <x-m>-0.480</x-m>
+            <x-m>-0.280</x-m>
             <y-m>0.285</y-m>
             <z-m>0.550</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
-
             <model>
-        <path>Aircraft/P47/Models/Cockpit/OxyReg/OxyReg.xml</path>
+        <path>Aircraft/P47/Models/Cockpit/OverSpeedWarn/OverSpeedWarn.xml</path>
         <offsets>
-            <x-m>-0.820</x-m>
-            <y-m>0.365</y-m>
-            <z-m>0.530</z-m>
-            <pitch-deg>10.0</pitch-deg>
+             <x-m>-0.781</x-m>
+            <y-m>0.325</y-m>
+            <z-m>0.565</z-m>
+            <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
+            <model>
+        <path>Aircraft/P47/Models/Cockpit/Oxygen Gauges/oxy.panel.xml</path>
+        <offsets>
+            <x-m>-0.063</x-m>
+            <y-m>0.035</y-m>
+            <z-m>-0.045</z-m>
+            <pitch-deg>0.0</pitch-deg>
+        </offsets>
+       </model>
 
-        <model>
+      <model>
         <path>Aircraft/P47/Models/Cockpit/Pedals/pedals.xml</path>
         <offsets>
-            <x-m>-1.060</x-m>
+            <x-m>-0.800</x-m>
             <y-m>-0.025</y-m>
-            <z-m>0</z-m>
+            <z-m>-0.000</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
 
-            <model>
+       <model>
         <path>Aircraft/P47/Models/Cockpit/Radio/Radio.xml</path>
-        <offsets>
-            <x-m>-0.570</x-m>
+       <offsets>
+            <x-m>-0.370</x-m>
             <y-m>-0.045</y-m>
             <z-m>0.080</z-m>
-            <pitch-deg>0.0</pitch-deg>
-        </offsets>
-    </model>
+         </offsets>
+       </model>
 
     <model>
         <path>Aircraft/P47/Models/Cockpit/Recog Lights Primer/Recog-Lights-Primer.xml</path>
         <offsets>
-            <x-m>-0.320</x-m>
-            <y-m>-0.035</y-m>
-            <z-m>0.085</z-m>
+            <x-m>-0.150</x-m>
+            <y-m>0.000</y-m>
+            <z-m>0.098</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
@@ -489,7 +585,7 @@
             <model>
         <path>Aircraft/P47/Models/Cockpit/RHRudderCable.xml</path>
         <offsets>
-            <x-m>-0.600</x-m>
+            <x-m>-0.350</x-m>
             <y-m>0.350</y-m>
             <z-m>0.090</z-m>
             <pitch-deg>0.0</pitch-deg>
@@ -497,11 +593,31 @@
     </model>
 
     <model>
-        <path>Aircraft/P47/Models/Cockpit/SCR-522/SCR-522.xml</path>
+        <path>Aircraft/P47/Instruments-3d/SCR-522C/BC-602-A.xml</path>
         <offsets>
-            <x-m>-0.320</x-m>
-            <y-m>-0.115</y-m>
-            <z-m>0.115</z-m>
+            <x-m>-0.750</x-m>
+            <y-m>0.425</y-m>
+            <z-m>0.290</z-m>
+            <pitch-deg>0.0</pitch-deg>
+        </offsets>
+    </model>
+
+        <model>
+        <path>Aircraft/P47/Models/Cockpit/Selector Switch Auto Constant Speed Circuitbreaker/Selector-Switch-Auto -Constant-Speed_Circuitbreaker.xml</path>
+        <offsets>
+            <x-m>0.200</x-m>
+            <y-m>-0.020</y-m>
+            <z-m>-0.010</z-m>
+            <pitch-deg>0.0</pitch-deg>
+        </offsets>
+    </model>
+
+        <model>
+        <path>Aircraft/P47/Models/Cockpit/Service.xml</path>
+        <offsets>
+            <x-m>-0.782</x-m>
+            <y-m>0.035</y-m>
+            <z-m>0.524</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
@@ -509,7 +625,7 @@
         <model>
         <path>Aircraft/P47/Models/Cockpit/TailWheelLock/TailWheelLock.xml</path>
         <offsets>
-            <x-m>-0.300</x-m>
+            <x-m>-0.050</x-m>
             <y-m>0.765</y-m>
             <z-m>-0.030</z-m>
             <pitch-deg>0.0</pitch-deg>
@@ -519,49 +635,19 @@
     <model>
         <path>Aircraft/P47/Models/Cockpit/Throttle Quadrant/Throttle-Quadrant.xml</path>
         <offsets>
-            <x-m>-0.370</x-m>
-            <y-m>-0.030</y-m>
+            <x-m>-0.135</x-m>
+            <y-m>-0.075</y-m>
             <z-m>-0.040</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
 
-    <model>
-        <path>Aircraft/P47/Models/Cockpit/warninglight.xml</path>
+        <model>
+        <path>Aircraft/P47/Models/Cockpit/TurboRPM/TurboRPM.xml</path>
         <offsets>
-            <x-m>-1.054</x-m>
-            <y-m>0.060</y-m>
-            <z-m>0.340</z-m>
-            <pitch-deg>0.0</pitch-deg>
-        </offsets>
-    </model>
-
-    <model>
-        <path>Aircraft/P47/Models/Cockpit/Selector Switch Auto Constant Speed Circuitbreaker/Selector-Switch-Auto -Constant-Speed_Circuitbreaker.xml</path>
-        <offsets>
-            <x-m>-0.050</x-m>
-            <y-m>0.000</y-m>
-            <z-m>0.000</z-m>
-            <pitch-deg>0.0</pitch-deg>
-        </offsets>
-    </model>
-
-    <model>
-        <path>Aircraft/P47/Models/Cockpit/Service.xml</path>
-        <offsets>
-            <x-m>-1.040</x-m>
-            <y-m>0.035</y-m>
-            <z-m>0.524</z-m>
-            <pitch-deg>0.0</pitch-deg>
-        </offsets>
-    </model>
-
-    <model>
-        <path>Aircraft/P47/Models/Cockpit/Turn Rate/Turn-Rate.xml</path>
-        <offsets>
-            <x-m>-1.053</x-m>
-            <y-m>-0.125</y-m>
-            <z-m>0.580</z-m>
+             <x-m>-0.780</x-m>
+            <y-m>0.285</y-m>
+            <z-m>0.545</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
@@ -569,31 +655,41 @@
     <model>
         <path>Aircraft/P47/Models/Cockpit/Warning.xml</path>
         <offsets>
-            <x-m>-1.047</x-m>
+            <x-m>-0.800</x-m>
             <y-m>-0.215</y-m>
             <z-m>0.385</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
 
-<!-- ##################################################################################### INSTRUMENTS ############################################################# -->
+        <model>
+        <path>Aircraft/P47/Models/Cockpit/warninglight.xml</path>
+        <offsets>
+            <x-m>-0.782</x-m>
+            <y-m>0.060</y-m>
+            <z-m>0.340</z-m>
+            <pitch-deg>0.0</pitch-deg>
+        </offsets>
+    </model>
+
+##################################################################################### INSTRUMENTS ##############################################################################################################
 
     <model>
         <path>Aircraft/P47/Models/Instruments/Accel.xml</path>
         <offsets>
-            <x-m>-1.052</x-m>
-            <y-m>-0.120</y-m>
+            <x-m>-0.782</x-m>
+            <y-m>-0.133</y-m>
             <z-m>0.370</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
 
-     <model>
+         <model>
         <path>Aircraft/P47/Models/Instruments/ai.xml</path>
         <offsets>
-            <x-m>-1.060</x-m>
-            <y-m>0.117</y-m>
-            <z-m>0.592</z-m>
+            <x-m>-0.780</x-m>
+            <y-m>0.125</y-m>
+            <z-m>0.573</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
@@ -601,8 +697,8 @@
 	<model>
         <path>Aircraft/P47/Models/Instruments/alt.xml</path>
         <offsets>
-            <x-m>-1.047</x-m>
-            <y-m>-0.220</y-m>
+            <x-m>-0.780</x-m>
+            <y-m>-0.230</y-m>
             <z-m>0.455</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
@@ -611,9 +707,10 @@
        <model>
         <path>Aircraft/P47/Models/Instruments/ammeter.xml</path>
         <offsets>
-            <x-m>-1.045</x-m>
-            <y-m>-0.290</y-m>
-            <z-m>0.482</z-m>
+            <x-m>-0.780</x-m>
+            <y-m>-0.315</y-m>
+            <z-m>0.462</z-m>
+
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
@@ -621,9 +718,10 @@
     <model>
         <path>Aircraft/P47/Models/Instruments/asi.xml</path>
         <offsets>
-            <x-m>-1.045</x-m>
-            <y-m>-0.235</y-m>
-            <z-m>0.560</z-m>
+            <x-m>-0.780</x-m>
+            <y-m>-0.305</y-m>
+            <z-m>0.540</z-m>
+
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
@@ -631,47 +729,46 @@
     <model>
         <path>Aircraft/P47/Models/Instruments/battery.xml</path>
         <offsets>
-            <x-m>-1.051</x-m>
-            <y-m>-0.295</y-m>
-            <z-m>0.415</z-m>
+            <x-m>-0.782</x-m>
+            <y-m>-0.325</y-m>
+            <z-m>0.405</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
 
         <model>
-        <path>Aircraft/P47/Models/Instruments/belly fuel.xml</path>
+        <path>Aircraft/P47/Models/Instruments/belly-fuel.xml</path>
         <offsets>
-            <x-m>-0.360</x-m>
-            <y-m>-0.000</y-m>
-            <z-m>0.050</z-m>
+            <x-m>-0.090</x-m>
+            <y-m>0.190</y-m>
+            <z-m>-0.020</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
 
-    <model>
+        <model>
         <path>Aircraft/P47/Models/Instruments/clock.xml</path>
         <offsets>
-            <x-m>-1.051</x-m>
-            <y-m>-0.265</y-m>
-            <z-m>0.620</z-m>
+            <x-m>-0.778</x-m>
+            <y-m>-0.300</y-m>
+            <z-m>0.615</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
 
-    <model>
+        <model>
         <path>Aircraft/P47/Models/Instruments/cyltemp.xml</path>
         <offsets>
-            <x-m>-1.055</x-m>
-            <y-m>0.285</y-m>
-            <z-m>0.375</z-m>
-            <pitch-deg>0.0</pitch-deg>
+            <x-m>-0.780</x-m>
+            <y-m>0.305</y-m>
+            <z-m>0.370</z-m>
         </offsets>
     </model>
 
     <model>
         <path>Aircraft/P47/Models/Instruments/fgals.xml</path>
         <offsets>
-            <x-m>-1.050</x-m>
+            <x-m>-0.775</x-m>
             <y-m>0.110</y-m>
             <z-m>0.375</z-m>
             <pitch-deg>0.0</pitch-deg>
@@ -681,49 +778,28 @@
      <model>
         <path>Aircraft/P47/Models/Instruments/flow.xml</path>
         <offsets>
-            <x-m>-1.045</x-m>
-            <y-m>0.190</y-m>
-            <z-m>0.285</z-m>
+            <x-m>-0.760</x-m>
+            <y-m>0.187</y-m>
+            <z-m>0.280</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
 
-         <model>
+    <model>
         <path>Aircraft/P47/Models/Instruments/flow-indicator.xml</path>
         <offsets>
-            <x-m>-1.045</x-m>
+            <x-m>-0.760</x-m>
             <y-m>0.265</y-m>
-            <z-m>0.285</z-m>
-            <pitch-deg>0.0</pitch-deg>
-        </offsets>
-    </model>
-
-        <model>
-        <path>Aircraft/P47/Models/Instruments/fuel gauge.xml</path>
-        <offsets>
-            <x-m>-0.325</x-m>
-            <y-m>0.085</y-m>
-            <z-m>0.050</z-m>
-            <pitch-deg>0.0</pitch-deg>
+            <z-m>0.280</z-m>
         </offsets>
     </model>
 
 	<model>
         <path>Aircraft/P47/Models/Instruments/gunsight.xml</path>
         <offsets>
-            <x-m>-0.975</x-m>
+            <x-m>-0.735</x-m>
             <y-m>0.030</y-m>
-            <z-m>0.885</z-m>
-            <pitch-deg>0.0</pitch-deg>
-        </offsets>
-    </model>
-
-        <model>
-        <path>Aircraft/P47/Models/Cockpit/Gun Cam Switch/GunCam-Switch.xml</path>
-        <offsets>
-            <x-m>-0.150</x-m>
-            <y-m>-0.030</y-m>
-            <z-m>-0.100</z-m>
+            <z-m>0.915</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
@@ -731,39 +807,29 @@
          <model>
         <path>Aircraft/P47/Models/Instruments/hyd.press.xml</path>
         <offsets>
-            <x-m>-1.045</x-m>
+            <x-m>-0.760</x-m>
             <y-m>0.105</y-m>
-            <z-m>0.285</z-m>
+            <z-m>0.280</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
 
-        <!-- model>
-        <path>Aircraft/P47/Models/Instruments/leftpanel.xml</path>
+        <model>
+        <path>Aircraft/P47/Models/Instruments/magneto.xml</path>
         <offsets>
-            <x-m>-1.045</x-m>
-            <y-m>-0.200</y-m>
-            <z-m>0.303</z-m>
+            <x-m>-0.785</x-m>
+            <y-m>-0.325</y-m>
+            <z-m>0.355</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
-    </model -->
+    </model>
 
     <model>
         <path>Aircraft/P47/Models/Instruments/MagneticCompass.xml</path>
         <offsets>
-            <x-m>-1.059</x-m>
+            <x-m>-0.790</x-m>
             <y-m>0.025</y-m>
-            <z-m>0.420</z-m>
-            <pitch-deg>0.0</pitch-deg>
-        </offsets>
-    </model>
-
-    <model>
-        <path>Aircraft/P47/Models/Instruments/magneto.xml</path>
-        <offsets>
-            <x-m>-1.053</x-m>
-            <y-m>-0.290</y-m>
-            <z-m>0.370</z-m>
+            <z-m>0.425</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
@@ -771,7 +837,7 @@
     <model>
         <path>Aircraft/P47/Models/Instruments/mp.xml</path>
         <offsets>
-            <x-m>-1.045</x-m>
+            <x-m>-0.780</x-m>
             <y-m>0.105</y-m>
             <z-m>0.455</z-m>
             <pitch-deg>0.0</pitch-deg>
@@ -781,29 +847,19 @@
     <model>
         <path>Aircraft/P47/Models/Instruments/OilTemp.xml</path>
         <offsets>
-            <x-m>-1.045</x-m>
-            <y-m>0.235</y-m>
-            <z-m>0.595</z-m>
+            <x-m>-0.780</x-m>
+            <y-m>0.225</y-m>
+            <z-m>0.600</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
 
-        <model>
-        <path>Aircraft/P47/Models/Cockpit/Oxygen Gauges/oxy.panel.xml</path>
-        <offsets>
-            <x-m>-0.350</x-m>
-            <y-m>0.035</y-m>
-            <z-m>-0.040</z-m>
-            <pitch-deg>0.0</pitch-deg>
-        </offsets>
-       </model>
-
     <model>
         <path>Aircraft/P47/Models/Instruments/primer.xml</path>
         <offsets>
-            <x-m>-1.054</x-m>
-            <y-m>0.178</y-m>
-            <z-m>0.365</z-m>
+            <x-m>-0.784</x-m>
+            <y-m>0.175</y-m>
+            <z-m>0.355</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
@@ -811,7 +867,7 @@
     <model>
         <path>Aircraft/P47/Models/Instruments/rpm.xml</path>
         <offsets>
-            <x-m>-1.045</x-m>
+            <x-m>-0.780</x-m>
             <y-m>0.190</y-m>
             <z-m>0.455</z-m>
             <pitch-deg>0.0</pitch-deg>
@@ -821,37 +877,37 @@
     <model>
         <path>Aircraft/P47/Models/Instruments/starter.xml</path>
         <offsets>
-            <x-m>-1.053</x-m>
+            <x-m>-0.784</x-m>
             <y-m>0.220</y-m>
-            <z-m>0.365</z-m>
+            <z-m>0.355</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
 
-     <model>
+    <model>
         <path>Aircraft/P47/Models/Instruments/suction.xml</path>
         <offsets>
-            <x-m>-1.045</x-m>
+            <x-m>-0.780</x-m>
             <y-m>-0.045</y-m>
-            <z-m>0.365</z-m>
+            <z-m>0.360</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
 
-     <model>
+    <model>
         <path>Aircraft/P47/Models/Instruments/temp-oil-fuel.xml</path>
         <offsets>
-            <x-m>-1.055</x-m>
-            <y-m>0.275</y-m>
+            <x-m>-0.785</x-m>
+            <y-m>0.295</y-m>
             <z-m>0.455</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
 
-	<model>
+    	<model>
         <path>Aircraft/P47/Models/Instruments/turn.xml</path>
         <offsets>
-            <x-m>-1.050</x-m>
+            <x-m>-0.782</x-m>
             <y-m>-0.138</y-m>
             <z-m>0.455</z-m>
             <pitch-deg>0.0</pitch-deg>
@@ -861,24 +917,23 @@
     <model>
         <path>Aircraft/P47/Models/Instruments/vsi.xml</path>
         <offsets>
-            <x-m>-1.045</x-m>
+            <x-m>-0.780</x-m>
             <y-m>-0.055</y-m>
             <z-m>0.455</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
 
-    <model>
-        <path>Aircraft/P47/Models/Instruments/cooltemp.xml</path>
+        <model>
+        <path>Aircraft/P47/Models/Instruments/Water-Press.xml</path>
         <offsets>
-            <x-m>-1.045</x-m>
+            <x-m>-0.782</x-m>
             <y-m>0.020</y-m>
             <z-m>0.363</z-m>
-            <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
 
-<!--################################################################################ SURFACE POSITIONS ###################################################################################-->
+################################################################################ SURFACE POSITIONS ###################################################################################
     <animation>
         <type>rotate</type>
         <object-name>rudder</object-name>
@@ -1389,9 +1444,9 @@
         <object-name>Ltire</object-name>
         <property>gear/gear[0]/tire-rpm</property>
         <center>
-            <x-m>-1.635</x-m>
-            <y-m>-2.248</y-m>
-            <z-m>-1.786</z-m>
+            <x-m>-1.63430</x-m>
+            <y-m>-2.39235</y-m>
+            <z-m>-1.77814</z-m>
         </center>
         <axis>
             <x>0.0</x>
@@ -1636,9 +1691,9 @@
         <object-name>Rtire</object-name>
         <property>gear/gear[1]/tire-rpm</property>
         <center>
-            <x-m>-1.635</x-m>
-            <y-m>2.248</y-m>
-            <z-m>-1.786</z-m>
+            <x-m>-1.63430</x-m>
+            <y-m>2.41018</y-m>
+            <z-m>-1.77814</z-m>
         </center>
         <axis>
             <x>0.0</x>
@@ -1898,9 +1953,5 @@
             <z>0</z>
         </axis>
     </animation>
-
-<!--####################################################################### NavLights ######################################################################-->
-
-
 
 </PropertyList>

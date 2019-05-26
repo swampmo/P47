@@ -1,57 +1,102 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!-- g-meter, by Dave Culp, edited for X-29A by Daniel Strawn -->
+
 <PropertyList>
-
     <path>Accel.ac</path>
-
     <animation>
         <type>material</type>
+        <object-name>Frame</object-name>
         <object-name>face</object-name>
         <object-name>G.needle1</object-name>
         <object-name>G.needle2</object-name>
         <object-name>G.needle3</object-name>
         <emission>
             <red>10</red>
-            <green>0</green>
-            <blue>9</blue>
-            <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
+            <green></green>
+            <blue>8</blue>
+            <factor-prop>/controls/lighting/cabin-norm</factor-prop>
         </emission>
     </animation>
-  <!-- working for Rembrandt -->
-  <effect>
-    <inherits-from>Aircraft/P47/Models/Effects/Glass/glass</inherits-from>
-    <object-name>vitre</object-name>
-  </effect>
-
-  <effect>
-    <inherits-from>Effects/model-transparent</inherits-from>
-    <object-name>vitre</object-name>
-  </effect>
 
     <animation>
         <type>rotate</type>
         <object-name>G.needle1</object-name>
-        <object-name>G.needle2</object-name>
-        <object-name>G.needle3</object-name>
-  <property>accelerations/pilot-gdamped</property>
-  <factor>1</factor>
- <interpolation>
-  <entry><ind>-4</ind><dep>-202.5</dep></entry>
-  <entry><ind>-3</ind><dep>-180</dep></entry>
-  <entry><ind>1</ind><dep>-90</dep></entry>
-  <entry><ind>5</ind><dep>0</dep></entry>
-  <entry><ind>8</ind><dep>67.5</dep></entry>
- </interpolation>
+  <property>/accelerations/pilot/x-accel-fps_sec[0]</property>
+
+  <interpolation>
+   <entry>
+    <ind>161</ind>
+    <dep>-90</dep>
+   </entry>
+   <entry>
+    <ind>-386</ind>
+    <dep>240</dep>
+   </entry>
+  </interpolation>
   <center>
-   <x-m>0</x-m>
-   <y-m>0</y-m>
-   <z-m>0</z-m>
+   <x-m>0.00108</x-m>
+   <y-m>-0.00002</y-m>
+   <z-m>0.00020</z-m>
   </center>
   <axis>
-   <x>-1</x>
+   <x>1</x>
    <y>0</y>
    <z>0</z>
   </axis>
  </animation>
+
+     <animation>
+        <type>rotate</type>
+        <object-name>G.needle2</object-name>
+  <property>/accelerations/pilot/y-accel-fps_sec[0]</property>
+  <interpolation>
+   <entry>
+    <ind>161</ind>
+    <dep>-90</dep>
+   </entry>
+   <entry>
+    <ind>-386</ind>
+    <dep>240</dep>
+   </entry>
+  </interpolation>
+  <center>
+   <x-m>0.00081</x-m>
+   <y-m>-0.00002</y-m>
+   <z-m>0.00020</z-m>
+  </center>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+     <animation>
+        <type>rotate</type>
+        <object-name>G.needle3</object-name>
+  <property>/accelerations/pilot/z-accel-fps_sec[0]</property>
+  <interpolation>
+   <entry>
+    <ind>161</ind>
+    <dep>-90</dep>
+   </entry>
+   <entry>
+    <ind>-386</ind>
+    <dep>240</dep>
+   </entry>
+  </interpolation>
+  <center>
+   <x-m>0.00050</x-m>
+   <y-m>-0.00002</y-m>
+   <z-m>0.00020</z-m>
+  </center>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
 
 
 </PropertyList>

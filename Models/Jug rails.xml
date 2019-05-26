@@ -5,7 +5,7 @@
   <path>Jug rails.ac</path>
 
   <animation>
-    <object-name>Cylinder</object-name>
+    <object-name>JugRails</object-name>
   </animation>
 
 </PropertyList>

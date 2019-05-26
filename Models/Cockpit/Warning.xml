@@ -5,17 +5,17 @@
   <path>Warning.ac</path>
 
   <animation>
-    <object-name>Plane</object-name>
+    <object-name>Warning</object-name>
   </animation>
-        <animation>
+        <!-- animation>
     <type>material</type>
     <object-name>Plane</object-name>
     <emission>
-      <factor-prop>systems/electrical/outputs/instrument-lights</factor-prop>
+      <factor-prop>/controls/lighting/cabin-norm</factor-prop>
             <red>10</red>
             <green>0</green>
             <blue>8</blue>
     </emission>
-  </animation>
+  </animation -->
 
 </PropertyList>

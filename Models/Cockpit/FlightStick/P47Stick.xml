@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>Stick.ac</path>
+
+  <animation>
+    <object-name>Button</object-name>
+    <object-name>Stick</object-name>
+  </animation>
+
+  <!-- animation>
+    <type>material</type>
+    <object-name>Button</object-name>
+    <emission>
+     <factor-prop>/controls/lighting/cabin-norm</factor-prop>
+            <red>10</red>
+            <green>0</green>
+            <blue>8</blue>
+    </emission>
+  </animation -->
+
+ <animation>
+  <type>rotate</type>
+  <object-name>Button</object-name>
+  <object-name>Stick</object-name>
+  <object-name>BootTransition</object-name>
+  <object-name>BootTop</object-name>
+  <property>controls/flight/aileron</property>         <!--property alias="/params/aileron"/-->
+  <factor>-10</factor>
+  <center>
+   <x-m>2.90045</x-m>
+   <y-m>-0.04534</y-m>
+   <z-m>-0.25439</z-m>
+  </center>
+  <axis>
+   <x>1.0</x>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>Button</object-name>
+  <object-name>Stick</object-name>
+  <object-name>BootTransition</object-name>
+  <object-name>BootTop</object-name>
+  <property>controls/flight/elevator</property>          <!--property alias="/params/elevator"/-->
+  <factor>-20</factor>
+  <offset-deg>-10.0</offset-deg>
+  <center>
+   <x-m>2.90045</x-m>
+   <y-m>-0.04534</y-m>
+   <z-m>-0.25439</z-m>
+  </center>
+  <axis>
+   <y>1.0</y>
+  </axis>
+ </animation>
+
+</PropertyList>

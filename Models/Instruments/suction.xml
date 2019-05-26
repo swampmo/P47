@@ -9,13 +9,22 @@
     <object-name>face</object-name>
     <object-name>frame</object-name>
     <object-name>needle</object-name>
-    <object-name>vitre</object-name>
+    <object-name>Glass</object-name>
 
     <!-- Objets transparents -->
-    <object-name>vitre</object-name>
+    <object-name>Glass</object-name>
   </animation>
 
   <!-- working for Rembrandt -->
+    <effect>
+    <inherits-from>Aircraft/P47/Models/Effects/Glass/glass</inherits-from>
+    <object-name>Glass</object-name>
+  </effect>
+
+  <effect>
+    <inherits-from>Effects/model-transparent</inherits-from>
+    <object-name>glass</object-name>
+  </effect>
 
 
   <animation>
@@ -23,7 +32,7 @@
     <object-name>face</object-name>
     <object-name>needle</object-name>
     <emission>
-      <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
+      <factor-prop>/controls/lighting/cabin-norm</factor-prop>
       <red>10</red>
       <green>0</green>
       <blue>8</blue>
@@ -34,7 +43,19 @@
 	<type>rotate</type>
 	<object-name>needle</object-name>
 	<property>/systems/vacuum/suction-inhg</property>
-	<interpolation>
+	  <min>0</min>
+  <max>10</max>
+  <interpolation>
+   <entry>
+    <ind>0</ind>
+    <dep>0</dep>
+   </entry>
+   <entry>
+    <ind>10</ind>
+    <dep>300</dep>
+   </entry>
+  </interpolation>
+	<!--interpolation>
 		<entry><ind> 0 </ind><dep> -18 </dep></entry>
 		<entry><ind> 0.1 </ind><dep> 30 </dep></entry>
 		<entry><ind> 3 </ind><dep> 35 </dep></entry>
@@ -42,11 +63,11 @@
 		<entry><ind> 5 </ind><dep> 83 </dep></entry>
 		<entry><ind> 6 </ind><dep> 109 </dep></entry>
 		<entry><ind> 99 </ind><dep> 115 </dep></entry>
-	</interpolation>
+	</interpolation-->
 	  <center>
    <x-m>0.00182</x-m>
-   <y-m>-0.00004</y-m>
-   <z-m>-0.00007</z-m>
+   <y-m>0.000008</y-m>
+   <z-m>-0.00008</z-m>
   </center>
 	<axis>
 		<x>-1</x>

@@ -92783,8 +92783,6 @@ name "DiveBrakeCover"
 data 9
 cover.001
 crease 80.0
-texture "SCR-522.png"
-texrep 1 1
 numvert 50
 -0.86621 0.52169 0.36232
 -0.87526 0.52174 0.36224
