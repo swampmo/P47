@@ -362,20 +362,24 @@
 		 </keyboard>
 	 </input>
 
-<nasal>
+  <nasal>
     <p47>
-    <file>Aircraft/P47/Nasal/P47.nas</file>
-    <file>Aircraft/P47/Nasal/Electrical.nas</file>
-    <file>Aircraft/P47/Nasal/damage.nas</file>
-    <file>Aircraft/P47/Nasal/blackout.nas</file>
-    <file>Aircraft/P47/Nasal/liveries.nas</file>
-    <file>Aircraft/P47/Nasal/crash-and-stress.nas</file>
-    <file>Aircraft/P47/Nasal/terrain.nas</file>
+        <file>Aircraft/P47/Nasal/P47.nas</file>
+        <file>Aircraft/P47/Nasal/Electrical.nas</file>
+        <file>Aircraft/P47/Nasal/damage.nas</file>
+        <file>Aircraft/P47/Nasal/blackout.nas</file>
+        <file>Aircraft/P47/Nasal/liveries.nas</file>
+        <file>Aircraft/P47/Nasal/crash-and-stress.nas</file>
+        <file>Aircraft/P47/Nasal/terrain.nas</file>
 
     </p47>
-	<guns>
-		<file>Aircraft/P47/Nasal/payloads.nas</file>
-	</guns>
+      <guns>
+		    <file>Aircraft/P47/Nasal/payloads.nas</file>
+      </guns>
+
+   <SCR_522C>
+      <file>Aircraft/Instruments-3d/SCR-522C/Nasal/SCR-522C.nas</file>
+   </SCR_522C>
 
 </nasal>
 
