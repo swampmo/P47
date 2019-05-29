@@ -377,6 +377,10 @@
 		<file>Aircraft/P47/Nasal/payloads.nas</file>
 	</guns>
 
+<<<<<<< HEAD
+=======
+<!--  
+>>>>>>> parent of a105ff0... atempt to fix crash for 2019.1.1
 <SCR_522C>
       <file>Aircraft/Instruments-3d/SCR-522C/Nasal/SCR-522C.nas</file>
    </SCR_522C>
