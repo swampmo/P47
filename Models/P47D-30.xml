@@ -592,7 +592,8 @@
         </offsets>
     </model>
 
-    <model>
+  <!--  
+  <model>
         <path>Aircraft/P47/Instruments-3d/SCR-522C/BC-602-A.xml</path>
         <offsets>
             <x-m>-0.750</x-m>
@@ -600,7 +601,7 @@
             <z-m>0.290</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
-    </model>
+    </model> -->
 
         <model>
         <path>Aircraft/P47/Models/Cockpit/Selector Switch Auto Constant Speed Circuitbreaker/Selector-Switch-Auto -Constant-Speed_Circuitbreaker.xml</path>
