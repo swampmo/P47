@@ -1,1 +1,0 @@
-Copy the SCR-522C folder and replace the bad one in your FGdata under data/Aircraft/Instruments-3d
