@@ -23,11 +23,11 @@
         <sound>
             <path>Aircraft/P47/Sound/p47.xml</path>
         </sound>
-     
+
    <instrumentation>
             <path>Aircraft/P47/Systems/instrumentation.xml</path>
-        </instrumentation>  
-        
+        </instrumentation>
+
        <submodels>
       	     <serviceable type="bool">true</serviceable>
       		<path>Aircraft/P47/Models/Effects/guns/submodels.xml</path>
@@ -362,6 +362,12 @@
 		 </keyboard>
 	 </input>
 
+   <payload>
+     <armament>
+       <msg type="bool">true</msg>
+     </armament>
+   </payload>
+
   <nasal>
     <p47>
         <file>Aircraft/P47/Nasal/P47.nas</file>
@@ -384,4 +390,3 @@
 </nasal>
 
 </PropertyList>
-
