@@ -5,7 +5,6 @@
   <path>clock.ac</path>
 
   <animation>
-
     <object-name>AdjKnob</object-name>
     <object-name>fond</object-name>
     <object-name>visses</object-name>
@@ -13,7 +12,6 @@
     <object-name>heures</object-name>
     <object-name>minutes</object-name>
     <object-name>secondes</object-name>
-    <object-name>vitre</object-name>
   </animation>
 
   <!-- working for Rembrandt -->
@@ -34,11 +32,10 @@
     <object-name>heures</object-name>
     <object-name>minutes</object-name>
     <object-name>secondes</object-name>
-
     <emission>
      <factor-prop>/controls/lighting/cabin-norm</factor-prop>
-            <red>10</red>
-            <green>0</green>
+            <red>0</red>
+            <green>1</green>
             <blue>8</blue>
     </emission>
   </animation>

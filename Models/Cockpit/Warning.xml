@@ -5,7 +5,7 @@
   <path>Warning.ac</path>
 
   <animation>
-    <object-name>Warning</object-name>
+    <object-name>Plane</object-name>
   </animation>
         <!-- animation>
     <type>material</type>

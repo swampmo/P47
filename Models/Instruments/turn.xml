@@ -26,8 +26,8 @@
         <object-name>TurnFace</object-name>
         <object-name>TurnNeedle</object-name>
         <emission>
-            <red>10</red>
-            <green>0</green>
+            <red>0</red>
+            <green>1</green>
             <blue>8</blue>
             <factor-prop>/controls/lighting/cabin-norm</factor-prop>
         </emission>
@@ -54,12 +54,26 @@
         <type>rotate</type>
         <object-name>SlipBall</object-name>
         <property>instrumentation/slip-skid-ball/indicated-slip-skid</property>
-        <interpolation>
+        <!-- interpolation>
             <entry><ind>-10.0</ind><dep>-20</dep></entry>
             <entry><ind>-2.0</ind><dep>-20</dep></entry>
             <entry><ind>2.0</ind><dep>20</dep></entry>
             <entry><ind>10.0</ind><dep>20</dep></entry>
-        </interpolation>
+        </interpolation -->
+		<interpolation>
+			<entry>
+				<ind>-1</ind>
+				<dep>-0.02</dep>
+			</entry>
+			<entry>
+				<ind>0</ind>
+				<dep>0</dep>
+			</entry>
+			<entry>
+				<ind>1</ind>
+				<dep>0.02</dep>
+			</entry>
+		</interpolation>
         <axis>
             <x>-1</x>
             <y>0</y>

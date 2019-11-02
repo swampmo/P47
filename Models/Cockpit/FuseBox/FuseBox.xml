@@ -107,8 +107,8 @@
     <object-name>turn.2</object-name>
     <emission>
       <factor-prop>/controls/lighting/cabin-norm</factor-prop>
-            <red>10</red>
-            <green>0</green>
+            <red>0</red>
+            <green>1</green>
             <blue>8</blue>
     </emission>
   </animation>
@@ -141,7 +141,6 @@
             <binding>
                 <command>property-assign</command>
                 <property>controls/circuit-breakers/instrument-lights</property>
-                <!-- property>controls/electric/battery-switch</property -->
             </binding>
             <binding>
                 <command>property-toggle</command>
@@ -153,11 +152,11 @@
         <type>rotate</type>
         <object-name>GunSight</object-name>
         <property>/controls/armament/master-arm</property>
-        <factor>-40</factor>
+        <factor>-60</factor>
         <center>
-            <x-m>-0.74600</x-m>
-            <y-m>-0.31317</y-m>
-            <z-m>0.19815</z-m>
+            <x-m>-0.74620</x-m>
+            <y-m>-0.31597</y-m>
+            <z-m>0.19823</z-m>
         </center>
         <axis>
             <x>0</x>

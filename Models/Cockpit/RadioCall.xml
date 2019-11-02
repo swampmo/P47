@@ -8,4 +8,15 @@
     <object-name>radio</object-name>
   </animation>
 
+      <animation>
+    <type>material</type>
+    <object-name>radio</object-name>
+        <emission>
+            <red>1</red>
+            <green>1</green>
+            <blue>1</blue>
+            <factor-prop>/controls/lighting/cabin-norm</factor-prop>
+        </emission>
+  </animation>
+
 </PropertyList>

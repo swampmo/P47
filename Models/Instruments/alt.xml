@@ -9,22 +9,24 @@
     <object-name>InhgKnob</object-name>
     <object-name>face</object-name>
     <object-name>InHg</object-name>
-    <object-name>Needle1</object-name>
-    <object-name>Needle2</object-name>
-    <object-name>Needle3</object-name>
+    <object-name>needle100</object-name>
+    <object-name>needle1000</object-name>
+    <object-name>needle10000</object-name>
+    <object-name>vitre</object-name>
   </animation>
 
   <animation>
     <type>material</type>
-    <object-name>InhgKnob</object-name>
-    <object-name>face</object-name>
+    <object-name>ALTface</object-name>
+    <object-name>needle100</object-name>
+    <object-name>needle1000</object-name>
+    <object-name>needle10000</object-name>
     <object-name>InHg</object-name>
-    <object-name>Needle1</object-name>
-    <object-name>Needle2</object-name>
-    <object-name>Needle3</object-name>
+    <object-name>face</object-name>
+    <object-name>InhgKnob</object-name>
     <emission>
-             <red>10</red>
-            <green>0</green>
+             <red>0</red>
+            <green>1</green>
             <blue>8</blue>
             <factor-prop>/controls/lighting/cabin-norm</factor-prop>
     </emission>
@@ -32,7 +34,7 @@
 
   <animation>
     <type>rotate</type>
-    <object-name>Needle1</object-name>
+    <object-name>needle100</object-name>
     <property>instrumentation/altimeter/indicated-altitude-ft</property>
     <factor> 0.36 </factor>
     <axis>
@@ -44,7 +46,7 @@
 
   <animation>
     <type>rotate</type>
-    <object-name>Needle2</object-name>
+    <object-name>needle1000</object-name>
     <property>instrumentation/altimeter/indicated-altitude-ft</property>
     <factor> 0.036 </factor>
     <axis>
@@ -56,7 +58,7 @@
 
   <animation>
     <type>rotate</type>
-    <object-name>Needle3</object-name>
+    <object-name>needle10000</object-name>
     <property>instrumentation/altimeter/indicated-altitude-ft</property>
     <factor> 0.0036 </factor>
     <axis>

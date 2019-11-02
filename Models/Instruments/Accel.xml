@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-
 <!-- g-meter, by Dave Culp, edited for X-29A by Daniel Strawn -->
 
 <PropertyList>
     <path>Accel.ac</path>
     <animation>
         <type>material</type>
-        <object-name>Frame</object-name>
         <object-name>face</object-name>
         <object-name>G.needle1</object-name>
         <object-name>G.needle2</object-name>
         <object-name>G.needle3</object-name>
+        <object-name>InhgKnob</object-name>
         <emission>
-            <red>10</red>
-            <green></green>
+            <red>0</red>
+            <green>1</green>
             <blue>8</blue>
             <factor-prop>/controls/lighting/cabin-norm</factor-prop>
         </emission>
@@ -96,7 +95,6 @@
    <z>0</z>
   </axis>
  </animation>
-
 
 
 </PropertyList>

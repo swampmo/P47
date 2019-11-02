@@ -33,8 +33,8 @@
     <object-name>needle3</object-name>
     <emission>
       <factor-prop>/controls/lighting/cabin-norm</factor-prop>
-            <red>10</red>
-            <green>0</green>
+           <red>0</red>
+            <green>1</green>
             <blue>8</blue>
     </emission>
   </animation>
@@ -64,7 +64,7 @@
   <animation>
     <type>rotate</type>
     <object-name>needle2</object-name>
-    <property>engines/engine/oil-pressure-psi</property>
+      <property>engines/engine/oil-pressure-psi</property>
   <interpolation>
    <entry><ind>0</ind><dep>0</dep></entry>
    <entry><ind>10</ind><dep>5</dep></entry>
@@ -94,7 +94,6 @@
     <type>rotate</type>
     <object-name>needle3</object-name>
     <property>engines/engine/fuel-flow-gph</property>
-
     <interpolation>
       <entry><ind>  0 </ind><dep>   0 </dep></entry>
       <entry><ind> 35 </ind><dep> 180 </dep></entry>

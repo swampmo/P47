@@ -5,7 +5,7 @@
   <path>Shutters.ac</path>
 
   <animation>
-    <object-name>shutters</object-name>
+    <object-name>Plane</object-name>
   </animation>
 
   <!-- animation>

@@ -10,7 +10,7 @@ name "Egr.base"
 data 9
 Plane.082
 crease 30.0
-texture "starter.png"
+texture "Starter.png"
 texrep 1 1
 numvert 8
 0.00249 -0.02469 -0.02152
@@ -7051,7 +7051,7 @@ name "Str.base"
 data 9
 Plane.081
 crease 30.0
-texture "starter.png"
+texture "Starter.png"
 texrep 1 1
 numvert 8
 0.00249 0.0247 -0.02152

@@ -22,21 +22,30 @@
     <object-name>tensioner</object-name>
     <object-name>throttle.counterweight</object-name>
     <object-name>throttle.housing</object-name>
+    <object-name>throttle.knob</object-name>
     <object-name>throttle.lever</object-name>
     <object-name>throttle.mount</object-name>
     <object-name>throttle.rod</object-name>
     <object-name>water.inj.wheel</object-name>
-   <object-name>water.sol</object-name>
+    <object-name>water.sol</object-name>
+    <object-name>boost.knob</object-name>
+    <object-name>prop.knob</object-name>
   </animation>
 
         <animation>
     <type>material</type>
     <object-name>water.inj.wheel</object-name>
     <object-name>water.sol</object-name>
+    <object-name>MixturePlate</object-name>
+    <object-name>prop.knob</object-name>
+    <object-name>mxtre.knob</object-name>
+    <object-name>throttle.knob</object-name>
+    <object-name>boost.knob</object-name>
+    <object-name>PTT.Button</object-name>
     <emission>
       <factor-prop>/controls/lighting/cabin-norm</factor-prop>
-            <red>10</red>
-            <green>0</green>
+            <red>0</red>
+            <green>1</green>
             <blue>8</blue>
     </emission>
   </animation>
@@ -44,6 +53,8 @@
   <!-- ##############################################################Throttles ###################################################################-->
   <animation>
     <type>rotate</type>
+    <object-name>PTT.Button</object-name>
+    <object-name>throttle.knob</object-name>
     <object-name>throttle.lever</object-name>
     <object-name>water.inj.wheel</object-name>
     <object-name>water.sol</object-name>
@@ -66,7 +77,7 @@
   <animation>
     <type>rotate</type>
     <object-name>mxtre.lever</object-name>
-    <object-name>mxtre.lever.knob</object-name>
+    <object-name>mxtre.knob</object-name>
     <property>controls/engines/engine/mixture</property>
     <factor> -60 </factor>
     <axis>
@@ -86,7 +97,7 @@
   <animation>
     <type>rotate</type>
     <object-name>prop.lever</object-name>
-    <object-name>PropLeverKnob</object-name>
+    <object-name>prop.knob</object-name>
     <property>controls/engines/engine/propeller-pitch</property>
     <factor> -60 </factor>
     <axis>
@@ -105,8 +116,9 @@
   <animation>
     <type>rotate</type>
     <object-name>boost.lever</object-name>
+    <object-name>boost.knob</object-name>
     <property>controls/engines/engine/wastegate</property>
-    <factor>-10 </factor>
+    <factor>-60 </factor>
     <axis>
       <x> 0 </x>
       <y> 1 </y>
@@ -124,7 +136,7 @@
     <type>rotate</type>
     <object-name>water.inj.wheel</object-name>
     <property>controls/engines/engine/water-injection</property>
-    <factor>-60</factor>
+    <factor>-30</factor>
     <axis>
       <x> 0 </x>
       <y> 1 </y>
@@ -142,7 +154,7 @@
   <animation>
     <type>pick</type>
     <visible>true</visible>
-    <object-name>throttle.lever</object-name>
+    <object-name>throttle.knob</object-name>
     <action>
       <button>0</button>
       <binding>
@@ -156,6 +168,7 @@
   <animation>
     <type>pick</type>
     <visible>true</visible>
+    <object-name>throttle.knob</object-name>
     <object-name>throttle.lever</object-name>
     <action>
       <button>1</button>
@@ -171,7 +184,7 @@
     <type>pick</type>
     <visible>true</visible>
     <object-name>mxtre.lever</object-name>
-    <object-name>mxtre.lever.knob</object-name>
+    <object-name>mxtre.knob</object-name>
     <action>
       <button>0</button>
       <binding>
@@ -186,7 +199,7 @@
     <type>pick</type>
     <visible>true</visible>
     <object-name>mxtre.lever</object-name>
-    <object-name>mxtre.lever.knob</object-name>
+    <object-name>mxtre.knob</object-name>
     <action>
       <button>1</button>
       <binding>
@@ -201,6 +214,7 @@
     <type>pick</type>
     <visible>true</visible>
     <object-name>prop.lever</object-name>
+    <object-name>prop.knob</object-name>
     <action>
       <button>0</button>
       <binding>
@@ -215,6 +229,7 @@
     <type>pick</type>
     <visible>true</visible>
     <object-name>prop.lever</object-name>
+    <object-name>prop.knob</object-name>
     <action>
       <button>1</button>
       <binding>
@@ -265,13 +280,14 @@
   <animation>
     <type>pick</type>
     <visible>true</visible>
-    <object-name>boost.lever</object-name>
+    <object-name>boost.knob</object-name>
+    <object-name>prop.lever</object-name>
     <action>
       <button>0</button>
       <binding>
         <command>property-adjust</command>
         <property>controls/engines/engine/wastegate</property>
-        <step>0.1</step>
+        <step>0.2</step>
       </binding>
     </action>
   </animation>
@@ -279,13 +295,14 @@
   <animation>
     <type>pick</type>
     <visible>true</visible>
+    <object-name>boost.knob</object-name>
     <object-name>boost.lever</object-name>
     <action>
       <button>1</button>
       <binding>
         <command>property-adjust</command>
         <property>controls/engines/engine/wastegate</property>
-        <step>-0.1</step>
+        <step>-0.2</step>
       </binding>
     </action>
   </animation>
@@ -293,8 +310,8 @@
     <animation>
     <type>pick</type>
     <visible>true</visible>
-    <!--object-name>water.inj.wheel</object-name-->
-        <object-name>water.sol</object-name>
+    <object-name>water.inj.wheel</object-name>
+        <!-- object-name>water.sol</object-name -->
     <action>
       <button>0</button>
       <binding>
@@ -308,8 +325,8 @@
   <animation>
     <type>pick</type>
     <visible>true</visible>
-    <!--object-name>water.inj.wheel</object-name-->
-        <object-name>water.sol</object-name>
+    <object-name>water.inj.wheel</object-name>
+        <!-- object-name>water.sol</object-name -->
     <action>
       <button>1</button>
       <binding>
