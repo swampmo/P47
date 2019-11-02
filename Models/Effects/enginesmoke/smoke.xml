@@ -4,9 +4,7 @@
 
 
   <particlesystem>
-
     <name>smoke</name>
-
     <texture>smoke.png</texture>
 
 	<condition>
@@ -15,88 +13,90 @@
 		<value>1</value>
 		</equals>
     </condition>
-
+ 
     <offsets>
       <x-m>  0.000 </x-m>
       <y-m>  0.000 </y-m>
       <z-m>  0.000 </z-m>
       <roll-deg>    0.000 </roll-deg>
-      <pitch-deg>  85.000 </pitch-deg>
+      <pitch-deg>   0.000 </pitch-deg>
       <heading-deg> 0.000 </heading-deg>
     </offsets>
 
-
     <emissive>false</emissive>
     <lighting>false</lighting>
-    <align>billboard</align>
-    <attach>world</attach>
-
+    <align>billboard</align> <!-- billboard / fixed -->
+    <attach>world</attach> <!-- world / local-->
+ 
     <placer>
-      <type>point</type>
+      <type>point</type> <!-- sector / segments / point -->
     </placer>
-
+ 
     <shooter>
-      <theta-min-deg>1</theta-min-deg>
-      <theta-max-deg>2</theta-max-deg>
-      <phi-min-deg>1</phi-min-deg>
-      <phi-max-deg>2</phi-max-deg>
+      <theta-min-deg>70</theta-min-deg>
+      <theta-max-deg>110</theta-max-deg>
+      <phi-min-deg>70</phi-min-deg>
+      <phi-max-deg>110</phi-max-deg>
       <speed-mps>
-        <value>5</value>
-        <spread>0.1</spread>
+        <value>10</value>
+        <spread>5</spread>
       </speed-mps>
       <rotation-speed>
         <x-min-deg-sec>0</x-min-deg-sec>
         <y-min-deg-sec>0</y-min-deg-sec>
-        <z-min-deg-sec>0</z-min-deg-sec>
-        <x-max-deg-sec>1</x-max-deg-sec>
-        <y-max-deg-sec>1</y-max-deg-sec>
-        <z-max-deg-sec>1</z-max-deg-sec>
+        <z-min-deg-sec>-180</z-min-deg-sec>
+        <x-max-deg-sec>0</x-max-deg-sec>
+        <y-max-deg-sec>0</y-max-deg-sec>
+        <z-max-deg-sec>180</z-max-deg-sec>
       </rotation-speed>
     </shooter>
-
+ 
     <counter>
       <particles-per-sec>
-        <value>50</value>
-        <spread>0.5</spread>
+        <value>200</value>
+        <spread>5</spread>
       </particles-per-sec>
     </counter>
-
+ 
     <particle>
       <start>
         <color>
-          <red><value>0.6</value></red>
-          <green><value>0.6</value></green>
-          <blue><value>0.6</value></blue>
-          <alpha><value>1</value></alpha>
+          <red><value>   1.0 </value></red>
+          <green><value> 1.0 </value></green>
+          <blue><value>  1.0 </value></blue>
+          <alpha><value> 0.3 </value></alpha>
         </color>
         <size>
           <value>0.2</value>
         </size>
       </start>
+ 
       <end>
         <color>
-          <red><value>1</value></red>
-          <green><value>1</value></green>
-          <blue><value>1</value></blue>
-          <alpha><value>0</value></alpha>
+          <red><value>   0.95  </value></red>
+          <green><value> 0.95  </value></green>
+          <blue><value>  0.95  </value></blue>
+          <alpha><value> 0.001 </value></alpha>
         </color>
         <size>
-          <value>1.0</value>
+          <value>5.0</value>
         </size>
       </end>
+ 
       <life-sec>
-        <value>10</value>
+        <value>30</value>
       </life-sec>
-      <mass-kg>0.05</mass-kg>
-      <radius-m>0.5</radius-m>
+ 
+      <mass-kg>0.1</mass-kg>
+      <radius-m>0.25</radius-m>
     </particle>
-
+ 
     <program>
       <fluid>air</fluid>         <!-- air / water -->
       <gravity>false</gravity>
       <wind>true</wind>
     </program>
-
+ 
   </particlesystem>
 
 </PropertyList>

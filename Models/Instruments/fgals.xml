@@ -5,12 +5,12 @@
 
     <animation>
         <type>material</type>
-        <object-name>Face</object-name>
-        <object-name>Needle1</object-name>
-        <object-name>Needle2</object-name>
+        <object-name>FGals.face</object-name>
+        <object-name>FGals.needle1</object-name>
+        <object-name>FGals.needle2</object-name>
         <emission>
-            <red>10</red>
-            <green>0</green>
+            <red>0</red>
+            <green>1</green>
             <blue>8</blue>
             <factor-prop>/controls/lighting/cabin-norm</factor-prop>
         </emission>
@@ -18,7 +18,7 @@
 
     <animation>
         <type>rotate</type>
-        <object-name>Needle1</object-name>
+        <object-name>FGals.needle1</object-name>
         <property>consumables/fuel/tank/level-gal_us</property>
         <interpolation>
             <entry><ind>0.0</ind><dep>0.0</dep></entry>
@@ -31,9 +31,9 @@
             <entry><ind>227</ind><dep>118</dep></entry>
         </interpolation>
         <center>
-            <x-m>0.00037</x-m>
-            <y-m>0.02582</y-m>
-            <z-m>0.00001</z-m>
+            <x-m>0</x-m>
+            <y-m>0.032</y-m>
+            <z-m>0.002</z-m>
         </center>
         <axis>
             <x>-1.0</x>
@@ -44,7 +44,7 @@
 
     <animation>
         <type>rotate</type>
-        <object-name>Needle2</object-name>
+        <object-name>FGals.needle2</object-name>
         <property>consumables/fuel/tank[1]/level-gal_us</property>
         <interpolation>
             <entry><ind>0.0</ind><dep>0.0</dep></entry>
@@ -55,9 +55,9 @@
             <entry><ind>100</ind><dep>105</dep></entry>
         </interpolation>
         <center>
-            <x-m>0.00024</x-m>
-            <y-m>-0.02587</y-m>
-            <z-m>0.00009</z-m>
+            <x-m>0</x-m>
+            <y-m>-0.032</y-m>
+            <z-m>0.002</z-m>
         </center>
         <axis>
             <x>1.0</x>

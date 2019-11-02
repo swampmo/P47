@@ -14,7 +14,7 @@
     <animation>
     <type>material</type>
     <object-name>MainTankLever</object-name>
-    <object-name>cover</object-name>
+    <object-name>face</object-name>
     <emission>
       <factor-prop>/controls/lighting/cabin-norm</factor-prop>
             <red>10</red>

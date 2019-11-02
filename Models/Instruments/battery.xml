@@ -15,8 +15,8 @@
     <object-name>Batt.switch</object-name>
     <emission>
      <factor-prop>/controls/lighting/cabin-norm</factor-prop>
-            <red>10</red>
-            <green>0</green>
+            <red>0</red>
+            <green>1</green>
             <blue>8</blue>
     </emission>
   </animation>
@@ -24,7 +24,6 @@
         <type>rotate</type>
         <object-name>Batt.switch</object-name>
         <property>controls/electric/battery-switch</property>
-        <!--property>controls/lighting/instrument-lights</property-->
         <factor>60</factor>
         <center>
             <x-m>0.002</x-m>

@@ -9,9 +9,9 @@
   <object-name>needle</object-name>
   <object-name>ring</object-name>
     <emission>
-      <factor-prop>/systems/electrical/outputs/instrument-lights-norm</factor-prop>
-            <red>10</red>
-            <green>0</green>
+      <factor-prop>/controls/lighting/cabin-norm</factor-prop>
+            <red>0</red>
+            <green>1</green>
             <blue>8</blue>
     </emission>
  </animation>

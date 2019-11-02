@@ -23,7 +23,7 @@
     <object-name>switch.nut.red</object-name>
   </animation>
 
-    <animation>
+  <animation>
     <type>material</type>
     <object-name>amber.switch</object-name>
     <object-name>green.switch</object-name>
@@ -35,10 +35,43 @@
     <object-name>face</object-name>
     <emission>
       <factor-prop>/controls/lighting/cabin-norm</factor-prop>
-            <red>10</red>
-            <green>0</green>
+            <red>0</red>
+            <green>1</green>
             <blue>8</blue>
     </emission>
   </animation>
+    <animation>
+        <type>translate</type>
+        <object-name>cowl.flaps</object-name>
+        <property>/controls/engines/engine/cowl-flaps</property>
+        <factor>10</factor>
+        <center>
+            <x-m>-0.71621</x-m>
+            <y-m>0.40201</y-m>
+            <z-m>0.35337</z-m>
+        </center>
+        <axis>
+            <x>1</x>
+            <y>0</y>
+            <z>0</z>
+        </axis>
+  </animation>
+
+     <animation>
+        <type>pick</type>
+        <object-name>cowl.flaps</object-name>
+        <action>
+            <button>0</button>
+            <binding>
+                <command>property-toggle</command>
+                <property>/controls/engines/engine/cowl-flaps-norm</property>
+            </binding>
+
+            <binding>
+                <command>property-toggle</command>
+                <property>sim/sound/click</property>
+            </binding>
+        </action>
+    </animation>
 
 </PropertyList>

@@ -8,8 +8,8 @@
         <object-name>RPM.face</object-name>
         <object-name>RPM.needle</object-name>
         <emission>
-            <red>10</red>
-            <green>0</green>
+           <red>0</red>
+            <green>1</green>
             <blue>8</blue>
             <factor-prop>/controls/lighting/cabin-norm</factor-prop>
         </emission>

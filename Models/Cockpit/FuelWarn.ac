@@ -6,7 +6,7 @@ kids 1
 OBJECT poly
 name "FuelWarn"
 data 5
-Label
+Plane
 crease 40.0
 texture "FuelWarn.png"
 texrep 1 1

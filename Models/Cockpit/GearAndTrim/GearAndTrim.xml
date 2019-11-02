@@ -20,11 +20,17 @@
     <object-name>AileronTrim</object-name>
     <object-name>DustCovers</object-name>
     <object-name>LdgGearLever</object-name>
-    <object-name>LeverKnob</object-name>
+    <!--object-name>LeverKnob</object-name-->
     <object-name>RudderTrim</object-name>
     <object-name>Tensioner</object-name>
     <object-name>TrimMount</object-name>
     <object-name>TrimWheel</object-name>
+    <emission>
+     <factor-prop>/controls/lighting/cabin-norm</factor-prop>
+            <red>0</red>
+            <green>1</green>
+            <blue>8</blue>
+    </emission>
   </animation>
       <animation>
     <type>material</type>
@@ -49,9 +55,9 @@
       <z>1.0</z>
     </axis>
     <center>
-     <x-m>-0.29052</x-m>
-     <y-m>-0.36831</y-m>
-     <z-m>0.19602</z-m>
+     <x-m>-0.29049</x-m>
+     <y-m>-0.38223</y-m>
+     <z-m>0.19457</z-m>
    </center>
   </animation>
 
@@ -87,9 +93,9 @@
 		<z>-1.0</z>
 	</axis>
 	<center>
-		<x-m>-0.22117</x-m>
-		<y-m>-0.38336</y-m>
-		<z-m>0.19056</z-m>
+		<x-m>-0.20539</x-m>
+		<y-m>-0.38200</y-m>
+		<z-m>0.18110</z-m>
 	</center>
   </animation>
 

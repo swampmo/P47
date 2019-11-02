@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>Release-panel.ac</path>
+
+  <animation>
+    <object-name>nut.1</object-name>
+    <object-name>nut.2</object-name>
+    <object-name>nut.3</object-name>
+    <object-name>nut.4</object-name>
+    <object-name>nut.5</object-name>
+    <object-name>nut.6</object-name>
+    <object-name>nut.7</object-name>
+    <object-name>nut.8</object-name>
+    <object-name>switch.1</object-name>
+    <object-name>switch.2</object-name>
+    <object-name>switch.3</object-name>
+    <object-name>switch.4</object-name>
+    <object-name>switch.5</object-name>
+    <object-name>switch.6</object-name>
+    <object-name>switch.7</object-name>
+    <object-name>switch.8</object-name>
+    <object-name>rivets</object-name>
+    <object-name>cover</object-name>
+    <object-name>panel-mount</object-name>
+  </animation>
+
+
+  <animation>
+    <type>material</type>
+    <object-name>cover</object-name>
+       <emission>
+      <factor-prop>/controls/lighting/cabin-norm</factor-prop>
+           <red>0</red>
+            <green>1</green>
+            <blue>8</blue>
+    </emission>
+  </animation>
+</PropertyList>

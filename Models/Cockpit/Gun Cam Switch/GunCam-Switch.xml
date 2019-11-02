@@ -12,16 +12,97 @@
     <object-name>Visses</object-name>
   </animation>
 
-  <animation>
+    <animation>
     <type>material</type>
     <object-name>BackingPlate</object-name>
-    <object-name>cover</object-name>
     <emission>
       <factor-prop>/controls/lighting/cabin-norm</factor-prop>
-            <red>10</red>
-            <green>0</green>
+           <red>0</red>
+            <green>1</green>
             <blue>8</blue>
     </emission>
   </animation>
+
+ <animation>
+	 <type>rotate</type>
+	 <object-name>cam-cover</object-name>
+	 <property>controls/switches/cam-cover</property>
+	 <interpolation>
+		 <entry>
+			 <ind>0.0</ind>
+			 <dep>0.0</dep>
+		 </entry>
+		 <entry>
+			 <ind>1.0</ind>
+			 <dep>-90.0</dep>
+		 </entry>
+	 </interpolation>
+	 <axis>
+		 <x>1.0</x>
+		 <y>0.0</y>
+		 <z>0.0</z>
+	 </axis>
+	 <center>
+		 <x-m>-0.54527</x-m>
+		 <y-m>-0.39312</y-m>
+		 <z-m>0.53158</z-m>
+	 </center>
+ </animation>
+
+ <animation>
+	 <type>pick</type>
+	 <object-name>cam-cover</object-name>
+	 <action>
+		 <button>0</button>
+		 <repeatable>true</repeatable>
+		 <interval-sec>0.3</interval-sec>
+		 <binding>
+			 <command>property-toggle</command>
+			 <property>controls/switches/cam-cover</property>
+		 </binding>
+
+	 </action>
+</animation>
+
+ <animation>
+	 <type>rotate</type>
+	 <object-name>cam-switch</object-name>
+	 <property>controls/armament/guns</property>
+	 <interpolation>
+		 <entry>
+			 <ind>0.0</ind>
+			 <dep>0.0</dep>
+		 </entry>
+		 <entry>
+			 <ind>1.0</ind>
+			 <dep>-50.0</dep>
+		 </entry>
+	 </interpolation>
+	 <axis>
+		 <x>1.0</x>
+		 <y>0.0</y>
+		 <z>0.0</z>
+	 </axis>
+	 <center>
+		 <x-m>-0.54550</x-m>
+		 <y-m>-0.39371</y-m>
+		 <z-m>0.54828</z-m>
+	 </center>
+ </animation>
+
+ <animation>
+	 <type>pick</type>
+	 <object-name>CamSwitchNut</object-name>
+	 <action>
+		 <button>0</button>
+		 <repeatable>true</repeatable>
+		 <interval-sec>0.3</interval-sec>
+		 <binding>
+			 <command>property-toggle</command>
+			 <property>controls/armament/guns</property>
+		 </binding>
+
+	 </action>
+</animation>
 
 </PropertyList>

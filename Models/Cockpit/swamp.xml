@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>swamp.ac</path>
+
+  <animation>
+    <object-name>swamp</object-name>
+  </animation>
+
+      <animation>
+    <type>material</type>
+    <object-name>swamp</object-name>
+        <emission>
+            <red>1</red>
+            <green>1</green>
+            <blue>1</blue>
+            <factor-prop>/controls/lighting/cabin-norm</factor-prop>
+        </emission>
+  </animation>
+
+</PropertyList>

@@ -4,7 +4,7 @@ OBJECT world
 name "Blender_exporter_v2.26__Shutters.ac"
 kids 1
 OBJECT poly
-name "shutters"
+name "Plane"
 data 5
 Plane
 crease 40.0

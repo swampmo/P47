@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+
+<system name="tail_wheel_control">
+
+ <channel name="tail wheel">
+
+    <fcs_function name="fcs/tail-wheel-lock-cmd-norm">
+      <function>
+		<property> /controls/gear/tailwheel-lock </property>
+	  </function>
+    </fcs_function>
+    
+    <fcs_function name="fcs/tail-wheel-locked-deg">
+       <function>
+          <product>
+            <property> fcs/rudder-pos-norm </property>
+            <value> 0 </value> <!-- -45 For rudder steering; initial -1.5 -->
+          </product>
+       </function>
+       <output>fcs/steer-pos-deg[2]</output>
+    </fcs_function>
+    
+    <fcs_function name="fcs/tail-wheel-lock-position-diff">
+      <function>
+        <abs>
+		  <sum>	
+            <property> gear/unit[2]/steering-angle-deg </property>
+            <product>
+              <property> fcs/steer-pos-deg[2] </property>
+              <value> -1.0 </value>
+            </product>
+          </sum>
+        </abs>
+      </function>
+      
+    </fcs_function>
+    
+    <switch name="fcs/tail-wheel-castered">
+        <default value="1.0"/>
+        <test value="0.0">
+            fcs/tail-wheel-lock-cmd-norm GT 0.05
+            fcs/tail-wheel-lock-position-diff LT 2.0
+        </test>
+        <test value="0.0">
+			fcs/tail-wheel-castered LE 0.0
+			fcs/tail-wheel-lock-cmd-norm GT 0.05
+        </test>
+        <output>gear/unit[2]/castered</output>
+    </switch>
+
+    
+
+ </channel>
+
+</system>
+

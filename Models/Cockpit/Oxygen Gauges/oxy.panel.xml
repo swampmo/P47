@@ -2,10 +2,10 @@
 
 <PropertyList>
 
-  <path>OxygenPanel.ac</path>
+  <path>Oxygen-Gauges.ac</path>
 
   <animation>
-    <object-name>OxygenPanel</object-name>
+    <object-name>Oxygen.Gauges</object-name>
   </animation>
 
 </PropertyList>

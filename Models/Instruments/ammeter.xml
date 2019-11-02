@@ -4,7 +4,6 @@
 
   <path>60amps.ac</path>
 
-
   <animation>
     <object-name>fond</object-name>
     <object-name>cache</object-name>
@@ -31,8 +30,8 @@
     <object-name>needle</object-name>
     <emission>
       <factor-prop>/controls/lighting/cabin-norm</factor-prop>
-            <red>10</red>
-            <green>0</green>
+            <red>0</red>
+            <green>1</green>
             <blue>8</blue>
     </emission>
   </animation>
@@ -66,34 +65,5 @@
 		<z-m> -0.01499  </z-m>
 	</center>
 </animation>
-
-<animation>
-    <emission>
-      <factor-prop>/controls/lighting/cabin-norm</factor-prop>
-            <red>10</red>
-            <green>0</green>
-            <blue>8</blue>
-    </emission>
-  </animation>
-
-  <animation>
-    <type>rotate</type>
-    <object-name>needle</object-name>
-    <property>systems/electrical/amps</property>
-    <interpolation>
-      <entry><ind>  0 </ind><dep>  0 </dep></entry>
-      <entry><ind> 60 </ind><dep> 90 </dep></entry>
-    </interpolation>
-    <center>
-      <x-m>  0.00000 </x-m>
-      <y-m>  0.00000 </y-m>
-      <z-m> -0.01702 </z-m>
-    </center>
-    <axis>
-      <x> -1 </x>
-      <y>  0 </y>
-      <z>  0 </z>
-    </axis>
-  </animation>
 
 </PropertyList>
