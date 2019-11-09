@@ -7,12 +7,16 @@
     <name>smoke</name>
     <texture>smoke.png</texture>
 
-	<condition>
-		<equals>
-      <property>engines/engine/cranking</property>
-		<value>1</value>
-		</equals>
-    </condition>
+        <condition>
+            <property>engines/engine[0]/cranking</property>
+            <not>
+                <property>engines/engine[0]/running</property>
+            </not>
+        <not-equals>
+            <property>sim/current-view/internal</property>
+                <value>1</value>
+        </not-equals>
+        </condition>
  
     <offsets>
       <x-m>  0.000 </x-m>

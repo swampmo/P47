@@ -7,11 +7,14 @@
 
     <texture>smoke.png</texture>
 
-	<condition>
-		<equals>
-      <property>sim/multiplay/generic/int[19]</property>
-		<value>1</value>
-		</equals>
+	  <condition>
+          <equals>
+        <property>sim/multiplay/generic/int[19]</property>
+          <value>1</value>
+          </equals>
+            <not>
+              <property>sim/current-view/internal</property>
+            </not>
     </condition>
 
     <emissive>false</emissive>
