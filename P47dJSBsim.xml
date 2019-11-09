@@ -291,7 +291,7 @@
        <product>
            <property>aero/qbar-psf</property>
            <property>metrics/Sw-sqft</property>
-           <abs><property>fcs/elevator-pos-rad</property></abs>
+           <abs><toradians>><property>fcs/elevator-pos-deg</property></toradians></abs>
            <value> 0.0350 </value>
        </product>
     </function>
@@ -365,7 +365,7 @@
        <product>
            <property>aero/qbar-psf</property>
            <property>metrics/Sw-sqft</property>
-           <property>fcs/rudder-pos-rad</property>
+           <toradians><property>fcs/rudder-pos-deg</property></toradians>
            <value> 0.1250 </value>
        </product>
     </function>
@@ -412,7 +412,7 @@
           <property>aero/qbar-psf</property>
           <property>metrics/Sw-sqft</property>
           <property>metrics/cbarw-ft</property>
-          <property>fcs/elevator-pos-rad</property>
+          <toradians><property>fcs/elevator-pos-deg</property></toradians>
           <table>
             <independentVar lookup="row">velocities/mach</independentVar>
             <tableData>
@@ -515,13 +515,14 @@
        </product>
     </function>
 
+
     <function name="aero/moment/Roll_aileron">
        <description>Roll moment due to aileron</description>
        <product>
           <property>aero/qbar-psf</property>
           <property>metrics/Sw-sqft</property>
           <property>metrics/bw-ft</property>
-          <property>fcs/left-aileron-pos-rad</property>
+          <toradians><property>fcs/left-aileron-pos-deg</property></toradians>
            <table>
             <independentVar lookup="row">velocities/mach</independentVar>
             <tableData>
@@ -538,7 +539,7 @@
            <property>aero/qbar-psf</property>
            <property>metrics/Sw-sqft</property>
            <property>metrics/bw-ft</property>
-           <property>fcs/rudder-pos-rad</property>
+           <toradians><property>fcs/rudder-pos-deg</property></toradians>
            <value> 0.0100 </value>
        </product>
     </function>

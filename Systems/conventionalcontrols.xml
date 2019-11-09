@@ -13,17 +13,17 @@
    <aerosurface_scale name="Elevator Control">
       <input>fcs/pitch-trim-sum</input>
       <range>
-        <min> -0.35 </min>
-        <max>  0.35 </max>
+        <min> -20 </min>
+        <max>  30 </max>
       </range>
-      <output>fcs/elevator-pos-rad</output>
+      <output>fcs/elevator-pos-deg</output>
    </aerosurface_scale>
 
    <aerosurface_scale name="Elevator Normalization">
-      <input>fcs/elevator-pos-rad</input>
+      <input>fcs/elevator-pos-deg</input>
       <domain>
-        <min> -0.35 </min>
-        <max>  0.35 </max>
+        <min> -20 </min>
+        <max>  30 </max>
       </domain>
       <range>
         <min> -1 </min>
@@ -46,26 +46,26 @@
    <aerosurface_scale name="Left Aileron Control">
       <input>fcs/roll-trim-sum</input>
       <range>
-        <min> -0.35 </min>
-        <max>  0.35 </max>
+        <min> -12 </min>
+        <max>  16 </max>
       </range>
-      <output>fcs/left-aileron-pos-rad</output>
+      <output>fcs/left-aileron-pos-deg</output>
    </aerosurface_scale>
 
    <aerosurface_scale name="Right Aileron Control">
       <input>-fcs/roll-trim-sum</input>
       <range>
-        <min> -0.35 </min>
-        <max>  0.35 </max>
+        <min> -12 </min>
+        <max>  16 </max>
       </range>
-      <output>fcs/right-aileron-pos-rad</output>
+      <output>fcs/right-aileron-pos-deg</output>
    </aerosurface_scale>
 
    <aerosurface_scale name="Left Aileron Normalization">
-      <input>fcs/left-aileron-pos-rad</input>
+      <input>fcs/left-aileron-pos-deg</input>
       <domain>
-        <min> -0.35 </min>
-        <max>  0.35 </max>
+        <min> -12 </min>
+        <max>  16 </max>
       </domain>
       <range>
         <min> -2 </min>
@@ -75,10 +75,10 @@
    </aerosurface_scale>
 
    <aerosurface_scale name="Right Aileron Normalization">
-      <input>fcs/right-aileron-pos-rad</input>
+      <input>fcs/right-aileron-pos-deg</input>
       <domain>
-        <min> -0.35 </min>
-        <max>  0.35 </max>
+        <min> -12 </min>
+        <max>  16 </max>
       </domain>
       <range>
         <min> -2 </min>
@@ -101,17 +101,17 @@
    <aerosurface_scale name="Rudder Control">
       <input>fcs/rudder-command-sum</input>
       <range>
-        <min> -0.35 </min>
-        <max>  0.35 </max>
+        <min> -28 </min>
+        <max>  28 </max>
       </range>
-      <output>fcs/rudder-pos-rad</output>
+      <output>fcs/rudder-pos-deg</output>
    </aerosurface_scale>
 
    <aerosurface_scale name="Rudder Normalization">
-      <input>fcs/rudder-pos-rad</input>
+      <input>fcs/rudder-pos-deg</input>
       <domain>
-        <min> -0.35 </min>
-        <max>  0.35 </max>
+        <min> -28 </min>
+        <max>  28 </max>
       </domain>
       <range>
         <min> -1 </min>
