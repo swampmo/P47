@@ -4,51 +4,53 @@
 
     <sim>
 
-        <description>P47D Thunderbolt</description>
-        <author>Syd Adams, Swamp, Nikolai V. Chr., 5H1N0B1, Spectre, pinto, NC-687 3D (liveries)</author>
-        <flight-model>jsb</flight-model>
-        <aero>P47dJSBsim</aero>
-        <fuel-fraction>0.8</fuel-fraction>
-        <startup>
-            <splash-texture>Aircraft/P47/splash.png</splash-texture>
-        </startup>
+    <description>P47D Thunderbolt</description>
+    <author>Syd Adams, Swamp, Nikolai V. Chr., 5H1N0B1, Spectre, pinto, NC-687 3D (liveries)</author>
+    <flight-model>jsb</flight-model>
+    <aero>P47dJSBsim</aero>
+    
+    <fuel-fraction>0.8</fuel-fraction>
+    
+    <startup>
+       <splash-texture>Aircraft/P47/splash.png</splash-texture>
+    </startup>
 
-        <model>
-            <path>Aircraft/P47/Models/P47D-30.xml</path>
-            <livery>
-                <file type="string">default</file>
-            </livery>
+    <model>
+      <path>Aircraft/P47/Models/P47D-30.xml</path>
+      <livery>
+         <file type="string">default</file>
+      </livery>
+    </model>
+    
+    <sound>
+      <path>Aircraft/P47/Sound/p47.xml</path>
+    </sound>
 
-        </model>
-        <sound>
-            <path>Aircraft/P47/Sound/p47.xml</path>
-        </sound>
-
-   <instrumentation>
+    <instrumentation>
             <path>Aircraft/P47/Systems/instrumentation.xml</path>
-        </instrumentation>
+    </instrumentation>
 
-       <submodels>
-      	     <serviceable type="bool">true</serviceable>
-      		<path>Aircraft/P47/Models/Effects/guns/submodels.xml</path>
-       </submodels>
+    <submodels>
+        <serviceable type="bool">true</serviceable>
+    		<path>Aircraft/P47/Models/Effects/guns/submodels.xml</path>
+    </submodels>
 
-        <allow-toggle-cockpit archive="y">true</allow-toggle-cockpit>
+    <allow-toggle-cockpit archive="y">true</allow-toggle-cockpit>
 
-		<flight-recorder>
-            <replay-config type="int">0</replay-config>
-            <config n="0">
-                <signals include="/Aircraft/Generic/flightrecorder/components/engine-piston-prop.xml"/>
-                <signals include="/Aircraft/Generic/flightrecorder/components/environment.xml"/>
-                <signals include="/Aircraft/Generic/flightrecorder/components/position.xml"/>
-                <signals include="/Aircraft/Generic/flightrecorder/components/controls.xml"/>
-                <signals include="/Aircraft/Generic/flightrecorder/components/surfaces.xml"/>
-                <signals include="/Aircraft/Generic/flightrecorder/components/gear-retractable.xml">
-                    <count type="int">3</count>
-                </signals>
-                <signals include="/Aircraft/Generic/flightrecorder/components/faults-engines.xml">
-                    <count type="int">1</count>
-                </signals>
+    <flight-recorder>
+         <replay-config type="int">0</replay-config>
+         <config n="0">
+            <signals include="/Aircraft/Generic/flightrecorder/components/engine-piston-prop.xml"/>
+            <signals include="/Aircraft/Generic/flightrecorder/components/environment.xml"/>
+            <signals include="/Aircraft/Generic/flightrecorder/components/position.xml"/>
+            <signals include="/Aircraft/Generic/flightrecorder/components/controls.xml"/>
+            <signals include="/Aircraft/Generic/flightrecorder/components/surfaces.xml"/>
+            <signals include="/Aircraft/Generic/flightrecorder/components/gear-retractable.xml">
+               <count type="int">3</count>
+            </signals>
+            <signals include="/Aircraft/Generic/flightrecorder/components/faults-engines.xml">
+               <count type="int">1</count>
+            </signals>
             <signal>
                 <type>float</type><property type="string">gear/brake-thermal-energy</property>
             </signal>
@@ -72,47 +74,39 @@
                 <type>float</type>
                 <property type="string">gear/gear[2]/compression-m</property>
             </signal>
-			<name type="string">P47</name>
+            <name type="string">P47</name>
             </config>
-        </flight-recorder>
+    </flight-recorder>
 
+    <view>
+        <internal archive="y">true</internal>
+          <config>
+             <!-- x/y/z == right/up/back -->
+             <x-offset-m archive="y">0</x-offset-m>
+             <y-offset-m archive="y">0.905</y-offset-m>
+             <z-offset-m archive="y">-0.003</z-offset-m>
+             <pitch-offset-deg>-8</pitch-offset-deg>
+             <limits>
+             <enabled type="bool">true</enabled>
+               <left>
+               <heading-max-deg type="double">150</heading-max-deg>
+                  <x-offset-max-m type="double">0.13</x-offset-max-m>
+                  <x-offset-threshold-deg type="double">45</x-offset-threshold-deg>
+               </left>
+               <right>
+               <heading-max-deg type="double">150</heading-max-deg>
+                  <x-offset-max-m type="double">0.13</x-offset-max-m>
+                  <x-offset-threshold-deg type="double">45</x-offset-threshold-deg>
+               </right>
+               </limits>
+          </config>
+    </view>
 
-<!--        <systems>
-             <autopilot>
-                <path>Aircraft/P47/Systems/autopilot.xml</path>
-            </autopilot>
-        </systems> -->
+    <chase-distance-m type="double" archive="y">-20.0</chase-distance-m>
 
+    <menubar include="./Dialogs/P47D-menu.xml"/>
 
-        <view>
-            <internal archive="y">true</internal>
-            <config>
-                <!-- x/y/z == right/up/back -->
-                <x-offset-m archive="y">0</x-offset-m>
-                <y-offset-m archive="y">0.905</y-offset-m>
-                <z-offset-m archive="y">-0.003</z-offset-m>
-                <pitch-offset-deg>-8</pitch-offset-deg>
-                <limits>
-                    <enabled type="bool">true</enabled>
-                    <left>
-                        <heading-max-deg type="double">150</heading-max-deg>
-                        <x-offset-max-m type="double">0.13</x-offset-max-m>
-                        <x-offset-threshold-deg type="double">45</x-offset-threshold-deg>
-                    </left>
-                    <right>
-                        <heading-max-deg type="double">150</heading-max-deg>
-                        <x-offset-max-m type="double">0.13</x-offset-max-m>
-                        <x-offset-threshold-deg type="double">45</x-offset-threshold-deg>
-                    </right>
-                </limits>
-            </config>
-        </view>
-
-        <chase-distance-m type="double" archive="y">-20.0</chase-distance-m>
-
-<menubar include="./Dialogs/P47D-menu.xml"/>
-
- <multiplay>
+    <multiplay>
       <chat_display>1</chat_display>
       <generic>
         <!-- ' immat -->
@@ -172,7 +166,7 @@
 
 
 
-<consumables>
+    <consumables>
         <fuel>
             <tank n="0">
                 <name>Fuselage Main Tank</name>
@@ -193,6 +187,7 @@
         <gear>
             <brake-parking>1</brake-parking>
         </gear>
+
         <engines>
             <engine n="0">
                 <cowl-flaps-norm>0</cowl-flaps-norm>
@@ -204,12 +199,14 @@
                 <energizer type="double">0</energizer>
             </engine>
         </engines>
+
         <electric>
             <battery-switch>0</battery-switch>
             <engine>
                 <generator>1</generator>
             </engine>
         </electric>
+
         <lighting>
             <instrument-lights type="bool">1</instrument-lights>
         </lighting>
@@ -229,59 +226,53 @@
         </engine>
     </engines>
 
- <fdm>
-  <jsbsim>
+   <fdm>
+    <jsbsim>
     <structural>
       <wings>
         <serviceable type="bool">true</serviceable>
       </wings>
     </structural>
+
     <simulation>
      <sim-time-sec>0</sim-time-sec>
     </simulation>
-   <systems>
+
+    <systems>
       <armament>
-      <station1>
+        <station1>
         <selected type="double">0</selected>
-      </station1>
-      <station2>
+        </station1>
+        <station2>
         <selected type="double">0</selected>
-      </station2>
-      <station3>
+        </station2>
+        <station3>
         <selected type="double">0</selected>
-      </station3>
-      <station4>
+        </station3>
+        <station4>
         <selected type="double">0</selected>
-      </station4>
-      <station5>
+        </station4>
+        <station5>
         <selected type="double">0</selected>
-      </station5>
-      <station6>
+        </station5>
+        <station6>
         <selected type="double">0</selected>
-      </station6>
-      <station7>
+        </station6>
+        <station7>
         <selected type="double">0</selected>
-      </station7>
-      <station8> <!-- centerline -->
+        </station7>
+        <station8> <!-- centerline -->
         <selected type="double">0</selected>
-      </station8>
-    </armament>
-   </systems>
-  </jsbsim>
- </fdm>
+        </station8>
+      </armament>
+    </systems>
+    
+    </jsbsim>
+    </fdm>
 
-   <input>
-        <keyboard>
-          <!--  <key n="119">
-                <name>w</name>
-                <desc>Increase wastegate</desc>
-                <repeatable>true</repeatable>
-                <binding>
-                    <command>nasal</command>
-                    <script>p47.wastegate(1)</script>
-                </binding>
-            </key> -->
-
+    <input>
+    <keyboard>
+       
 
     <key n="100">
      <name>d</name>
@@ -292,40 +283,30 @@
     </binding>
     </key>
 
-
-        <!--    <key n="87">
-                <name>W</name>
-                <desc>Decrease wastegate</desc>
-                <repeatable>true</repeatable>
-                <binding>
-                    <command>nasal</command>
-                    <script>p47.wastegate(-1)</script>
-                </binding>
-            </key> -->
-
-        <key n="7">
-            <name>CTRL-g</name>
-            <mod-ctrl>
-                <desc>Select cannon</desc>
-                <binding>
-                    <command>nasal</command>
+       
+     <key n="7">
+          <name>CTRL-g</name>
+          <mod-ctrl>
+             <desc>Select cannon</desc>
+               <binding>
+                  <command>nasal</command>
                     <script>props.globals.getNode("controls/armament/trigger-cannon",1).alias("controls/armament/trigger");
                             props.globals.getNode("controls/armament/trigger-rocket",1).unalias();
                             props.globals.getNode("controls/armament/trigger-rocket",1).setBoolValue(0)</script>
-                </binding>
-            </mod-ctrl>
-        </key>
+              </binding>
+           </mod-ctrl>
+      </key>
 
-        <key n="6">
-            <name>CTRL-f</name>
-                <desc>Select rockets</desc>
-                <binding>
-                    <command>nasal</command>
+      <key n="6">
+           <name>CTRL-f</name>
+             <desc>Select rockets</desc>
+               <binding>
+                  <command>nasal</command>
                     <script>props.globals.getNode("controls/armament/trigger-rocket",1).alias("controls/armament/trigger");
                             props.globals.getNode("controls/armament/trigger-cannon",1).unalias();
                             props.globals.getNode("controls/armament/trigger-cannon",1).setBoolValue(0);</script>
-                </binding>
-        </key>
+              </binding>
+      </key>
 
 
       <key n="101">
@@ -342,33 +323,17 @@
           </binding>
         </mod-up>
       </key>
-<!--  <key n="108">
-     <name>l</name>
-     <desc>engage tail wheel steering</desc>
-     <binding>
-      <command>property-assign</command>
-      <property>fdm/jsbsim/systems/TWS/engaged</property>
-      <value>1</value>
-     </binding>
-     <mod-up>
-       <binding>
-        <command>property-assign</command>
-        <property>fdm/jsbsim/systems/TWS/engaged</property>
-        <value>0</value>
-       </binding>
-     </mod-up>
-    </key> -->
 
-		 </keyboard>
-	 </input>
+    </keyboard>
+	  </input>
 
-   <payload>
+    <payload>
      <armament>
        <msg type="bool">true</msg>
      </armament>
-   </payload>
+    </payload>
 
-  <nasal>
+    <nasal>
     <p47>
         <file>Aircraft/P47/Nasal/P47.nas</file>
         <file>Aircraft/P47/Nasal/Electrical.nas</file>
@@ -379,14 +344,14 @@
         <file>Aircraft/P47/Nasal/terrain.nas</file>
     </p47>
 
-      <guns>
-		    <file>Aircraft/P47/Nasal/payloads.nas</file>
-      </guns>
+    <guns>
+        <file>Aircraft/P47/Nasal/payloads.nas</file>
+    </guns>
 
-   <SCR_522C>
-      <file>Aircraft/Instruments-3d/SCR-522C/Nasal/SCR-522C.nas</file>
-   </SCR_522C>
+    <SCR_522C>
+        <file>Aircraft/Instruments-3d/SCR-522C/Nasal/SCR-522C.nas</file>
+    </SCR_522C>
 
-</nasal>
+    </nasal>
 
 </PropertyList>
