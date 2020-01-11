@@ -105,11 +105,11 @@ setlistener("/ai/models/model-impact", func {
               typeOrd == "Rocket4" or
               typeOrd == "Rocket5" or
               typeOrd == "Rocket6" )  {
-      #print("rocket hit");
-      foreach(var mp; props.globals.getNode("/ai/models").getChildren("multiplayer")){
-        var mlat = mp.getNode("position/latitude-deg").getValue();
-        var mlon = mp.getNode("position/longitude-deg").getValue();
-        var malt = mp.getNode("position/altitude-ft").getValue() * FT2M;
+        #print("rocket hit");
+        foreach(var mp; props.globals.getNode("/ai/models").getChildren("multiplayer")){
+        var mlat = mp.getNode("position/latitude-deg") != nil?mp.getNode("position/latitude-deg").getValue():0;
+        var mlon = mp.getNode("position/longitude-deg") != nil?mp.getNode("position/longitude-deg").getValue():0;
+        var malt = mp.getNode("position/altitude-ft") != nil?mp.getNode("position/altitude-ft").getValue() * FT2M:0;
         var selectionPos = geo.Coord.new().set_latlon(mlat, mlon, malt);
         var distance = impactPos.direct_distance_to(selectionPos);
         #print("distance = " ~ distance);
@@ -147,7 +147,7 @@ var defeatSpamFilter = func (str) {
   for (var i = 0; i < size(spamList); i += 1) {
     append(newList, spamList[i]);
   }
-  spamList = newList;  
+  spamList = newList;
 }
 
 var spamLoop = func {
